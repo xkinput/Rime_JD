@@ -1,0 +1,25 @@
+{
+  "name": "Chinese to Emoji",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "ocd",
+      "file": "emoji_word.ocd"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "ocd",
+        "file": "emoji_word.ocd"
+      }, {
+        "type": "ocd",
+        "file": "emoji_category.ocd"
+      },{
+        "type": "ocd",
+        "file": "emoji.ocd"
+      }]
+    }
+  }]
+}
