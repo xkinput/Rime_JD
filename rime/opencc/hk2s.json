@@ -3,30 +3,30 @@
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "ocd",
-      "file": "TSPhrases.ocd"
+      "type": "text",
+      "file": "TSPhrases.txt"
     }
   },
   "conversion_chain": [{
     "dict": {
       "type": "group",
       "dicts": [{
-        "type": "ocd",
-        "file": "HKVariantsRevPhrases.ocd"
+        "type": "text",
+        "file": "HKVariantsRevPhrases.txt"
       }, {
-        "type": "ocd",
-        "file": "HKVariantsRev.ocd"
+        "type": "text",
+        "file": "HKVariantsRev.txt"
       }] 
     }
   }, {
     "dict": {
       "type": "group",
       "dicts": [{
-        "type": "ocd",
-        "file": "TSPhrases.ocd"
+        "type": "text",
+        "file": "TSPhrases.txt"
       }, {
-        "type": "ocd",
-        "file": "TSCharacters.ocd"
+        "type": "text",
+        "file": "TSCharacters.txt"
       }]
     }
   }]
