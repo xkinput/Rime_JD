@@ -3,14 +3,14 @@
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "ocd",
-      "file": "HKVariants.ocd"
+      "type": "text",
+      "file": "HKVariants.txt"
     }
   },
   "conversion_chain": [{
     "dict": {
-      "type": "ocd",
-      "file": "HKVariants.ocd"
+      "type": "text",
+      "file": "HKVariants.txt"
     }
   }]
 }
