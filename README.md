@@ -22,6 +22,7 @@
 * 请可使用[/Trime/][208]中已打包程序，按照其提示安装完成。
 
 同文输入法：
+
 ![输入图片说明](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文输入法.jpg")
 
 #### Windows_Linux_Mac：
@@ -32,6 +33,7 @@
 * 可使用[/Win_Linux_MAC][210]中内置的工具，执行复制码表就可以。
 
 小狼毫：
+
 ![输入图片说明](https://gitee.com/uploads/images/2018/0202/192157_9ce8b742_1362709.png "小狼毫.png")
 
 Fcitx-rime：
