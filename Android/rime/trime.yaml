@@ -281,6 +281,48 @@ preset_color_schemes: #配色
       shadow_color: 0xff00434c
       text_back_color: 0xff00434c
       text_color: *cb
+  i_shuiya:
+    name: 水鸭青
+    author: flypy.com
+    back_color: 0xfffefefe
+    border_color: 0xfff3f3f3
+    candidate_separator_color: 0x00000000
+    candidate_text_color: 0xff5b696f
+    comment_text_color: 0xff7b868c
+    hilited_back_color: 0x00000000
+    hilited_candidate_back_color: 0x00000000
+    hilited_candidate_text_color: 0xff4db6ac
+    hilited_comment_text_color: 0xff000000
+    hilited_key_back_color: 0xffe1e1e1
+    hilited_key_symbol_color: 0xff6f7b8
+    hilited_key_text_color: 0xff37474f
+    hilited_off_key_back_color: 0xffffffff
+    hilited_off_key_text_color: 0xff000000
+    hilited_on_key_back_color: 0xffffff
+    hilited_on_key_text_color: 0xff000000
+    hilited_text_color: 0xff23948e
+    key_back_color: 0xffffffff
+    #key_border_color: 0xffeceff1
+    key_symbol_color: 0xff6f7b83
+    key_text_color: 0xff37474f
+    keyboard_back_color: 0xffededed
+    label_color: 0xff000000
+    off_key_back_color: 0xff009688
+    off_key_text_color: 0xfff9f9f9
+    on_key_back_color: 0xffbec2c6
+    on_key_text_color: 0xff000000
+    preview_back_color: 0xff4db6ac
+    preview_text_color: 0xffffffff 
+    shadow_color: 0xff000000
+    text_color: 0xff5b696f
+    text_back_color: 0xccffffff
+    text_back_color: 0xffF9F9F9
+    bhc: 0xffffffff 
+    thc: 0xff000000 
+    jhc: 0xff009688 #回车键背景色
+    khc: 0xfff9f9f9 #回车键文字颜色
+    hcjfh: 0xffF9F9F9
+    gnjfh: 0xfff9f9f9
 
 preset_keys:
   #安卓
