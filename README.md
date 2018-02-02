@@ -1,4 +1,4 @@
-<h1 style="text-align:center"><center>星空键道<center></h1> 
+<h1 style="text-align:center"><center>星空键道</center></h1> 
 
 >作者：**吅吅大山** [**键道官网**][904] [加入官方群:320053116][903]
 
