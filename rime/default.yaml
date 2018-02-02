@@ -8,7 +8,7 @@ schema_list:
   - schema: xkjd6dz
 
 switcher:
-  caption: 〔方案选择〕
+  caption: "「切换方案」"
   hotkeys:
     - Control+grave
     - Control+Shift+grave
