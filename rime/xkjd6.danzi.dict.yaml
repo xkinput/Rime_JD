@@ -67,6 +67,8 @@ sort: by_weight
 俵	bcivvi
 裱	bco
 裱	bcoavv
+熛	bcou
+熛	bcouvi
 瘭	bcov
 瘭	bcovvi
 膘	bcu
@@ -76,8 +78,6 @@ sort: by_weight
 飑	bcuaua
 鳔	bcuav
 鳔	bcuavi
-熛	bcuo
-熛	bcuovi
 脿	bcuv
 膘	bcuvia
 脿	bcuvvi
@@ -1113,9 +1113,9 @@ sort: by_weight
 葱	cyiiua
 丛	cyiivv
 悰	cyo
-熜	cyoo
 悰	cyoooo
-熜	cyooui
+熜	cyou
+熜	cyouui
 匆	cyu
 匆	cyuauu
 囱	cyui
@@ -1799,9 +1799,9 @@ sort: by_weight
 怛	dsoo
 惮	dsooo
 怛	dsoooi
-炟	dsoooi
 惮	dsooou
 嗲	dsou
+炟	dsouoi
 嗲	dsouou
 哒	dsov
 瘩	dsovii
