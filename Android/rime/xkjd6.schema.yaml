@@ -14,7 +14,7 @@ switches:
     states: [ "ㄓ", "ㄓ"]
   - name: ascii_mode
     reset: 0
-    states: [ 中, EN ]
+    states: [ 中, 英 ]
   #简繁转换
   - name: jffh
   #全半转换
