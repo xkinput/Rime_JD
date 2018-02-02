@@ -281,6 +281,7 @@ preset_color_schemes: #配色
       shadow_color: 0xff00434c
       text_back_color: 0xff00434c
       text_color: *cb
+
   i_shuiya:
     name: 水鸭青
     author: flypy.com
@@ -316,11 +317,9 @@ preset_color_schemes: #配色
     shadow_color: 0xff000000
     text_color: 0xff5b696f
     text_back_color: 0xccffffff
-    text_back_color: 0xffF9F9F9
-    bhc: 0xffffffff 
-    thc: 0xff000000 
-    jhc: 0xff009688 #回车键背景色
-    khc: 0xfff9f9f9 #回车键文字颜色
+    text_back_color: 0xffF9F9F9 
+    bhc: 0xff009688 #回车键背景色
+    thc: 0xfff9f9f9 #回车键文字颜色
     hcjfh: 0xffF9F9F9
     gnjfh: 0xfff9f9f9
 
