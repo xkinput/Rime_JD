@@ -1,7 +1,7 @@
 # default.custom.yaml
 patch:
   switcher:
-    caption: "切换方案"
+    caption: "「切换方案」"
     hotkeys:
       - "Control+grave"
       - "F4"
