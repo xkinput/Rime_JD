@@ -185,8 +185,10 @@ preset_color_schemes: #配色
     text_color: *cg #编码
     text_back_color: *cb #编码区背景
     gnjfh: *ca #功能键符号
-    bhc: *ci #回车键背景
-    thc: *cb #回车键文字
+    bhc: *ci
+    thc: *cb 
+    jhc: *ci #回车键背景
+    khc: *cb #回车键文字
     hcjfh: *cb #回车键符号
     fyt: *cd #翻页键止文字颜色
 
@@ -240,8 +242,10 @@ preset_color_schemes: #配色
     shadow_color: 0xff000000
     text_color: 0xff5a676e
     text_back_color: 0xffF9F9F9
-    bhc: 0xff1181fc #回车键背景色
-    thc: 0xffF9F9F9 #回车键文字颜色
+    bhc: 0xff1181fc
+    thc: 0xffF9F9F9 
+    jhc: 0xff1181fc #回车键背景色
+    khc: 0xffF9F9F9 #回车键文字颜色
     gnjfh: 0xff37474f
     hcjfh: 0xffF9F9F9
     fyt: 0xffa3a7aa
@@ -281,7 +285,6 @@ preset_color_schemes: #配色
       shadow_color: 0xff00434c
       text_back_color: 0xff00434c
       text_color: *cb
-
   i_shuiya:
     name: 水鸭青
     author: flypy.com
@@ -306,7 +309,7 @@ preset_color_schemes: #配色
     #key_border_color: 0xffeceff1
     key_symbol_color: 0xff6f7b83
     key_text_color: 0xff37474f
-    keyboard_back_color: 0xffededed
+    keyboard_back_color: 0xffe9e9e9
     label_color: 0xff000000
     off_key_back_color: 0xff009688
     off_key_text_color: 0xfff9f9f9
@@ -317,9 +320,11 @@ preset_color_schemes: #配色
     shadow_color: 0xff000000
     text_color: 0xff5b696f
     text_back_color: 0xccffffff
-    text_back_color: 0xffF9F9F9 
-    bhc: 0xff009688 #回车键背景色
-    thc: 0xfff9f9f9 #回车键文字颜色
+    text_back_color: 0xffF9F9F9
+    bhc: 0xffffffff 
+    thc: 0xff000000 
+    jhc: 0xff009688 #回车键背景色
+    khc: 0xfff9f9f9 #回车键文字颜色
     hcjfh: 0xffF9F9F9
     gnjfh: 0xfff9f9f9
 
@@ -630,7 +635,7 @@ preset_keyboards:
     - {click: ',', long_click: '?', width: 12}
     - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch}
     - {click: '.', long_click: VOICE_ASSIST, width: 12}
-    - {click: Return, long_click: Theme_settings, width: 15, key_back_color: bhc, key_text_color: thc, key_symbol_color: hcjfh}
+    - {click: Return, long_click: Theme_settings, width: 15, key_back_color: jhc, key_text_color: khc, key_symbol_color: hcjfh}
 
   default:
     name: 预设26键
@@ -678,7 +683,7 @@ preset_keyboards:
     - {click: ',', long_click: '?', swipe_up: '！', width: 12}
     - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, hint: "－－－"}
     - {click: '.', long_click: Kjdl, swipe_up: '？', width: 12}
-    - {click: Return, long_click: Theme_settings, swipe_up: Knumber, width: 15, key_back_color: bhc, key_text_color: thc, key_symbol_color: hcjfh}   
+    - {click: Return, long_click: Theme_settings, swipe_up: Knumber, width: 15, key_back_color: jhc, key_text_color: khc, key_symbol_color: hcjfh}   
  
   jdl:
     name: 键道6
@@ -726,7 +731,7 @@ preset_keyboards:
     - {click: ',', long_click: '?', swipe_up: '！',  width: 12}
     - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, hint: '键道音笔'}
     - {click: '.', long_click: Kdefault, swipe_up: '？', width: 12}
-    - {click: Return, long_click: Theme_settings, width: 15, key_back_color: bhc, key_text_color: thc, key_symbol_color: hcjfh}
+    - {click: Return, long_click: Theme_settings, width: 15, key_back_color: jhc, key_text_color: khc, key_symbol_color: hcjfh}
 
   edit:
     name: 编辑
@@ -760,7 +765,7 @@ preset_keyboards:
      - {click: Escape, height: *hd}
      - {click: Tab, height: *hd}
      - {click: Delete, height: *hd}
-     - {click: Return, height: *hd, key_back_color: bhc, key_text_color: thc}
+     - {click: Return, height: *hd, key_back_color: jhc, key_text_color: khc}
 
 #符号键盘
   number:
