@@ -12,8 +12,7 @@ height:
   H: &hc 47 #四行键盘高度
   H: &hd 47 #四行键盘第4行高度
 # 以上内容为主键盘区
-  H: &hg 42 #符号键盘高度
-  H: &hgg 45 #符号键盘高高度
+  H: &hg 45 #符号键盘高度
 # 以上内容为符号键盘区
   H: &hm 52 #编辑键盘高度
   H: &hh 37 #符号键盘第4行高度
@@ -115,7 +114,7 @@ style:
   preview_text_size: 40 #按键提示字号
   proximity_correction: false #按键纠錯
   reset_ascii_mode: true #显示键盘时重置为中文状态
-  round_corner: 10 #按键圆角半径
+  round_corner: 4 #按键圆角半径
   shadow_radius: 0.0 #按键阴影半径
   show_preview: false #按键提示
   show_window: true #显示浮动窗口
@@ -128,12 +127,12 @@ style:
   vertical_correction: -10 #按键纵向偏移
 
 others: #杂项
-  O: &ra 8 #符号键盘按键圆角
-  O: &ga 3 #符号键盘水平间距
-  O: &gb 3 #符号键盘行距
-  O: &rb 8 #五行键盘按键圆角
-  O: &gc 2 #五行键盘水平间距
-  O: &gd 3 #五行键盘行距
+  O: &ra 0 #符号键盘按键圆角
+  O: &ga 1 #符号键盘水平间距
+  O: &gb 1 #符号键盘行距
+  O: &rb 4 #五行键盘按键圆角
+  O: &gc 3.5 #五行键盘水平间距
+  O: &gd 4.5 #五行键盘行距
   O: &ge 4 #四行等距水平竖直间距
 text_size: #字号
   T: &ta 22 #音标字号
@@ -327,6 +326,7 @@ preset_color_schemes: #配色
     khc: 0xfff9f9f9 #回车键文字颜色
     hcjfh: 0xffF9F9F9
     gnjfh: 0xfff9f9f9
+    fyt: 0xffa3a7aa #翻页键止文字颜色
 
 preset_keys:
   #安卓
