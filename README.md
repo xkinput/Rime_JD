@@ -43,13 +43,15 @@ Fcitx-rime：
 ```
 #克隆项目到本地
 git clone https://gitee.com/nmlixa/Rime_JD
-#切换到项目文件夹，添加上游分支地址为 指定地址
-cd Rime_JD && git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
+#切换到项目文件夹
+cd Rime_JD
+添加上游分支地址为 指定地址
+git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 ```
 ##### 获取更新：
 ```
-#切换到项目文件夹，获取上游地址的master分支
-cd Rime_JD && git pull upstream master
+#获取上游地址的master分支
+git pull upstream master
 #Git获取后，执行复制码表工具，再重新部署
 ```
 ##### 可选）发起PR：
