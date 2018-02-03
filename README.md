@@ -45,7 +45,7 @@ Fcitx-rime：
 git clone https://gitee.com/nmlixa/Rime_JD
 #切换到项目文件夹
 cd Rime_JD
-添加上游分支地址为 指定地址
+#添加上游分支地址为 指定地址
 git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 ```
 ##### 获取更新：
