@@ -50,15 +50,18 @@ cd Rime_JD && git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 ```
 #切换到项目文件夹，获取上游地址的master分支
 cd Rime_JD && git pull upstream master
+#Git获取后，执行复制码表工具，再重新部署
 ```
-##### 发起PR：
+##### 可选）发起PR：
 ```
+#若你有意发起扩展词库，或者提交词可用Git提交，提交后合理将直接合并到仓库内
+
 #创建远程仓库，指向 PR 提交者的仓库
 git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 #从该远程仓库拉取代码
 git fetch upstream
-#将该仓库的某个分支合并到当前分支
-git merge upstream/master
+#将该仓库的上游分支合并到自己分支
+git merge upstream
 #推送到自己的仓库
 git push origin master
 ```
