@@ -23,7 +23,7 @@
 
 同文输入法：
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文输入法.jpg")
+![同文输入效果](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文.jpg")
 
 #### Windows_Linux_Mac：
 * 获取本项目内容：使用一下方法其一
@@ -34,9 +34,11 @@
 
 小狼毫：
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0202/192157_9ce8b742_1362709.png "小狼毫.png")
+![小狼毫输入效果](https://gitee.com/uploads/images/2018/0202/192157_9ce8b742_1362709.png "小狼毫.png")
 
 Fcitx-rime：
+
+![Fcitx-rime输入效果](https://gitee.com/uploads/images/2018/0203/225102_eb77f6dc_1362709.png "Fcitx-rime.png")
 
 #### Git简述：
 ##### 获取项目：
