@@ -54,6 +54,8 @@ git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 ```
 #获取上游地址的master分支
 git pull upstream master
+#若提示“fatal: refusing to merge unrelated histories”请使用
+git pull upstream master --allow-unrelated-histories
 #Git获取后，执行复制码表工具，再重新部署
 ```
 ##### 可选）发起PR：
