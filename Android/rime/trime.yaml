@@ -61,7 +61,7 @@ style:
   candidate_text_size: 21 #候选字号
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: 28 #候选区高度
-  color_scheme: a_danjing #配色方案
+  color_scheme: i_shuiya #配色方案
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
   comment_on_top: false #编码提示在上方或右側
@@ -284,6 +284,7 @@ preset_color_schemes: #配色
       shadow_color: 0xff00434c
       text_back_color: 0xff00434c
       text_color: *cb
+
   i_shuiya:
     name: 水鸭青
     author: flypy.com
