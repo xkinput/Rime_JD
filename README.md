@@ -19,6 +19,7 @@
 #### 安卓：
 * 无须下载项目。
 * 请可使用[发布版][208]已打包程序，按照其提示安装完成。
+* 同文星空 中（星空一笔、星空两笔）为大牛群中 工藤新一（经常改名）大佬所维护Rime。
 
 同文输入法：
 
@@ -125,7 +126,7 @@ git push origin master
 [205]: http://xxjd.xyz "小小键道主页"
 [206]: https://gitee.com/thxnder "「小小键道」 维护者"
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
-[208]: https://gitee.com/nmlixa/Rime_JD/tree/master/Trime "/Trime"
+[208]: https://gitee.com/nmlixa/Rime_JD/releases "发行页"
 [209]: https://gitee.com/nmlixa/Rime_JD/repository/archive/master.zip "Download"
 [210]: https://gitee.com/nmlixa/Rime_JD/tree/master/Win_Linux_Mac "/Win_Linux_Mac"
 [211]: https://gitee.com/nmlixa/Rime_JD/tree/master/rime "/rime"
