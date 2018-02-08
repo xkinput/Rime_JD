@@ -69,13 +69,13 @@ git pull upstream master --allow-unrelated-histories
 git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 #从该远程仓库拉取代码
 git fetch upstream
-**如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel**
+**如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：所见仓库说明**
 #将该仓库的上游分支合并到自己分支
 git merge upstream
 #推送到自己的仓库
 git push origin master
 ```
->详见：**[码云PR教程][907] [博客PR教程][906]**
+>详见：**[码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
 
 #### 通用操作：
 > （须自行下载其操作系统Rime输入法程序，可参考结尾平台总汇）
@@ -143,3 +143,4 @@ git push origin master
 [905]: http://gitforwindows.org "WinGit"
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
 [907]: http://git.mydoc.io/?t=180700 "码云PR教程"
+[908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
