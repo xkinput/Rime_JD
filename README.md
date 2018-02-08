@@ -74,7 +74,7 @@ git merge upstream
 #推送到自己的仓库
 git push origin master
 ```
->详见：**[PR教程][906]**
+>详见：**[码云PR教程][907] [博客PR教程][906]**
 
 #### 通用操作：
 > （须自行下载其操作系统Rime输入法程序，可参考结尾平台总汇）
@@ -141,3 +141,4 @@ git push origin master
 [904]: http://xkjd.coding.me "键道官网"
 [905]: http://gitforwindows.org "WinGit"
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
+[907]: http://git.mydoc.io/?t=180700 "码云PR教程"
