@@ -69,6 +69,7 @@ git pull upstream master --allow-unrelated-histories
 git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 #从该远程仓库拉取代码
 git fetch upstream
+**如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel**
 #将该仓库的上游分支合并到自己分支
 git merge upstream
 #推送到自己的仓库
