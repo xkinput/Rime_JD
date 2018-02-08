@@ -40,6 +40,9 @@ Fcitx-rime：
 
 ![Fcitx-rime输入效果](https://gitee.com/uploads/images/2018/0203/225102_eb77f6dc_1362709.png "Fcitx-rime.png")
 
+鼠须管：
+
+![鼠须管输入效果](https://gitee.com/uploads/images/2018/0208/175654_2f566986_1362709.png "鼠须管.png")
 #### Git简述：
 ##### 获取项目：
 ```
