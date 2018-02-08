@@ -1,4 +1,4 @@
-### 通知：如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：所见仓库说明
+### 通知：如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：[缩减仓库说明][908]
 
 <h1 style="text-align:center"><center>星空键道</center></h1> 
 
@@ -71,7 +71,7 @@ git pull upstream master --allow-unrelated-histories
 git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
 #从该远程仓库拉取代码
 git fetch upstream
-**如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：所见仓库说明**
+**如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：缩减仓库说明**
 #将该仓库的上游分支合并到自己分支
 git merge upstream
 #推送到自己的仓库
