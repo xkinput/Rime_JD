@@ -102,7 +102,7 @@ style:
   key_long_text_size: 17 #长标签字号
   key_text_size: 22 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
-  keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
+  keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, menutwo, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
   label_text_size: 22 #标签字号
   label_font: label.ttf #编标签字体
   latin_font: latin.ttf #西文字体
@@ -533,7 +533,8 @@ preset_keys:
   Ksymbols2: {label: '۞', functional: true, send: Eisu_toggle, select: symbols11}
   Klayout: {label: '⌨', send: Eisu_toggle, select: layout}
   Kedit: {label: '‹ɪ›', send: Eisu_toggle, select: edit}
-  Kmenu: {label: 'ㄓ', send: Eisu_toggle, select: menu}
+  Kmenu: {label: '←', send: Eisu_toggle, select: menu}
+  Kmenutwo: {label: '→', send: Eisu_toggle, select: menutwo}
   #自定义
   Cixuan: {label: 次选, send: 2}
   Fenci: {label: 分词, send: apostrophe}
@@ -550,23 +551,29 @@ preset_keys:
   Zdic: {label: 漢典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索網頁: %s或者%1$s爲當前字符
   Zdic2: {label: 漢典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
   oJiandao: {label: 键道6, send: function, command: run, option: "https://xkjd.coding.me"} #键道官网
-  jdleqjc: {label: 申请加词, send: function, command: run, option: "https://739497722.docs.qq.com/ipGva4mn5bo"} #键道官网
+  jdleqjc: {label: 申请加词, send: function, command: run, option: "https://739497722.docs.qq.com/ipGva4mn5bo"} #键道议表
+  xkbmwx: {label: 编码查询, send: function, command: run, option: "https://nmlixa.gitee.io/rime_jd_web/Tools/search/"} #星空编码查询
+  seaUpdate: {label: 查询更新, send: function, command: run, option: "https://gitee.com/nmlixa/Rime_JD/releases"} #Rime项目更新
   WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
-  #自定义
-  jmff: {text: "{jffh}{Back}", label: "简/繁"}
-  emo: {text: "{emoji}{Back}", label: "😊/🤐"}
-  hxl: {text: "{Candidate_switch}{Back}", label: "候选栏"}
-  back: {text: "{Back}", label: "返回"}
+  #自定义菜单1
+  jffhMe: {text: "{jffh}{Back}", label: "简/繁"}
+  emojiMe: {text: "{emoji}{Back}", label: "😊/🤐"}
+  Candidate_switchMe: {text: "{Candidate_switch}{Back}", label: "候选栏"}
+  BackMe: {text: "{Back}", label: "返回"}
   
-  zhus: {text: "{Comment_switch}{Back}", label: "显隐注释"}
-  hint: {text: "{Hint_switch}{Back}", label: "键位标记"}
-  jindao: {text: "{oJiandao}{Back}", label: "键道官网"}
-  baidu: {text: "{Baidu}{Back}", label: "百度搜索"}
+  Comment_switchMe: {text: "{Comment_switch}{Back}", label: "显隐注释"}
+  Hint_switchMe: {text: "{Hint_switch}{Back}", label: "键位标记"}
+  oJiandaoMe: {text: "{oJiandao}{Back}", label: "键道官网"}
+  seaUpdateMe: {text: "{seaUpdate}{Back}", label: "查询更新"}
 
-  date: {text: "{Date}{Back}", label: "输入日期"}
-  time: {text: "{Time}{Back}", label: "输入时间"}
-  eqjc: {text: "{jdleqjc}{Back}", label: "申请加词"}
-  setting: {text: "{Settings}{Back}", label: "同文设置"}
+  jdleqjcMe: {text: "{jdleqjc}{Back}", label: "申请加词"}
+  xkbmwxMe: {text: "{xkbmwx}{Back}", label: "编码查询"}
+  SettingsMe: {text: "{Settings}{Back}", label: "同文设置"}
+
+  #自定义菜单2
+  DateMe: {text: "{Date}{Back}", label: "输入日期"}
+  TimeMe: {text: "{Time}{Back}", label: "输入时间"}
+  BaiduMe: {text: "{Baidu}{Back}", label: "百度搜索"}
 preset_keyboards:
 #菜单控制
   menu:
@@ -576,20 +583,42 @@ preset_keyboards:
     width: 25
     height: *hcd
     keys:
-    - {click: jmff}
-    - {click: emo}
-    - {click: hxl}
-    - {click: back}
+    - {click: jffhMe}
+    - {click: emojiMe}
+    - {click: Candidate_switchMe}
+    - {click: BackMe}
     
-    - {click: zhus}
-    - {click: hint}
-    - {click: jindao}
-    - {click: baidu}
+    - {click: Comment_switchMe}
+    - {click: Hint_switchMe}
+    - {click: oJiandaoMe}
+    - {click: seaUpdateMe}
     
-    - {click: date}
-    - {click: time}
-    - {click: eqjc}
-    - {click: setting}
+    - {click: jdleqjcMe}
+    - {click: xkbmwxMe}
+    - {click: SettingsMe}
+    - {click: Kmenutwo}
+  
+  menutwo:
+    name: 设置2
+    author: "倾书"
+    ascii_mode: 0
+    width: 25
+    height: *hcd
+    keys:
+    - {click: DateMe}
+    - {click: TimeMe}
+    - {click: BaiduMe}
+    - {click: BackMe}
+    
+    - {click: }
+    - {click: }
+    - {click: }
+    - {click: }
+    
+    - {click: }
+    - {click: }
+    - {click: }
+    - {click: Kmenu}
 
   defaulten:
     name: 英文26键
