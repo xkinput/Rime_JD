@@ -1,0 +1,62 @@
+@echo off
+CLS
+mode con cols=80 lines=20
+title 小狼毫码表复制工具
+:init
+setlocal DisableDelayedExpansion
+set "batchPath=%~0"
+for %%k in (%0) do set batchName=%%~nk
+set "vbsGetPrivileges=%temp%\OEgetPriv_%batchName%.vbs"
+setlocal EnableDelayedExpansion
+:checkPrivileges
+NET FILE 1>NUL 2>NUL
+if '%errorlevel%' == '0' ( goto gotPrivileges ) else ( goto getPrivileges )
+:getPrivileges
+if '%1'=='ELEV' (echo ELEV & shift /1 & goto gotPrivileges)
+ECHO.
+ECHO ********************************
+ECHO 请求 UAC 权限批准……
+ECHO ********************************
+ECHO Set UAC = CreateObject^("Shell.Application"^) > "%vbsGetPrivileges%"
+ECHO args = "ELEV " >> "%vbsGetPrivileges%"
+ECHO For Each strArg in WScript.Arguments >> "%vbsGetPrivileges%"
+ECHO args = args ^& strArg ^& " "  >> "%vbsGetPrivileges%"
+ECHO Next >> "%vbsGetPrivileges%"
+ECHO UAC.ShellExecute "!batchPath!", args, "", "runas", 1 >> "%vbsGetPrivileges%"
+"%SystemRoot%\System32\WScript.exe" "%vbsGetPrivileges%" %*
+exit /B
+:gotPrivileges
+setlocal & pushd .
+cd /d %~dp0
+if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
+
+echo ================================
+echo 原Rime文件将备份至"%CD%\备份\"
+echo *请确保上级文件夹有rime文件夹
+echo.
+echo                      任意键开始
+echo ================================
+pause
+echo 已开始，请稍等...
+mkdir "%CD%\备份\"
+del "%CD%\备份\" /S /Q
+xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
+cls
+echo 备份原词库内容完成
+taskkill /f /im WeaselServer.exe
+del "%APPDATA%\Rime\" /S /Q
+xcopy "..\..\rime" "%APPDATA%\Rime\" /Y /E
+echo 复制码表文件完成
+rmdir "%APPDATA%\Rime\Windows" /S /Q
+echo 删除冗余无用文件
+xcopy "..\rime\Windows\*" "%APPDATA%\Rime\" /Y /E
+echo 复制完成
+cls
+type ..\rime\Windows\_*.txt
+echo.
+echo.
+echo 已安装完成！
+echo.
+echo 重新部署
+start 4deploy.bat
+exit
