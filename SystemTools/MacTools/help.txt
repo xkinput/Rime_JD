@@ -1,22 +1,22 @@
 Mac 系统码表升级工具使用帮助
 
-1. 需满足以下 3 点，即可正常使用：
-   - 克隆下来的目录请不要更改结构，直接执行所需文件即可。
-   - 执行 sh 脚本时，执行目录为当前所在目录。
+1. 满足以下 3 点，应可正常使用：
+   - 克隆下来的目录请勿更改结构，应直接执行所需文件。
+   - 执行 sh 脚本时，其目录为当前所在目录。
    - 请确保已安装鼠须管。
 
 2. 脚本说明
    提供以下两种脚本，请依需求选择使用:
    1) 2升级码表.sh
-      该脚本将覆盖 Rime 资料夹，适合 a.仅使用键道方案而无其他个人化设置的用户，
+      该脚本将覆盖 Rime 资料夹，故适合 a.仅使用键道方案而无其他个人化设置的用户，
       或者 b.初次使用鼠须管的用户。
    2) beta_2升级码表.sh
-      该脚本具备两种方案供用户选择 (执行该脚本，按提示选择) : 
-	A) 备份并覆盖现有 Rime 配置: 同「2升级码表.sh」的功能
-	B) [更新] 码表/schema/opencc : 
-	  包含 "Rime_JD/rime" 下的 *dict.yaml、*schema.yaml 和 opencc/ 档案，
-	  若有个人化 xkjd6.schema.yaml / xkjd6dz.schema.yaml 的用户，应考虑
-	  使用 xkjd6.custom.yaml / xkjd6dz.custom.yaml 避免覆盖设置。
+      该脚本具备两种方案供用户选择 ( 脚本执行过程中，按提示选择 ) : 
+      A) 备份并覆盖现有 Rime 配置: 同「2升级码表.sh」的功能
+      B) [更新] 码表/schema/opencc : 
+	 涵盖 "Rime_JD/rime/" 目录下的 *dict.yaml、*schema.yaml 和 opencc/ 档案，
+	 若有个人化需求的用户 ( xkjd6.schema.yaml / xkjd6dz.schema.yaml )，应考虑
+	 使用 xkjd6.custom.yaml / xkjd6dz.custom.yaml 避免覆盖设置。
       **请注意: 该脚本为 beta 阶段。**
 
 3. 操作步骤：
