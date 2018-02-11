@@ -58,12 +58,12 @@ style:
   candidate_font: 迷你简细黑.ttf #候选字体
   candidate_padding: 6 #候选项内边距
   candidate_spacing: 0.5 #候选间距
-  candidate_text_size: 21 #候选字号
+  candidate_text_size: 18 #候选字号
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: 28 #候选区高度
   color_scheme: i_shuiya #配色方案
   comment_font: 迷你简细黑.ttf #编码提示字体
-  comment_height: 14 #编码提示区高度
+  comment_height: 10 #编码提示区高度
   comment_on_top: false #编码提示在上方或右側
   comment_text_size: 11 #编码提示字号
   hanb_font: 迷你简细黑.ttf #扩充字体
@@ -72,38 +72,38 @@ style:
   vertical_gap: 7 #键盘行距
   inline_preedit: input #嵌入模式(preview:将首位候选嵌入到文本框中|composition:将编码区嵌入到文本框|input:将编码嵌入到文本框中|none:不嵌入)
   layout: #悬浮窗口位置
-    position: fixed #位置: left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0以上)
-    min_length: 5 #最小词长
+    position: left #位置: left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0以上)
+    min_length: 0 #最小词长
     max_length: 10 #超过字数则换行
-    sticky_lines: 0 #固顶行数
+    sticky_lines: 5 #固顶行数
     max_entries: 10 #最大词条数
     all_phrases: false #所有满足条件的词语都显示在窗口
     border: 1 #边框宽度
-    max_width: 230 #最大宽度，超过则自动换行
-    max_height: 400 #最大高度
-    min_width: 0 #最小宽度
+    max_width: 215 #最大宽度，超过则自动换行
+    max_height: 550 #最大高度
+    min_width: 100 #最小宽度
     min_height: 0 #最小高度
     margin_x: 5 #水平边距
     margin_y: 1.4 #竖直边距
     line_spacing: 0 #候选词的行间距(px)
     line_spacing_multiplier: 1 #候选词的行间距(倍数)
     spacing: 0 #与预编辑或边缘的距离
-    round_corner: 1 #窗口圆角
-    alpha: 225 #透明度(0-255)
-    elevation: 5 #阴影(≧Android5.0)
+    round_corner: 3 #窗口圆角
+    alpha: 235 #透明度(0-255)
+    elevation: 2 #阴影(≧Android5.0)
     background: background.png #颜色或者backgrounds目录下的图片文件名
-    movable: once #是否可移动窗口，或仅移动一次 true|false|once
+    movable: true #是否可移动窗口，或仅移动一次 true|false|once
   window: #悬浮窗口组件
-  #  - {start: "", move: 'ㄓ ', end: ""}
+    - {start: "", move: ' ', end: ""}
     - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要>=Android5.0。TODO: 不爲0時，會導致不換行的問題
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
   key_font: 迷你简细黑.ttf #键盘字体
   key_height: 40 #键高
-  key_long_text_size: 17 #长标签字号
-  key_text_size: 22 #键字号
+  key_long_text_size: 13 #长标签字号
+  key_text_size: 18 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
   keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, menutwo, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
-  label_text_size: 22 #标签字号
+  label_text_size: 15 #标签字号
   label_font: 迷你简细黑.ttf #编标签字体
   latin_font: 迷你简细黑.ttf #西文字体
   latin_locale: en_US #西文语言
@@ -118,7 +118,7 @@ style:
   shadow_radius: 0.0 #按键阴影半径
   show_preview: false #按键提示
   show_window: true #显示浮动窗口
-  soft_cursor: true #编码区软光标
+  soft_cursor: false #编码区软光标
   speech_opencc_config: s2tw.json #语音输入简繁转换
   symbol_font: 迷你简细黑.ttf #符号字体
   symbol_text_size: 10 #符号字号
@@ -288,7 +288,7 @@ preset_color_schemes: #配色
   i_shuiya:
     name: 水鸭青
     author: flypy.com
-    back_color: 0xfffefefe
+    back_color: 0xffF9F9F9
     border_color: 0xfff3f3f3
     candidate_separator_color: 0x00000000
     candidate_text_color: 0xff5b696f
@@ -302,7 +302,7 @@ preset_color_schemes: #配色
     hilited_key_text_color: 0xff37474f
     hilited_off_key_back_color: 0xffffffff
     hilited_off_key_text_color: 0xff000000
-    hilited_on_key_back_color: 0xffffff
+    hilited_on_key_back_color: 0xffffffff
     hilited_on_key_text_color: 0xff000000
     hilited_text_color: 0xff23948e
     key_back_color: 0xffffffff
@@ -320,8 +320,7 @@ preset_color_schemes: #配色
     shadow_color: 0xff000000
     txt_color: 0xff37474f
     text_color: 0xff5b696f
-    text_back_color: 0xccffffff
-    text_back_color: 0xffF9F9F9
+    text_back_color: 0xffffffff
     bhc: 0xffffffff 
     thc: 0xff000000 
     jhc: 0xff009688 #回车键背景色
@@ -579,7 +578,6 @@ preset_keys:
   BaiduMe: {text: "{Baidu}{Back}", label: "百度搜索"}
   DeployMe: {text: "{Deploy}{Back}", label: "部署"}
   SyncMe: {text: "{Sync}{Back}", label: "同步"}
-
 preset_keyboards:
 #菜单控制
   menu:
@@ -765,7 +763,7 @@ preset_keyboards:
     - {click: Knumber, long_click: Menu, composing: Page_Up, height: *hd, width: 12, key_symbol_color: gnjfh}
     - {click: Ksymbols, long_click: Color_switch, composing: Page_Down, height: *hd, width: 12, key_symbol_color: gnjfh}
     - {click: ',', long_click: '?', swipe_up: '！',  width: 12}
-    - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, hint: '键道音笔'}
+    - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, hint: '键道6'}
     - {click: '.', long_click: Kdefault, swipe_up: '？', width: 12}
     - {click: Return, long_click: Theme_settings, width: 15, key_back_color: jhc, key_text_color: khc, key_symbol_color: hcjfh}
 
