@@ -1,0 +1,227 @@
+# Squirrel settings
+  # encoding: utf-8
+  
+  config_version: "0.28"
+  
+  us_keyboard_layout: false
+  
+  # for veteran chord-typist
+  chord_duration: 0.1  # seconds
+  
+  # options: always | never | appropriate
+  show_notifications_when: appropriate
+  
+  # DEPRECATED: since 0.27
+  #show_notifications_via_notification_center: false
+  
+  style:
+    color_scheme: psionics #指定配色
+    horizontal: false
+    inline_preedit: true
+    corner_radius: 10
+    border_height: 0
+    border_width: 0
+    line_spacing: 5
+    spacing: 10  # space between preedit and candidates in non-inline mode
+    #candidate_format: '%c. %@'
+    font_face: 'Microsoft YaHei'  #指定字体 supporting soft cursor '›'
+    #font_point: 21
+    #label_font_face: 'STHeitiTC-Medium'
+    #label_font_point: 18
+  
+  preset_color_schemes:
+    #native: {}  # system UI colors
+  
+    aqua:
+      name: 碧水／Aqua
+      author: 佛振 <chen.sst@gmail.com>
+      text_color: 0x606060
+      back_color: 0xeeeceeee
+      candidate_text_color: 0x000000
+      hilited_text_color: 0x000000
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0xeefa3a0a
+      comment_text_color: 0x5a5a5a
+      hilited_comment_text_color: 0xfcac9d
+  
+    azure:
+      name: 青天／Azure
+      author: 佛振 <chen.sst@gmail.com>
+      text_color: 0xcfa677
+      candidate_text_color: 0xffeacc
+      back_color: 0xee8b4e01
+      hilited_text_color: 0xffeacc
+      hilited_candidate_text_color: 0x7ffeff
+      hilited_candidate_back_color: 0x00000000
+      comment_text_color: 0xc69664
+  
+    luna:
+      name: 明月／Luna
+      author: 佛振 <chen.sst@gmail.com>
+      text_color: 0xa5a5a5
+      back_color: 0xdd000000
+      candidate_text_color: 0xeceeee
+      hilited_text_color: 0x7fffff
+      hilited_candidate_text_color: 0x7fffff
+      hilited_candidate_back_color: 0x40000000
+      comment_text_color: 0xa5a5a5
+      hilited_comment_text_color: 0x449c9d
+  
+    ink:
+      name: 墨池／Ink
+      author: 佛振 <chen.sst@gmail.com>
+      text_color: 0x5a5a5a
+      back_color: 0xeeffffff
+      candidate_text_color: 0x000000
+      hilited_text_color: 0x000000
+      #hilited_back_color: 0xdddddd
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0xcc000000
+      comment_text_color: 0x5a5a5a
+      hilited_comment_text_color: 0x808080
+  
+    lost_temple:
+      name: 孤寺／Lost Temple
+      author: 佛振 <chen.sst@gmail.com>, based on ir_black
+      text_color: 0xe8f3f6
+      back_color: 0xee303030
+      hilited_text_color: 0x82e6ca
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0x82e6ca
+      comment_text_color: 0xbb82e6ca
+      hilited_comment_text_color: 0xbb203d34
+  
+    dark_temple:
+      name: 暗堂／Dark Temple
+      author: 佛振 <chen.sst@gmail.com>, based on ir_black
+      text_color: 0x92f6da
+      back_color: 0x222222
+      candidate_text_color: 0xd8e3e6
+      hilited_text_color: 0xffcf9a
+      hilited_back_color: 0x222222
+      hilited_candidate_text_color: 0x92f6da
+      hilited_candidate_back_color: 0x10000000  # 0x333333
+      comment_text_color: 0x606cff
+  
+    psionics:
+      name: 幽能／Psionics
+      author: 雨過之後、佛振
+      text_color: 0xc2c2c2
+      back_color: 0x444444
+      candidate_text_color: 0xeeeeee
+      hilited_text_color: 0xeeeeee
+      hilited_back_color: 0x444444
+      hilited_candidate_label_color: 0xfafafa
+      hilited_candidate_text_color: 0xfafafa
+      hilited_candidate_back_color: 0xd8bf00
+      comment_text_color: 0x808080
+      hilited_comment_text_color: 0x444444
+  
+    purity_of_form:
+      name: 純粹的形式／Purity of Form
+      author: 雨過之後、佛振
+      text_color: 0xc2c2c2
+      back_color: 0x444444
+      candidate_text_color: 0xeeeeee
+      hilited_text_color: 0xeeeeee
+      hilited_back_color: 0x444444
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0xfafafa
+      comment_text_color: 0x808080
+  
+    starcraft:
+      name: 星際我爭霸／StarCraft
+      author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
+      text_color: 0xccaa88
+      candidate_text_color: 0x30bb55
+      back_color: 0xee000000
+      border_color: 0x1010a0
+      hilited_text_color: 0xfecb96
+      hilited_back_color: 0x000000
+      hilited_candidate_text_color: 0x70ffaf
+      hilited_candidate_back_color: 0x00000000
+      comment_text_color: 0x1010d0
+      hilited_comment_text_color: 0x1010f0
+  
+    google:
+      name: 谷歌／Google
+      author: skoj <skoj@qq.com>
+      text_color: 0x666666 #拼音串
+      candidate_text_color: 0x000000 #非第一候选项
+      back_color: 0xFFFFFF #背景
+      border_color: 0xE2E2E2 #边框
+      hilited_text_color: 0x000000 #拼音串高亮
+      hilited_back_color: 0xFFFFFF #拼音串高亮背景
+      hilited_candidate_text_color: 0xFFFFFF #第一候选项
+      hilited_candidate_back_color: 0xCE7539 #第一候选项背景
+      comment_text_color: 0x6D6D6D #注解文字
+      hilited_comment_text_color: 0xEBC6B0 #注解文字高亮
+  
+    solarized_rock:
+      name: 曬經石／Solarized Rock
+      author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
+      back_color: 0x362b00
+      border_color: 0x362b00
+      text_color: 0x8236d3
+      hilited_text_color: 0x98a12a
+      candidate_text_color: 0x969483
+      comment_text_color: 0xc098a12a
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0x8236d3
+      hilited_comment_text_color: 0x362b00
+  
+    clean_white:
+      name: 简约白／Clean White
+      author: Chongyu Zhu <lembacon@gmail.com>, based on 搜狗「简约白」
+      horizontal: true
+      candidate_format: '%c %@'
+      corner_radius: 6
+      border_height: 6
+      border_width: 6
+      font_point: 16
+      label_font_point: 12
+      label_color: 0x888888
+      text_color: 0x808080
+      hilited_text_color: 0x000000
+      candidate_text_color: 0x000000
+      comment_text_color: 0x808080
+      back_color: 0xeeeeee
+      hilited_candidate_label_color: 0xa0c98915
+      hilited_candidate_text_color: 0xc98915
+      hilited_candidate_back_color: 0xeeeeee
+  
+  app_options:
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.barebones.textwrangler:
+      ascii_mode: true
+    com.macromates.TextMate.preview:
+      ascii_mode: true
+    com.github.atom:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    com.sublimetext.2:
+      ascii_mode: true
+    org.gnu.Aquamacs:
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
+    co.zeit.hyper:
+      ascii_mode: true

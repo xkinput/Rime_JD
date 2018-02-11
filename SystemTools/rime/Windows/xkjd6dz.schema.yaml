@@ -1,0 +1,173 @@
+﻿# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: xkjd6dz
+  name: 键道6单字
+  version: "1"
+  dependencies:
+    - xkjd6cx
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: zh_trad
+    reset: 0
+    states: [ 简体, 繁體 ]
+    
+punctuator:
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '?' : { commit: ？ }
+    '/' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : ＠
+    '#' : ＃
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '?' : { commit: ？ }
+    '/' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, '\', ＼ ]
+    '|' : [ ·, '|', ｜, '§', '¦' ]
+    '`' : '`'
+    '~' : [ '~', ～ ]
+    '!' : { commit: ！ }
+    '@' : '@'
+    '#' : '#'
+    '%' : [ '%', ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : '&'
+    '*' : [ '*', ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕,  ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji_cn
+    - simplifier@zh_trad
+    - simplifier@bmms
+    - reverse_lookup_translator
+
+speller:
+  auto_select: true
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  initials: "abcdefghijklmnopqrstuvwxyz;"
+
+translator:
+  dictionary: xkjd6dz.extended
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: true
+  max_phrase_length: 6
+
+emoji_cn:
+  opencc_config: emoji.json
+  option_name: emoji_cn
+  tips: all
+  
+zh_trad:
+  opencc_config: zhs2zht.ini
+  option_name: zh_trad
+  
+bmms:
+  opencc_config: pinyin.json
+  option_name: bmms
+  show_in_comment: true
+  comment_format:
+    - xform/'/ /
+
+reverse_lookup:
+  dictionary: xkjd6cx
+  comment_format:
+    - xform/^/〔/
+    - xform/$/〕/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  bindings:
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - { when: always, accept: F6, select: .next }
+    - { when: always, accept: F7, toggle: zh_trad }
+    - { when: has_menu, accept: "'", send: 2 }
+    - { when: has_menu, accept: "&", toggle: emoji_cn}
+    - { when: has_menu, accept: "^", toggle: bmms}
+   
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    punct: "^/([0-9]0?|[a-z]+)$"

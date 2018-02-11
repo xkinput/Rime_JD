@@ -9,9 +9,8 @@
 
 | 路径 | 作用
 | :-------------|:-------------: |
-| /Android | 安卓版本[配置文件] |
-| /Tools | 扩展码表 |
-| /Win_Linux_Mac | Win_Linux_Mac [配置文件]及Win_Linux工具|
+| /Extended | 扩展码表 |
+| /SystemTools | 各系统配置文件工具]|
 | /rime | 主码表文件夹 [主码表] |
 | README.md | readme.md文件 |
 
@@ -27,12 +26,12 @@
 
 ![同文输入效果](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文.jpg")
 
-#### Windows_Linux_Mac：
+#### 其他系统平台：
 * 获取本项目内容：使用一下方法其一
 1. [下载][209]本项目。（无法滚动更新）
 2. 使用Git程序（可滚动更新）([WindowsGit：下载][905]) ([Linux/Mac Git：自行安装])
 * 建议使用git程序，可滚动更新。
-* 可使用[/Win_Linux_MAC][210]中内置的工具，执行复制码表就可以。
+* 可使用[/SystemTools][210]中各系统的工具，执行复制码表就可以。
 
 小狼毫：
 
@@ -90,7 +89,7 @@ Windows：工具名 文件名 纠错/添加/删除
 #### 通用操作：
 > （须自行下载其操作系统Rime输入法程序，可参考结尾平台总汇）
 1. 将[主码表][211] 复制rime文件夹。
-2. 将[配置文件][[Android][212]/[Win_Linux_Mac][210]] 复制至rime文件夹。
+2. 将[配置文件][[Android][212]/[SystemTools/[system]][210]] 复制至rime文件夹。
 
 #### 最后：
 > 重新部署，并尝试输入文字。安装完成。
@@ -142,9 +141,9 @@ Windows：工具名 文件名 纠错/添加/删除
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
 [208]: https://gitee.com/nmlixa/Rime_JD/releases "发行页"
 [209]: https://gitee.com/nmlixa/Rime_JD/repository/archive/master.zip "Download"
-[210]: https://gitee.com/nmlixa/Rime_JD/tree/master/Win_Linux_Mac "/Win_Linux_Mac"
+[210]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools "/SystemTools"
 [211]: https://gitee.com/nmlixa/Rime_JD/tree/master/rime "/rime"
-[212]: https://gitee.com/nmlixa/Rime_JD/tree/master/Android "Android"
+[212]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools/Android "Android"
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
