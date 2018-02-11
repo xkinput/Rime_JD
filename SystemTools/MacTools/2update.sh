@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "开始备份"
 rm -rf 备份/*
 # 删除原有备份文件
@@ -15,8 +15,6 @@ echo "复制Rime用户配置文件完成"
 cp -r ../rime/Mac/* ~/Library/Rime
 cp -r ../rime/*.yaml ~/Library/Rime/
 echo "复制Rime配置独有文件完成"
-# rm -rf ~/Library/Rime/Windows
-# rm -rf ~/Library/Rime/Mac
 rm -rf ~/Library/Rime/rime
 echo "清除冗余文件完成"
 echo "..."
@@ -32,7 +30,7 @@ echo "==========================================="
 sleep 1
 clear
 echo "==========================================="
-NAME=../rime/LinuxTools/name.txt
+NAME=../rime/Linux/name.txt
 echo "              本文件Rime方案为 "`cat $NAME`" "
 echo "已完成安装"
 echo "请重新部署后再尝试使用。"
