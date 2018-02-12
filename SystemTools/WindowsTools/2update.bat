@@ -42,15 +42,17 @@ mkdir "%CD%\备份\"
 del "%CD%\备份\" /S /Q
 xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
 cls
-echo 备份原词库内容完成
+echo 备份原有词库		完成
 taskkill /f /im WeaselServer.exe
 del "%APPDATA%\Rime\" /S /Q
 xcopy "..\..\rime" "%APPDATA%\Rime\" /Y /E
-echo 复制码表文件完成
+echo 复制码表文件		完成
 rmdir "%APPDATA%\Rime\Windows" /S /Q
-echo 删除冗余无用文件
+echo 删除冗余文件		完成
 xcopy "..\rime\Windows\*" "%APPDATA%\Rime\" /Y /E
-echo 复制完成
+echo 复制独有配置		完成
+xcopy ".\备份\xkjd6.dict.cizu.yaml" "%APPDATA%\Rime\" /Y /E
+echo 还原用户配置		完成
 cls
 type ..\rime\Windows\_*.txt
 echo.
