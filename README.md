@@ -29,7 +29,7 @@
 #### 其他系统平台：
 * 获取本项目内容：使用一下方法其一
 1. [下载][209]本项目。（无法滚动更新）
-2. 使用Git程序（可滚动更新）([WindowsGit：下载][905]) ([Linux/Mac Git：自行安装])
+2. 使用Git程序（可滚动更新）([WindowsGit：下载安装][905]) ([Linux/Mac Git：自行安装])
 * 建议使用git程序，可滚动更新。
 * 可使用[/SystemTools][210]中各系统的工具，执行复制码表就可以。
 
@@ -149,7 +149,7 @@ Windows：工具名 文件名 纠错/添加/删除
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
 [903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "吅吅大山的QQ群"
 [904]: http://xkjd.coding.me "键道官网"
-[905]: http://gitforwindows.org "WinGit"
+[905]: https://git-scm.com/ "Git"
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
 [907]: http://git.mydoc.io/?t=180700 "码云PR教程"
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
