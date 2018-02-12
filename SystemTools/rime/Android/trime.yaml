@@ -11,6 +11,8 @@ height:
 
   H: &hc 47 #四行键盘高度
   H: &hd 47 #四行键盘第4行高度
+  
+  P: &DsymY 1.8 #四行键盘字符偏移
 # 以上内容为主键盘区
   H: &hg 45 #符号键盘高度
 # 以上内容为符号键盘区
@@ -110,7 +112,7 @@ style:
   locale: zh_CN #预设语言： zh_TW|zh_CN|zh_HK
   preview_font: miniJXH.ttf #按键提示字体
   preview_height: 60 #按键提示高度
-  preview_offset: -12 #按键提示纵向偏移
+  preview_offset: -3 #按键提示纵向偏移
   preview_text_size: 40 #按键提示字号
   proximity_correction: false #按键纠錯
   reset_ascii_mode: true #显示键盘时重置为中文状态
@@ -124,7 +126,7 @@ style:
   symbol_text_size: 10 #符号字号
   text_font: miniJXH.ttf #编码字体
   text_size: 15 #编码区字号
-  vertical_correction: -10 #按键纵向偏移
+  vertical_correction: -5 #按键纵向偏移
 
 others: #杂项
   O: &ra 0 #符号键盘按键圆角
@@ -677,6 +679,7 @@ preset_keyboards:
     ascii_mode: 0
     width: 10
     height: *hc
+    key_symbol_offset_y: *DsymY
     label_transform: uppercase #uppercase|none 中文模式下的字母標籤自動大寫
     keys:
     #第一行
