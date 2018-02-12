@@ -113,11 +113,12 @@ echo "==========================================="
 echo "第三步 复制Rime用户配置文件"
 echo "==========================================="
 rm -rf ~/.config/fcitx/rime
-echo "已清空配置文件目录"
+echo "清空配置文件目录					完成"
 cp -r ../../rime ~/.config/fcitx
-cp -r ../rime ~/.config/fcitx
-rm -rf ~/.config/fcitx/rime/Windows
-echo "已复制文件"
+echo "复制Rime用户码表文件				完成"
+cp -r ../rime/*.yaml ~/.config/fcitx
+echo "复制Rime用户配置文件				完成"
+echo "复制所有文件						完成"
 echo "==========================================="
 clear
 echo "预览 ~/.config/fcitx/rime/"

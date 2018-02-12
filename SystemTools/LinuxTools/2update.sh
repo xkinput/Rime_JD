@@ -3,23 +3,18 @@ rm -rf 备份/*
 # 删除原有备份文件
 mkdir 备份
 cp -r ~/.config/fcitx/rime ./备份/
-echo "备份原内容到当前目录下“备份”文件夹完成"
+echo "备份“用户文件夹”到“备份”文件夹	完成"
 echo "==========================================="
 rm -rf ~/.config/fcitx/rime
-echo "清空配置文件目录完成"
+echo "清空配置文件目录					完成"
 cp -r ../../rime ~/.config/fcitx
-echo "复制Rime用户码表文件完成"
-cp -r ../rime ~/.config/fcitx
-echo "复制Rime用户配置文件完成"
-cp -r ../rime/Linux/* ~/.config/fcitx/rime/
-echo "复制Linux Rime配置独有文件完成"
-rm -rf ~/.config/fcitx/rime/Windows
-rm -rf ~/.config/fcitx/rime/Mac
-echo "清楚冗余文件完成"
+echo "复制Rime用户码表文件				完成"
+cp -r ../rime/*.yaml ~/.config/fcitx
+echo "复制Rime用户配置文件				完成"
+cp -r ./备份/xkjd6.user.dict.yaml ~/.config/fcitx/rime/
+echo "还原用户词库						完成"
 echo "..."
-echo "....."
-clear
-echo "已复制文件所有完成"
+echo "复制所有文件						完成"
 echo "==========================================="
 clear
 echo "预览 ~/.config/fcitx/rime/"
