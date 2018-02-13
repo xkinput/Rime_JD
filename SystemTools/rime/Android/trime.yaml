@@ -19,6 +19,7 @@ height:
   H: &hm 52 #编辑键盘高度
   H: &hh 37 #符号键盘第4行高度
   H: &hcd 65 #菜单控制
+  H: &hpd 210 #帮助页
   
 # --------键盘高度调整段End -----------
 
@@ -57,18 +58,18 @@ fallback_colors:
 style:
   auto_caps: false #自动句首大写: true|false|ascii
   background_dim_amount: 0.5
-  candidate_font: miniJXH.ttf #候选字体
+  candidate_font: Dongqingw3.otf #候选字体
   candidate_padding: 6 #候选项内边距
   candidate_spacing: 0.5 #候选间距
   candidate_text_size: 18 #候选字号
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: 28 #候选区高度
   color_scheme: i_shuiya #配色方案
-  comment_font: miniJXH.ttf #编码提示字体
+  comment_font: Dongqingw3.otf #编码提示字体
   comment_height: 10 #编码提示区高度
   comment_on_top: false #编码提示在上方或右側
   comment_text_size: 11 #编码提示字号
-  hanb_font: miniJXH.ttf #扩充字体
+  hanb_font: Dongqingw3.otf #扩充字体
   horizontal: true #水平模式
   horizontal_gap: 3.8 #键水平间距
   vertical_gap: 7 #键盘行距
@@ -99,18 +100,18 @@ style:
     - {start: "", move: ' ', end: ""}
     - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要>=Android5.0。TODO: 不爲0時，會導致不換行的問題
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
-  key_font: miniJXH.ttf #键盘字体
+  key_font: Dongqingw3.otf #键盘字体
   key_height: 40 #键高
   key_long_text_size: 13 #长标签字号
   key_text_size: 18 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
-  keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, menutwo, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
+  keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, menutwo, trimehelp, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
   label_text_size: 15 #标签字号
-  label_font: miniJXH.ttf #编标签字体
-  latin_font: miniJXH.ttf #西文字体
+  label_font: Dongqingw3.otf #编标签字体
+  latin_font: Dongqingw3.otf #西文字体
   latin_locale: en_US #西文语言
   locale: zh_CN #预设语言： zh_TW|zh_CN|zh_HK
-  preview_font: miniJXH.ttf #按键提示字体
+  preview_font: Dongqingw3.otf #按键提示字体
   preview_height: 60 #按键提示高度
   preview_offset: -3 #按键提示纵向偏移
   preview_text_size: 40 #按键提示字号
@@ -122,9 +123,9 @@ style:
   show_window: true #显示浮动窗口
   soft_cursor: false #编码区软光标
   speech_opencc_config: s2tw.json #语音输入简繁转换
-  symbol_font: miniJXH.ttf #符号字体
+  symbol_font: Dongqingw3.otf #符号字体
   symbol_text_size: 10 #符号字号
-  text_font: miniJXH.ttf #编码字体
+  text_font: Dongqingw3.otf #编码字体
   text_size: 15 #编码区字号
   vertical_correction: -5 #按键纵向偏移
 
@@ -330,6 +331,7 @@ preset_color_schemes: #配色
     hcjfh: 0xffF9F9F9
     gnjfh: 0xfff9f9f9
     fyt: 0xffa3a7aa #翻页键止文字颜色
+    trimejdlhelp: JDLhelp.png #键道6滑动背景图
 
 preset_keys:
   #安卓
@@ -530,6 +532,7 @@ preset_keys:
   Kdefaulten: {label: 英文, send: Eisu_toggle, select: defaulten}
   Kdefault: {label: 默认, functional: false, send: Eisu_toggle, select: default}
   Kjdl: {label: 助记, send: Eisu_toggle, select: jdl}
+  Khelp: {label: 滑动帮助, send: Eisu_toggle, select: trimehelp}
   Knumber: {label: 123, send: Eisu_toggle, select: number}
   Ksymbols: {label: '✡', functional: true, send: Eisu_toggle, select: symbols21}
   Ksymbols2: {label: '✡', functional: true, send: Eisu_toggle, select: symbols11}
@@ -618,13 +621,22 @@ preset_keyboards:
     
     - {click: DeployMe}
     - {click: SyncMe}
-    - {click: }
+    - {click: Khelp}
     - {click: }
     
     - {click: }
     - {click: }
     - {click: }
     - {click: Kmenu}
+  
+  trimehelp:
+    name: 滑动帮助
+    author: "倾书"
+    ascii_mode: 0
+    width: 100
+    height: *hpd
+    keys:
+    - {click: Back, key_back_color: trimejdlhelp}
 
   defaulten:
     name: 英文26键
@@ -728,6 +740,7 @@ preset_keyboards:
     ascii_mode: 0
     width: 10
     height: *hc
+    key_symbol_offset_y: *DsymY
     label_transform: uppercase #uppercase|none 中文模式下的字母標籤自動大寫
     keys:
     #第一行
