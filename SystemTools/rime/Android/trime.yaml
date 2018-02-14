@@ -58,18 +58,18 @@ fallback_colors:
 style:
   auto_caps: false #自动句首大写: true|false|ascii
   background_dim_amount: 0.5
-  candidate_font: Dongqingw3.otf #候选字体
+  candidate_font: HiraginoSansW3.otf #候选字体
   candidate_padding: 6 #候选项内边距
   candidate_spacing: 0.5 #候选间距
   candidate_text_size: 18 #候选字号
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: 28 #候选区高度
   color_scheme: i_shuiya #配色方案
-  comment_font: Dongqingw3.otf #编码提示字体
+  comment_font: HiraginoSansW3.otf #编码提示字体
   comment_height: 10 #编码提示区高度
   comment_on_top: false #编码提示在上方或右側
   comment_text_size: 11 #编码提示字号
-  hanb_font: Dongqingw3.otf #扩充字体
+  hanb_font: HiraginoSansW3.otf #扩充字体
   horizontal: true #水平模式
   horizontal_gap: 3.8 #键水平间距
   vertical_gap: 7 #键盘行距
@@ -97,21 +97,21 @@ style:
     background: background.png #颜色或者backgrounds目录下的图片文件名
     movable: true #是否可移动窗口，或仅移动一次 true|false|once
   window: #悬浮窗口组件
-    - {start: "", move: ' ', end: ""}
+    - {start: "✍", move: ' ', end: ""}
     - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要>=Android5.0。TODO: 不爲0時，會導致不換行的問題
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
-  key_font: Dongqingw3.otf #键盘字体
+  key_font: HiraginoSansW3.otf #键盘字体
   key_height: 40 #键高
   key_long_text_size: 13 #长标签字号
   key_text_size: 18 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
   keyboards: [.default, default, defaulten, jdl, layout, edit, number, menu, menutwo, trimehelp, symbols11, symbols12, symbols21, symbols22, symbols31, symbols32, symbols33, symbols34, symbols35, symbols36, symbols41, symbols42, symbols43, symbols44, symbols51, symbols52, symbols53, symbols54, symbols55, symbols56, symbols61, symbols62, symbols63, symbols64, symbols71, symbols72, symbols73, symbols74, symbols81, symbols82, symbols83, symbols91, symbols92, symbols93, symbolsA1, symbolsA2, symbolsA3, symbolsA4, symbolsA5, symbolsB1, symbolsB2, symbolsB3, symbolsC1, symbolsC2, symbolsC3, symbolsC4, symbolsC5, symbolsD1, symbolsD2] #键盘配置
   label_text_size: 15 #标签字号
-  label_font: Dongqingw3.otf #编标签字体
-  latin_font: Dongqingw3.otf #西文字体
+  label_font: HiraginoSansW3.otf #编标签字体
+  latin_font: HiraginoSansW3.otf #西文字体
   latin_locale: en_US #西文语言
   locale: zh_CN #预设语言： zh_TW|zh_CN|zh_HK
-  preview_font: Dongqingw3.otf #按键提示字体
+  preview_font: HiraginoSansW3.otf #按键提示字体
   preview_height: 60 #按键提示高度
   preview_offset: -3 #按键提示纵向偏移
   preview_text_size: 40 #按键提示字号
@@ -123,9 +123,9 @@ style:
   show_window: true #显示浮动窗口
   soft_cursor: false #编码区软光标
   speech_opencc_config: s2tw.json #语音输入简繁转换
-  symbol_font: Dongqingw3.otf #符号字体
+  symbol_font: HiraginoSansW3.otf #符号字体
   symbol_text_size: 10 #符号字号
-  text_font: Dongqingw3.otf #编码字体
+  text_font: HiraginoSansW3.otf #编码字体
   text_size: 15 #编码区字号
   vertical_correction: -5 #按键纵向偏移
 
@@ -193,6 +193,10 @@ preset_color_schemes: #配色
     khc: *cb #回车键文字
     hcjfh: *cb #回车键符号
     fyt: *cd #翻页键止文字颜色
+    trimejdlhelp: JDLhelp.png #键道6滑动背景
+    xing: 0xff548DFE #形码颜色
+    shuang: 0xff9933 #双音节声母颜色
+    ling: 0xffd0d5db #零声母颜色
 
   b_steam:
     name: "夜晚"
@@ -208,6 +212,10 @@ preset_color_schemes: #配色
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xa9a7a7
     hilited_candidate_back_color: 0x314259
+    trimejdlhelp: JDLhelp.png #键道6滑动背景
+    xing: 0xff548DFE #形码颜色
+    shuang: 0xff9933 #双音节声母颜色
+    ling: 0xffd0d5db #零声母颜色
 
   g_ios:
     name: IOS
@@ -251,6 +259,10 @@ preset_color_schemes: #配色
     gnjfh: 0xff37474f
     hcjfh: 0xffF9F9F9
     fyt: 0xffa3a7aa
+    trimejdlhelp: JDLhelp.png #键道6滑动背景
+    xing: 0xff548DFE #形码颜色
+    shuang: 0xff9933 #双音节声母颜色
+    ling: 0xffd0d5db #零声母颜色
 
   h_vcvc:
       author: flypy.com
@@ -287,6 +299,10 @@ preset_color_schemes: #配色
       shadow_color: 0xff00434c
       text_back_color: 0xff00434c
       text_color: *cb
+      trimejdlhelp: JDLhelp.png #键道6滑动背景
+      xing: 0xff548DFE #形码颜色
+      shuang: 0xff9933 #双音节声母颜色
+      ling: 0xffd0d5db #零声母颜色
 
   i_shuiya:
     name: 水鸭青
@@ -331,7 +347,10 @@ preset_color_schemes: #配色
     hcjfh: 0xffF9F9F9
     gnjfh: 0xfff9f9f9
     fyt: 0xffa3a7aa #翻页键止文字颜色
-    trimejdlhelp: JDLhelp.png #键道6滑动背景图
+    trimejdlhelp: JDLhelp.png #键道6滑动背景
+    xing: 0xff548DFE #形码颜色
+    shuang: 0xff9933 #双音节声母颜色
+    ling: 0xff000000 #零声母颜色
 
 preset_keys:
   #安卓
@@ -744,33 +763,33 @@ preset_keyboards:
     label_transform: uppercase #uppercase|none 中文模式下的字母標籤自動大寫
     keys:
     #第一行
-    - {click: q, long_click: 'zh', swipe_down: 1, hint: 'ua iu'}
-    - {click: w, long_click: 'ch', swipe_down: 2, hint: 'ei un'}
-    - {click: e, long_click: 'sh', swipe_down: 3, hint: 'e'}
+    - {click: q, long_click: 'zh', swipe_down: 1, hint: 'ua iu', key_symbol_color: shuang}
+    - {click: w, long_click: 'ch', swipe_down: 2, hint: 'ei un', key_symbol_color: shuang}
+    - {click: e, long_click: 'sh', swipe_down: 3, hint: 'e', key_symbol_color: shuang}
     - {click: r, long_click: '@', swipe_down: 4,hint: 'eng'}
     - {click: t, long_click: '#', swipe_down: 5,hint: 'uan', swipe_right: Tab}
     - {click: y, long_click: 'ong', swipe_down: 6,hint: 'iong'}
-    - {click: u, long_click: '丿', swipe_down: 7,hint: '月 十o'}
-    - {click: i, label: '人', key_text_size: 12, long_click: '丨', swipe_down: 8,hint: '手草金'}
-    - {click: o, long_click: '丶', swipe_down: 9, hint: '口 日i'}
+    - {click: u, long_click: '丿', swipe_down: 7,hint: '月 十o', key_symbol_color: xing}
+    - {click: i, label: '人', key_text_size: 12, long_click: '丨', swipe_down: 8,hint: '手草金', key_symbol_color: xing}
+    - {click: o, long_click: '丶', swipe_down: 9, hint: '口 日i', key_symbol_color: xing}
     - {click: p, long_click: Hide, swipe_down: 0, hint: 'ang'}
     #第二行
     - {width: 5}
-    - {click: a, long_click: '乛',hint: '水 贝o'}
+    - {click: a, long_click: '乛', swipe_down: Select_all,hint: '水 贝o', key_symbol_color: xing}
     - {click: s, long_click: '', swipe_down: '|', hint: 'a ia'}
     - {click: d, long_click: '', swipe_down: '_', hint: 'ou ie'}
-    - {click: f, long_click: 'zh', swipe_left: '<', swipe_right: '>', swipe_down: '+', hint: 'an'}
+    - {click: f, long_click: 'zh', swipe_left: '<', swipe_right: '>', swipe_down: '+', hint: 'an', key_symbol_color: shuang}
     - {click: g, long_click: 'uai', hint: "ing",swipe_left: Home, swipe_right: End}
     - {click: h, long_click: '', swipe_left: '[', swipe_right: ']', swipe_down: '=', hint: 'ai ue'}
-    - {click: j, long_click: 'ch', swipe_left: '{', swipe_right: '}', swipe_down: '\', hint: 'u er'}
+    - {click: j, long_click: 'ch', swipe_left: '{', swipe_right: '}', swipe_down: '\', hint: 'u er', key_symbol_color: shuang}
     - {click: k, long_click: '', swipe_down: '/', hint: 'i'}
     - {click: l, long_click: '',hint: 'v o uo', swipe_down: ';'}
     #第三行
     - {click: Shift, composing: Fenci, width: 13}
     - {click: z, long_click: '`', width: 12, hint: 'ao'}
-    - {click: x, long_click: 'iang', hint: 'uang'}
-    - {click: c, long_click: '', hint: 'iao'}
-    - {click: v, long_click: '一', hint: '木 土o'}
+    - {click: x, long_click: 'iang', hint: 'uang', key_symbol_color: ling}
+    - {click: c, swipe_down: Copy, hint: 'iao'}
+    - {click: v, long_click: '一', swipe_down: Paste, hint: '木 土o', key_symbol_color: xing}
     - {click: b, long_click: '',hint: 'in ui'}
     - {click: n, long_click: '',hint: 'en'}
     - {click: m, long_click: "", width: 12,hint: 'ian'}
