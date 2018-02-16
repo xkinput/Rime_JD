@@ -151,8 +151,9 @@ bmms:
 reverse_lookup:
   dictionary: xkjd6cx
   comment_format:
-    - "xform/$/〕/"
-    - "xform/^/〔/"
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/ /, /
 
 punctuator:
   import_preset: symbols
