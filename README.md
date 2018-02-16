@@ -84,7 +84,7 @@ git push origin master
 Linux：工具名 文件名 纠错/添加/删除
 Windows：工具名 文件名 纠错/添加/删除
 ```
->详见：**[码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
+>详见：**[git-简明指南][909] [码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
 
 #### 通用操作：
 > （须自行下载其操作系统Rime输入法程序，可参考结尾平台总汇）
@@ -153,3 +153,4 @@ Windows：工具名 文件名 纠错/添加/删除
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
 [907]: http://git.mydoc.io/?t=180700 "码云PR教程"
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
+[909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
