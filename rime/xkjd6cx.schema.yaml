@@ -38,14 +38,16 @@ speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba;'
   initials: 'abcdefghijklmnopqrstuvwxyz;'
   delimiter: " '"
-  max_code_length: 5
+  max_code_length: 6
   auto_select: true
-  auto_select_pattern: ^;.$|^\w{5}$
+  auto_select_pattern: ^;.$|^\w{6}$
   algebra:
     - derive/^.(.*)$/`$1/
     - derive/^(.).(.*)$/$1`$2/
     - derive/^(..).(.*)$/$1`$2/
-    - derive/^(...).$/$1`/
+    - derive/^(...).(.*)$/$1`$2/
+    - derive/^(....).(.*)$/$1`$2/
+    - derive/^(.....).$/$1`/
 
 translator:
   dictionary: xkjd6cx

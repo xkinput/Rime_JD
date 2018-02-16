@@ -152,6 +152,7 @@ reverse_lookup:
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
+    - xform/ /, /
 
 punctuator:
   import_preset: symbols
