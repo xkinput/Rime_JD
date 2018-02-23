@@ -13,11 +13,11 @@ height:
   H: &hd 47 #四行键盘第4行高度
   
   P: &DsymY 1.8 #四行键盘字符偏移
-# 以上内容为主键盘区
+
   H: &hg 45 #符号键盘高度
-# 以上内容为符号键盘区
   H: &hm 52 #编辑键盘高度
   H: &hh 37 #符号键盘第4行高度
+  
   H: &hcd 65 #菜单控制
   H: &hpd 210 #帮助页
   
@@ -72,10 +72,10 @@ style:
   hanb_font: HiraginoSansW3.otf #扩充字体
   horizontal: true #水平模式
   horizontal_gap: 3.8 #键水平间距
-  vertical_gap: 7 #键盘行距
+  vertical_gap: 9 #键盘行距
   inline_preedit: input #嵌入模式(preview:将首位候选嵌入到文本框中|composition:将编码区嵌入到文本框|input:将编码嵌入到文本框中|none:不嵌入)
   layout: #悬浮窗口位置
-    position: left #位置: left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0以上)
+    position: left_up #位置: left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0以上)
     min_length: 0 #最小词长
     max_length: 10 #超过字数则换行
     sticky_lines: 5 #固顶行数
@@ -351,6 +351,10 @@ preset_color_schemes: #配色
     xing: 0xff548DFE #形码颜色
     shuang: 0xff9933 #双音节声母颜色
     ling: 0xff000000 #零声母颜色
+    zmbc: danjing1.png #字母按键背景
+    zmhbc: danjing21.png #高亮字母按键背景
+    kgbc: danjing31.png #空格键背景
+    kzbc: danjing221.png #控制键按键背景
 
 preset_keys:
   #安卓
@@ -370,27 +374,27 @@ preset_keys:
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
   #编辑
-  Shift: {label: Shift, send: Shift_L, shift_lock: ascii_long}
-  Shift1: {label: "选择", send: Shift_L}
-  Return: {label: Enter, send: Return}
-  Back: {label: 返回, send: Eisu_toggle, select: .default}
+  Shift: {label: ⇧, send: Shift_L, shift_lock: ascii_long}
+  Shift1: {label: ⇧, send: Shift_L}
+  Return: {label: ⏎, send: Return}
+  Back: {label: 〼, send: Eisu_toggle, select: .default}
   Hide: {label: '☒', send: BACK}
-  BackSpace: {label: 退格, repeatable: true, send: BackSpace}
+  BackSpace: {label: ⌫, repeatable: true, send: BackSpace}
   Space: {label: ' ', functional: false, send: space}
   Space1: {repeatable: false, functional: true, send: space}
   Tab: {label: Tab, send: Tab}
   Clear: {label: 全清, send: Clear}
-  Escape: {label: 重输, send: Escape}
+  Escape: {label: ×, send: Escape}
   Home: {label: Home, send: Home}
   Insert: {label: Ins, send: Insert}
   Delete: {label: Del, send: Delete}
   End: {label: End, send: End}
   Page_Up: {label: '◀', send: Page_Up}
   Page_Down: {label: '▶', send: Page_Down}
-  Left: {label: '←', send: Left}
-  Down: {label: '↓', send: Down}
-  Up: {label: '↑', send: Up}
-  Right: {label: '→', send: Right}
+  Left: {label: '▲', send: Left}
+  Down: {label: '▼', send: Down}
+  Up: {label: '▲', send: Up}
+  Right: {label: '▼', send: Right}
   Select_all: {label: '☑', send: Control+a}
   Cut: {label: '✁', send: Control+x}
   Copy: {label: '❐', send: Control+c}
@@ -550,15 +554,15 @@ preset_keys:
   #键盘布局
   Kdefaulten: {label: 英文, send: Eisu_toggle, select: defaulten}
   Kdefault: {label: 默认, functional: false, send: Eisu_toggle, select: default}
-  Kjdl: {label: 助记, send: Eisu_toggle, select: jdl}
-  Khelp: {label: 滑动帮助, send: Eisu_toggle, select: trimehelp}
-  Knumber: {label: 123, send: Eisu_toggle, select: number}
+  Kjdl: {label: '助记', send: Eisu_toggle, select: jdl}
+  Khelp: {label: '滑动帮助', send: Eisu_toggle, select: trimehelp}
+  Knumber: {label: 'ϟ12', send: Eisu_toggle, select: number}
   Ksymbols: {label: '✡', functional: true, send: Eisu_toggle, select: symbols21}
   Ksymbols2: {label: '✡', functional: true, send: Eisu_toggle, select: symbols11}
   Klayout: {label: '⌨', send: Eisu_toggle, select: layout}
   Kedit: {label: '‹ɪ›', send: Eisu_toggle, select: edit}
-  Kmenu: {label: '←', send: Eisu_toggle, select: menu}
-  Kmenutwo: {label: '→', send: Eisu_toggle, select: menutwo}
+  Kmenu: {label: '◀', send: Eisu_toggle, select: menu}
+  Kmenutwo: {label: '▶', send: Eisu_toggle, select: menutwo}
   #自定义
   Cixuan: {label: 次选, send: 2}
   Fenci: {label: 分词, send: apostrophe}
@@ -611,20 +615,20 @@ preset_keyboards:
     width: 25
     height: *hcd
     keys:
-    - {click: jffhMe}
-    - {click: emojiMe}
-    - {click: Candidate_switchMe}
-    - {click: BackMe}
+    - {click: jffhMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: emojiMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Candidate_switchMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: BackMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
     
-    - {click: Comment_switchMe}
-    - {click: Hint_switchMe}
-    - {click: oJiandaoMe}
-    - {click: seaUpdateMe}
+    - {click: Comment_switchMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Hint_switchMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: oJiandaoMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: seaUpdateMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
     
-    - {click: jdleqjcMe}
-    - {click: xkbmwxMe}
-    - {click: SettingsMe}
-    - {click: Kmenutwo}
+    - {click: jdleqjcMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: xkbmwxMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: SettingsMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Kmenutwo, key_back_color: kzbc, hilited_key_back_color: zmhbc}
   
   menutwo:
     name: 设置2
@@ -633,20 +637,20 @@ preset_keyboards:
     width: 25
     height: *hcd
     keys:
-    - {click: DateMe}
-    - {click: TimeMe}
-    - {click: BaiduMe}
-    - {click: BackMe}
+    - {click: DateMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: TimeMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: BaiduMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: BackMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
     
-    - {click: DeployMe}
-    - {click: SyncMe}
-    - {click: Khelp}
-    - {click: }
+    - {click: DeployMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: SyncMe, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Khelp, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Back, key_back_color: kzbc, hilited_key_back_color: zmhbc}
     
-    - {click: }
-    - {click: }
-    - {click: }
-    - {click: Kmenu}
+    - {click: Back, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Back, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Back, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Kmenu, key_back_color: kzbc, hilited_key_back_color: zmhbc}
   
   trimehelp:
     name: 滑动帮助
@@ -714,48 +718,48 @@ preset_keyboards:
     label_transform: uppercase #uppercase|none 中文模式下的字母標籤自動大寫
     keys:
     #第一行
-    - {click: q, long_click: '!', swipe_down: 1}
-    - {click: w, long_click: '@', swipe_down: 2}
-    - {click: e, long_click: '#', swipe_down: 3}
-    - {click: r, long_click: '$', swipe_down: 4}
-    - {click: t, long_click: '%', swipe_down: 5, swipe_right: Tab}
-    - {click: y, long_click: '^', swipe_down: 6}
-    - {click: u, long_click: '&', swipe_down: 7}
-    - {click: i, long_click: '*', swipe_down: 8}
-    - {click: o, long_click: '(){Left}', swipe_down: 9, swipe_left: '(', swipe_right: ')'}
-    - {click: p, long_click: Hide, swipe_down: 0}
+    - {click: q, long_click: '!', swipe_down: 1, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: w, long_click: '@', swipe_down: 2, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: e, long_click: '#', swipe_down: 3, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: r, long_click: '$', swipe_down: 4, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: t, long_click: '%', swipe_down: 5, key_back_color: zmbc, hilited_key_back_color: zmhbc, swipe_right: Tab}
+    - {click: y, long_click: '^', swipe_down: 6, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: u, long_click: '&', swipe_down: 7, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: i, long_click: '*', swipe_down: 8, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: o, long_click: '(){Left}', swipe_down: 9, key_back_color: zmbc, hilited_key_back_color: zmhbc, swipe_left: '(', swipe_right: ')'}
+    - {click: p, long_click: Hide, swipe_down: 0, key_back_color: zmbc, hilited_key_back_color: zmhbc}
     #第二行
     - {width: 5}
-    - {click: a, long_click: Select_all}
-    - {click: s, long_click: '~', swipe_down: '|', hint: '|'}
-    - {click: d, long_click: '-', swipe_down: '_', hint: '_'}
-    - {click: f, long_click: '<>{Left}', swipe_left: '<', swipe_right: '>', swipe_down: '+', hint: '+'}
-    - {click: g, long_click: Kedit, swipe_left: Home, swipe_right: End, swipe_up: Up, swipe_down: Down, hint: "◂ ▸"}
-    - {click: h, long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', swipe_down: '=', hint: '='}
-    - {click: j, long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', swipe_down: '\', hint: '\'}
-    - {click: k, long_click: ':', swipe_down: '/', hint: '/'}
-    - {click: l, long_click: ';', swipe_down: ';'}
+    - {click: a, long_click: Select_all, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: s, long_click: '~', swipe_down: '|', hint: '|', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: d, long_click: '-', swipe_down: '_', hint: '_', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: f, long_click: '<>{Left}', swipe_left: '<', swipe_right: '>', swipe_down: '+', hint: '+', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: g, long_click: Kedit, swipe_left: Home, swipe_right: End, swipe_up: Up, swipe_down: Down, hint: "◂ ▸", key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: h, long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', swipe_down: '=', hint: '=', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: j, long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', swipe_down: '\', hint: '\', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: k, long_click: ':', swipe_down: '/', hint: '/', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: l, long_click: ';', swipe_down: ';', key_back_color: zmbc, hilited_key_back_color: zmhbc}
     #第三行
-    - {click: Shift, composing: Escape, width: 13}
-    - {click: z, long_click: '`', width: 12}
-    - {click: x, long_click: Cut}
-    - {click: c, long_click: Copy}
-    - {click: v, long_click: Paste}
-    - {click: b, long_click: '、'}
-    - {click: n, long_click: '"'}
-    - {click: m, long_click: "'", swipe_down: "'", width: 12}
-    - {click: BackSpace, swipe_left: Escape,swipe_up: Kmenu, swipe_down: Kmenu, width: 13}
+    - {click: Shift, composing: Escape, width: 13, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: z, long_click: '`', width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: x, long_click: Cut, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: c, long_click: Copy, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: v, long_click: Paste, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: b, long_click: '、', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: n, long_click: '"', key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: m, long_click: "'", swipe_down: "'", width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: BackSpace, swipe_left: Escape, swipe_up: Kmenu, swipe_down: Kmenu, width: 13, key_back_color: kzbc, hilited_key_back_color: zmhbc}
     #第四行
-    - {click: Knumber, long_click: Menu, composing: Page_Up, height: *hd, width: 12, key_symbol_color: gnjfh}
-    - {click: Ksymbols, long_click: Color_switch, composing: Page_Down, height: *hd, width: 12, key_symbol_color: gnjfh}
-    - {click: ',', long_click: '?', swipe_up: '！', width: 12}
-    - {click: Space1, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, key_back_color: khc, key_text_color: txt_color}
-    - {click: '.', long_click: Kjdl, swipe_up: '？', width: 12}
-    - {click: Return, long_click: Theme_settings, swipe_up: Knumber, width: 15, key_back_color: jhc, key_text_color: khc, key_symbol_color: hcjfh}   
+    - {click: Knumber, long_click: Menu, composing: Left, height: *hd, width: 12, key_symbol_color: gnjfh, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: Ksymbols, long_click: Color_switch, composing: Right, height: *hd, width: 12, key_symbol_color: gnjfh, key_back_color: kzbc, hilited_key_back_color: zmhbc}
+    - {click: ',', long_click: '?', swipe_up: '！', width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: Space1, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, key_text_color: txt_color, key_back_color: kgbc, hilited_key_back_color: zmhbc}
+    - {click: '.', long_click: Kjdl, swipe_up: '？', width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: Return, long_click: Theme_settings, swipe_up: Knumber, width: 15, key_text_color: khc, key_symbol_color: hcjfh, key_back_color: kzbc, hilited_key_back_color: zmhbc}
  
   jdl:
-    name: 键道6
-    author: "大牛"
+    name: 键道6助记
+    author: "QSHU"
     ascii_mode: 0
     width: 10
     height: *hc
@@ -785,7 +789,7 @@ preset_keyboards:
     - {click: k, long_click: '', swipe_down: '/', hint: 'i'}
     - {click: l, long_click: '',hint: 'v o uo', swipe_down: ';'}
     #第三行
-    - {click: Shift, composing: Fenci, width: 13}
+    - {click: Shift, composing: Escape, width: 13}
     - {click: z, long_click: '`', width: 12, hint: 'ao'}
     - {click: x, long_click: 'iang', hint: 'uang', key_symbol_color: ling}
     - {click: c, swipe_down: Copy, hint: 'iao'}
@@ -795,8 +799,8 @@ preset_keyboards:
     - {click: m, long_click: "", width: 12,hint: 'ian'}
     - {click: BackSpace, swipe_left: Escape, swipe_up: Kmenu, width: 13}
     #第四行
-    - {click: Knumber, long_click: Menu, composing: Page_Up, height: *hd, width: 12, key_symbol_color: gnjfh}
-    - {click: Ksymbols, long_click: Color_switch, composing: Page_Down, height: *hd, width: 12, key_symbol_color: gnjfh}
+    - {click: Knumber, long_click: Menu, composing: Left, height: *hd, width: 12, key_symbol_color: gnjfh}
+    - {click: Ksymbols, long_click: Color_switch, composing: Right, height: *hd, width: 12, key_symbol_color: gnjfh}
     - {click: ',', long_click: '?', swipe_up: '！',  width: 12}
     - {click: Space, width: 37, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, hint: '键道6'}
     - {click: '.', long_click: Kdefault, swipe_up: '？', width: 12}
