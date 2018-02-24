@@ -10,7 +10,7 @@ schema:
     - xkjd6cx
 
 switches:
-  - options: [ _keyboard_menu, _keyboard_defalut ]
+  - options: [ _keyboard_functions, _keyboard_qwerty ]
     states: [ "ㄓ", "ㄓ"]
   - name: ascii_mode
     reset: 0
