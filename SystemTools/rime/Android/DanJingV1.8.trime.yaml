@@ -24,7 +24,7 @@ style:
   candidate_font: han.ttf #候选字型
   hanb_font: hanb.ttf #扩充字型
   candidate_view_height: 30 #候选区高度
-  candidate_text_size: 20 #候选字号
+  candidate_text_size: 18 #候选字号
   candidate_padding: 5 #候选项内边距
   candidate_spacing: 0.5 #候选间距
   comment_on_top: false #编码提示在上方或右侧
@@ -33,12 +33,12 @@ style:
   comment_text_size: 11 #编码提示字号
  #悬浮窗口設置
   layout: 
-    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要≧Android5.0)
-    min_length: 10 #最小词长
+    position: left #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要≧Android5.0)
+    min_length: 1 #最小词长
     max_length: 15 #超过字数则换行
-    sticky_lines: 0 #固顶行数
-    max_entries: 2 #最大词条数
-    all_phrases: false #所有满足条件的词语都显示在窗口
+    sticky_lines: 5 #固顶行数
+    max_entries: 999 #最大词条数
+    all_phrases: true #所有满足条件的词语都显示在窗口
     border: 1 #边框宽度
     max_width: 330 #最大宽度，超过则自动换行
     max_height: 400 #最大高度
@@ -53,13 +53,13 @@ style:
     alpha: 0xdd #透明度(0-255)
     elevation: 2 #阴影(≧Android5.0)
     background: background.png #颜色或者backgrounds目录下的图片文件名
-    movable: false #是否可移动窗口，或仅移动一次 true|false|once
+    movable: true #是否可移动窗口，或仅移动一次 true|false|once
   text_size: 15 #编码区字号
   text_font: latin.ttf #编码字型
-  label_text_size: 19 #标签字号
+  label_text_size: 16 #标签字号
   window: #悬浮窗口組件
-    #- {start: "", move: 'ㄓ ', end: ""}
-    - {start: "✉ ", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要≧Android5.0。TODO: 不为0时，會導致不换行的問題
+    - {start: "", move: ' ', end: ""}
+    - {start: "✉ ", composition: "%s", end: "", letter_spacing: 0.1} #letter_spacing需要≧Android5.0。TODO: 不为0时，會導致不换行的問題
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
  #键盘
   key_font: symbol.ttf #键盘字型
@@ -405,7 +405,7 @@ preset_keyboards:
     - {click: Ksymbols, composing: Rightd, width: 12}
     - {click: ',', long_click: '<', width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
     - {click: space, width: 37, long_click: Kletter, key_symbol_offset_x: 50, key_back_color: kgbc, hilited_key_back_color: kghbc}
-    - {click: '.', long_click: '>', composing: Cixuan, width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
+    - {click: '.', long_click: '>', width: 12, key_back_color: zmbc, hilited_key_back_color: zmhbc}
     - {click: Return, long_click: Kfunctions, width: 15, key_symbol_offset_x: 0, key_back_color: hcbc, hilited_key_back_color: hchbc, key_text_color: hctc, hilited_key_text_color: hchtc, key_symbol_color: hcsc, hilited_key_symbol_color: hchsc}
   letter:
     __include: /preset_keyboards/qwerty
