@@ -404,9 +404,9 @@ preset_keyboards:
     - {click: Knumber, composing: Leftu, width: 12, height: *h12}
     - {click: Ksymbols, composing: Rightd, width: 12}
     - {click: ',', long_click: '<', width: 12, swipe_up: '！', key_back_color: zmbc, hilited_key_back_color: zmhbc}
-    - {click: space, width: 37, long_click: Kletter,  swipe_up: Kletter,key_symbol_offset_x: 50, key_back_color: kgbc, hilited_key_back_color: kghbc}
+    - {click: space, width: 37, long_click: Kletter, swipe_left: Left, swipe_right: Right, key_symbol_offset_x: 50, key_back_color: kgbc, hilited_key_back_color: kghbc}
     - {click: '.', long_click: '>', width: 12, swipe_up: '？', key_back_color: zmbc, hilited_key_back_color: zmhbc}
-    - {click: Return, long_click: Kfunctions, width: 15, key_symbol_offset_x: 0, key_back_color: hcbc, hilited_key_back_color: hchbc, key_text_color: hctc, hilited_key_text_color: hchtc, key_symbol_color: hcsc, hilited_key_symbol_color: hchsc}
+    - {click: Return, long_click: Kfunctions, swipe_up: Knumber, width: 15, key_symbol_offset_x: 0, key_back_color: hcbc, hilited_key_back_color: hchbc, key_text_color: hctc, hilited_key_text_color: hchtc, key_symbol_color: hcsc, hilited_key_symbol_color: hchsc}
   letter:
     __include: /preset_keyboards/qwerty
     ascii_mode: 1
