@@ -23,16 +23,16 @@ echo "检测是否配置键道6: "
 case $my_select in
   "y")
     if [ -f "$my_rime/$my_default" ]; then
-	xkjd6=$(grep "^ \+\- schema: xkjd6" $my_rime/$my_default)
-	xkjd6dz=$(grep "^ \+\- schema: xkjd6dz" $my_rime/$my_default)
-	if [ ${#xkjd6} -eq 0 ] && [ ${#xkjd6dz} -eq 0 ]; then
+	xkjd6=$(grep "^ \+\- schema: xkjd6$" $my_rime/$my_default)
+	xkjd6dz=$(grep "^ \+\- schema: xkjd6dz$" $my_rime/$my_default)
+	if [[ -z $xkjd6 ]] && [[ -z $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6/g' $my_rime/$my_default
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6dz/g' $my_rime/$my_default
 	  echo "  添加键道6方案到 $my_default ..................完成"
-	elif [ ${#xkjd6} -eq 0 ] && [ ${#xkjd6dz} -gt 0 ]; then
+	elif [[ -z $xkjd6 ]] && [[ -n $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6/g' $my_rime/$my_default
 	  echo "  添加键道6主方案到 $my_default ................完成"
-	elif [ ${#xkjd6} -gt 0 ] && [ ${#xkjd6dz} -eq 0 ]; then
+	elif [[ -n $xkjd6 ]] && [[ -z $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6dz/g' $my_rime/$my_default
 	  echo "  添加键道6单字方案到 $my_default ..............完成"
 	else
