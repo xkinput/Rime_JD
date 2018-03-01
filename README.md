@@ -1,4 +1,4 @@
-### 通知：PR注意，若上游更新内容含有“缩减仓库”，请在push代码前pull rebasel 详见：[缩减仓库说明][908]
+### 通知：PR注意，若上游更新内容含有“缩减仓库”，请在push代码前pull rebase 详见：[缩减仓库说明][908]
 
 <h1 style="text-align:center"><center>星空键道</center></h1> 
 
