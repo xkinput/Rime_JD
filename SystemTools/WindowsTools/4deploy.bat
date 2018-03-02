@@ -8,6 +8,7 @@ echo 请稍等...
 "C:\Program Files (x86)\Rime\weasel-0.9.30\WeaselDeployer.exe" /deploy
 cls
 echo 部署完成！
+"C:\Program Files (x86)\Rime\weasel-0.9.30\WeaselServer.exe" /deploy
 echo.
 echo ============================
 echo 请切换输入法到小狼毫（不是TSF版，可手动删除TSF版本选项）
