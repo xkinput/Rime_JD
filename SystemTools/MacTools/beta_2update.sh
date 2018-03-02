@@ -12,40 +12,41 @@ cp -r ~/Library/Rime ./备份/
 echo "备份原内容到当前目录下“备份”文件夹.....完成"
 echo "==========================================="
 echo "键道6码表升级，请选择升级方式："
-echo -e "  1) [更新] 码表/schema/opencc (y)\n  2) 备份并覆盖现有 Rime 配置  (n)"
+echo -e "  1) [更新] 码表/schema/opencc (1)\n  2) 备份并覆盖现有 Rime 配置  (2)"
 echo "-----------------------------------"
 echo -e "( 若不确定该选择何种方式，请按 ctrl+c 中断脚本执行，并参阅 help.txt )\n"
-echo -n "选择 (y/n): "
+echo -n "选择 (1/2): "
 read my_select
 
 echo "==========================================="
 echo "检测是否配置键道6: "
 case $my_select in
-  "y")
+  "1")
     if [ -f "$my_rime/$my_default" ]; then
 	xkjd6=$(grep "^ \+\- schema: xkjd6$" $my_rime/$my_default)
 	xkjd6dz=$(grep "^ \+\- schema: xkjd6dz$" $my_rime/$my_default)
 	if [[ -z $xkjd6 ]] && [[ -z $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6/g' $my_rime/$my_default
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6dz/g' $my_rime/$my_default
-	  echo "  添加键道6方案到 $my_default ..................完成"
+	  echo -e "添加键道6方案到 $my_default ..................完成"
 	elif [[ -z $xkjd6 ]] && [[ -n $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6/g' $my_rime/$my_default
-	  echo "  添加键道6主方案到 $my_default ................完成"
+	  echo -e "添加键道6主方案到 $my_default ................完成"
 	elif [[ -n $xkjd6 ]] && [[ -z $xkjd6dz ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: xkjd6dz/g' $my_rime/$my_default
-	  echo "  添加键道6单字方案到 $my_default ..............完成"
+	  echo -e "添加键道6单字方案到 $my_default ..............完成"
 	else
-	  echo "  已设置键道6"
+	  echo -e "已设置键道6"
 	fi
     else
 	cp  ../../rime/$my_default $my_rime
 	echo "复制Rime用户配置文件...................完成"
     fi
-    rsync -avurI ../../rime/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude=/* $my_rime
-    rsync -avuI ../rime/*.schema.yaml $my_rime
+    echo -e "---------------------\n"
+    rsync -aqurI ../../rime/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude=/* $my_rime
+    rsync -aquI ../rime/*.schema.yaml $my_rime
   ;;
-  "n")
+  "2")
     rm -rf ~/Library/Rime
     echo "清空配置文件目录.......................完成"
     cp -r ../../rime ~/Library/Rime
