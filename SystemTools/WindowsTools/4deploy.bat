@@ -8,18 +8,6 @@ echo 请稍等...
 "C:\Program Files (x86)\Rime\weasel-0.9.30\WeaselDeployer.exe" /deploy
 cls
 echo 部署完成！
-"C:\Program Files (x86)\Rime\weasel-0.9.30\WeaselServer.exe" /deploy
-echo.
-echo ============================
-echo 请切换输入法到小狼毫（不是TSF版，可手动删除TSF版本选项）
-echo.
-echo 并尝试在已打开记事本尝试输入
-echo.
-echo 简言之，打出字便成功
-echo.
-echo 关闭记事本后继续...
-notepad
-echo ============================
-echo 若需，请双击打开用户文件夹检查文件
-pause
+echo 可以关闭我了
+"C:\Program Files (x86)\Rime\weasel-0.9.30\WeaselServer.exe"
 exit
