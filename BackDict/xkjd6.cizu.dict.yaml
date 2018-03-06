@@ -5207,8 +5207,9 @@ B超	bjz
 被拖	bwtl
 倍添	bwtm
 背疼	bwtr
-被它	bwts
+被他	bwts
 贝塔	bwtsa
+被她	bwtso
 被它	bwtsoo
 别无他物	bwtw
 悲痛	bwty
@@ -8188,8 +8189,9 @@ B超	bwz
 葱头	cytdi
 丛谈	cytf
 从天	cytm
-从她	cyts
+从他	cyts
 从她	cytsi
+从它	cytsio
 从晚	cywf
 从外	cywh
 从无	cywj
@@ -12618,7 +12620,6 @@ D盘	dpf
 丢在	dqzh
 丢卒	dqzj
 丢字	dqzk
-大权在握	dqzw
 大清早	dqzz
 当然不	drb
 当然不是	drbe
@@ -19484,7 +19485,6 @@ D盘	dpf
 耍嘴	eqzb
 刷子	eqzk
 顺其自然	eqzr
-胜券在握	eqzw
 生病	erbg
 胜败	erbh
 声部	erbj
@@ -32391,7 +32391,7 @@ D盘	dpf
 给田	gwtm
 滚烫	gwtp
 给她	gwts
-给她	gwtsa
+给他	gwtsa
 给它	gwtsao
 歌舞团	gwtt
 各位同学	gwtx
@@ -61802,8 +61802,6 @@ K线图	kxt
 逆水	nkebo
 你手	nked
 拟设	nkee
-逆势	nkek
-逆势	nkeko
 你说	nkel
 你上	nkep
 你省	nker
@@ -77793,7 +77791,7 @@ K线图	kxt
 宋体	sytk
 松脱	sytl
 送她	syts
-送她	sytso
+送他	sytso
 松通	syty
 松涛	sytz
 松弛	sywk
@@ -81483,10 +81481,13 @@ K线图	kxt
 他共	tsgy
 它高	tsgz
 它会	tshb
+她会	tshba
+他会	tshbi
 它会	tshbo
 兔死狐悲	tshbu
 獭猴	tshd
-它和	tshe
+他和	tshe
+她和	tshea
 它和	tsheo
 它含	tshf
 他还	tshh
@@ -81607,8 +81608,6 @@ K线图	kxt
 他乡	tsxxi
 它想	tsxxo
 他有	tsyd
-她又	tsyda
-她又	tsydaa
 通俗易懂	tsydai
 他又	tsydi
 他由	tsydii
@@ -104346,7 +104345,7 @@ X光	xgx
 再添	zhtm
 在唐	zhtp
 在他	zhts
-在它	zhtsv
+在她	zhtsv
 在它	zhtsvo
 在同	zhty
 在逃	zhtz
@@ -104355,8 +104354,6 @@ X光	xgx
 再晚	zhwfv
 在外	zhwh
 再无	zhwj
-在握	zhwl
-在握	zhwlv
 再问	zhwn
 载文	zhwnu
 在望	zhwp
