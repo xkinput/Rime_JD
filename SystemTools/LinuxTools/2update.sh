@@ -9,7 +9,7 @@ rm -rf ~/.config/fcitx/rime
 echo "清空配置文件目录					完成"
 cp -r ../../rime ~/.config/fcitx
 echo "复制Rime用户码表文件				完成"
-cp -r ../rime/*.yaml ~/.config/fcitx
+cp -r ../rime/*.yaml ~/.config/fcitx/rime
 echo "复制Rime用户配置文件				完成"
 cp -r ./备份/xkjd6.user.dict.yaml ~/.config/fcitx/rime/
 echo "还原用户词库						完成"
