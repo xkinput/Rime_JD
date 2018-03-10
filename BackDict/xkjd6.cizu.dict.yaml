@@ -1,3 +1,8 @@
+
+告诉
+让
+如果
+使
 ﻿---
 name: xkjd6.cizu
 version: "Q1"
@@ -590,6 +595,7 @@ sort: by_weight
 不得无礼	bdwl
 别问	bdwn
 别忘	bdwp
+百度网盘	bdwpv
 不倒翁	bdwr
 别挖	bdws
 别为	bdww
@@ -637,6 +643,7 @@ sort: by_weight
 别呀	bdys
 别的意思	bdyso
 别院	bdyt
+百度云	bdyw
 百度一下	bdyx
 别用	bdyy
 别要	bdyz
@@ -1984,6 +1991,7 @@ sort: by_weight
 拜耳	bhxj
 白皙	bhxk
 败絮	bhxl
+白絮	bhxlua
 白须	bhxluu
 不寒而栗	bhxlv
 白线	bhxm
@@ -2485,8 +2493,8 @@ sort: by_weight
 补助	bjqjo
 不起	bjqk
 编辑器	bjqka
-补气	bjqko
 补齐	bjqko
+补气	bjqko
 补漆	bjqkoa
 不齐	bjqkv
 不景气	bjqkvo
@@ -4567,6 +4575,7 @@ B超	bjz
 八十	bsek
 巴士	bseka
 巴适	bsekau
+巴式	bsekav
 罢市	bseki
 把势	bsekii
 把式	bsekiv
@@ -4742,8 +4751,6 @@ B超	bjz
 巴塘	bstp
 巴腾	bstr
 把他	bsts
-把她	bstsi
-把她	bstsia
 把它	bstsio
 八团	bstt
 八通	bsty
@@ -7372,6 +7379,7 @@ B超	bwz
 擦了擦	clc
 措辞	clck
 措词	clcki
+错词	clckio
 搓搓	clcl
 错层	clcr
 擦了擦	clcs
@@ -11465,6 +11473,7 @@ C语言	cyy
 帝王	dkwp
 地王	dkwpv
 低洼	dkws
+递茶	dkwso
 地插	dkwsv
 嫡传	dkwt
 地位	dkww
@@ -16961,8 +16970,8 @@ D盘	dpf
 熟食	ejeko
 实际是	ejekoa
 塾师	ejekoi
-熟识	ejekoo
 设计师	ejekoo
+熟识	ejekoo
 数十	ejekou
 术士	ejekv
 殊是	ejekvo
@@ -17969,8 +17978,8 @@ D盘	dpf
 湿疹	ekqna
 市镇	ekqno
 失真	ekqnu
-市长	ekqp
 骑上	ekqp
+市长	ekqp
 师长	ekqpi
 十丈	ekqpu
 是求	ekqq
@@ -20148,7 +20157,6 @@ D盘	dpf
 视同路人	etlr
 身体力行	etlx
 栓牢	etlz
-使他们	etm
 顺藤摸瓜	etmg
 闩门	etmn
 生态农业	etny
@@ -20770,6 +20778,7 @@ D盘	dpf
 睡眼惺忪	eyxsi
 睡眼惺松	eyxsii
 受影响	eyxx
+实用新型	eyxxo
 适用于	eyy
 是一样的	eyyd
 神一样的	eyydo
@@ -21151,10 +21160,12 @@ D盘	dpf
 追蹑	fbnd
 追你	fbnk
 追念	fbnm
+放鞭炮	fbp
 追平	fbpg
 追捧	fbpr
 追赔	fbpw
 追跑	fbpz
+放鞭炮	fbpzo
 副部长	fbq
 坠琴	fbqb
 追着	fbqe
@@ -22217,8 +22228,8 @@ D盘	dpf
 贩卖	ffmh
 反目	ffmj
 繁密	ffmk
-反面	ffmm
 翻面	ffmm
+反面	ffmm
 方方面面	ffmmo
 分分秒秒	ffmmuu
 朝朝暮暮	ffmmuu
@@ -24289,8 +24300,8 @@ D盘	dpf
 只愿	fkyto
 之源	fkytoa
 之远	fkytov
-志愿	fkytv
 职员	fkytv
+志愿	fkytv
 致远	fkytvv
 只可意会不可言传	fkyw
 只用	fkyy
@@ -25039,7 +25050,6 @@ D盘	dpf
 方伯	fpbl
 方波	fpblo
 方便	fpbm
-放鞭	fpbmo
 坊本	fpbn
 放榜	fpbp
 防备	fpbw
@@ -27465,8 +27475,8 @@ D盘	dpf
 重者	fyfe
 扶摇直上	fyfei
 止于至善	fyfeiv
-专业知识	fyfev
 志愿者	fyfev
+专业知识	fyfev
 重犯	fyff
 中饭	fyffi
 翻一番	fyffu
@@ -31928,7 +31938,6 @@ D盘	dpf
 告诉他	gst
 嘎妥	gstl
 高速铁路	gstlo
-告诉他们	gstm
 告诉她	gsts
 国色天香	gstx
 嘎通	gsty
@@ -33751,6 +33760,7 @@ D盘	dpf
 会歌	hbge
 会干	hbgf
 悔改	hbgh
+回改	hbghi
 回顾	hbgj
 惠顾	hbgjv
 回国	hbgl
@@ -40502,6 +40512,7 @@ D盘	dpf
 结晶	jdjg
 洁净	jdjga
 捷径	jdjgi
+街景	jdjgu
 解决	jdjh
 孑孓	jdjha
 接触	jdjj
@@ -43987,6 +43998,7 @@ D盘	dpf
 处理器	jlq
 具且	jlqd
 举着	jlqe
+车轮战	jlqf
 剧情	jlqg
 举债	jlqh
 居住	jlqj
@@ -49113,6 +49125,7 @@ D盘	dpf
 快到	kgdz
 快刀	kgdzo
 客观上	kge
+快睡	kgeb
 快手	kged
 快射	kgee
 客观事实	kgeeo
@@ -50278,6 +50291,7 @@ D盘	dpf
 卡机	ksjk
 开锁匠	ksjx
 卡口	kskd
+卡扣	kskdii
 卡库	kskj
 咔咔	ksks
 凯瑟琳	ksl
@@ -50456,6 +50470,7 @@ D盘	dpf
 快车道	kwdz
 可谓是	kwe
 困守	kwed
+困兽	kwedi
 昆山	kwef
 坤枢	kwej
 可谓是	kwek
@@ -57309,7 +57324,8 @@ K线图	kxt
 慢着	mfqeo
 名副其实	mfqeu
 名符其实	mfqeuu
-蛮占	mfqf
+漫展	mfqf
+蛮占	mfqfo
 满清	mfqg
 蛮缺	mfqh
 满期	mfqk
@@ -59369,6 +59385,7 @@ K线图	kxt
 目前为止	mqwf
 谬误	mqwj
 谬传	mqwt
+毛主席	mqx
 明争暗斗	mqxd
 密切相关	mqxg
 明枪暗箭	mqxj
@@ -59501,6 +59518,7 @@ K线图	kxt
 梦梦	mrmrv
 猛犸	mrms
 蒙昧	mrmw
+萌妹	mrmwi
 梦寐	mrmwv
 盲人摸象	mrmx
 没日没夜	mrmy
@@ -60128,8 +60146,8 @@ K线图	kxt
 美女	mwnl
 每年	mwnm
 梅牛	mwnq
-没人	mwnr
 没能	mwnr
+没人	mwnr
 没拿	mwns
 没内	mwnw
 没娘	mwnx
@@ -60917,6 +60935,7 @@ K线图	kxt
 尿素	ncsj
 男厕所	ncsl
 尿酸	ncst
+内存条	nct
 鸟头	nctd
 尿糖	nctp
 尿桶	ncty
@@ -62603,6 +62622,7 @@ K线图	kxt
 年轻人	nqr
 牛肉	nqrd
 女主人公	nqrg
+男主人公	nqrgi
 牛乳	nqrj
 牛人	nqrn
 女主人	nqrna
@@ -70459,10 +70479,8 @@ K线图	kxt
 真堵	qndj
 真滴	qndk
 阵地	qndka
-真谛	qndku
 真低	qndkui
 真地	qndkuv
-真谛	qndkv
 真多	qndl
 枕垫	qndm
 震荡	qndp
@@ -72486,6 +72504,7 @@ K线图	kxt
 抢来	qxlhi
 抢路	qxlj
 强力	qxlk
+墙里	qxlkv
 主旋律	qxll
 蜣螂	qxlp
 强留	qxlq
@@ -73699,7 +73718,6 @@ K线图	kxt
 如果这样	rgqy
 如隔三秋	rgsq
 如果他	rgt
-如果他们	rgtm
 如果她	rgts
 如果我	rgw
 如果我是	rgwe
@@ -74871,7 +74889,6 @@ K线图	kxt
 软靠	rtkz
 软了	rtle
 软肋	rtlw
-让他们	rtm
 软木	rtmj
 软磨	rtml
 让她们	rtmn
@@ -77152,6 +77169,7 @@ K线图	kxt
 丧失	spek
 丧事	speku
 丧身	spen
+桑椹	spena
 丧生	sper
 丧父	spfj
 桑植	spfk
@@ -77780,8 +77798,9 @@ K线图	kxt
 宋人	syrno
 所有人	syrnu
 松软	syrt
-算一算	sys
+啥意思	sys
 松碎	sysb
+三原色	syse
 松散	sysf
 送死	sysk
 送丧	sysp
@@ -81483,9 +81502,8 @@ K线图	kxt
 它给	tsgwo
 他共	tsgy
 它高	tsgz
-它会	tshb
+他会	tshb
 她会	tshba
-他会	tshbi
 它会	tshbo
 兔死狐悲	tshbu
 獭猴	tshd
@@ -81543,9 +81561,7 @@ K线图	kxt
 他俩	tslx
 塔斯曼	tsm
 鳎目	tsmj
-他们	tsmn
 她们	tsmna
-他们	tsmni
 它们	tsmno
 她妈	tsms
 他没	tsmw
@@ -89744,6 +89760,7 @@ T型台	txth
 薛定谔	xdxei
 歇鞍	xdxf
 楔形	xdxg
+谐星	xdxgo
 谐谑	xdxh
 呕血	xdxho
 些儿	xdxj
@@ -91171,6 +91188,7 @@ X光	xgx
 血亏	xhkb
 血口	xhkd
 隘口	xhkda
+碍口	xhkdv
 学科	xhke
 埃克	xhkev
 爱看	xhkf
@@ -91885,8 +91903,8 @@ X光	xgx
 耳挖	xjwsv
 二传	xjwt
 二位	xjww
-喜出望外	xjwwv
 而为	xjwwv
+喜出望外	xjwwv
 二维	xjwwva
 而未	xjwwvv
 二重	xjwy
@@ -92231,8 +92249,8 @@ X光	xgx
 西站	xkqf
 喜庆	xkqg
 稀缺	xkqh
-喜鹊	xkqhv
 西斋	xkqhv
+喜鹊	xkqhv
 吸住	xkqj
 稀奇	xkqk
 习气	xkqka
@@ -93597,6 +93615,7 @@ X光	xgx
 安全隐患	xqyh
 休矣	xqyk
 笑逐颜开	xqyku
+爱奇艺	xqykuv
 羞于	xqyl
 修养	xqyp
 休养	xqypi
@@ -95186,12 +95205,9 @@ X光	xgx
 想趟	xxtp
 向他	xxts
 像他	xxtsi
-像她	xxtsia
-像她	xxtsiu
 向她	xxtsu
+向它	xxtsuo
 想他	xxtsv
-想她	xxtsva
-想她	xxtsvi
 小学同学	xxtx
 相同	xxty
 想通	xxtyv
@@ -96446,6 +96462,7 @@ X光	xgx
 优等	yddri
 又大	ydds
 有段	yddt
+移动端	yddtu
 右端	yddtv
 一段段	yddtvu
 又得	yddw
@@ -97421,6 +97438,7 @@ X光	xgx
 艺术团	yet
 冶铁	yetd
 也谈	yetf
+夜谈	yetfo
 也挺	yetg
 液态	yeth
 也太	yetha
@@ -97795,6 +97813,7 @@ X光	xgx
 沿江	yfjxa
 岩浆	yfjxi
 验钞	yfjz
+缘之空	yfk
 檐口	yfkd
 眼科	yfke
 严苛	yfkev
@@ -100475,6 +100494,7 @@ X光	xgx
 浴池	ylwkaa
 鱼池	ylwku
 云里雾里	ylwl
+与我	ylwlv
 语文	ylwn
 预闻	ylwna
 余温	ylwni
@@ -102504,6 +102524,7 @@ X光	xgx
 永丰	yyfr
 用法	yyfs
 用砖	yyft
+言叶之庭	yyfto
 医药费	yyfw
 泳装	yyfx
 养育之恩	yyfxo
@@ -105661,6 +105682,7 @@ X光	xgx
 自然景观	zrjg
 自然经济	zrjj
 赠寄	zrjk
+增肌	zrjkv
 增剧	zrjl
 增减	zrjm
 增加	zrjs
