@@ -40,7 +40,7 @@ Get_SysPack_Name(){
 Get_SysPack_Name
 sleep 3
 clear
-NAME=../rime/name.txt
+NAME=../rime/Linux/name.txt
 echo "==========================================="
 echo "欢迎使用Linux_Rime输入法Fcitx-rime引导程序"
 echo "==========================================="
