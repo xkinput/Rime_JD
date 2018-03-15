@@ -34,11 +34,11 @@ style:
   comment_text_size: 11 #编码提示字号
  #悬浮窗口設置
   layout: 
-    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要≧Android5.0)
-    min_length: 10 #最小词长
+    position: left #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要≧Android5.0)
+    min_length: 1 #最小词长
     max_length: 15 #超过字数则换行
-    sticky_lines: 0 #固顶行数
-    max_entries: 2 #最大词条数
+    sticky_lines: 5 #固顶行数
+    max_entries: 50 #最大词条数
     all_phrases: false #所有满足条件的词语都显示在窗口
     border: 1 #边框宽度
     max_width: 330 #最大宽度，超过则自动换行
@@ -584,6 +584,7 @@ preset_keyboards:
       "keys/@27/hint": "ian"
       #第四行下
       "keys/@32/hint": "键道6"
+      "keys/@32/key_hint_offset_y": -19
       #功能
       "keys/@11/swipe_down": "select_all"
       "keys/@20/composing": "Cixuan"
@@ -598,11 +599,13 @@ preset_keyboards:
       "keys/@33/composing": "."
   xklb: #星空两笔
     __include: /preset_keyboards/qwerty
+    key_symbol_offset_x: 2
+    key_symbol_offset_y: 1
     __patch:
       #第一行上
       "keys/@0/long_click": "丨丨"
       "keys/@1/long_click": "丨丶"
-      "keys/@2/long_click": "一乛"
+      "keys/@2/long_click": "丨乛"
       "keys/@3/long_click": "丨一"
       "keys/@4/long_click": "丨丿"
       "keys/@5/long_click": "一丨"
@@ -659,6 +662,7 @@ preset_keyboards:
       "keys/@27/hint": ""
       #第四行下
       "keys/@32/hint": "两笔"
+      "keys/@32/key_hint_offset_y": -19
       #功能
       "keys/@11/swipe_down": "select_all"
       "keys/@20/composing": "Cixuan"
@@ -668,6 +672,8 @@ preset_keyboards:
       "keys/@33/composing": "."
   xklbdz: #星空两笔单字
     __include: /preset_keyboards/qwerty
+    key_symbol_offset_x: 2
+    key_symbol_offset_y: 1
     __patch:
       "keys/@20/composing": "Cixuan"
       "keys/@33/composing": "."
@@ -734,6 +740,7 @@ preset_keyboards:
       "keys/@27/hint": ""
       #第四行下
       "keys/@32/hint": "一笔"
+      "keys/@32/key_hint_offset_y": -19
       #功能
       "keys/@11/swipe_down": "select_all"
       "keys/@20/composing": "Cixuan"
