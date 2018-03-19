@@ -43,8 +43,8 @@ case $my_select in
 	echo "复制Rime用户配置文件...................完成"
     fi
     echo -e "---------------------\n"
-    rsync -aqurI ../../rime/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude=/* $my_rime
-    rsync -aquI ../rime/*.schema.yaml $my_rime
+    rsync -avhu --progress ../../rime/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude=/* $my_rime
+    rsync -avhu --progress ../rime/*.schema.yaml $my_rime
   ;;
   "2")
     rm -rf ~/Library/Rime
