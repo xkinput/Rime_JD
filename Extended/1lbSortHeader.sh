@@ -13,7 +13,7 @@ cp -rf xklb.yingwen.dict.yaml ./英文.txt
 echo 更为当前文件
 sed -i 's/\b并不比\b\tbbb/---\nname: xklb.cizu\nversion: "Q1"\nsort: by_weight\n...\n&/' xklb.cizu.dict.yaml
 sed -i 's/\b不\b\tb/---\nname: xklb.danzi\nversion: "Q1"\nsort: by_weight\n...\n&/' xklb.danzi.dict.yaml
-sed -i 's/\bbiangbiang面\b\tbbmmu/---\nname: xklb.yingwen\nversion: "Q1"\nsort: by_weight\n...\n&/' xklb.yingwen.dict.yaml
+sed -i 's/\b biangbiang面 \b\t bbmmu /---\nname: xklb.yingwen\nversion: "Q1"\nsort: by_weight\n...\n&/' xklb.yingwen.dict.yaml
 echo 执行排序添加头部信息完成
 cp -rf xklb.cizu.dict.yaml ../rime/
 cp -rf xklb.danzi.dict.yaml ../rime/
