@@ -1,9 +1,6 @@
-### 通知：PR注意，若上游更新内容含有“缩减仓库”，请在push代码前pull rebase详见：[缩减仓库说明][908]
-
 <h1 align="center">星空键道6</h1>
 
 >作者：**吅吅大山** [**键道官网**][904] [加入官方群:320053116][903]
-
 ---
 #### 目录结构说明：
 
@@ -117,8 +114,14 @@ Windows：工具名 文件名 纠错/添加/删除
 | [Windows(小小)][203] | [Linux(fcitx-rime)][103] | [IOS(iRime)][106] | [Android(小小)][203]
 | [Windows(多多)][108] | [Linux(小小)][203] | [IOS(落格)][107]
 
-
 > 键道的跨平台使用离不开以上优秀的输入平台
+
+### 星空系列其他Rime方案
+
+| [Morler][214] |
+| ------------- |
+| [星空两笔][213] |
+
 
 [998]: https://gitee.com/thxnder/xxjd/tree/master/release "新版本小小键道"
 [999]: https://gitee.com/nmlixa/Rime_JD "新版本RIME键道"
@@ -145,6 +148,8 @@ Windows：工具名 文件名 纠错/添加/删除
 [210]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools "/SystemTools"
 [211]: https://gitee.com/nmlixa/Rime_JD/tree/master/rime "/rime"
 [212]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools/Android "Android"
+[213]: https://gitee.com/morler/rime_xklb "两笔地址"
+[214]: https://gitee.com/morler "Morler"
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
