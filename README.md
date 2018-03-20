@@ -8,9 +8,9 @@
 | :-------------|:-------------: |
 | /BackDict | 备份上次码表 |
 | /Extended | 扩展码表 |
-| /SystemTools | 各系统配置文件工具]|
-| /TermsTools | 词组排序工具]|
-| /rime | 主码表文件夹 [主码表] |
+| /SystemTools | 各系统配置文件工具|
+| /TermsTools | 词组排序工具|
+| /rime | 主码表文件夹[主码表] |
 | README.md | readme.md文件 |
 
 ---
