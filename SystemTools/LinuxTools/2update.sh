@@ -1,10 +1,51 @@
 clear
 
-JDL=""
+JD=""
 YB=""
 LB=""
-fcitx=~/.config/fcitx
 rime=~/.config/fcitx/rime
+
+xkjd=../../../Rime_JD
+xklb=../../../rime_xklb
+xkyb=../../../rime_xkyb
+
+bak=./备份
+count=0
+
+isHaveDict () {
+##	检测词库是否存在
+#	$1	词库名称
+#	$2	词库路径
+	if [ ! -d $2 ]; then
+		echo "· 没有$1词库，跳过。"
+	else
+		echo "· 检测到$1词库，是否同时安装？ y/n"
+		read isInstall
+		if [[ "$isInstall" == [yY] ]]; then
+			cp -rf $2/rime/*.yaml "$rime"
+			echo "复制码表完成					完成"
+			echo "复制所有文件					完成"
+			count=`expr $count + 1`
+			return 1
+		else
+			echo "已拒绝安装。"
+			return 0
+		fi
+	fi
+}
+isHaveUserDict() {
+##	检测用户词库存在
+#	$1	方案名称
+#	$2	用户词库文件
+	if [ ! -f $bak/$2 ]; then
+		echo "· 没有备份$1用户词库跳过。"
+	else
+		cp -rf $bak/$2 "$rime"
+		echo "· 还原$1用户词库					完成"
+	fi
+}
+
+#检测备份目录
 if [ ! -d "./备份" ]; then
 	clear
 	mkdir 备份
@@ -13,95 +54,64 @@ else
 fi
 
 if [ ! -f "$rime/default.yaml" ]; then
-	echo "无需备份"
+	echo "· 未发现$rime无需备份"
 else
-	cp -rf "$rime"/* ./备份/
-	echo "备份“用户文件夹”到“备份”文件夹	完成"
+	cp -rf $rime/* ./备份/
+	echo "· 备份“$rime”到“$bak”文件夹	完成"
 fi
+
 sleep 1
-rm -rf "$rime"
-echo "清空配置文件目录					完成"
+
+#清空Rime目录
+if [ ! -d $rime ]; then
+	mkdir $rime
+else
+	rm -rf $rime
+	mkdir $rime
+fi
 clear
-echo "检测到键道6词库，是否同时安装？ y/n"
-read isInstall
-if [ "$isInstall" = "y" ] || [ "$isInstall" = "Y" ]; then
-	cp -rf ../../rime "$fcitx"
-	echo "复制Rime用户码表文件				完成"
-	cp -rf ../rime/*.yaml "$rime"
-	echo "复制Rime用户配置文件				完成"
-	echo "复制所有文件					完成"
-	JDL="键道6"
-else
-	echo "已拒绝安装。"
+
+isHaveDict "键道6" $xkjd
+if [ $? == 1 ]; then
+	cp -rf ../rime/*.yaml $rime/
+	JD="键道6"
 fi
-sleep 1
-rime_xklb="../../../rime_xklb";
-if [ ! -d "$rime_xklb" ]; then
-	echo "没有两笔词库，跳过。"
-else
-	echo "检测到两笔词库，是否同时安装？ y/n"
-	read isInstall
-	if [ "$isInstall" = "y" ] || [ "$isInstall" = "Y" ]; then
-		cp -rf "$rime_xklb/rime" "$fcitx"
-		echo "复制码表完成					完成"
-		echo "复制所有文件					完成"
-		LB="星空两笔"
-	else
-		echo "已拒绝安装。"
-	fi
+isHaveDict "一笔" $xkyb
+if [ $? == 1 ]; then
+	YB="一笔"
 fi
-sleep 1
-rime_xkyb="../../../rime_xkyb";
-if [ ! -d "$rime_xkyb" ]; then
-	echo "没有一笔词库，跳过。"
-else
-	echo "检测到一笔词库，是否同时安装？ y/n"
-	read isInstall
-	if [ "$isInstall" = "y" ] || [ "$isInstall" = "Y" ]; then
-		cp -rf "$rime_xkyb/rime" "$fcitx"
-		echo "复制码表完成					完成"
-		echo "复制所有文件					完成"
-		YB="星空一笔"
-	else
-		echo "已拒绝安装。"
-	fi
+isHaveDict "两笔" $xklb
+if [ $? == 1 ]; then
+	LB="两笔"
 fi
+
 sleep 1
 clear
-if [ ! -d "$rime" ]; then
+
+if [ ! -d $rime ]; then
 	echo ""
 else
-	cp -rf ../*.yaml "$rime"
-	echo "全局配置文件						完成"
+	cp -rf ../*.yaml $rime/
+	echo "· 全局配置文件						完成"
 fi
-if [ ! -f "./备份/xkjd6.user.dict.yaml" ]; then
-	echo "没有备份键道6用户词库跳过。"
-else
-	cp -rf ./备份/xkjd6.user.dict.yaml "$rime"
-	echo "还原键道6用户词库					完成"
-fi
-if [ ! -f "./备份/xklb.user.dict.yaml" ]; then
-	echo "没有备份两笔用户词库跳过。"
-else
-	cp -rf ./备份/xklb.user.dict.yaml "$rime"
-	echo "还原两笔用户词库					完成"
-fi
-if [ ! -f "./备份/xkyb.user.dict.yaml" ]; then
-	echo "没有备份一笔用户词库跳过。"
-else
-	cp -rf ./备份/xkyb.user.dict.yaml "$rime"
-	echo "还原一笔用户词库					完成"
-fi
-sleep 2
+
+isHaveUserDict "键道6" xkjd6.user.dict.yaml
+isHaveUserDict "一笔" xkyb.user.dict.yaml
+isHaveUserDict "两笔" xklb.user.dict.yaml
+
 clear
 echo "预览 $rime/"
 echo "==========================================="
-ls "$rime"
+if [ ! -d $rime ]; then
+	echo "未发现$rime"
+else
+	ls "$rime"
+fi
 echo "==========================================="
 sleep 2
 clear
 echo "==========================================="
-echo "已安装方案： $JDL $YB $LB"
+echo "已安装方案：$count个 $JD $YB $LB"
 echo "请在fcitx重新部署后再尝试使用。"
 echo "==========================================="
 sleep 1
