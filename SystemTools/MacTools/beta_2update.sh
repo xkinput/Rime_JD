@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set -x
-xkjd="../../../Rime_JD"
+xkjd="../../../Rime_JD/rime"
 xklb="../../../rime_xklb"
 xkyb="../../../rime_xkyb"
 my_default="default.custom.yaml"
