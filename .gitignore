@@ -1,7 +1,5 @@
 # 忽略以下文件
 Trime/
 SystemTools/*Tools/备份/
-TermsTools/xkjd6.cizu.dict.yaml
-TermsTools/xkjd6.danzi.dict.yaml
-TermsTools/xkjd6.yingwen.dict.yaml
+TermsTools/*.yaml
 TermsTools/*.txt
