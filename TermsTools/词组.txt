@@ -347,6 +347,7 @@
 不得不	bdb
 瘪瘪	bdbd
 不得不说	bdbe
+不打不相识	bdbev
 别班	bdbf
 别摆	bdbh
 别不	bdbj
@@ -392,6 +393,7 @@
 别睡	bdeb
 别手	bded
 别删	bdef
+不得善终	bdefv
 别墅	bdej
 别是	bdek
 保定市	bdeki
@@ -641,6 +643,7 @@
 弊大于利	bdylo
 不等于	bdylv
 不低于	bdylvi
+不得要领	bdylvu
 不大于	bdylvv
 别样	bdyp
 别呀	bdys
@@ -668,6 +671,7 @@
 半生不熟	bebe
 不是办法	bebf
 笨手笨脚	bebj
+不声不吭	bebk
 白首不相离	bebl
 不是吧	bebs
 半身不遂	bebso
@@ -680,6 +684,7 @@
 不是的	bede
 保守党	bedp
 北师大	beds
+不识大体	bedt
 波士顿	bedw
 不是说	bee
 跋山涉水	beee
@@ -693,6 +698,7 @@
 表示反对	befd
 不是这样的	befdv
 不是这个	befg
+不世之功	befgv
 不是这么	befm
 不设防	befp
 饱食终日	befr
@@ -757,6 +763,7 @@
 半兽人	berno
 不胜荣幸	berx
 白砂糖	bet
+不识泰山	bete
 不识抬举	betj
 不失为	bew
 不是为了	bewl
@@ -870,6 +877,7 @@
 半设	bfee
 本质上是	bfeev
 半山	bfef
+不分胜负	bfefv
 半衰	bfeg
 不知什么时候	bfeh
 半数	bfej
@@ -904,6 +912,7 @@
 拌饭	bfff
 半幅	bffj
 伯仲之间	bffji
+不知凡几	bffjv
 半只	bffk
 包装纸	bffku
 板桌	bffl
@@ -928,6 +937,7 @@
 不知者不罪	bffzvu
 避风港	bfg
 版规	bfgb
+不知高低	bfgd
 半个	bfge
 办个	bfgea
 半股	bfgj
@@ -972,6 +982,7 @@
 半径	bfjg
 半决	bfjh
 搬出	bfjj
+不知纪极	bfjjv
 班级	bfjk
 扳机	bfjki
 别着急	bfjko
@@ -1113,6 +1124,7 @@
 白种人	bfrn
 半软	bfrt
 笔者认为	bfrw
+不知肉味	bfrwv
 伴随	bfsb
 不知所措	bfsc
 扮色	bfse
@@ -1213,6 +1225,7 @@
 别这样	bfypo
 不这样	bfypv
 本质要求	bfyq
+不值一钱	bfyqv
 板鸭	bfys
 板牙	bfysv
 半圆	bfyt
@@ -1220,6 +1233,7 @@
 搬运	bfyw
 拌匀	bfywi
 笔者以为	bfywu
+不值一文	bfywv
 搬用	bfyy
 半腰	bfyz
 不重要	bfyzv
@@ -1235,6 +1249,7 @@
 班子	bfzk
 板子	bfzkv
 扮作	bfzl
+不知自量	bfzlv
 不知怎么	bfzm
 敝帚自珍	bfzq
 不负责任	bfzr
@@ -1262,6 +1277,7 @@
 禀报	bgbzoi
 不光彩	bgc
 病残	bgcf
+不甘雌伏	bgcfv
 并曾	bgcr
 冰层	bgcro
 冰镩	bgct
@@ -1279,6 +1295,7 @@
 冰袋	bgdh
 病毒	bgdj
 冰毒	bgdjo
+不顾大局	bgdjv
 兵地	bgdk
 并多	bgdl
 冰点	bgdm
@@ -1481,6 +1498,7 @@
 兵站	bgqf
 病情	bgqg
 并请	bgqgo
+不顾前后	bgqh
 冰柱	bgqj
 屏住	bgqja
 兵器	bgqk
@@ -1488,6 +1506,7 @@
 摒弃	bgqki
 并起	bgqko
 病区	bgql
+不改其乐	bgqlv
 冰镇	bgqn
 冰球	bgqq
 病症	bgqr
@@ -1510,6 +1529,7 @@
 并随	bgsb
 闭关锁国	bgsg
 冰塞	bgsh
+不顾死活	bgshv
 病死	bgsk
 不告诉你	bgsn
 丙酸	bgst
@@ -1573,6 +1593,7 @@
 病休	bgxq
 不感兴趣	bgxqv
 并下	bgxs
+不顾安危	bgxw
 冰箱	bgxx
 并向	bgxxo
 不过尔尔	bgxxv
@@ -1615,6 +1636,7 @@
 禀奏	bgzd
 闭关自守	bgze
 不管怎么说	bgzev
+不敢自专	bgzf
 并在	bgzh
 饼子	bgzk
 并作	bgzl
@@ -2552,6 +2574,7 @@
 不全	bjqtv
 不准	bjqw
 布裙	bjqwv
+不记前仇	bjqwvo
 步枪	bjqx
 不强	bjqxv
 不穷	bjqy
@@ -2564,6 +2587,7 @@
 不热	bjre
 不然	bjrf
 不尽然	bjrfv
+不绝如发	bjrfva
 不如	bjrj
 步入	bjrji
 哺乳	bjrjo
@@ -2763,7 +2787,7 @@
 不宜	bjyk
 补益	bjyko
 白居易	bjyku
-布艺	bjykv
+不易	bjykv
 不以	bjykva
 不介意	bjykvi
 布衣	bjykvo
@@ -3062,6 +3086,7 @@ B超	bjz
 必卖	bkmhou
 闭幕	bkmj
 闭目	bkmjo
+不可枚举	bkmjv
 比密	bkmk
 笔墨	bkml
 避免	bkmm
@@ -3206,6 +3231,7 @@ B超	bjz
 鼻息	bkxk
 必须	bkxl
 必需	bkxlo
+不可限量	bkxlv
 避嫌	bkxm
 必修	bkxq
 陛下	bkxs
@@ -3258,6 +3284,7 @@ B超	bjz
 报刊杂志	bkzf
 比在	bkzh
 鼻祖	bkzj
+不堪造就	bkzjv
 鼻子	bkzk
 比作	bkzl
 必做	bkzlo
@@ -3354,6 +3381,7 @@ B超	bjz
 拨改	blgh
 波谷	blgj
 博览古今	blgju
+不露圭角	blgjv
 伯根	blgn
 板蓝根	blgnv
 薄钢	blgp
@@ -4431,6 +4459,7 @@ B超	bjz
 不战而胜	bqxev
 编者按	bqxf
 不期而至	bqxfv
+不擒二毛	bqxm
 白求恩	bqxn
 不期而然	bqxr
 不期而遇	bqxy
@@ -4934,6 +4963,7 @@ B超	bjz
 保温杯	bwb
 保持不变	bwbb
 背板	bwbf
+不茶不饭	bwbfv
 备兵	bwbg
 不温不火	bwbh
 不吃不喝	bwbhv
@@ -5367,6 +5397,7 @@ B超	bwz
 倍遭	bwzz
 白血病	bxb
 不许百姓点灯	bxbd
+不咸不淡	bxbdv
 便携版	bxbf
 补习班	bxbfo
 不修边幅	bxbfv
@@ -5495,7 +5526,9 @@ B超	bwz
 不小心	bxxbv
 不信邪	bxxd
 表现形式	bxxe
+不幸而言中	bxxf
 败兴而归	bxxg
+不修小节	bxxj
 北爱尔兰	bxxl
 保险箱	bxxx
 白雪皑皑	bxxxu
@@ -5585,6 +5618,7 @@ B超	bwz
 表演唱	byjp
 不夜城	byjr
 拨云见日	byjri
+不遗巨细	byjx
 不愉快	byk
 不用客气	bykq
 博弈论	byl
@@ -5618,6 +5652,7 @@ B超	bwz
 不厌其详	byqx
 不要这样	byqy
 毕业照	byqz
+不以人废言	byry
 表演赛	bys
 半夜三更	bysg
 表演赛	bysh
@@ -5658,6 +5693,7 @@ B超	bwz
 不约而同	byxt
 报怨雪耻	byxw
 不影响	byxx
+不言而信	byxxv
 不言而喻	byxy
 不一而足	byxz
 不一样	byy
@@ -5763,6 +5799,7 @@ B超	bwz
 保释	bzekiu
 不再是	bzekv
 不早说	bzel
+不择生冷	bzelv
 报审	bzen
 报上	bzep
 宝声	bzer
@@ -15041,7 +15078,7 @@ D盘	dpf
 十八世纪	ebeju
 谁是	ebek
 水师	ebeka
-水食	ebekai
+水师	ebekai
 睡狮	ebeki
 上半时	ebekio
 值班室	ebekiv
@@ -17427,6 +17464,7 @@ D盘	dpf
 薯条	ejtc
 梳头	ejtd
 熟透	ejtdo
+熟铁	ejtdoi
 熟铁	ejtdou
 舒坦	ejtf
 书摊	ejtfa
@@ -34643,6 +34681,7 @@ D盘	dpf
 猴枣	hdzz
 何标	hebc
 胡说八道	hebd
+户枢不蠹	hebdo
 合办	hebf
 合并	hebg
 何不	hebj
@@ -54119,6 +54158,7 @@ K线图	kxt
 裸体	lltk
 骆驼	lltl
 吕脱	lltlo
+洛丽塔	llts
 旅团	lltt
 玲珑剔透	llttv
 理论体系	lltx
@@ -60391,7 +60431,6 @@ K线图	kxt
 美女	mwnl
 每年	mwnm
 梅牛	mwnq
-没能	mwnr
 没拿	mwns
 没内	mwnw
 没娘	mwnx
@@ -72118,6 +72157,7 @@ K线图	kxt
 全都	qtdd
 全的	qtde
 蜻蜓点水	qtdei
+齐天大圣	qtdeo
 其它的	qtdev
 其他地方	qtdf
 其它地方	qtdfv
