@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # set -x
-xkjd="../../../Rime_JD/rime"
-xklb="../../../rime_xklb"
-xkyb="../../../rime_xkyb"
+xkjd="../../../../Rime_JD"
+xklb="../../../../rime_xklb"
+xkyb="../../../../rime_xkyb"
 my_default="default.custom.yaml"
 rime="$HOME/Library/Rime"
 

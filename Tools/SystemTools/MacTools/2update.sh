@@ -1,8 +1,8 @@
 #!/bin/bash
 
-xkjd="../../../Rime_JD/rime"
-xklb="../../../rime_xklb"
-xkyb="../../../rime_xkyb"
+xkjd="../../../../Rime_JD"
+xklb="../../../../rime_xklb"
+xkyb="../../../../rime_xkyb"
 rime="$HOME/Library/Rime"
 bak="./备份"
 
