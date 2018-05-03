@@ -45,7 +45,7 @@ cls
 echo 备份原有词库		完成
 taskkill /f /im WeaselServer.exe
 del "%APPDATA%\Rime\" /S /Q
-xcopy "..\..\rime" "%APPDATA%\Rime\" /Y /E
+xcopy "..\..\..\rime" "%APPDATA%\Rime\" /Y /E
 echo 复制码表文件		完成
 rmdir "%APPDATA%\Rime\Windows" /S /Q
 echo 删除冗余文件		完成

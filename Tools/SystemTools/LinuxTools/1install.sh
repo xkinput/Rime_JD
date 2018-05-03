@@ -104,9 +104,9 @@ YB=""
 LB=""
 rime=~/.config/fcitx/rime
 
-xkjd=../../../Rime_JD
-xklb=../../../rime_xklb
-xkyb=../../../rime_xkyb
+xkjd=../../../../Rime_JD
+xklb=../../../../rime_xklb
+xkyb=../../../../rime_xkyb
 
 bak=./备份
 count=0
