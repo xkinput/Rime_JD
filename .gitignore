@@ -1,4 +1,4 @@
 # 忽略以下文件
 Trime/
-SystemTools/*Tools/备份/
-TermsTools/*.yaml
+Tools/SystemTools/*Tools/备份/
+Tools/TermsTools/*.yaml
