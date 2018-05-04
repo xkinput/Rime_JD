@@ -6,10 +6,11 @@
 
 | 路径 | 作用
 | :-------------|:-------------: |
-| /BackDict | 备份上次码表 |
-| /Extended | 扩展码表 |
-| /SystemTools | 各系统配置文件工具|
-| /TermsTools | 词组排序工具|
+| /Tools | 工具目录 |
+| /Tools/BackDict | 备份上次码表 |
+| /Tools/Extended | 扩展码表 |
+| /Tools/SystemTools | 各系统配置文件工具|
+| /Tools/TermsTools | 词组排序工具|
 | /rime | 主码表文件夹[主码表] |
 | README.md | readme.md文件 |
 
@@ -30,7 +31,7 @@
 1. [下载][209]本项目。（无法滚动更新）
 2. 使用Git程序（可滚动更新）([WindowsGit：下载安装][905]) ([Linux/Mac Git：自行安装])
 * 建议使用git程序，可滚动更新。
-* 可使用[/SystemTools][210]中各系统的工具，执行复制码表就可以。
+* 可使用[/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以。
 
 小狼毫：
 
