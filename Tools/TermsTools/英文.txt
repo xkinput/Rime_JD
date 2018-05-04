@@ -28,6 +28,7 @@ iPhone 8 Plus	kphs
 iPhone X	kphx
 IP卡	kpk
 iPAD	kps
+iPad	kpsd
 iPad Pro	kpsp
 iptv	kptv
 K线图	kxt
@@ -49,12 +50,14 @@ Power Point	plwt
 QQ号	qqh
 QQ拼音	qqpy
 QQ群	qqqw
+QQ音乐	qqyy
 Rime	rkme
 ABC	sbc
 Access	sccs
 A股	sgj
 SIM卡	skm
 SOHO公寓	slhy
+Android	sndd
 Android	sndd
 AA制	ssf
 AA制	ssfk
