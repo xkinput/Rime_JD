@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# set -x
-xkjd="../../../../Rime_JD"
+set -x
+xkjd="../../../../Rime_JD/rime"
 xklb="../../../../rime_xklb"
 xkyb="../../../../rime_xkyb"
 my_default="default.custom.yaml"
@@ -14,7 +14,8 @@ xk_name=""
 
 testHasSchema(){
 
-  check_dir=$(pwd | sed -E $'s/.*\\/(.{1,})\\/SystemTools\\/MacTools/\\1/')
+  check_dir=$(pwd | sed -E $'s/.*\\/(.{1,})\\/Tools\\/SystemTools\\/MacTools/\\1/')
+  echo "$check_dir"
   case $check_dir in
     "Rime_JD")
       xk_ID="xkjd6"

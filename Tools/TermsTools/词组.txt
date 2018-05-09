@@ -1,4 +1,3 @@
-
 并不比	bbb
 彬彬	bbbb
 斌斌	bbbbo
@@ -15629,7 +15628,7 @@ D盘	dpf
 守寡	edgq
 失道寡助	edgqu
 收官	edgt
-水调歌头	edgti
+水调歌头	edgta
 售给	edgw
 售光	edgx
 手工	edgy
@@ -17129,8 +17128,8 @@ D盘	dpf
 熟食	ejeko
 实际是	ejekoa
 塾师	ejekoi
-设计师	ejekoo
 熟识	ejekoo
+设计师	ejekoo
 数十	ejekou
 术士	ejekv
 殊是	ejekvo
@@ -22407,8 +22406,8 @@ D盘	dpf
 反面	ffmm
 方方面面	ffmmo
 翻面	ffmmu
-朝朝暮暮	ffmmuu
 分分秒秒	ffmmuu
+朝朝暮暮	ffmmuu
 烦闷	ffmn
 繁忙	ffmp
 反码	ffms
@@ -25497,6 +25496,7 @@ D盘	dpf
 放他	fpts
 防套	fptz
 纺锤	fpwb
+防臭	fpwd
 房车	fpwe
 放完	fpwf
 方外	fpwh
@@ -25505,7 +25505,6 @@ D盘	dpf
 放我	fpwl
 访问	fpwn
 放网	fpwp
-防臭	fpwq
 放翁	fpwr
 方差	fpws
 防川	fpwt
@@ -26458,6 +26457,7 @@ D盘	dpf
 发套	fstz
 法槌	fswb
 发愁	fswd
+发臭	fswda
 发车	fswe
 发完	fswf
 法外	fswh
@@ -26471,7 +26471,6 @@ D盘	dpf
 法网	fswp
 发往	fswpa
 法王	fswpav
-发臭	fswq
 轧差	fsws
 阀瓦	fswso
 闸瓦	fswsov
@@ -35396,13 +35395,13 @@ D盘	dpf
 含铜	hfty
 鹤发童颜	hftyo
 划分为	hfw
+汗臭	hfwd
 翰澈	hfwe
 汉武	hfwj
 酣卧	hfwl
 韩文	hfwn
 汉文	hfwna
 汉王	hfwp
-汗臭	hfwq
 汉川	hfwt
 捍卫	hfww
 寒窗	hfwx
@@ -36255,6 +36254,7 @@ D盘	dpf
 胡桃	hjtz
 胡锦涛	hjtzu
 胡吹	hjwb
+狐臭	hjwd
 胡扯	hjwe
 环境卫生	hjwev
 互玩	hjwf
@@ -36267,7 +36267,6 @@ D盘	dpf
 胡文	hjwnu
 忽闻	hjwnuo
 互望	hjwp
-狐臭	hjwq
 后继无人	hjwr
 环境污染	hjwrv
 虎娃	hjws
@@ -38326,6 +38325,7 @@ D盘	dpf
 混同	hwty
 黑通	hwtyi
 黑桃	hwtz
+黑臭	hwwd
 黑车	hwwe
 魂车	hwwev
 婚外	hwwh
@@ -40430,6 +40430,7 @@ D盘	dpf
 交通	jcty
 绞痛	jctya
 脚套	jctz
+脚臭	jcwd
 轿车	jcwe
 叫车	jcweo
 较晚	jcwf
@@ -40440,7 +40441,6 @@ D盘	dpf
 叫我	jcwl
 较稳	jcwn
 交往	jcwp
-脚臭	jcwq
 交叉	jcws
 娇娃	jcwsa
 较差	jcwsv
@@ -43097,6 +43097,7 @@ D盘	dpf
 出逃	jjtz
 计程车	jjw
 出丑	jjwd
+除臭	jjwda
 出车	jjwe
 除外	jjwh
 出外	jjwha
@@ -43110,7 +43111,6 @@ D盘	dpf
 初吻	jjwn
 触网	jjwp
 楚王	jjwpv
-除臭	jjwq
 紧紧围绕	jjwr
 初查	jjws
 解决问题	jjwt
@@ -47373,7 +47373,6 @@ D盘	dpf
 唇吻	jwwn
 均温	jwwnv
 君王	jwwp
-纯臭	jwwq
 春茶	jwws
 均差	jwwsv
 军船	jwwt
@@ -65373,7 +65372,6 @@ K线图	kxt
 披屋	pkwj
 皮尺	pkwk
 批文	pkwn
-屁臭	pkwq
 劈叉	pkws
 皮船	pkwt
 脾胃	pkww
@@ -69351,6 +69349,7 @@ K线图	kxt
 曲径通幽	qjtyi
 诛讨	qjtz
 轻举妄动	qjwd
+逐臭	qjwdv
 浙江卫视	qjwe
 欺君罔上	qjwev
 迄今为止	qjwf
@@ -69367,7 +69366,6 @@ K线图	kxt
 猪瘟	qjwnu
 朱文	qjwnuo
 蛛网	qjwp
-逐臭	qjwq
 猪娃	qjws
 主查	qjwso
 驻川	qjwt
@@ -70260,6 +70258,7 @@ K线图	kxt
 娶她	qlts
 千里迢迢	qltt
 趋同	qlty
+去臭	qlwd
 驱车	qlwe
 群龙无首	qlwea
 区外	qlwh
@@ -70270,7 +70269,6 @@ K线图	kxt
 驱蚊	qlwna
 趣闻	qlwnv
 去往	qlwp
-去臭	qlwq
 其乐无穷	qlwqv
 去查	qlws
 去传	qlwt
@@ -74415,7 +74413,6 @@ K线图	kxt
 如雾	rjwja
 如痴	rjwk
 入网	rjwp
-乳臭	rjwq
 入境问俗	rjws
 入围	rjww
 如为	rjwwa
@@ -74447,6 +74444,7 @@ K线图	kxt
 如需	rjxl
 如许	rjxla
 乳腺	rjxm
+乳臭	rjxq
 如下	rjxs
 入夏	rjxsu
 入选	rjxt
@@ -75353,7 +75351,6 @@ K线图	kxt
 润色	rwse
 人文素质	rwsf
 润丝	rwsk
-乳臭未干	rwwg
 人无完人	rwwr
 闰位	rwww
 人亡物在	rwwz
@@ -75396,6 +75393,7 @@ K线图	kxt
 入乡随俗	rxss
 人心所向	rxsx
 日下午	rxw
+乳臭未干	rxwg
 日下午	rxwj
 乳腺癌	rxx
 人心向背	rxxb
@@ -75548,7 +75546,6 @@ K线图	kxt
 冗务	rywj
 容持	rywk
 容我	rywl
-容臭	rywq
 容差	ryws
 融为	ryww
 软玉温香	rywx
@@ -75566,6 +75563,7 @@ K线图	kxt
 容许	ryxl
 绒线	ryxm
 绒绣	ryxq
+容臭	ryxqo
 饶有兴趣	ryxqu
 容下	ryxs
 溶液	ryye
@@ -77851,12 +77849,12 @@ K线图	kxt
 酸汤	sttp
 酸疼	sttr
 酸痛	stty
+酸臭	stwd
 算完	stwf
 酸雾	stwj
 算尺	stwk
 算我	stwl
 蒜王	stwp
-酸臭	stwq
 酸味	stww
 三台县	stx
 酸辛	stxb
@@ -78332,8 +78330,8 @@ K线图	kxt
 扫听	sztg
 骚体	sztk
 扫榻	szts
+骚臭	szwd
 扫网	szwp
-骚臭	szwq
 扫尾	szww
 扫兴	szxg
 扫雪	szxh
@@ -79411,7 +79409,6 @@ K线图	kxt
 特歪	tewh
 特务	tewj
 投石问路	tewl
-特臭	tewq
 特差	tews
 特传	tewt
 特为	teww
@@ -81092,6 +81089,7 @@ K线图	kxt
 拖沓	tlts
 脱逃	tltz
 脱垂	tlwb
+脱臭	tlwd
 拖车	tlwe
 脱完	tlwf
 徒劳往返	tlwfu
@@ -81100,7 +81098,6 @@ K线图	kxt
 跅弛	tlwk
 脱文	tlwn
 脱网	tlwp
-脱臭	tlwq
 沱茶	tlws
 拖船	tlwt
 讨论问题	tlwto
@@ -83280,6 +83277,7 @@ T型台	txth
 愁得	wdde
 抽刀断水	wddei
 我懂的	wddeu
+臭蛋	wddf
 抽丁	wddg
 绸带	wddh
 稠度	wddj
@@ -83294,6 +83292,7 @@ T型台	txth
 筹到	wddz
 为的是	wde
 抽水	wdeb
+臭水	wdebu
 抽射	wdee
 武当山	wdef
 仇视	wdek
@@ -83329,6 +83328,7 @@ T型台	txth
 抽过	wdgl
 抽回	wdhb
 仇和	wdhe
+臭汗	wdhf
 愁坏	wdhg
 稠糊	wdhj
 仇恨	wdhn
@@ -83338,6 +83338,7 @@ T型台	txth
 温度计	wdj
 抽筋	wdjb
 酬金	wdjbv
+臭脚	wdjc
 筹借	wdjd
 抽车	wdje
 为的就是	wdjeo
@@ -83359,7 +83360,8 @@ T型台	txth
 仇家	wdjs
 舞蹈家	wdjsu
 绸绢	wdjt
-船到江心补漏迟	wdjw
+臭椿	wdjw
+船到江心补漏迟	wdjwu
 抽奖	wdjx
 超低空	wdk
 愁苦	wdkj
@@ -83368,6 +83370,7 @@ T型台	txth
 超低空	wdkyv
 抽考	wdkz
 丑陋	wdld
+臭了	wdle
 筹略	wdlh
 抽离	wdlk
 愁虑	wdll
@@ -83377,13 +83380,17 @@ T型台	txth
 维多利亚	wdly
 酬劳	wdlz
 筹谋	wdmd
+臭名	wdmg
 筹募	wdmj
 稠密	wdmk
 危地马拉	wdml
 愁闷	wdmn
 筹码	wdms
+臭骂	wdmsu
 愁眉	wdmw
+臭美	wdmwu
 五斗米折腰	wdmy
+臭猫	wdmz
 玩电脑	wdn
 丑男	wdnf
 丑女	wdnl
@@ -83392,8 +83399,10 @@ T型台	txth
 炒地皮	wdp
 无党派人士	wdpe
 丑平	wdpg
-无党派	wdph
-炒地皮	wdpk
+臭牌	wdph
+无党派	wdphv
+臭屁	wdpk
+炒地皮	wdpko
 超短裙	wdq
 瞅着	wdqe
 歪打正着	wdqf
@@ -83401,6 +83410,7 @@ T型台	txth
 抽青	wdqg
 抽泣	wdqk
 充电器	wdqko
+臭气	wdqku
 抽取	wdql
 抽签	wdqm
 臭球	wdqq
@@ -83434,6 +83444,7 @@ T型台	txth
 抽痛	wdty
 超低温	wdw
 瞅瞅	wdwd
+臭臭	wdwdu
 抽车	wdwe
 仇外	wdwh
 丑闻	wdwn
@@ -83441,7 +83452,9 @@ T型台	txth
 温度传感器	wdwq
 抽查	wdws
 丑娃	wdwsa
-屋大维	wdww
+臭味	wdww
+屋大维	wdwwa
+臭虫	wdwy
 吃东西	wdx
 抽心	wdxb
 酬谢	wdxd
@@ -83472,6 +83485,7 @@ T型台	txth
 愁郁	wdyl
 问道于盲	wdym
 抽样	wdyp
+臭氧	wdypu
 抽芽	wdys
 我的意思	wdysu
 仇怨	wdyt
@@ -83488,6 +83502,7 @@ T型台	txth
 误当作	wdzlo
 稳定增长	wdzq
 无地自容	wdzr
+臭贼	wdzw
 超声波	web
 五十步笑百步	webb
 车标	webc
@@ -84337,6 +84352,7 @@ T型台	txth
 外患	whht
 外环	whhtu
 外皇	whhx
+臭烘烘	whhy
 外号	whhz
 文化节	whj
 外汇储备	whjb
@@ -85043,7 +85059,6 @@ T型台	txth
 勿忘	wjwpu
 武王	wjwpv
 无往	wjwpvu
-无臭	wjwq
 误差	wjws
 屋瓦	wjwsa
 误传	wjwt
@@ -85086,6 +85101,7 @@ T型台	txth
 无线	wjxmv
 午休	wjxq
 无休	wjxqv
+无臭	wjxqvu
 武侠	wjxs
 无暇	wjxsv
 巫峡	wjxsvi
@@ -86501,11 +86517,9 @@ T型台	txth
 完全不一样	wqbyoi
 乌七八糟	wqbz
 无穷大	wqd
-臭蛋	wqdf
 我确定	wqdg
 无穷大	wqds
 重庆市	wqe
-臭水	wqeb
 王岐山	wqef
 重庆市	wqek
 完全是	wqeko
@@ -86520,35 +86534,24 @@ T型台	txth
 我这个	wqg
 王者归来	wqgl
 无权过问	wqgw
-臭汗	wqhf
 抽气机	wqj
-臭脚	wqjc
 挖墙脚	wqjci
 抽气机	wqjk
 传真机	wqjki
 潮起潮落	wqjl
 网球场	wqjp
-臭椿	wqjw
 无照经营	wqjy
 完全可能	wqkn
 完全可以	wqky
 充其量	wql
-臭了	wqle
 充其量	wqlx
 臭棋篓子	wqlz
-臭名	wqmg
 温情脉脉	wqmm
-臭骂	wqms
-臭美	wqmw
 完全没有	wqmy
-臭猫	wqmz
 五千年	wqn
 完全能够	wqng
 完全能	wqnr
-臭牌	wqph
-臭屁	wqpk
 重整旗鼓	wqqg
-臭气	wqqk
 完全正确	wqqq
 委曲求全	wqqqu
 差强人意	wqry
@@ -86561,9 +86564,7 @@ T型台	txth
 无穷无尽	wqwj
 潮起潮落	wqwl
 完整无缺	wqwq
-臭味	wqww
 充气娃娃	wqwwo
-臭虫	wqwy
 无情无义	wqwyv
 完整性	wqx
 望其项背	wqxb
@@ -86576,11 +86577,9 @@ T型台	txth
 无助于	wqy
 完全一致	wqyf
 无助于	wqyl
-臭氧	wqyp
 穿针引线	wqyx
 完全一样	wqyy
 闻者足戒	wqzj
-臭贼	wqzw
 传染病	wrb
 传染病	wrbg
 宠辱不惊	wrbj
@@ -87710,6 +87709,7 @@ T型台	txth
 慰问团	wwtt
 胃痛	wwty
 均为	wwvo
+微臭	wwwd
 尾车	wwwe
 委婉	wwwf
 未完	wwwfv
@@ -87728,7 +87728,6 @@ T型台	txth
 为王	wwwpo
 危亡	wwwpu
 魏王	wwwpuv
-微臭	wwwq
 望闻问切	wwwqo
 未查	wwws
 未传	wwwt
@@ -90543,13 +90542,13 @@ T型台	txth
 唉声叹气	xetq
 昂首挺胸	xetx
 销售网	xew
+恶臭	xewd
 扼腕	xewf
 额外	xewh
 俄乌	xewj
 按时完成	xewji
 蓄水池	xewk
 俄文	xewn
-恶臭	xewq
 讹传	xewt
 心事重重	xeww
 恶疮	xewx
@@ -91287,7 +91286,8 @@ T型台	txth
 香港特别行政区	xgtqu
 星团	xgtt
 形同	xgty
-寻根问底	xgwd
+腥臭	xgwd
+寻根问底	xgwda
 行车	xgwe
 姓揣	xgwg
 醒悟	xgwj
@@ -91296,7 +91296,6 @@ T型台	txth
 行文	xgwn
 兴旺	xgwp
 兴亡	xgwpo
-腥臭	xgwq
 行船	xgwt
 相关问题	xgwtv
 行为	xgww
@@ -97962,7 +97961,8 @@ X光	xgx
 也是我	yew
 野炊	yewb
 于事无补	yewbv
-一时冲动	yewd
+腋臭	yewd
+一时冲动	yewdv
 游山玩水	yewe
 夜晚	yewf
 云山雾罩	yewfv
@@ -97976,7 +97976,6 @@ X光	xgx
 也是为了	yewla
 也是我们	yewm
 野望	yewp
-腋臭	yewq
 与世无争	yewqv
 云山雾罩	yewqvi
 夜叉	yews
@@ -102737,6 +102736,7 @@ X光	xgx
 孕育	ywyl
 云雨	ywylv
 云阳	ywyp
+一朝一日	ywyr
 业务员	ywyt
 晕晕	ywyw
 耀武扬威	ywywi
