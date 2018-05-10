@@ -17,8 +17,7 @@
 ---
 #### 使用说明：
 * 获取本项目内容：使以下方法其一
-1. 推荐：使用Git程序（可滚动更新）(WindowsGit：[官网][905][云盘][911]) (Linux/Mac Git：[自行安装])（AndroidGit：[下载（Pocket Git）][910]）
-   安装后，Shell中执行`git clone https://gitee.com/nmlixa/Rime_JD`克隆项目到本地后，再使用[/Tools/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以（具体在各工具中有详细说明）。
+1. 推荐：使用Git程序（可滚动更新）(WindowsGit：[官网][905][云盘][911]) (Linux/Mac Git：[自行安装])(AndroidGit：[下载(Pocket Git)][910])
 2. 不推荐：单独[下载][209]本项目。（无法滚动更新）
 
 #### Git简述：
