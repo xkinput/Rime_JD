@@ -4,10 +4,13 @@ B站	bkqf
 B超	bwz
 CDMA	cdm
 C语言	cyy
+登录QQ	dlqqa
+哆啦A梦	dlsm
 DNA	dns
 D盘	dpf
 Excel	excl
 For	flr
+智能ABC	fnsc
 GDP	gdp
 Git	gkt
 Github	gktb
@@ -15,6 +18,7 @@ good	glld
 USB	jsb
 ICU	kcj
 IC卡	kck
+卡拉OK	kllk
 iOS	kls
 IMEI	kmek
 iMac	kms
@@ -51,6 +55,7 @@ QQ号	qqh
 QQ拼音	qqpy
 QQ群	qqqw
 QQ音乐	qqyy
+奇瑞QQ	qrqqv
 Rime	rkme
 ABC	sbc
 Access	sccs
@@ -61,6 +66,7 @@ Android	sndd
 Android	sndd
 AA制	ssf
 AA制	ssfk
+T型台	txth
 T型台	txth
 welcome	wjlja
 WIFI	wkfk
