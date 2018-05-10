@@ -3,8 +3,9 @@ mode con cols=45 lines=20
 echo 小狼毫安装引导程序
 echo ======================
 echo 1、安装小狼毫输入法与小狼毫输入法扩展程序
-echo 注意：请不要改动安装地址，程序会在后期调用自动部署，改动则会失败
-app\weasel-0.10.0.0-installer.exe
+echo 注意：
+echo 一、请不要改动安装地址！
+echo 二、请选择稍后重启！
 app\weasel-0.11.1.0-installer.exe
 app\weasel-expansion-0.9.18.0.exe
 echo .

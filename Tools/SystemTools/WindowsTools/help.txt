@@ -2,6 +2,7 @@
 
 双击对应文件即可
 1install.bat	首次安装文件
+	注意！若安装过小狼毫，请先卸载后重启，再执行安装！
 2update.bat	升级码表文件（会自动备份 并恢复（仅用户码表））
 3openRime.bat	打开用户文件夹
 4deploy.bat	部署Rime
