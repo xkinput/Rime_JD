@@ -27,23 +27,11 @@
 ![同文输入效果](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文.jpg")
 
 #### 其他系统平台：
-* 获取本项目内容：使用一下方法其一
-1. [下载][209]本项目。（无法滚动更新）
-2. 使用Git程序（可滚动更新）([WindowsGit：下载安装][905]) ([Linux/Mac Git：自行安装])
-* 建议使用git程序，可滚动更新。
-* 可使用[/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以。
+* 获取本项目内容：使以下方法其一
+1. 推荐：使用Git程序（可滚动更新）([WindowsGit：下载安装][905]) ([Linux/Mac Git：自行安装])（[AndroidGit：下载（Pocket Git）][910]）
+   安装后，Shell中执行```git clone https://gitee.com/nmlixa/Rime_JD```克隆项目到本地后，再使用[/Tools/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以（具体在各工具中有详细说明）。
+2. 不推荐：单独[下载][209]本项目。（无法滚动更新）
 
-小狼毫：
-
-![小狼毫输入效果](https://gitee.com/uploads/images/2018/0202/192157_9ce8b742_1362709.png "小狼毫.png")
-
-Fcitx-rime：
-
-![Fcitx-rime输入效果](https://gitee.com/uploads/images/2018/0203/225102_eb77f6dc_1362709.png "Fcitx-rime.png")
-
-鼠须管：
-
-![鼠须管输入效果](https://gitee.com/uploads/images/2018/0208/175654_2f566986_1362709.png "鼠须管.png")
 #### Git简述：
 ##### 获取项目：
 ```
@@ -163,3 +151,4 @@ Windows：工具名 文件名 纠错/添加/删除
 [907]: http://git.mydoc.io/?t=180700 "码云PR教程"
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
 [909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
+[910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
