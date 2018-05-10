@@ -23,22 +23,13 @@
 
 #### Git简述：
 ##### 首次安装：
-
-#克隆项目到本地
-
+1. 克隆项目到本地
 `git clone https://gitee.com/nmlixa/Rime_JD`
-
-#切换到项目文件夹
-
+2. 切换到项目文件夹
 `cd Rime_JD`
-
-#添加上游分支地址为 指定地址
-
+3. 添加上游分支地址为 指定地址
 `git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
-
-#在文件管理器打开当前目录，进入Tools/SystemTools/对应系统的工具目录
-
-#执行复制码表工具（1install），再重新部署即可更新完成
+4. 在文件管理器打开当前目录，进入Tools/SystemTools/对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
 
 ##### 获取更新：
 
