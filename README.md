@@ -146,7 +146,7 @@ Windows：工具名 文件名 纠错/添加/删除
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
 [208]: https://gitee.com/nmlixa/Rime_JD/releases "发行页"
 [209]: https://gitee.com/nmlixa/Rime_JD/repository/archive/master.zip "Download"
-[210]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools "/SystemTools"
+[210]: https://gitee.com/nmlixa/Rime_JD/tree/master/Tools/SystemTools "/Tools/SystemTools"
 [211]: https://gitee.com/nmlixa/Rime_JD/tree/master/rime "/rime"
 [212]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools/Android "Android"
 [213]: https://gitee.com/morler/rime_xklb "两笔地址"
