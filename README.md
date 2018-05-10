@@ -25,7 +25,7 @@
 
 #### Git简述：
 ##### 首次安装：
-1. 克隆项目到本地
+1. 需要安装Git后，将克隆项目到本地（代码到git bash中，下同）
 `git clone https://gitee.com/nmlixa/Rime_JD`
 2. 切换到项目文件夹
 `cd Rime_JD`
