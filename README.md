@@ -16,62 +16,45 @@
 
 ---
 #### 使用说明：
-
-#### 安卓：
-* 无须下载项目。
-* 请可使用[发布版][208]已打包程序，按照其提示安装完成。
-* “同文星空”中（一笔、两笔）为大牛群中 工藤新一（经常改名）大佬所维护Rime码表内容。
-
-同文输入法：
-
-![同文输入效果](https://gitee.com/uploads/images/2018/0202/192524_07b99b96_1362709.jpeg "同文.jpg")
-
-#### 其他系统平台：
 * 获取本项目内容：使以下方法其一
-1. 推荐：使用Git程序（可滚动更新）([WindowsGit：下载安装][905]) ([Linux/Mac Git：自行安装])（[AndroidGit：下载（Pocket Git）][910]）
-   安装后，Shell中执行```git clone https://gitee.com/nmlixa/Rime_JD```克隆项目到本地后，再使用[/Tools/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以（具体在各工具中有详细说明）。
+1. 推荐：使用Git程序（可滚动更新）(WindowsGit：[官网][905][云盘][911]) (Linux/Mac Git：[自行安装])（AndroidGit：[下载（Pocket Git）][910]）
+   安装后，Shell中执行`git clone https://gitee.com/nmlixa/Rime_JD`克隆项目到本地后，再使用[/Tools/SystemTools][210]中各系统的工具（不书and岳飞编写），执行复制码表就可以（具体在各工具中有详细说明）。
 2. 不推荐：单独[下载][209]本项目。（无法滚动更新）
 
 #### Git简述：
-##### 获取项目：
-```
+##### 首次安装：
 #克隆项目到本地
-git clone https://gitee.com/nmlixa/Rime_JD
+`git clone https://gitee.com/nmlixa/Rime_JD`
 #切换到项目文件夹
-cd Rime_JD
+`cd Rime_JD`
 #添加上游分支地址为 指定地址
-git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
-```
+`git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
+#在文件管理器打开当前目录，进入Tools/SystemTools/对应系统的工具目录
+#执行复制码表工具（1install），再重新部署即可更新完成
 ##### 获取更新：
-```
 #获取上游地址的master分支
-git pull upstream master
-#若提示“fatal: refusing to merge unrelated histories”请使用
-git pull upstream master --allow-unrelated-histories
-#Git获取后，执行复制码表工具，再重新部署
-```
-##### 可选）发起PR：
-```
+`git pull upstream master`
+#Git获取后，执行复制码表工具（2update），再重新部署即可更新完成
+##### （可选）发起PR：
 #若你有意发起扩展词库，或者提交词可用Git提交，提交后合理将直接合并到仓库内
 
 #创建远程仓库，指向 PR 提交者的仓库
-git remote add upstream https://gitee.com/nmlixa/Rime_JD.git
+`git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
 #从该远程仓库拉取代码
-git fetch upstream
+`git fetch upstream`
 **如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：缩减仓库说明**
 #将该仓库的上游分支合并到自己分支
-git merge upstream
+`git merge upstream`
 #推送到自己的仓库
-git push origin master
-```
-```
+`git push origin master`
+
 提交commit规范：
 码表类：
 码表分类：[据议表调整： x个] 外加调整：词组 编码... x个
 工具类：
 Linux：工具名 文件名 纠错/添加/删除
 Windows：工具名 文件名 纠错/添加/删除
-```
+
 >详见：**[git-简明指南][909] [码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
 
 #### 通用操作：
@@ -152,3 +135,4 @@ Windows：工具名 文件名 纠错/添加/删除
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
 [909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
+[911]: https://share.weiyun.com/5YMTLlp "Git for Windows云盘地址"
