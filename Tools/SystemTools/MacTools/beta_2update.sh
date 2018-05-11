@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+# set -x
 xkjd="../../../../Rime_JD/rime"
 xklb="../../../../rime_xklb"
 xkyb="../../../../rime_xkyb"
