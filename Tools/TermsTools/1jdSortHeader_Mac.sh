@@ -4,8 +4,8 @@ cp -rf ../../rime/xkjd6.cizu.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.danzi.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.yingwen.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.wxw.dict.yaml ../BackDict/
-# git add ../BackDict/xkjd6.cizu.dict.yaml ../BackDict/xkjd6.danzi.dict.yaml ../BackDict/xkjd6.yingwen.dict.yaml
-# git commit -m "更新：备份旧词库"
+git add ../BackDict/*
+git commit -m "更新：备份旧词库"
 echo 开始处理排序
 sort -t $'\t' -k 2 词组.txt > xkjd6.cizu.dict.yaml
 sort -t $'\t' -k 2 单字.txt > xkjd6.danzi.dict.yaml
