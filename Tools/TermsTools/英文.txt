@@ -66,8 +66,10 @@ Android	sndd
 Android	sndd
 AA制	ssf
 AA制	ssfk
+thx	thx
 T型台	txth
 T型台	txth
+U盘	upf
 welcome	wjlja
 WIFI	wkfk
 Wiki	wkkk
