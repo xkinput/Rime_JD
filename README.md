@@ -4,13 +4,13 @@
 ---
 #### 目录结构说明：
 
-| 路径 | 作用
+| 路径 | 作用 |
 | :-------------|:-------------: |
 | /Tools | 工具目录 |
 | /Tools/BackDict | 备份上次码表 |
 | /Tools/Extended | 扩展码表 |
-| /Tools/SystemTools | 各系统配置文件工具|
-| /Tools/TermsTools | 词组排序工具|
+| /Tools/SystemTools | 各系统配置文件工具 |
+| /Tools/TermsTools | 词组排序工具 |
 | /rime | 主码表文件夹[主码表] |
 | README.md | readme.md文件 |
 
