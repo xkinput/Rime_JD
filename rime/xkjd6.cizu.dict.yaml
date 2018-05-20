@@ -22,7 +22,6 @@ sort: by_weight
 巴不得	bbd
 办不到	bbda
 并不代表	bbdb
-并不代表	bbdbo
 斑斑点点	bbdd
 宾得	bbde
 并不多见	bbdj
@@ -1968,7 +1967,6 @@ sort: by_weight
 白条	bhtc
 白头	bhtd
 拜帖	bhtdi
-白头	bhtdu
 摆摊	bhtf
 百听	bhtg
 百态	bhth
@@ -5794,6 +5792,7 @@ sort: by_weight
 报出	bzjji
 宝鸡	bzjk
 保级	bzjki
+暴击	bzjko
 包机	bzjku
 宝具	bzjl
 煲剧	bzjli
@@ -6492,7 +6491,8 @@ sort: by_weight
 残梦	cfmr
 蚕眉	cfmw
 残虐	cfnh
-残年	cfnm
+残念	cfnm
+残年	cfnmv
 蚕农	cfny
 残品	cfpb
 餐盘	cfpf
@@ -6537,6 +6537,7 @@ sort: by_weight
 参悟	cfwj
 残茶	cfws
 残差	cfwsv
+残茬	cfwsvi
 残喘	cfwt
 餐位	cfww
 才发现	cfx
@@ -7091,6 +7092,7 @@ sort: by_weight
 此般	ckbfiu
 瓷板	ckbfo
 此病	ckbg
+此步	ckbj
 刺鼻	ckbk
 磁波	ckbl
 磁棒	ckbp
@@ -7297,7 +7299,6 @@ sort: by_weight
 词条	cktc
 此条	cktci
 磁铁	cktd
-磁铁	cktdv
 刺探	cktf
 瓷胎	ckth
 瓷土	cktj
@@ -8321,6 +8322,7 @@ sort: by_weight
 操练	czlm
 错字连篇	czlp
 曹刘	czlq
+草榴	czlqi
 草类	czlw
 槽轮	czlwv
 糙粮	czlx
@@ -9516,11 +9518,12 @@ sort: by_weight
 德法	defsu
 德众	defy
 都是这样	defyu
-多少个	deg
+单身狗	deg
 电视观众	degf
 德国	degl
 得过	deglu
 的根	degn
+多少个	degu
 大使馆	degv
 单身贵族	degz
 的时候	deh
@@ -9557,9 +9560,10 @@ sort: by_weight
 的家	dejs
 德甲	dejsu
 短时间	deju
-大生产	dejv
+大数据	dejv
 到时间	dejvo
 地税局	dejvu
+大生产	dejvuo
 德军	dejw
 得奖	dejx
 的课	deke
@@ -9921,8 +9925,9 @@ sort: by_weight
 单链	dflmo
 党风廉政	dflq
 大发雷霆	dflt
-单轮	dflw
+单论	dflw
 蛋类	dflwa
+单轮	dflwo
 胆量	dflx
 打肿脸充胖子	dflz
 单方面	dfm
@@ -10063,6 +10068,7 @@ sort: by_weight
 旦夕	dfxk
 但须	dfxl
 单线	dfxm
+单休	dfxq
 丹霞	dfxs
 弹匣	dfxsa
 单选	dfxt
@@ -13846,6 +13852,7 @@ sort: by_weight
 对外交往	dwjw
 帝王将相	dwjx
 对外经济贸易	dwjy
+待我长发及腰	dwjyu
 吊胃口	dwk
 得亏	dwkb
 沌口	dwkd
@@ -15212,7 +15219,8 @@ sort: by_weight
 睡衣	ebyk
 睡意	ebyki
 水域	ebyl
-水洋	ebyp
+水样	ebyp
+水洋	ebypa
 水压	ebys
 谁呀	ebyso
 水源	ebyt
@@ -15447,8 +15455,8 @@ sort: by_weight
 手滑	edhqi
 守恒	edhr
 树倒猢狲散	edhs
-兽环	edht
-手环	edhti
+手环	edht
+兽环	edhto
 手黑	edhw
 守好	edhz
 收好	edhza
@@ -17249,7 +17257,6 @@ sort: by_weight
 梳头	ejtd
 熟透	ejtdo
 熟铁	ejtdoi
-熟铁	ejtdoi
 舒坦	ejtf
 书摊	ejtfa
 书亭	ejtg
@@ -17742,7 +17749,6 @@ sort: by_weight
 数控机床	ekjw
 石匠	ekjx
 是将	ekjxo
-石匠	ekjxv
 诗抄	ekjz
 适口	ekkd
 时刻	ekke
@@ -20274,6 +20280,7 @@ sort: by_weight
 商务印书馆	ewygo
 顺意	ewyk
 瞬移	ewyki
+啥玩意	ewyo
 示威游行	ewyx
 生物医药	ewyy
 谁要	ewyz
@@ -21879,6 +21886,7 @@ sort: by_weight
 反腐败斗争	ffbq
 反把	ffbs
 反腐败	ffbu
+专转本	ffbvv
 翻倍	ffbw
 反被	ffbwu
 惴惴不安	ffbx
@@ -22193,6 +22201,7 @@ sort: by_weight
 反求	ffqq
 反正	ffqr
 反证	ffqru
+复制粘贴	ffqt
 翻墙	ffqx
 这种情况下	ffqxo
 只知其一	ffqy
@@ -22790,6 +22799,7 @@ sort: by_weight
 直接的	fjdu
 分阶段	fjdua
 支撑点	fjdui
+风景党	fjduo
 非机动车	fjdw
 浙江大学	fjdx
 之间的关系	fjdxo
@@ -25344,6 +25354,7 @@ sort: by_weight
 支气管	fqg
 发展观	fqga
 抓轨	fqgb
+抓狗	fqgd
 发展过程中	fqgf
 发展规划	fqgh
 发展规律	fqgl
@@ -29564,6 +29575,7 @@ sort: by_weight
 公共厕所	ggcs
 怪怪的	ggd
 归根到底	ggdd
+孤孤单单	ggdda
 怪诞	ggdf
 拐带	ggdh
 勾股定理	ggdl
@@ -33601,6 +33613,7 @@ sort: by_weight
 互不干扰	hbgrv
 会馆	hbgt
 会给	hbgw
+回滚	hbgwi
 辉光	hbgx
 伙伴关系	hbgxi
 很不高兴	hbgxu
@@ -33948,6 +33961,7 @@ sort: by_weight
 会造	hbzz
 厚此薄彼	hcbb
 怀才不遇	hcby
+荒草丛生	hcce
 喝彩声	hce
 花草树木	hcem
 获此殊荣	hcer
@@ -35600,6 +35614,7 @@ sort: by_weight
 回肠荡气	hjdq
 湖大	hjds
 护短	hjdt
+护盾	hjdw
 互动	hjdy
 互道	hjdz
 候车室	hje
@@ -36269,6 +36284,7 @@ sort: by_weight
 火焰	hlyf
 火眼	hlyfo
 或应	hlyg
+火影	hlygo
 活跃	hlyh
 话里有话	hlyho
 回良玉	hlyi
@@ -37126,6 +37142,7 @@ sort: by_weight
 恒灿	hrcf
 横财	hrch
 横队	hrdb
+轰然倒地	hrdd
 横的	hrde
 恒定	hrdg
 横带	hrdh
@@ -37231,6 +37248,7 @@ sort: by_weight
 横墙	hrqx
 横肉	hrrd
 恍然若失	hrre
+恍若如梦	hrrm
 横死	hrsk
 横索	hrsl
 衡算	hrst
@@ -37734,6 +37752,7 @@ sort: by_weight
 黑户	hwhj
 黑乎	hwhji
 黑货	hwhl
+毫无还手之力	hwhlo
 昏惑	hwhlu
 黑化	hwhq
 黑话	hwhqi
@@ -39711,6 +39730,7 @@ sort: by_weight
 叫法	jcfso
 教法	jcfsu
 脚法	jcfsua
+角阀	jcfsuo
 缴费	jcfw
 除此之外	jcfwa
 交费	jcfwo
@@ -40165,6 +40185,7 @@ sort: by_weight
 街道	jddz
 接到	jddzi
 借到	jddziv
+角度刁钻	jddzu
 成都市	jde
 绝对数	jdea
 绝对是	jdeaa
@@ -43778,6 +43799,7 @@ sort: by_weight
 处理品	jlp
 纪录片	jlpa
 拘票	jlpc
+举牌	jlph
 橘皮	jlpk
 巨破	jlpl
 巨片	jlpm
@@ -46035,6 +46057,7 @@ sort: by_weight
 假肢	jsfki
 假佛	jsfl
 加分	jsfn
+加粉	jsfna
 甲方	jsfp
 家访	jsfpo
 夹缝	jsfr
@@ -47562,6 +47585,7 @@ sort: by_weight
 局域网	jywav
 出言无状	jywf
 就意味着	jywfo
+锦衣卫	jywi
 就意味着	jywq
 教育网	jywu
 城域网	jywv
@@ -47927,7 +47951,6 @@ sort: by_weight
 亏待	kbdh
 看不懂	kbdi
 抗病毒	kbdio
-看不懂	kbdiv
 揆度	kbdl
 馈电	kbdm
 空白点	kbdo
@@ -48799,7 +48822,6 @@ sort: by_weight
 看轻	kfqgi
 看却	kfqh
 控制器	kfqi
-控制器	kfqiu
 看住	kfqj
 刻舟求剑	kfqjo
 看齐	kfqk
@@ -48824,7 +48846,6 @@ sort: by_weight
 看透	kftd
 看头	kftdi
 看帖	kftdii
-看头	kftdio
 勘探	kftf
 看台	kfth
 看图	kftj
@@ -49065,6 +49086,7 @@ sort: by_weight
 开遍	khbm
 开本	khbn
 开拔	khbs
+困惑不已	khby
 开包	khbz
 开采	khch
 凯茨	khck
@@ -50064,7 +50086,7 @@ sort: by_weight
 卡农	ksny
 卡盘	kspf
 卡片	kspm
-卡主	ksqj
+卡住	ksqj
 卡其	ksqk
 哭丧着脸	ksql
 卡钳	ksqm
@@ -51040,6 +51062,7 @@ sort: by_weight
 粼粼	lblb
 淋淋	lblba
 凛冽	lbld
+拉布拉多	lbldi
 林龄	lblg
 累不累	lbli
 林立	lblk
@@ -51702,6 +51725,7 @@ sort: by_weight
 乐观	legt
 历史观	legv
 乐工	legy
+乐高	legz
 理事会	leh
 乐和	lehe
 乐呵	leheu
@@ -51796,7 +51820,6 @@ sort: by_weight
 了啊	lexs
 留守儿童	lext
 零售额	lexv
-零售额	lexvi
 历史学	lexvio
 历史性	lexvio
 历史系	lexviu
@@ -52148,6 +52171,7 @@ sort: by_weight
 另开	lgkh
 领卡	lgks
 领款	lgkt
+零宽	lgktv
 令阃	lgkw
 领空	lgky
 凌空	lgkyo
@@ -54446,6 +54470,7 @@ sort: by_weight
 遛娃	lqws
 流传	lqwt
 六位	lqww
+六维	lqwwo
 六朝	lqwz
 来去无踪	lqwzv
 李肇星	lqx
@@ -54770,6 +54795,7 @@ sort: by_weight
 蜡烛	lsqj
 拉住	lsqji
 拉起	lsqk
+拉取	lsql
 拉镇	lsqn
 腊肉	lsrd
 老僧入定	lsrdu
@@ -55089,8 +55115,8 @@ sort: by_weight
 乱怨	ltyt
 李铁映	ltyv
 乱云	ltyw
-卵用	ltyy
-乱用	ltyyu
+乱用	ltyy
+卵用	ltyyu
 乱要	ltyz
 烂摊子	ltz
 乱走	ltzd
@@ -55446,6 +55472,7 @@ sort: by_weight
 两手	lxed
 梁山	lxef
 凉山	lxefo
+两扇	lxefv
 晾晒	lxeh
 两书	lxej
 联系实际	lxejv
@@ -58401,6 +58428,7 @@ sort: by_weight
 摩托	mltl
 摩天	mltm
 磨它	mlts
+魔塔	mltso
 忙里偷闲	mltx
 毛里塔尼亚	mlty
 马拉维	mlw
@@ -59263,7 +59291,7 @@ sort: by_weight
 美容院	mryo
 萌芽	mrys
 蒙冤	mryt
-猛勇	mryy
+美容养颜	mryy
 猛药	mryz
 猛揍	mrzd
 梦泽	mrze
@@ -59408,7 +59436,8 @@ sort: by_weight
 马某	msmd
 麻木	msmj
 妈咪	msmk
-麻面	msmm
+摩斯密码	msmm
+麻面	msmmo
 妈妈	msms
 麻麻	msmso
 马尿	msnc
@@ -59501,6 +59530,7 @@ sort: by_weight
 马祖	mszja
 毛遂自荐	mszju
 麻子	mszk
+马子	mszka
 码字	mszkv
 马贼	mszw
 马鬃	mszy
@@ -59985,6 +60015,7 @@ sort: by_weight
 某些时候	mxeh
 明显是	mxeo
 某些事情	mxeq
+冒险者	mxf
 玛尔扎哈	mxfh
 某些方面	mxfm
 明儿个	mxg
@@ -60564,6 +60595,7 @@ sort: by_weight
 鸟网	ncwp
 尿床	ncwx
 鸟巢	ncwz
+尿性	ncxg
 尿血	ncxh
 鸟儿	ncxj
 怒从心头起	ncxq
@@ -64244,6 +64276,7 @@ sort: by_weight
 派员	phyt
 牌运	phyw
 排在	phzh
+牌组	phzj
 牌子	phzk
 拍子	phzki
 排字	phzkio
@@ -65867,6 +65900,7 @@ sort: by_weight
 跑堂	pztpo
 泡腾	pztr
 炮塔	pzts
+跑团	pztt
 炮筒	pzty
 跑车	pzwe
 炮车	pzweo
@@ -66200,6 +66234,7 @@ sort: by_weight
 强词夺理	qcdla
 敲打	qcds
 敲断	qcdt
+桥段	qcdtv
 桥墩	qcdw
 桥洞	qcdy
 这才是	qce
@@ -66545,6 +66580,7 @@ sort: by_weight
 找到一个	qdyg
 且越	qdyh
 长大以后	qdyhu
+全都要	qdyi
 睁大眼睛	qdyj
 期待已久	qdyjv
 惬意	qdyk
@@ -69608,6 +69644,7 @@ sort: by_weight
 詹姆士	qme
 潜水	qmeb
 浅水	qmeba
+浅睡	qmebai
 欠税	qmebu
 牵手	qmed
 签售	qmedu
@@ -69949,6 +69986,7 @@ sort: by_weight
 证明信	qmxo
 潜修	qmxq
 签下	qmxs
+全明星赛	qmxsi
 欠下	qmxsu
 前旋	qmxt
 谦逊	qmxw
@@ -72024,6 +72062,7 @@ sort: by_weight
 抢车	qxje
 谦虚谨慎	qxjeo
 强劲	qxjg
+曲线救国	qxjgi
 强拆	qxjh
 枪决	qxjhv
 助学金	qxji
@@ -79939,6 +79978,7 @@ sort: by_weight
 体虚	tkxli
 剃须	tkxlo
 体现	tkxm
+提现	tkxmi
 腾空而起	tkxq
 提选	tkxt
 提讯	tkxw
@@ -79989,9 +80029,11 @@ sort: by_weight
 特立独行	tldx
 拖动	tldy
 拖到	tldz
+套路深	tle
 脱水	tleb
 脱手	tled
 妥善	tlef
+铜锣烧	tlei
 脱离实际	tlej
 脱式	tlek
 坨屎	tlekv
@@ -83765,6 +83807,7 @@ sort: by_weight
 无处	wjjj
 驰骋疆场	wjjja
 悟出	wjjjo
+误触	wjjjou
 无出	wjjjv
 无产阶级	wjjjvo
 无极	wjjk
@@ -84861,7 +84904,6 @@ sort: by_weight
 文明礼貌	wmlm
 误码率	wmlo
 我们俩	wmlu
-我们俩	wmlui
 重命名	wmm
 未命名	wmmv
 雾蒙蒙	wmmvi
@@ -89253,6 +89295,7 @@ sort: by_weight
 销售点	xedii
 小数点	xedio
 恶毒	xedj
+消失殆尽	xedja
 额度	xedjo
 讹夺	xedl
 新生代	xedo
@@ -89800,6 +89843,7 @@ sort: by_weight
 暗器	xfqk
 按期	xfqki
 安琪	xfqko
+氨气	xfqku
 暗渠	xfql
 按前	xfqm
 安镇	xfqn
@@ -90844,6 +90888,7 @@ sort: by_weight
 学习	xhxk
 学系	xhxko
 爱惜	xhxku
+血洗	xhxkua
 爱续	xhxl
 雪絮	xhxlv
 爱献	xhxm
@@ -91425,6 +91470,7 @@ sort: by_weight
 膝上	xkepu
 袭上	xkepv
 洗刷	xkeq
+戏耍	xkeqa
 牺牲	xker
 细声	xkera
 西沙	xkes
@@ -95363,6 +95409,7 @@ sort: by_weight
 一把火	ybhv
 一般化	ybhvu
 阴魂	ybhw
+银魂	ybhwi
 银黄	ybhx
 殷红	ybhy
 引号	ybhz
@@ -97807,6 +97854,7 @@ sort: by_weight
 硬仗	ygqpv
 赢球	ygqq
 应征	ygqr
+嬴政	ygqro
 鹰犬	ygqt
 营墙	ygqx
 阳光照耀	ygqy
@@ -98745,6 +98793,7 @@ sort: by_weight
 一种	ykfy
 倚重	ykfyi
 依照	ykfz
+遗照	ykfzi
 一招	ykfzv
 一朝	ykfzvu
 衣柜	ykgb
@@ -99173,6 +99222,7 @@ sort: by_weight
 以让	ykrpa
 一扔	ykrr
 仪容	ykry
+遗容	ykryi
 易容	ykryo
 易碎	yksb
 一岁	yksbv
@@ -101656,6 +101706,7 @@ sort: by_weight
 言行举止	yxjf
 运行机制	yxjfv
 优先级	yxji
+雨雪交加	yxjj
 右下角	yxjv
 医学界	yxjvo
 元宵节	yxjvoi
