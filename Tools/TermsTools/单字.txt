@@ -948,6 +948,7 @@
 伺	ckia
 伺	ckiavo
 茨	ckii
+茲	ckiia
 茈	ckiii
 茈	ckiiiv
 茨	ckiiov
@@ -8490,8 +8491,8 @@
 两	lx
 梁	lxa
 粱	lxaa
-梁	lxaaav
 粱	lxaaou
+梁	lxaavv
 俩	lxi
 莨	lxii
 莨	lxiioa
@@ -12615,6 +12616,8 @@
 晪	tmoiia
 阗	tmoiuo
 恬	tmoouv
+畑	tmou
+畑	tmouia
 甜	tmu
 腆	tmui
 腆	tmuiav
@@ -16652,6 +16655,9 @@
 嵫	zkiao
 嵫	zkiaou
 茈	zkii
+茲	zkiia
+茲	zkiiaa
+茲	zkiiaa
 茈	zkiiiv
 锱	zkio
 锱	zkioaa
