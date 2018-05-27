@@ -13890,6 +13890,7 @@
 箫	xcuvav
 筱	xcuvi
 筱	xcuvii
+篠	xcuvii
 笑	xcuvuv
 校	xcv
 霄	xcvo
@@ -14927,6 +14928,8 @@
 浔	xwaavv
 逊	xwai
 逊	xwaioa
+欸	xwao
+欸	xwaoua
 洵	xwau
 洵	xwauao
 迅	xwav
