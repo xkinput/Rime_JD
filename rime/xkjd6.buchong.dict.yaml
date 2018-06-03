@@ -4,6 +4,7 @@ version: "Q1"
 sort: by_weight
 ...
 那	a
+又	a
 乛	a
 氵	a
 	a
@@ -66,6 +67,7 @@ sort: by_weight
 很快	hk
 后面	hm
 上	i
+打	i
 丨	i
 亅	i
 人	i
@@ -95,6 +97,7 @@ sort: by_weight
 梦想	mx
 满意	my
 哪怕	np
+啊	o
 着	o
 丶	o
 冖	oa
@@ -181,6 +184,11 @@ sort: by_weight
 完全	wq
 悉	xkpo
 意	y
+嗯	x
+嘛	m
+吧	b
+啦	l
+咋	z
 疫	ykbu
 意	yklo
 毅	yklu
