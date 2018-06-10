@@ -5,8 +5,8 @@
 ---
 name: xkjd6.extended
 version: "Q1"
-sort: origin 
-use_preset_vocabulary: true
+sort: original 
+use_preset_vocabulary: false
 import_tables:
 # ---------------------------------------
 # 下列为扩展 可选码表内容：
