@@ -4,7 +4,7 @@
 ---
 name: xkjd6.user
 version: "Q1"
-sort: by_weight
+sort: original
 ...
 # 编码各字段以制表符（Tab）分隔
 # ============================
