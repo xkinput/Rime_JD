@@ -1,4 +1,4 @@
-<h1 align="center">星空键道6</h1>
+﻿<h1 align="center">星空键道6</h1>
 
 >作者：**吅吅大山** [**键道官网**][904] [加入官方群:320053116][903]
 ---
@@ -135,4 +135,4 @@
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
 [909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
-[911]: https://share.weiyun.com/5YMTLlp "Git for Windows云盘地址"
+[911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git for Windows云盘地址"
