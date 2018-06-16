@@ -18,7 +18,7 @@
 #### 使用说明：
 * 获取本项目内容：使以下方法其一
 1. 推荐：使用Git程序（可滚动更新）
- * (WindowsGit：[官网][905]|[云盘][911])
+ * (WindowsGit：[官网][905]|[坚果云][911]|[微云][912])
  * (Linux/Mac Git：[自行安装])
  * (AndroidGit：[下载(Pocket Git)][910])
 2. 不推荐：单独[下载][209]本项目。（无法滚动更新）
@@ -135,4 +135,5 @@
 [908]: http://git.mydoc.io/?t=83153 "码云缩减仓库说明"
 [909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
-[911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git for Windows云盘地址"
+[911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
+[912]: https://share.weiyun.com/5xfC9Qk "Git微云地址"
