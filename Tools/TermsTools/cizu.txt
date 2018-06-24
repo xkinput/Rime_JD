@@ -590,6 +590,7 @@
 别歪	bdwh
 别无	bdwj
 不得无礼	bdwl
+别创	bdwm
 别问	bdwn
 别忘	bdwp
 百度网盘	bdwpv
@@ -1163,6 +1164,7 @@
 半尺	bfwk
 伴我	bfwl
 不费吹灰之力	bfwlv
+板床	bfwm
 不知为什么	bfwm
 斑纹	bfwn
 爆炸物	bfwo
@@ -1558,6 +1560,7 @@
 丙烷	bgwf
 并无	bgwj
 秉持	bgwk
+病床	bgwm
 并网	bgwp
 并查	bgws
 秉公无私	bgwsu
@@ -3211,6 +3214,7 @@
 必持	bkwkoi
 币池	bkwku
 比我	bkwl
+鼻疮	bkwm
 逼问	bkwn
 必亡	bkwp
 碧瓦	bkws
@@ -3915,6 +3919,7 @@
 边吃	bmwk
 便池	bmwki
 鞭笞	bmwkv
+编创	bmwm
 便问	bmwn
 便往	bmwp
 表面文章	bmwq
@@ -4378,6 +4383,7 @@
 蚌舞	bpwj
 剥皮抽筋	bpwja
 帮我	bpwl
+棒疮	bpwm
 榜文	bpwn
 邦威	bpww
 棒疮	bpwx
@@ -4579,6 +4585,7 @@
 崩塌	brts
 不认为	brw
 被认为是	brwe
+蹦床	brwm
 被认为	brwo
 崩网	brwp
 蹦床	brwx
@@ -5305,6 +5312,7 @@
 被吃	bwwk
 被我	bwwl
 被窝	bwwlo
+悲怆	bwwm
 碑文	bwwn
 备忘	bwwp
 不为瓦全	bwwq
@@ -6047,6 +6055,7 @@
 败则为寇	bzwka
 抱我	bzwl
 不足为虑	bzwlv
+刨床	bzwm
 保温	bzwn
 报文	bzwni
 不足为凭	bzwp
@@ -7402,6 +7411,7 @@
 此外	ckwh
 此物	ckwj
 次卧	ckwl
+次创	ckwm
 此文	ckwn
 刺网	ckwp
 磁瓦	ckws
@@ -7614,6 +7624,7 @@
 藏龙卧虎	clwh
 错误	clwj
 错吃	clwk
+痤疮	clwm
 错插	clws
 错挖	clwsi
 错位	clww
@@ -7951,6 +7962,7 @@
 擦球	csqq
 擦拳	csqt
 擦枪	csqx
+擦窗	cswm
 擦网	cswp
 擦窗	cswx
 擦些	csxd
@@ -8477,6 +8489,7 @@
 草屋	czwj
 操持	czwk
 草窝	czwl
+草创	czwm
 曹文	czwn
 曹王	czwp
 草洼	czws
@@ -8769,6 +8782,7 @@
 队伍	dbwj
 对比文件	dbwja
 对我	dbwl
+对床	dbwm
 对文	dbwn
 对望	dbwp
 对位	dbww
@@ -8996,6 +9010,9 @@
 吊车	dcwe
 刁顽	dcwf
 到此为止	dcwfv
+吊床	dcwm
+掉床	dcwmi
+吊窗	dcwmo
 吊文	dcwn
 调往	dcwp
 调查	dcws
@@ -10488,6 +10505,7 @@
 顶碗	dgwf
 德高望重	dgwfu
 定物	dgwj
+疔疮	dgwm
 盯问	dgwn
 大公无私	dgws
 顶穿	dgwt
@@ -11189,6 +11207,7 @@
 毒物	djwjv
 督饬	djwk
 赌窝	djwl
+独创	djwm
 毒吻	djwn
 毒王	djwp
 督察	djws
@@ -11984,6 +12003,7 @@
 地理位置	dlwfv
 多吃	dlwk
 躲我	dlwl
+多创	dlwm
 多问	dlwn
 多差	dlws
 多为	dlww
@@ -13564,6 +13584,7 @@
 大吃	dswk
 打戳	dswl
 大我	dswlv
+大床	dswm
 答问	dswn
 大王	dswp
 打望	dswpi
@@ -14574,6 +14595,7 @@
 东吴	dywjv
 动武	dywjvv
 懂我	dywl
+冻疮	dywm
 对于我们	dywm
 东闻	dywn
 定义为	dywo
@@ -14942,6 +14964,7 @@
 到无	dzwj
 倒饬	dzwk
 到我	dzwl
+道床	dzwm
 祷文	dzwn
 倒望	dzwp
 大做文章	dzwq
@@ -15903,6 +15926,8 @@
 手握	edwl
 手戳	edwli
 时代潮流	edwlo
+首创	edwm
+受创	edwmu
 首问	edwn
 守望	edwp
 硕大无朋	edwpv
@@ -16628,6 +16653,8 @@
 山外	efwh
 扇舞	efwj
 山窝	efwl
+善闯	efwm
+扇窗	efwmo
 善文	efwn
 赡望	efwp
 手中无权	efwq
@@ -18250,6 +18277,7 @@
 市尺	ekwk
 试吃	ekwko
 是我	ekwl
+视窗	ekwm
 室温	ekwn
 诗文	ekwno
 试问	ekwnoo
@@ -19642,6 +19670,7 @@
 商务	epwjo
 晌午	epwjou
 上齿	epwk
+上床	epwm
 上文	epwn
 上网	epwp
 伤亡	epwpi
@@ -20170,6 +20199,7 @@
 省外	erwh
 生物	erwj
 生吃	erwk
+生疮	erwm
 升温	erwn
 声望	erwp
 盛传	erwt
@@ -20449,6 +20479,7 @@
 沙窝	eswla
 傻戳	eswli
 傻窝	eswlio
+纱窗	eswm
 沙文	eswn
 傻望	eswp
 傻叉	esws
@@ -22251,8 +22282,10 @@
 折尺	fewk
 装傻充愣	fewl
 这是为了	fewlo
+折床	fewm
 这是我们	fewm
 这是为什么	fewmo
+着床	fewmo
 哲文	fewn
 这文	fewno
 这娃	fews
@@ -23730,6 +23763,7 @@
 扶持	fjwk
 俯卧	fjwl
 覆巢无完卵	fjwlv
+浮床	fjwm
 符文	fjwn
 附文	fjwna
 付文	fjwni
@@ -24528,6 +24562,7 @@
 只吃	fkwko
 智齿	fkwku
 直尺	fkwkua
+痔疮	fkwm
 指纹	fkwn
 之吻	fkwno
 只问	fkwnoo
@@ -25211,6 +25246,7 @@
 装完	fmwf
 状物	fmwj
 这么晚了	fmwl
+装窗	fmwm
 装船	fmwt
 桩位	fmww
 装维	fmwwo
@@ -25549,6 +25585,7 @@
 分外	fnwh
 氛雾	fnwj
 粪池	fnwk
+分床	fnwm
 分文	fnwn
 分网	fnwp
 分叉	fnws
@@ -26414,6 +26451,7 @@
 凤舞	frwju
 风驰	frwk
 蜂窝	frwl
+风窗	frwm
 风闻	frwn
 封网	frwp
 蜂王	frwpi
@@ -26852,6 +26890,7 @@
 发痴	fswk
 炸窝	fswl
 发我	fswla
+榨床	fswm
 发文	fswn
 发问	fswna
 法文	fswnao
@@ -27830,6 +27869,7 @@
 装车	fxweo
 装完	fxwf
 状物	fxwj
+装窗	fxwm
 装船	fxwt
 发现问题	fxwta
 这些问题	fxwto
@@ -28430,6 +28470,7 @@
 负隅顽抗	fywk
 中辍	fywl
 扶摇万里	fywli
+重创	fywm
 中文	fywn
 这一刹那	fywno
 只因为	fywo
@@ -29176,6 +29217,7 @@
 功败垂成	gbwjv
 贵池	gbwk
 归我	gbwl
+闺窗	gbwm
 龟文	gbwn
 官本位	gbwo
 硅网	gbwp
@@ -30202,6 +30244,7 @@
 感悟	gfwj
 敢吃	gfwk
 干我	gfwl
+敢闯	gfwm
 敢问	gfwn
 赶往	gfwp
 贵重物品	gfwpi
@@ -31560,6 +31603,7 @@
 国外	glwh
 国务	glwj
 国耻	glwk
+裹创	glwm
 过问	glwn
 国文	glwni
 国王	glwp
@@ -32020,6 +32064,7 @@
 港外	gpwh
 港务	gpwj
 刚吃	gpwk
+钢窗	gpwm
 刚问	gpwn
 刚往	gpwp
 钢叉	gpws
@@ -32800,6 +32845,7 @@
 管物	gtwj
 管吃	gtwk
 管我	gtwl
+关窗	gtwm
 官文	gtwn
 观望	gtwp
 官网	gtwpo
@@ -32998,6 +33044,7 @@
 棍舞	gwwj
 给吃	gwwk
 给我	gwwl
+滚床	gwwm
 滚床	gwwx
 国务委员	gwwy
 给小	gwxc
@@ -33272,6 +33319,7 @@
 广外	gxwh
 光武	gxwj
 光吃	gxwk
+光窗	gxwm
 广闻	gxwn
 公而忘私	gxws
 广船	gxwt
@@ -33715,6 +33763,7 @@
 共舞	gywjv
 公尺	gywk
 工业文明	gywm
+共创	gywm
 公文	gywn
 工亡	gywp
 官样文章	gywq
@@ -34136,6 +34185,7 @@
 高车	gzwe
 睾丸	gzwf
 搞无	gzwj
+高窗	gzwm
 高温	gzwn
 搞忘	gzwp
 各自为战	gzwq
@@ -35016,6 +35066,7 @@
 后无	hdwj
 后吃	hdwk
 画地为牢	hdwl
+后窗	hdwm
 后文	hdwn
 厚望	hdwp
 猴王	hdwpu
@@ -35436,6 +35487,7 @@
 核武	hewjv
 呵斥	hewk
 和我	hewl
+河床	hewm
 喝问	hewn
 河王	hewp
 河网	hewpa
@@ -35780,6 +35832,7 @@
 翰澈	hfwe
 汉武	hfwj
 酣卧	hfwl
+寒窗	hfwm
 韩文	hfwn
 汉文	hfwna
 汉王	hfwp
@@ -36658,6 +36711,7 @@
 互斥	hjwk
 呼哧	hjwko
 呼我	hjwl
+胡床	hjwm
 虎纹	hjwn
 胡文	hjwnu
 忽闻	hjwnuo
@@ -37035,6 +37089,7 @@
 活物	hlwja
 火舞	hlwjo
 或持	hlwk
+火床	hlwm
 或问	hlwn
 火网	hlwp
 活茬	hlws
@@ -40036,6 +40091,7 @@
 毫无	hzwj
 好恶	hzwja
 好吃	hzwk
+号床	hzwm
 好闻	hzwn
 好文	hzwna
 何足为奇	hzwq
@@ -40600,6 +40656,7 @@
 举步维艰	jbwjo
 矜持	jbwk
 紧握	jbwl
+金创	jbwm
 近闻	jbwn
 金文	jbwni
 进网	jbwp
@@ -41664,6 +41721,7 @@
 劫持	jdwk
 借我	jdwl
 借贷无门	jdwm
+疥疮	jdwm
 接吻	jdwn
 结网	jdwp
 揭穿	jdwt
@@ -42100,8 +42158,10 @@
 彻悟	jewj
 金石为开	jewk
 就是为了	jewl
+车窗	jewm
 举世闻名	jewm
 精神文明	jewmo
+车床	jewmv
 寄生虫	jewo
 车王	jewp
 彻查	jews
@@ -42381,6 +42441,7 @@
 产物	jfwj
 产污	jfwjo
 缠我	jfwl
+产床	jfwm
 觇望	jfwp
 见缝插针	jfwq
 急转弯	jfwu
@@ -42879,6 +42940,7 @@
 静物	jgwjv
 精赤	jgwk
 静卧	jgwl
+经幢	jgwm
 经文	jgwn
 径往	jgwp
 警察	jgws
@@ -43219,6 +43281,7 @@
 柴屋	jhwji
 决无	jhwjo
 几乎为零	jhwl
+拆窗	jhwm
 计划外	jhwo
 绝望	jhwp
 柴望	jhwpi
@@ -43799,6 +43862,8 @@
 经济危机	jjwja
 初五	jjwjo
 黜斥	jjwk
+橱窗	jjwm
+初创	jjwmo
 初吻	jjwn
 触网	jjwp
 楚王	jjwpv
@@ -44559,6 +44624,7 @@
 鸡翅	jkwk
 疾驰	jkwko
 鸡窝	jkwl
+机床	jkwm
 祭文	jkwn
 既往	jkwp
 继往	jkwpa
@@ -45018,6 +45084,7 @@
 拒斥	jlwki
 据我	jlwl
 价廉物美	jlwm
+锯床	jlwm
 精力充沛	jlwp
 据查	jlws
 据传	jlwt
@@ -45557,6 +45624,7 @@
 见我	jmwl
 经贸往来	jmwla
 假冒伪劣	jmwli
+剪床	jmwm
 见闻	jmwn
 健忘	jmwp
 建网	jmwpa
@@ -47486,6 +47554,7 @@
 甲午	jswji
 见所未见	jswjiu
 加持	jswk
+加床	jswm
 加温	jswn
 假网	jswp
 家翁	jswr
@@ -48131,6 +48200,7 @@
 蠢物	jwwjv
 唇齿	jwwk
 均持	jwwkv
+均创	jwwm
 唇吻	jwwn
 均温	jwwnv
 君王	jwwp
@@ -49110,6 +49180,7 @@
 朝外	jzwh
 超误	jzwj
 朝我	jzwl
+超创	jzwm
 超稳	jzwn
 超差	jzws
 超串	jzwt
@@ -49502,6 +49573,7 @@
 口误	kdwj
 口吃	kdwk
 口齿	kdwko
+口疮	kdwm
 口吻	kdwn
 口传	kdwt
 口味	kdww
@@ -49837,6 +49909,7 @@
 可耻	kewk
 可吃	kewkv
 可我	kewl
+科创	kewm
 课文	kewn
 渴望	kewp
 口说无凭	kewpo
@@ -50542,6 +50615,8 @@
 开完	khwf
 开外	khwh
 开悟	khwj
+开创	khwm
+开窗	khwmv
 凯文	khwn
 开往	khwp
 开挖	khws
@@ -51756,6 +51831,7 @@
 狂舞	kxwju
 矿务	kxwjv
 狂吃	kxwk
+矿床	kxwm
 狂吻	kxwn
 狂妄	kxwp
 狂传	kxwt
@@ -52011,6 +52087,7 @@
 空碗	kywf
 空无	kywj
 空吃	kywk
+空床	kywm
 空文	kywn
 康有为	kywo
 空插	kyws
@@ -52184,6 +52261,7 @@
 拷绸	kzwd
 考完	kzwf
 考务	kzwj
+靠窗	kzwm
 拷问	kzwn
 考察	kzws
 考查	kzwsu
@@ -52410,6 +52488,7 @@
 六百万	lbw
 狼狈为奸	lbwj
 临池	lbwk
+临床	lbwm
 临文	lbwn
 刘伯温	lbwo
 林网	lbwp
@@ -53556,6 +53635,7 @@
 领悟	lgwj
 凌迟	lgwk
 令我	lgwl
+灵床	lgwm
 另文	lgwn
 另往	lgwp
 另查	lgws
@@ -53857,6 +53937,7 @@
 来吃	lhwk
 来迟	lhwkv
 赖我	lhwl
+赖床	lhwm
 来问	lhwn
 来往	lhwp
 略差	lhws
@@ -54154,6 +54235,7 @@
 路外	ljwh
 露齿	ljwk
 路痴	ljwko
+炉床	ljwm
 炉温	ljwn
 路网	ljwp
 撸串	ljwt
@@ -54541,6 +54623,7 @@
 利齿	lkwk
 离我	lkwl
 理我	lkwlv
+力创	lkwm
 李玟	lkwn
 离网	lkwp
 厉王	lkwpv
@@ -54938,6 +55021,7 @@
 寥寥无几	llwjo
 吕赤	llwk
 理论物理	llwl
+屡创	llwm
 螺纹	llwn
 律文	llwnu
 落网	llwp
@@ -55280,6 +55364,8 @@
 廉耻	lmwko
 连吃	lmwkv
 连我	lmwl
+联创	lmwm
+连闯	lmwmv
 连问	lmwn
 联网	lmwp
 脸王	lmwpu
@@ -55443,6 +55529,7 @@
 狼吞	lptw
 浪涛	lptz
 狼窝	lpwl
+狼疮	lpwm
 朗文	lpwn
 浪船	lpwt
 狼疮	lpwx
@@ -55953,6 +56040,7 @@
 令人吃惊	lrwj
 量入为出	lrwjo
 冷叱	lrwk
+冷床	lrwm
 愣娃	lrws
 冷床	lrwx
 冷嘲	lrwz
@@ -56139,6 +56227,7 @@
 辣翅	lswk
 拉我	lswl
 累死我了	lswli
+拉床	lswm
 拉网	lswp
 拉斯维加斯	lsws
 辣味	lsww
@@ -56393,6 +56482,7 @@
 雷霆万钧	ltwjv
 乱吃	ltwk
 离题万里	ltwl
+乱闯	ltwm
 乱问	ltwn
 乱往	ltwp
 领土完整	ltwq
@@ -57084,6 +57174,7 @@
 两碗	lxwfv
 劳而无功	lxwg
 两尺	lxwk
+凉床	lxwm
 落下帷幕	lxwm
 两文	lxwn
 两网	lxwp
@@ -57351,6 +57442,7 @@
 龙湾	lywf
 里应外合	lywh
 龙舞	lywj
+龙床	lywm
 龙文	lywn
 龙王	lywp
 龙娃	lyws
@@ -57982,6 +58074,7 @@
 瞄歪	mcwh
 妙舞	mcwj
 喵呜	mcwjo
+苗床	mcwm
 妙文	mcwn
 妙传	mcwt
 妙味	mcww
@@ -58411,6 +58504,7 @@
 满屋	mfwj
 漫无	mfwja
 慢吃	mfwk
+满窗	mfwm
 满文	mfwn
 目中无人	mfwr
 漫威	mfww
@@ -59226,6 +59320,7 @@
 木屋	mjwj
 目无	mjwji
 木尺	mjwk
+木床	mjwm
 木纹	mjwn
 木瓦	mjws
 木船	mjwt
@@ -59797,6 +59892,7 @@
 摩玩	mlwf
 漠武	mlwj
 没齿	mlwk
+磨床	mlwm
 莫问	mlwn
 魔王	mlwp
 莫忘	mlwpi
@@ -60096,6 +60192,7 @@
 命名为	mmwi
 面无	mmwj
 免吃	mmwk
+面疮	mmwm
 面纹	mmwn
 棉网	mmwp
 眉目传情	mmwq
@@ -60273,6 +60370,7 @@
 门套	mntz
 门外	mnwh
 门齿	mnwk
+门窗	mnwm
 门王	mnwp
 门卫	mnww
 门窗	mnwx
@@ -61316,6 +61414,7 @@
 没误	mwwj
 没吃	mwwk
 没我	mwwl
+楣窗	mwwm
 美文	mwwn
 没问	mwwna
 没文	mwwnao
@@ -61997,6 +62096,7 @@
 尿桶	ncty
 鸟翅	ncwk
 鸟窝	ncwl
+尿床	ncwm
 鸟网	ncwp
 尿床	ncwx
 鸟巢	ncwz
@@ -62700,6 +62800,7 @@
 奶糖	nhtp
 你画我猜	nhwc
 虐我	nhwl
+奶疮	nhwm
 疟蚊	nhwn
 耐温	nhwnv
 乃翁	nhwr
@@ -64610,6 +64711,7 @@
 你以为	nywi
 浓雾	nywj
 难以为继	nywja
+脓疮	nywm
 农用车	nywo
 农网	nywp
 浓茶	nyws
@@ -65054,6 +65156,7 @@
 票车	pcwe
 票务	pcwj
 飘舞	pcwjv
+飘窗	pcwm
 票网	pcwp
 飘窗	pcwx
 瓢虫	pcwy
@@ -65911,6 +66014,7 @@
 噗嗤	pjwk
 扑哧	pjwki
 鹏程万里	pjwl
+铺床	pjwm
 排除万难	pjwn
 普查	pjws
 铺位	pjww
@@ -67187,6 +67291,7 @@
 赔完	pwwf
 陪舞	pwwj
 陪我	pwwl
+陪床	pwwm
 配文	pwwn
 配网	pwwp
 赔哇	pwws
@@ -67873,6 +67978,7 @@
 敲完	qcwf
 侨务	qcwj
 鞘翅	qcwk
+敲窗	qcwm
 巧问	qcwn
 翘望	qcwp
 翘尾	qcww
@@ -68414,8 +68520,10 @@
 这屋	qewj
 折尺	qewk
 这是为了	qewl
+折床	qewm
 这是我们	qewm
 这是为什么	qewmo
+着床	qewmo
 其实我们	qewmv
 哲文	qewn
 这文	qewno
@@ -70127,6 +70235,7 @@
 主卧	qjwl
 穷极无聊	qjwlo
 千军万马	qjwm
+主创	qjwm
 著文	qjwn
 猪瘟	qjwnu
 朱文	qjwnuo
@@ -70653,6 +70762,7 @@
 七尺	qkwkv
 气我	qkwl
 晴空万里	qkwlo
+起床	qkwm
 气温	qkwn
 奇闻	qkwnv
 期望	qkwp
@@ -71046,6 +71156,7 @@
 去吃	qlwk
 龋齿	qlwki
 曲沃	qlwl
+去闯	qlwm
 去问	qlwn
 驱蚊	qlwna
 趣闻	qlwnv
@@ -71497,6 +71608,7 @@
 亲密无间	qmwjo
 欠我	qmwl
 这么晚了	qmwlo
+前窗	qmwm
 前文	qmwn
 前往	qmwp
 迁往	qmwpu
@@ -71881,6 +71993,7 @@
 振翅	qnwk
 真吃	qnwku
 真我	qnwl
+真闯	qnwm
 珍闻	qnwn
 阵亡	qnwp
 侦察	qnws
@@ -72144,6 +72257,7 @@
 账务	qpwj
 张驰	qpwk
 掌握	qpwl
+张床	qpwm
 张望	qpwp
 张伟	qpww
 张床	qpwx
@@ -72460,6 +72574,7 @@
 囚车	qqwe
 求真务实	qqwev
 求我	qqwl
+丘创	qqwm
 求稳	qqwn
 球王	qqwp
 千真万确	qqwq
@@ -72841,6 +72956,7 @@
 正午	qrwjv
 争持	qrwk
 助人为乐	qrwl
+争创	qrwm
 正文	qrwn
 征文	qrwnu
 正往	qrwp
@@ -75185,6 +75301,7 @@
 入伍	rjwj
 如雾	rjwja
 如痴	rjwk
+褥疮	rjwm
 入网	rjwp
 入境问俗	rjws
 入围	rjww
@@ -75350,6 +75467,7 @@
 日晚	rkwf
 日戳	rkwl
 日我	rkwlo
+日创	rkwm
 日文	rkwn
 日差	rkws
 日伪	rkww
@@ -75752,6 +75870,7 @@
 人物	rnwji
 忍耻	rnwk
 人我	rnwl
+刃创	rnwm
 人文	rnwn
 人王	rnwp
 仁川	rnwt
@@ -76065,6 +76184,7 @@
 软物	rtwj
 软尺	rtwk
 软卧	rtwl
+软床	rtwm
 软文	rtwn
 软床	rtwx
 软心	rtxb
@@ -77881,6 +78001,7 @@
 四五	skwj
 四物	skwji
 四尺	skwk
+四创	skwm
 斯文	skwn
 死亡	skwp
 丝网	skwpa
@@ -78167,6 +78288,7 @@
 所悟	slwj
 所无	slwju
 所持	slwk
+所创	slwm
 所闻	slwn
 所望	slwp
 所传	slwt
@@ -79883,6 +80005,7 @@
 偷吃	tdwk
 铁尺	tdwki
 推倒重来	tdwl
+铁窗	tdwm
 偷吻	tdwn
 铁网	tdwp
 天道酬勤	tdwq
@@ -80397,6 +80520,7 @@
 谈歪	tfwh
 贪污	tfwj
 贪吃	tfwk
+弹窗	tfwm
 探问	tfwn
 探望	tfwp
 探查	tfws
@@ -80689,6 +80813,7 @@
 亭午	tgwj
 听我	tgwl
 贪官污吏	tgwli
+听窗	tgwm
 听闻	tgwn
 挺旺	tgwp
 停船	tgwt
@@ -81014,6 +81139,7 @@
 台外	thwh
 太戊	thwj
 太迟	thwk
+太创	thwm
 泰文	thwn
 台网	thwp
 太翁	thwr
@@ -81340,6 +81466,10 @@
 图腾	tjtr
 土豚	tjtw
 突兀	tjwj
+凸窗	tjwm
+图床	tjwmi
+图创	tjwmii
+秃疮	tjwmu
 图文	tjwn
 突围	tjww
 图为	tjwwi
@@ -81841,6 +81971,7 @@
 徒劳无功	tlwg
 脱误	tlwj
 跅弛	tlwk
+拖床	tlwm
 脱文	tlwn
 脱网	tlwp
 沱茶	tlws
@@ -82180,6 +82311,7 @@
 天外	tmwh
 天无	tmwj
 天池	tmwk
+天窗	tmwm
 天文	tmwn
 天问	tmwnv
 天王	tmwp
@@ -82402,6 +82534,7 @@
 堂屋	tpwj
 汤匙	tpwk
 躺卧	tpwl
+镗床	tpwm
 唐王	tpwp
 倘未	tpww
 汤唯	tpwwa
@@ -83478,6 +83611,8 @@
 同吃	tywki
 痛斥	tywko
 同我	tywl
+同窗	tywm
+同床	tywmi
 同文	tywn
 同问	tywni
 通往	tywp
@@ -84439,6 +84574,8 @@
 彻悟	wewj
 万寿无疆	wewjv
 无时无刻	wewk
+车窗	wewm
+车床	wewmv
 车王	wewp
 彻查	wews
 车瓦	wewsv
@@ -85789,6 +85926,7 @@
 舞池	wjwku
 五尺	wjwkv
 无我	wjwl
+误闯	wjwm
 无望	wjwp
 吴王	wjwpo
 勿忘	wjwpu
@@ -86478,6 +86616,7 @@
 戳戳	wlwla
 喔喔	wlwlo
 窝窝	wlwloo
+卧床	wlwm
 我问	wlwn
 为了我	wlwo
 望了望	wlwoa
@@ -86655,6 +86794,7 @@
 亡命天涯	wmty
 我们同样	wmtyu
 魑魅魍魉	wmwl
+闯闯	wmwm
 我们为什么	wmwm
 完美无缺	wmwq
 惟妙惟肖	wmwx
@@ -86925,6 +87065,7 @@
 文痴	wnwk
 问我	wnwl
 无能为力	wnwlv
+温床	wnwm
 问问	wnwn
 温文	wnwna
 闻闻	wnwno
@@ -87198,6 +87339,7 @@
 无凭无据	wpwjv
 旺炽	wpwk
 忘我	wpwl
+望窗	wpwm
 网纹	wpwn
 网文	wpwni
 往往	wpwp
@@ -88473,6 +88615,7 @@
 为伍	wwwjoi
 维持	wwwk
 唯我	wwwl
+微创	wwwm
 慰问	wwwn
 维稳	wwwna
 为文	wwwno
@@ -88609,39 +88752,27 @@
 持续不断	wxbd
 朝鲜半岛	wxbdu
 床板	wxbf
-床板	wxbf
-创办	wxbfi
 创办	wxbfi
 戊戌变法	wxbfv
 插线板	wxbi
 床边	wxbm
-床边	wxbm
-创编	wxbmi
 创编	wxbmi
 窗边	wxbmo
-窗边	wxbmo
-疮疤	wxbs
 疮疤	wxbs
 王小波	wxbv
 韦小宝	wxbvi
-床被	wxbw
 床被	wxbw
 充耳不闻	wxbwo
 无恶不作	wxbz
 无线电	wxd
 创的	wxde
-创的	wxde
 卫星电视	wxdea
 无需多说	wxdev
 床单	wxdf
-床单	wxdf
-床底	wxdk
 床底	wxdk
 我想到了	wxdl
 文心雕龙	wxdlo
 床垫	wxdm
-床垫	wxdm
-闯荡	wxdp
 闯荡	wxdp
 无线电台	wxdt
 重新读	wxdu
@@ -88651,31 +88782,20 @@
 无限大	wxdva
 王尔德	wxdvu
 窗洞	wxdy
-窗洞	wxdy
 重新定义	wxdyu
 捶胸顿足	wxdz
 文学史	wxe
 创税	wxeb
-创税	wxeb
-创收	wxed
 创收	wxed
 创设	wxee
-创设	wxee
-窗扇	wxef
 窗扇	wxef
 晚些时候	wxeh
 持续时间	wxej
 创始	wxek
-创始	wxek
-创世	wxeki
 创世	wxeki
 床上	wxep
-床上	wxep
-创伤	wxepi
 创伤	wxepi
 创生	wxer
-创生	wxer
-窗纱	wxes
 窗纱	wxes
 微小说	wxeu
 无锡市	wxev
@@ -88688,10 +88808,8 @@
 我想知道	wxfd
 抽薪止沸	wxff
 创制	wxfk
-创制	wxfk
 吃闲饭	wxfo
 持续发展	wxfq
-窗缝	wxfr
 窗缝	wxfr
 无休止	wxfv
 无限制	wxfva
@@ -88700,89 +88818,57 @@
 忘恩负义	wxfy
 万恶之源	wxfyv
 床罩	wxfz
-床罩	wxfz
-床照	wxfzo
 床照	wxfzo
 我习惯	wxg
 窗钩	wxgd
-窗钩	wxgd
-窗格	wxge
 窗格	wxge
 无暇顾及	wxgj
 闯过	wxgl
-闯过	wxgl
 闻讯赶来	wxglo
-闯关	wxgt
 闯关	wxgt
 万象更新	wxgx
 窗高	wxgz
-窗高	wxgz
 我喜欢	wxh
 创汇	wxhb
-创汇	wxhb
-窗户	wxhj
 窗户	wxhj
 闯祸	wxhl
-闯祸	wxhl
-创痕	wxhn
 创痕	wxhn
 我喜欢你	wxhnu
 窗花	wxhq
-窗花	wxhq
 五星红旗	wxhqv
-创欢	wxht
 创欢	wxht
 文学家	wxj
 闯进	wxjb
-闯进	wxjb
 床脚	wxjc
-床脚	wxjc
-疮疖	wxjd
 疮疖	wxjd
 卧薪尝胆	wxjdv
 创新精神	wxje
 创出	wxjj
-创出	wxjj
-闯出	wxjjo
 闯出	wxjjo
 微型计算机	wxjju
 创举	wxjl
-创举	wxjl
 创建	wxjm
-创建	wxjm
-创见	wxjmi
 创见	wxjmi
 文学界	wxjo
 微型机	wxju
 五星级	wxjv
 闯将	wxjx
-闯将	wxjx
 窗口	wxkd
-窗口	wxkd
-创口	wxkdi
 创口	wxkdi
 重新开始	wxke
-创刊	wxkf
 创刊	wxkf
 无懈可击	wxkj
 无隙可乘	wxkjv
 重新考虑	wxkl
 持续快速	wxks
 窗宽	wxkt
-窗宽	wxkt
 窗框	wxkx
-窗框	wxkx
-窗孔	wxky
 窗孔	wxky
 王晓莉	wxl
 窗棂	wxlg
-窗棂	wxlg
 创立	wxlk
-创立	wxlk
-创利	wxlki
 创利	wxlki
 文学理论	wxll
-窗帘	wxlm
 窗帘	wxlm
 无线路由器	wxlq
 外销量	wxlu
@@ -88792,36 +88878,25 @@
 尾形码	wxm
 沃尔玛	wxma
 窗幔	wxmf
-窗幔	wxmf
 创面	wxmm
-创面	wxmm
-窗门	wxmn
 窗门	wxmn
 文学名著	wxmq
 窗楣	wxmw
-窗楣	wxmw
 我爱你	wxn
-床弩	wxnj
 床弩	wxnj
 创新能力	wxnl
 我想你	wxnu
 玩儿闹	wxnv
 窗内	wxnw
-窗内	wxnw
 五线谱	wxp
 创评	wxpg
-创评	wxpg
 床铺	wxpj
-床铺	wxpj
-窗旁	wxpp
 窗旁	wxpp
 危险品	wxpu
 危险期	wxq
 望而却步	wxqb
 重新启动	wxqd
 窗前	wxqm
-窗前	wxqm
-床前	wxqmo
 床前	wxqmo
 朝鲜战争	wxqq
 我想起	wxqu
@@ -88829,75 +88904,51 @@
 无限期	wxqv
 唯心主义	wxqy
 床罩	wxqz
-床罩	wxqz
 外星人	wxr
 创新人才	wxrc
 怆然	wxrf
-怆然	wxrf
-闯入	wxrj
 闯入	wxrj
 朝鲜人	wxru
 查尔斯	wxs
 威信扫地	wxsd
 闯丧	wxsp
-闯丧	wxsp
 垂涎三尺	wxsw
 抽象思维	wxswi
 床腿	wxtb
-床腿	wxtb
-床头	wxtd
 床头	wxtd
 温馨提示	wxte
 窗挺	wxtg
-窗挺	wxtg
-窗台	wxth
 窗台	wxth
 窗体	wxtk
-窗体	wxtk
-床榻	wxts
 床榻	wxts
 卫星通信	wxtx
 无线通信	wxtxv
 创痛	wxty
-创痛	wxty
-窗套	wxtz
 窗套	wxtz
 我希望	wxw
 沃尔沃	wxwa
 无休无止	wxwf
 窗外	wxwh
-窗外	wxwh
 问心无愧	wxwk
 无线网卡	wxwkv
 无线网络	wxwl
 闯王	wxwp
-闯王	wxwp
 我行我素	wxws
 无线网	wxwv
 床位	wxww
-床位	wxww
-闯闯	wxwx
 闯闯	wxwx
 痴心妄想	wxwxo
 文学创作	wxwz
 我相信	wxx
 创新	wxxb
-创新	wxxb
-创效	wxxc
 创效	wxxc
 武侠小说	wxxe
 创安	wxxf
-创安	wxxf
 持续性	wxxi
 床席	wxxk
-床席	wxxk
-创先	wxxm
 创先	wxxm
 创下	wxxs
-创下	wxxs
 床下	wxxso
-床下	wxxso
-窗下	wxxsov
 窗下	wxxsov
 危险性	wxxu
 外向型	wxxuu
@@ -88905,40 +88956,29 @@
 我需要	wxy
 丑小鸭	wxya
 创优	wxyd
-创优	wxyd
 垂涎欲滴	wxydu
-创业	wxye
 创业	wxye
 文学艺术	wxyeo
 床沿	wxyf
-床沿	wxyf
 创意	wxyk
-创意	wxyk
-疮痍	wxyko
 疮痍	wxyko
 文学院	wxyo
 弯下腰	wxyov
 疮疡	wxyp
-疮疡	wxyp
-窗园	wxyt
 窗园	wxyt
 莞尔一笑	wxyx
 朝鲜族	wxz
 维修组	wxza
 床箦	wxze
-床箦	wxze
 我现在是	wxzeu
 无形资产	wxzj
 窗子	wxzk
-窗子	wxzk
-创作	wxzl
 创作	wxzl
 文献资料	wxzlo
 文学作品	wxzp
 重新做人	wxzr
 我现在	wxzu
 臭小子	wxzui
-创造	wxzz
 创造	wxzz
 文艺报	wyb
 崇彪	wybc
@@ -89564,6 +89604,8 @@
 朝外	wzwh
 超误	wzwj
 朝我	wzwl
+超创	wzwm
+超创	wzwm
 超稳	wzwn
 超差	wzws
 超串	wzwt
@@ -90055,6 +90097,8 @@
 信物	xbwj
 心窝	xbwl
 下不为例	xbwlv
+新创	xbwm
+新创	xbwm
 新闻	xbwn
 新网	xbwp
 新茶	xbws
@@ -90558,6 +90602,10 @@
 小吃	xcwk
 笑我	xcwl
 小窝	xcwli
+小窗	xcwm
+小窗	xcwm
+小床	xcwmi
+小床	xcwmi
 笑问	xcwn
 小文	xcwni
 消亡	xcwp
@@ -91422,6 +91470,7 @@
 蓄水池	xewi
 俄乌	xewj
 按时完成	xewji
+恶疮	xewm
 俄文	xewn
 讹传	xewt
 心事重重	xeww
@@ -91806,6 +91855,7 @@
 学富五车	xfwjo
 项庄舞剑	xfwjv
 安卧	xfwl
+暗疮	xfwm
 削职为民	xfwm
 西方文明	xfwmv
 安稳	xfwn
@@ -92764,6 +92814,7 @@
 挨我	xhwli
 削我	xhwliu
 学我	xhwlo
+哀怆	xhwm
 学问	xhwn
 学文	xhwno
 嘘寒问暖	xhwnoo
@@ -93677,6 +93728,7 @@
 西外	xkwh
 习武	xkwj
 洗池	xkwk
+铣床	xkwm
 西文	xkwn
 细纹	xkwna
 喜闻	xkwnv
@@ -94499,6 +94551,7 @@
 嫌恶	xmwj
 先吃	xmwk
 嫌我	xmwl
+舷窗	xmwm
 线网	xmwp
 先王	xmwpu
 奥妙无穷	xmwq
@@ -94947,6 +95000,7 @@
 相去无几	xqwj
 羞耻	xqwk
 修持	xqwki
+绣床	xqwm
 修文	xqwn
 星期五	xqwo
 秀网	xqwp
@@ -95475,6 +95529,7 @@
 瞎吃	xswk
 吓我	xswl
 吓死我了	xswlo
+下床	xswm
 下文	xswn
 阿文	xswna
 下网	xswp
@@ -96606,6 +96661,7 @@
 向我	xxwl
 信息网络	xxwli
 想我	xxwlv
+祥创	xxwm
 安享晚年	xxwn
 性行为	xxwo
 向往	xxwp
@@ -98346,6 +98402,7 @@
 有我	ydwl
 由我	ydwli
 邮戳	ydwlia
+又创	ydwm
 又问	ydwn
 有望	ydwp
 有网	ydwpv
@@ -99920,6 +99977,7 @@
 有关文件	ygwjv
 英尺	ygwk
 硬卧	ygwl
+硬闯	ygwm
 英文	ygwn
 应往	ygwp
 颍川	ygwt
@@ -101350,6 +101408,7 @@
 一池	ykwkv
 一窝	ykwl
 欲哭无泪	ykwlu
+一床	ykwm
 疑问	ykwn
 伊文	ykwni
 译文	ykwno
@@ -101987,6 +102046,7 @@
 鱼池	ylwku
 与我	ylwl
 云里雾里	ylwlv
+余床	ylwm
 语文	ylwn
 预闻	ylwna
 余温	ylwni
@@ -102505,6 +102565,7 @@
 洋务	ypwj
 羊齿	ypwk
 仰卧	ypwl
+样窗	ypwm
 洋文	ypwn
 仰望	ypwp
 阳岔	ypws
@@ -102967,6 +103028,7 @@
 押车	yswe
 压弯	yswf
 牙齿	yswk
+牙床	yswm
 雅文	yswn
 押往	yswp
 鱼死网破	yswpu
@@ -103329,6 +103391,7 @@
 原物	ytwj
 以退为进	ytwja
 一吐为快	ytwk
+原创	ytwm
 原文	ytwn
 愿望	ytwp
 冤枉	ytwpo
@@ -104282,6 +104345,7 @@
 远远超出	yywjv
 泳池	yywk
 蛹卧	yywl
+勇创	yywm
 有勇无谋	yywm
 拥吻	yywn
 应用文	yywo
@@ -104713,6 +104777,7 @@
 有增无减	yzwjvv
 瑶池	yzwk
 要我	yzwl
+要创	yzwm
 要闻	yzwn
 遥望	yzwp
 要查	yzws
@@ -105883,6 +105948,7 @@
 再晚	zhwfv
 在外	zhwh
 再无	zhwj
+再创	zhwm
 再问	zhwn
 载文	zhwnu
 在望	zhwp
@@ -106513,6 +106579,7 @@
 自误	zkwju
 自持	zkwk
 自我	zkwl
+自创	zkwm
 自问	zkwn
 自刎	zkwnu
 子网	zkwp
@@ -106839,6 +106906,7 @@
 作外	zlwh
 作物	zlwj
 坐卧	zlwl
+坐床	zlwm
 作文	zlwn
 坐稳	zlwni
 坐望	zlwp
@@ -107248,6 +107316,7 @@
 憎恶	zrwj
 增持	zrwk
 赠我	zrwl
+增创	zrwm
 增温	zrwn
 增为	zrww
 增创	zrwx
@@ -107467,6 +107536,7 @@
 钻塔	ztts
 昨天晚上	ztwe
 走投无路	ztwl
+钻床	ztwm
 钻床	ztwx
 再贴现	ztx
 钻心	ztxb
@@ -107903,6 +107973,7 @@
 再也无法	zywf
 总务	zywj
 自以为得计	zywju
+棕床	zywm
 总温	zywn
 左右为难	zywnv
 总以为	zywo
