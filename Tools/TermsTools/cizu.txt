@@ -18681,11 +18681,9 @@
 什么时间	emeji
 双十	emek
 熟门熟路	emel
-双目失明	emem
 双双	emem
-双双	emem
+双目失明	emema
 什么什么	ememi
-爽爽	ememv
 爽爽	ememv
 爽身	emen
 说明书	emeo
@@ -86795,7 +86793,7 @@
 我们同样	wmtyu
 魑魅魍魉	wmwl
 闯闯	wmwm
-我们为什么	wmwm
+我们为什么	wmwmu
 完美无缺	wmwq
 惟妙惟肖	wmwx
 无名小辈	wmxb
