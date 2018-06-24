@@ -1,8 +1,3 @@
----
-...
-name: xkjd6.cizu
-sort: original
-version: "Q1"
 并不比	bbb
 彬彬	bbbb
 斌斌	bbbbo
