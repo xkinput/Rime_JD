@@ -34067,7 +34067,6 @@
 搞过	gzgl
 高过	gzglo
 高光	gzgm
-高光	gzgm
 高跟	gzgn
 高岗	gzgp
 高挂	gzgq
@@ -36301,7 +36300,6 @@
 还快	hhkg
 害苦	hhkj
 海况	hhkm
-海况	hhkm
 海康	hhkp
 海宽	hhkt
 海况	hhkx
@@ -36681,7 +36679,6 @@
 湖科	hjke
 胡侃	hjkf
 湖库	hjkj
-护矿	hjkm
 护矿	hjkm
 护矿	hjkx
 环境科学	hjkxv
@@ -38112,7 +38109,6 @@
 化开	hqkhi
 划开	hqkhv
 画框	hqkm
-画框	hqkm
 划卡	hqks
 划款	hqkt
 画框	hqkx
@@ -39005,7 +39001,6 @@
 荤口	hwkdi
 黑客	hwke
 浑括	hwkl
-黑框	hwkm
 黑框	hwkm
 黑框	hwkx
 好无聊	hwl
@@ -40595,8 +40590,6 @@
 尽快	jbkg
 金库	jbkj
 近况	jbkm
-近况	jbkm
-金矿	jbkmi
 金矿	jbkmi
 绝不可能	jbkn
 矜夸	jbkq
