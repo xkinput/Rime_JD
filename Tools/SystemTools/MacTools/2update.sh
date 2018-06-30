@@ -1,6 +1,6 @@
 #!/bin/bash
 
-xkjd="../../../../Rime_JD/rime"
+xkjd="../../../../Rime_JD/"
 xklb="../../../../rime_xklb"
 xkyb="../../../../rime_xkyb"
 rime="$HOME/Library/Rime"
@@ -117,7 +117,7 @@ sleep 2
 clear
 echo "==========================================="
 echo "已安装方案：$count个 $JD $YB $LB"
-echo "请在fcitx重新部署后再尝试使用。"
+echo "请在鼠须管重新部署后再尝试使用。"
 echo "==========================================="
 sleep 1
 exit
