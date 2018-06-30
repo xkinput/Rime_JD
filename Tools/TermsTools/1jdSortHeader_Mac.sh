@@ -13,7 +13,7 @@ sort -t $'\t' -k 2 yingwen.txt > xkjd6.yingwen.dict.yaml
 sort -t $'\t' -k 2 wxw.txt > xkjd6.wxw.dict.yaml
 cp -rf xkjd6.cizu.dict.yaml ./cizu.txt
 cp -rf xkjd6.danzi.dict.yaml ./danzi.txt
-cp -rf xkjd6.yingwen.dict.yaml .yingwen..txt
+cp -rf xkjd6.yingwen.dict.yaml ./yingwen.txt
 cp -rf xkjd6.wxw.dict.yaml ./wxw.txt
 echo 更为当前文件
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.cizu.dict.yaml
