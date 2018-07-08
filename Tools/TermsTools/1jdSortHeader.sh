@@ -21,7 +21,7 @@ sed -i 's/\b并不比\b\tbbb\b/---\nname: xkjd6.cizu\nversion: "Q1"\nsort: origi
 sed -i 's/\b不\b\tb\b/---\nname: xkjd6.danzi\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.danzi.dict.yaml
 sed -i 's/\bbiangbiang面\b\tbbmmu\b/---\nname: xkjd6.yingwen\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.yingwen.dict.yaml
 sed -i 's/\不能\b\tba\b/---\nname: xkjd6.wxw\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.wxw.dict.yaml
-sed -i 's/\那\b\ta\b/---\nname: xkjd6.buchong\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.buchong.dict.yaml
+sed -i 's/\乛\b\ta\b/---\nname: xkjd6.buchong\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.buchong.dict.yaml
 echo 执行排序添加头部信息完成
 cp -rf xkjd6.cizu.dict.yaml ../../rime/
 cp -rf xkjd6.danzi.dict.yaml ../../rime/
