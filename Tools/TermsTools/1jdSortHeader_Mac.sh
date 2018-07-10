@@ -11,18 +11,22 @@ sort -t $'\t' -k 2 cizu.txt > xkjd6.cizu.dict.yaml
 sort -t $'\t' -k 2 danzi.txt > xkjd6.danzi.dict.yaml
 sort -t $'\t' -k 2 yingwen.txt > xkjd6.yingwen.dict.yaml
 sort -t $'\t' -k 2 wxw.txt > xkjd6.wxw.dict.yaml
+cp -rf buchong.txt ./xkjd6.buchong.dict.yaml
 cp -rf xkjd6.cizu.dict.yaml ./cizu.txt
 cp -rf xkjd6.danzi.dict.yaml ./danzi.txt
 cp -rf xkjd6.yingwen.dict.yaml ./yingwen.txt
 cp -rf xkjd6.wxw.dict.yaml ./wxw.txt
+cp -rf xkjd6.buchong.dict.yaml ./buchong.txt
 echo 更为当前文件
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.cizu.dict.yaml
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.danzi\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.danzi.dict.yaml
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.yingwen\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.yingwen.dict.yaml
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.wxw\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.wxw.dict.yaml
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchong\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.buchong.dict.yaml
 echo 执行排序添加头部信息完成
 cp -rf xkjd6.cizu.dict.yaml ../../rime/
 cp -rf xkjd6.danzi.dict.yaml ../../rime/
 cp -rf xkjd6.yingwen.dict.yaml ../../rime/
 cp -rf xkjd6.wxw.dict.yaml ../../rime/
+cp -rf xkjd6.buchong.dict.yaml ../../rime/
 echo 已放置到主词库中
