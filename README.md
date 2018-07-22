@@ -38,6 +38,9 @@
 `git pull upstream master`
 2. 获取后，执行复制码表工具（2update），再重新部署即可更新完成
 
+##### iRime说明：
+1. 指导教程 [iRime-Wiki][913]
+
 ##### （可选）发起PR：
 * 若你有意发起扩展词库，或者提交词可用Git提交，提交后合理将直接合并到仓库内
 创建远程仓库，指向 PR 提交者的仓库
@@ -87,7 +90,7 @@
 ---
 ### 键道可以运行在以下平台中：
 
-| Windows | Linux | Apple | Android
+| Windows | Linux | iOS | Android
 | ------------- |:-------------:|:-------------:|:-----:
 | [Windows(weasel)][101] | [Linux(ibus-rime)][104] | [Mac(squirrel)][102] | [Android(trime)][105] 
 | [Windows(小小)][203] | [Linux(fcitx-rime)][103] | [IOS(iRime)][106] | [Android(小小)][203]
@@ -137,3 +140,4 @@
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
 [911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
 [912]: https://share.weiyun.com/5xfC9Qk "Git微云地址"
+[913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
