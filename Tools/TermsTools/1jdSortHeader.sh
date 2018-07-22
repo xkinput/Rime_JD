@@ -29,6 +29,7 @@ sed -i 's/\bbiangbiang面\b\tbbmmu\b/---\nname: xkjd6.yingwen\nversion: "Q1"\nso
 sed -i 's/\不能\b\tba\b/---\nname: xkjd6.wxw\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.wxw.dict.yaml
 sed -i 's/\那\b\ta\b/---\nname: xkjd6.buchong\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.buchong.dict.yaml
 sed -i 's/\那\b\ta\b/---\nname: xkjd6.chaojizici\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.chaojizici.dict.yaml
+sed -i 's/\BiangBiang面\b\tbbmmu\b/---\nname: xkjd6.yingwen\nversion: "Q1"\nsort: original\n...\n&/' xkjd6.yingwen.dict.yaml
 echo 执行排序添加头部信息完成
 cp -rf xkjd6.cizu.dict.yaml ../../rime/
 cp -rf xkjd6.danzi.dict.yaml ../../rime/
