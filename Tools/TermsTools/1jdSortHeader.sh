@@ -6,7 +6,24 @@ cp -rf ../../rime/xkjd6.buchong.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.chaojizici.dict.yaml ../BackDict/
 git add ../BackDict/*
 git commit -m "更新：备份旧词库"
+echo 清理旧排序文件
+rm xkjd6.cizu.dict.yaml
+rm xkjd6.danzi.dict.yaml
+rm xkjd6.yingwen.dict.yaml
+rm xkjd6.wxw.dict.yaml
+rm xkjd6.chaojizici.dict.yaml
+rm xkjd6.cizu.dict.yaml
+rm xkjd6.danzi.dict.yaml
+rm xkjd6.yingwen.dict.yaml
+rm xkjd6.wxw.dict.yaml
+rm xkjd6.chaojizici.dict.yaml
+
 echo 开始处理排序
+sort -t $'\t' -k 2 cizu.txt > xkjd6.cizu.dict.yaml
+sort -t $'\t' -k 2 danzi.txt > xkjd6.danzi.dict.yaml
+sort -t $'\t' -k 2 yingwen.txt > xkjd6.yingwen.dict.yaml
+sort -t $'\t' -k 2 wxw.txt > xkjd6.wxw.dict.yaml
+sort -t $'\t' -k 2 chaojizici.txt > xkjd6.chaojizici.dict.yaml
 sort -t $'\t' -k 2 cizu.txt > xkjd6.cizu.dict.yaml
 sort -t $'\t' -k 2 danzi.txt > xkjd6.danzi.dict.yaml
 sort -t $'\t' -k 2 yingwen.txt > xkjd6.yingwen.dict.yaml
