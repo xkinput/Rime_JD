@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cp -rf ../../rime/xkjd6.cizu.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.danzi.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.yingwen.dict.yaml ../BackDict/
@@ -56,5 +58,6 @@ cp -rf xkjd6.buchong.dict.yaml ../../rime/
 cp -rf xkjd6.chaojizici.dict.yaml ../../rime/
 echo 已放置到主词库中
 git add . ../../rime/*
-git commit -m "更新：据仪表内容更新词库"
+read -p "更新内容为：" cont
+git commit -m "更新：$cont"
 git push
