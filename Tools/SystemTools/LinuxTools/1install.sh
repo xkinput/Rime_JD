@@ -49,8 +49,9 @@ echo "若在无网络情况下卸载输入法，将无法安装输入法"
 echo "安装分为4步："
 echo "1、卸载旧版Fcitx程序。"
 echo "2、安装Fcitx程序。"
-echo "3、复制Rime用户配置文件。"
-echo "4、注销或重启系统。"
+echo "3、配置Fcitx程序。"
+echo "4、复制Rime用户配置文件。"
+echo "5、注销或重启系统。"
 echo "*过程可能较慢，请耐心等待。"
 echo "                          shell by Qshu"
 echo "==========================================="
@@ -83,20 +84,29 @@ echo "==========================================="
 sleep 1
 InstallFcitx(){
 	if [ $PM = "apt" ]; then
-		sudo apt install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
+		sudo apt install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
 	elif [ $PM = "yum" ]; then
-		sudo yum install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
+		sudo yum install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
 	elif [ $PM = "pacman" ]; then
-		sudo pacman -S fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
+		sudo pacman -S fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
 	fi
 }
 InstallFcitx
-sleep 5
+sleep 3
 clear
 echo "==========================================="
 echo "欢迎使用LinuxRime输入法Fcitx-rime引导程序"
 echo "==========================================="
-echo "第三步 复制Rime用户配置文件"
+echo "第三步 配置Rime程序"
+echo "==========================================="
+echo "请在开启窗口中使用“+”添加中州韵扩展，建议关闭其他输入法，"
+echo "然后关闭窗口，将继续下一步，请操作..."
+fcitx-configtool
+clear
+echo "==========================================="
+echo "欢迎使用LinuxRime输入法Fcitx-rime引导程序"
+echo "==========================================="
+echo "第四步 复制Rime用户配置文件"
 echo "==========================================="
 
 JD=""
@@ -106,7 +116,7 @@ rime=~/.config/fcitx/rime
 
 xkjd=../../../../Rime_JD
 xklb=../../../../rime_xklb
-xkyb=../../../../rime_xkyb
+xkyb=../../../../rime_xkybd
 
 bak=./备份
 count=0
@@ -175,9 +185,13 @@ if [ $? == 1 ]; then
 	cp -rf ../rime/*.yaml $rime/
 	JD="键道6"
 fi
-isHaveDict "一笔" $xkyb
+isHaveDict "一笔一道魔道" $xkyb
 if [ $? == 1 ]; then
-	YB="一笔"
+	cp -rf $xkyb/*.yaml $rime/
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	YB="一笔一道魔道"
 fi
 isHaveDict "两笔" $xklb
 if [ $? == 1 ]; then
