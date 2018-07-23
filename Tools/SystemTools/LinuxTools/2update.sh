@@ -5,9 +5,22 @@ YB=""
 LB=""
 rime=~/.config/fcitx/rime
 
+jd=$(pwd);
 xkjd=../../../../Rime_JD
 xklb=../../../../rime_xklb
-xkyb=../../../../rime_xkyb
+xkyb=../../../../rime_xkybd
+echo "获取键道最新词库..."
+git pull
+echo "获取两笔最新词库..."
+cd $xklb
+git pull
+cd $jd
+echo "获取一笔一道魔道最新词库..."
+cd $xkyb
+git pull
+cd $jd
+
+sleep 1
 
 bak=./备份
 count=0
@@ -76,9 +89,13 @@ if [ $? == 1 ]; then
 	cp -rf ../rime/*.yaml $rime/
 	JD="键道6"
 fi
-isHaveDict "一笔" $xkyb
+isHaveDict "一笔一道魔道" $xkyb
 if [ $? == 1 ]; then
-	YB="一笔"
+	cp -rf $xkyb/*.yaml $rime/
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	echo " * 如有报错可忽略，稍后以输出目录文件数为准！"
+	YB="一笔一道魔道"
 fi
 isHaveDict "两笔" $xklb
 if [ $? == 1 ]; then
