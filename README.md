@@ -79,7 +79,7 @@
 
 | [Morler][214] | [歌颂][216] |
 | ------------- | ---------- |
-| [星空两笔][213] | [星空一笔][215] |
+| [星空两笔][213] | [星空一笔 OR 星空一道][217] |
 ---
 ### 键道6第三方维护版本：
 
@@ -126,7 +126,8 @@
 [213]: https://gitee.com/morler/rime_xklb "两笔地址"
 [214]: https://gitee.com/morler "Morler"
 [215]: https://github.com/dzyht/rime_xkyb "一笔地址"
-[216]: https://github.com/dzyht "歌颂"
+[216]: https://gitee.com/dzyht "歌颂"
+[217]: https://gitee.com/dzyht/rime_xkybd "一笔一道地址"
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
