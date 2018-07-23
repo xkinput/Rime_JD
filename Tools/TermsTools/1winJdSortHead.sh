@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cp -rf ../../rime/xkjd6.cizu.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.danzi.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.yingwen.dict.yaml ../BackDict/
