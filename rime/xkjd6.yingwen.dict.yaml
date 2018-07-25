@@ -3,11 +3,6 @@ name: xkjd6.yingwen
 version: "Q1"
 sort: original
 ...
----
-name: xkjd6.yingwen
-version: "Q1"
-sort: original
-...
 BiangBiang面	bbmmu
 B超	bjz
 B站	bkqf
@@ -37,22 +32,22 @@ iMac Pro	kmsp
 IP地址	kpdf
 IP电话	kpdh
 iPhone	kph
-iPhone 	kphb
-iPhone 	kphq
-iPhone  Plus	kphs
+iPhone 8	kphb
+iPhone 7	kphq
+iPhone 8 Plus	kphs
 iPhone X	kphx
 IP卡	kpk
 iPAD	kps
 iPad	kpsd
-iPadPro	kpsp
+iPad Pro	kpsp
 Iptv	kptv
 K线图	kxt
 Office	lffeo
-Office	lffl
-Office	lffso
+Office 2016	lffl
+Office 2013	lffso
 OFO	lfl
-ofo小黄车	lfljo
-ofo小黄车	lflw
+Ofo小黄车	lfljo
+Ofo小黄车	lflw
 Linux	lknx
 MBA	mbsi
 MIUI	mkjk
@@ -61,7 +56,8 @@ NBA	nbs
 PC机	pcjku
 Perfect	pert
 PhotoShop	phlp
-PowerPoint	plwt
+Power Point	plkt
+Power Point	plwt
 PY交易	pyjy
 QQ号	qqh
 QQ拼音	qqpy
@@ -78,7 +74,7 @@ Android	sndd
 AA制	ssf
 AA制	ssfk
 ATM	stm
-Thx	thx
+THX	thx
 TapTap	tspt
 T型台	txth
 T型台	txth
@@ -87,12 +83,12 @@ Welcome	wjlja
 WIFI	wkfk
 Wiki	wkkk
 Win	wkn
-Win	wknb
-Windows	wknba
-Win	wkne
-Windows	wknea
-Win	wknq
-Windows	wknqa
+Win8	wknb
+Windows8	wknba
+Win10	wkne
+Windows10	wknea
+Win7	wknq
+Windows7	wknqa
 Windows	wkns
 Word	wlrd
 X光	xgx
