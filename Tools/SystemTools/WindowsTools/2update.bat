@@ -30,6 +30,8 @@ setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
+echo 获取最新版本……
+git pull
 echo ================================
 echo 原Rime文件将备份至"%CD%\备份\"
 echo *请确保上级文件夹有rime文件夹
