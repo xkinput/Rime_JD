@@ -34,6 +34,9 @@
 嗯	x
 意	y
 咋	z
+# 二简二重
+季	jk
+屁	pk
 # syxb 单字
 实	ekbo
 视	ekei

@@ -1,20 +1,32 @@
 BiangBiang面	bbmmu
+BGM	bgm
 B超	bjz
 B站	bkqf
+B站	bqf
+Backspace	bscei
 B超	bwz
 CDMA	cdm
+Caps Lock	cspk
+Ctrl	ctrl
+C位	cww
 C语言	cyy
+Delete	delei
 登录QQ	dlqqa
 哆啦A梦	dlsm
 DNA	dns
 D盘	dpf
+Enter	enter
+Esc	esc
 Excel	excl
 For	flr
+Foxmail	flxlv
 智能ABC	fnsc
 GDP	gdp
+GIF	gkf
 Git	gkt
 Github	gktb
 Good	glld
+Google	gllgle
 USB	jsb
 ICU	kcj
 IC卡	kck
@@ -31,6 +43,7 @@ iPhone 8	kphb
 iPhone 7	kphq
 iPhone 8 Plus	kphs
 iPhone X	kphx
+IPKPI	kpk
 IP卡	kpk
 iPAD	kps
 iPad	kpsd
@@ -44,36 +57,50 @@ OFO	lfl
 Ofo小黄车	lfljo
 Ofo小黄车	lflw
 Linux	lknx
+VoLTE	lllte
 MBA	mbsi
 MIUI	mkjk
 Mac	msc
 NBA	nbs
+Note	nlte
+NASA	nsss
 PC机	pcjku
 Perfect	pert
 PhotoShop	phlp
+Plus	pljs
 Power Point	plkt
 Power Point	plwt
 PY交易	pyjy
+QQ	qq
 QQ号	qqh
 QQ拼音	qqpy
 QQ群	qqqw
 QQ音乐	qqyy
 奇瑞QQ	qrqqv
 Rime	rkme
+Root	rllt
 ABC	sbc
 Access	sccs
+AcFun	scfn
 A股	sgj
+Shift	shkt
 SIM卡	skm
 SOHO公寓	slhy
+Alt	slt
 Android	sndd
+Apk	spk
+App	spp
+A站	sqf
 AA制	ssf
 AA制	ssfk
 ATM	stm
 THX	thx
+TIM	tkm
 TapTap	tspt
 T型台	txth
 T型台	txth
 U盘	upf
+Vip	vkp
 Welcome	wjlja
 WIFI	wkfk
 Wiki	wkkk
@@ -87,3 +114,4 @@ Windows7	wknqa
 Windows	wkns
 Word	wlrd
 X光	xgx
+X战警	xqju
