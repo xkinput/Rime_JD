@@ -49,9 +49,8 @@ echo "若在无网络情况下卸载输入法，将无法安装输入法"
 echo "安装分为4步："
 echo "1、卸载旧版Fcitx程序。"
 echo "2、安装Fcitx程序。"
-echo "3、配置Fcitx程序。"
-echo "4、复制Rime用户配置文件。"
-echo "5、注销或重启系统。"
+echo "3、复制Rime用户配置文件。"
+echo "4、注销或重启系统。"
 echo "*过程可能较慢，请耐心等待。"
 echo "                          shell by Qshu"
 echo "==========================================="
@@ -84,11 +83,11 @@ echo "==========================================="
 sleep 1
 InstallFcitx(){
 	if [ $PM = "apt" ]; then
-		sudo apt install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
+		sudo apt install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
 	elif [ $PM = "yum" ]; then
-		sudo yum install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
+		sudo yum install fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
 	elif [ $PM = "pacman" ]; then
-		sudo pacman -S fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk fcitx-configtool -y
+		sudo pacman -S fcitx fcitx-rime fcitx-ui-classic fcitx-config-gtk -y
 	fi
 }
 InstallFcitx
@@ -97,16 +96,7 @@ clear
 echo "==========================================="
 echo "欢迎使用LinuxRime输入法Fcitx-rime引导程序"
 echo "==========================================="
-echo "第三步 配置Rime程序"
-echo "==========================================="
-echo "请在开启窗口中使用“+”添加中州韵扩展，建议关闭其他输入法，"
-echo "然后关闭窗口，将继续下一步，请操作..."
-fcitx-configtool
-clear
-echo "==========================================="
-echo "欢迎使用LinuxRime输入法Fcitx-rime引导程序"
-echo "==========================================="
-echo "第四步 复制Rime用户配置文件"
+echo "第三步 复制Rime用户配置文件"
 echo "==========================================="
 
 JD=""
