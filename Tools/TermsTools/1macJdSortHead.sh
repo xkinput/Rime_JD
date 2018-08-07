@@ -4,6 +4,7 @@ cp -rf ../../rime/xkjd6.cizu.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.danzi.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.yingwen.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.wxw.dict.yaml ../BackDict/
+cp -rf ../../rime/xkjd6.buchong.dict.yaml ../BackDict/
 cp -rf ../../rime/xkjd6.chaojizici.dict.yaml ../BackDict/
 git add ../BackDict/*
 git commit -m "更新：备份旧词库"
