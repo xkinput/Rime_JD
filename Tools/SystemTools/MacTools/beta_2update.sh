@@ -19,7 +19,7 @@ testHasSchema(){
   case $check_dir in
     "Rime_JD")
       xk_ID="xkjd6"
-      xk_dzID="xkjddz"
+      xk_dzID="xkjd6dz"
       xk_name="键道6"
       xk_path=$xkjd
       ;;
@@ -38,10 +38,10 @@ testHasSchema(){
   esac
 
     echo "==========================================="
-    echo "检测是否配置$xk_name方案: "
+    echo "检测是否配置「 $xk_name 」方案: "
     if [ -f "$rime/$my_default" ]; then
-	xk_is_ID=$(grep "^ \+\- schema: $1$" $rime/$my_default)
-	xk_is_dzID=$(grep "^ \+\- schema: $2$" $rime/$my_default)
+	xk_is_ID=$(grep "^ \+\- schema: $xk_ID$" $rime/$my_default)
+	xk_is_dzID=$(grep "^ \+\- schema: $xk_dzID$" $rime/$my_default)
 	if [[ -z $xk_is_ID ]] && [[ -z $xk_is_dzID ]]; then
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
 	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
