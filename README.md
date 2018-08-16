@@ -38,9 +38,6 @@
 `git pull upstream master`
 2. 获取后，执行复制码表工具（2update），再重新部署即可更新完成
 
-##### iRime说明：
-1. 指导教程 [iRime-Wiki][913]
-
 ##### （可选）发起PR：
 * 若你有意发起扩展词库，或者提交词可用Git提交，提交后合理将直接合并到仓库内
 创建远程仓库，指向 PR 提交者的仓库
@@ -67,6 +64,9 @@
 
 #### 最后：
 > 重新部署，并尝试输入文字。安装完成。
+
+#### IOS操作系统：
+ * (iRime：指导教程 [iRime-Wiki][913])
 
 #### 扩展说明：
 1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
