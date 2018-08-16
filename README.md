@@ -21,7 +21,6 @@
  * (WindowsGit：[官网][905]|[坚果云][911]|[微云][912])
  * (Linux/Mac Git：[自行安装])
  * (AndroidGit：[下载(Pocket Git)][910])
- * (iRime：指导教程 [iRime-Wiki][913])
 2. 不推荐：单独[下载][209]本项目。（无法滚动更新）
 
 #### Git简述：
@@ -65,6 +64,9 @@
 
 #### 最后：
 > 重新部署，并尝试输入文字。安装完成。
+
+#### IOS操作系统：
+ * (iRime：指导教程 [iRime-Wiki][913])
 
 #### 扩展说明：
 1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
