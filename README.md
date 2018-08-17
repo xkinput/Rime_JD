@@ -18,12 +18,12 @@
 #### 使用说明：
 * 获取本项目内容：
  使用Git程序（可滚动更新）
- * Windows系统Git：[官网][905]|[微云][912])
+ * Windows系统Git：[官网][905]|[微云][912]
 > 若速度不佳建议使用微云下载
- * (Linux/Mac系统Git：[自行安装])
- * (Android系统Git：[下载(Pocket Git)][910])
+ * Linux/Mac系统Git：[自行安装]
+ * Android系统Git：[下载(Pocket Git)][910]
 
-* (IOS操作系统： iRime：指导教程 [iRime-Wiki][913])
+* IOS操作系统： iRime：指导教程 [iRime-Wiki][913]
 
 #### Git简述：
 ##### 首次安装：
