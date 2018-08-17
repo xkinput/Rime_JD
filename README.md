@@ -25,21 +25,32 @@
 
 #### Git简述：
 ##### 首次安装：
-1. 需要安装Git后，将克隆项目到本地（代码到git bash中，下同）
+1. 需要安装Git后，将克隆项目到本地（打开git bash中输入，下面一样的）
 `git clone https://gitee.com/nmlixa/Rime_JD`
 2. 切换到项目文件夹
 `cd Rime_JD`
-3. 添加上游分支地址为 指定地址
-`git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
-4. 在文件管理器打开当前目录，进入Tools/SystemTools/对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
+3. 在文件管理器打开当前目录（`pwd`可以查看目录位置），进入Rime_JD/Tools/SystemTools/对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
 
 ##### 获取更新：
 1. 获取上游地址的master分支
-`git pull upstream master`
+`git pull`
 2. 获取后，执行复制码表工具（2update），再重新部署即可更新完成
 
-##### （可选）发起PR：
-* 若你有意发起扩展词库，或者提交词可用Git提交，提交后合理将直接合并到仓库内
+#### 最后：
+> 重新部署，并尝试输入文字。安装完成。
+
+#### IOS操作系统：
+ * (iRime：指导教程 [iRime-Wiki][913])
+
+#### 扩展说明：
+1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
+2. 文件中有详细说明。
+
+#### 分支说明：
+> master为定期更新稳定内容。
+
+---
+##### 若你想要发起发起PR为本项目做出贡献：
 创建远程仓库，指向 PR 提交者的仓库
 1. 指定上游地址
 `git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
@@ -57,23 +68,6 @@
 
 >详见：**[git-简明指南][909] [码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
 
-#### 通用操作：
-> （须自行下载其操作系统Rime输入法程序，可参考结尾平台总汇）
-1. 将[主码表][211] 复制rime文件夹。
-2. 将[配置文件][[Android][212]/[SystemTools/[system]][210]] 复制至rime文件夹。
-
-#### 最后：
-> 重新部署，并尝试输入文字。安装完成。
-
-#### IOS操作系统：
- * (iRime：指导教程 [iRime-Wiki][913])
-
-#### 扩展说明：
-1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
-2. 文件中有详细说明。
-
-#### 分支说明：
-> master为定期更新稳定内容。
 ---
 ### 星空系列其他Rime方案：
 
