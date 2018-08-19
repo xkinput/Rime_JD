@@ -3,11 +3,6 @@ name: xkjd6.yingwen
 version: "Q1"
 sort: original
 ...
----
-name: xkjd6.yingwen
-version: "Q1"
-sort: original
-...
 BiangBiang面	bbmmu
 BGM	bgm
 B超	bjz
@@ -16,10 +11,12 @@ B站	bqf
 Backspace	bscei
 B超	bwz
 CDMA	cdm
+CRM	crm
 Caps Lock	cspk
 Ctrl	ctrl
 C位	cww
 C语言	cyy
+对A	dbs
 Delete	delei
 登录QQ	dlqqa
 哆啦A梦	dlsm
@@ -48,6 +45,7 @@ iOS	kls
 IMEI	kmek
 iMac	kms
 iMac Pro	kmsp
+IP	kp
 IP地址	kpdf
 IP电话	kpdh
 iPhone	kph
@@ -98,6 +96,7 @@ AcFun	scfn
 A股	sgj
 Shift	shkt
 SIM卡	skm
+SO嘎	slgs
 SOHO公寓	slhy
 Alt	slt
 Android	sndd
@@ -126,4 +125,4 @@ Windows7	wknqa
 Windows	wkns
 Word	wlrd
 X光	xgx
-X战警	xqju
+X战警	xqjuPPT	ppt
