@@ -3,6 +3,11 @@ name: xkjd6.yingwen
 version: "Q1"
 sort: original
 ...
+---
+name: xkjd6.yingwen
+version: "Q1"
+sort: original
+...
 BiangBiang面	bbmmu
 BGM	bgm
 B超	bjz
@@ -20,8 +25,8 @@ Delete	delei
 哆啦A梦	dlsm
 DNA	dns
 D盘	dpf
-emmmmmmm	emmmm
-ennnn	ennn
+Emmmmmmm	emmmm
+Ennnn	ennn
 Enter	enter
 Esc	esc
 Excel	excl
@@ -50,9 +55,8 @@ iPhone 8	kphb
 iPhone 7	kphq
 iPhone 8 Plus	kphs
 iPhone X	kphx
-IPKPI	kpk
-IP卡	kpk
 KPI	kpk
+IP卡	kpki
 iPAD	kps
 iPad	kpsd
 iPad Pro	kpsp
