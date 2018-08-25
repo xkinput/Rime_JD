@@ -45,6 +45,8 @@ echo 删除冗余文件		完成
 xcopy "..\rime\Windows\*" "%APPDATA%\Rime\" /Y /E
 echo 复制独有配置		完成
 xcopy ".\备份\xkjd6.user.dict.yaml" "%APPDATA%\Rime\" /Y /E
+xcopy ".\备份\xkjd6.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
+xcopy ".\备份\xkjd6dz.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
 echo 还原用户配置		完成
 cls
 type ..\rime\Windows\_*.txt
