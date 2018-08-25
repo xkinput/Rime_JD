@@ -113,6 +113,8 @@ else
 fi
 
 isHaveUserDict "键道6" xkjd6.user.dict.yaml
+isHaveUserDict "键道6" xkjd6.extended.dict.yaml
+isHaveUserDict "键道6" xkjd6dz.extended.dict.yaml
 isHaveUserDict "一笔" xkyb.user.dict.yaml
 isHaveUserDict "两笔" xklb.user.dict.yaml
 
