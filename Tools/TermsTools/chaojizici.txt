@@ -219,6 +219,8 @@
 𬣞	qjoaoo
 𬮿	qkaii
 𬮿	qkaiia
+炁	qkvao
+炁	qkvaoo
 𬨂	qkvau
 𬨂	qkvaua
 叕	qlao
@@ -269,6 +271,7 @@
 𫍣	tyoai
 𫍣	tyoaia
 𫘦	tzaaua
+鞌	uxfge
 𬘫	wfaao
 𬘫	wfaaoo
 卍	wfaivi
