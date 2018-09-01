@@ -28,7 +28,7 @@
 #### Git简述：
 ##### 首次安装：
 1. 需要安装Git后，将克隆项目到本地（打开git bash中输入，下面一样的）
-`git clone https://gitee.com/nmlixa/Rime_JD`
+`git clone https://gitee.com/nshu/Rime_JD`
 2. 切换到项目文件夹
 `cd Rime_JD`
 3. 在文件管理器打开当前目录（`pwd`可以查看目录位置），进入Rime_JD/Tools/SystemTools/对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
@@ -54,7 +54,7 @@
 ##### 若你想要发起发起PR为本项目做出贡献：
 创建远程仓库，指向 PR 提交者的仓库
 1. 指定上游地址
-`git remote add upstream https://gitee.com/nmlixa/Rime_JD.git`
+`git remote add upstream https://gitee.com/nshu/Rime_JD.git`
 2. 从该远程仓库拉取代码
 `git fetch upstream`
 **如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：缩减仓库说明**
@@ -94,7 +94,7 @@
 > 键道的跨平台使用离不开以上优秀的输入平台
 
 [998]: https://gitee.com/thxnder/xxjd/tree/master/release "新版本小小键道"
-[999]: https://gitee.com/nmlixa/Rime_JD "新版本RIME键道"
+[999]: https://gitee.com/nshu/Rime_JD "新版本RIME键道"
 
 [101]: https://github.com/rime/weasel "小狼毫－Rime 輸入法 for Windows"
 [102]: https://github.com/rime/squirrel "鼠鬚管－Rime 輸入法 for Mac OS X"
@@ -109,15 +109,15 @@
 [201]: http://rime.im "rime主页"
 [202]: https://github.com/osfans "TRIME作者页面"
 [203]: https://github.com/dgod/yong "小小主页"
-[204]: https://gitee.com/nmlixa/Rime_JD "Rime键道主页"
+[204]: https://gitee.com/nshu/Rime_JD "Rime键道主页"
 [205]: http://xxjd.xyz "小小键道主页"
 [206]: https://gitee.com/thxnder "「小小键道」 维护者"
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
-[208]: https://gitee.com/nmlixa/Rime_JD/releases "发行页"
-[209]: https://gitee.com/nmlixa/Rime_JD/repository/archive/master.zip "Download"
-[210]: https://gitee.com/nmlixa/Rime_JD/tree/master/Tools/SystemTools "/Tools/SystemTools"
-[211]: https://gitee.com/nmlixa/Rime_JD/tree/master/rime "/rime"
-[212]: https://gitee.com/nmlixa/Rime_JD/tree/master/SystemTools/Android "Android"
+[208]: https://gitee.com/nshu/Rime_JD/releases "发行页"
+[209]: https://gitee.com/nshu/Rime_JD/repository/archive/master.zip "Download"
+[210]: https://gitee.com/nshu/Rime_JD/tree/master/Tools/SystemTools "/Tools/SystemTools"
+[211]: https://gitee.com/nshu/Rime_JD/tree/master/rime "/rime"
+[212]: https://gitee.com/nshu/Rime_JD/tree/master/SystemTools/Android "Android"
 [213]: https://gitee.com/morler/rime_xklb "两笔地址"
 [214]: https://gitee.com/morler "Morler"
 [215]: https://github.com/dzyht/rime_xkyb "一笔地址"
