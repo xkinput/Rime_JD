@@ -68,6 +68,7 @@ MBA	mbsi
 MIUI	mkjk
 Mac	msc
 NBA	nbs
+New	new
 Note	nlte
 NASA	nsss
 PC机	pcjku
@@ -76,6 +77,7 @@ PhotoShop	phlp
 Plus	pljs
 Power Point	plkt
 Power Point	plwt
+PPT	ppt
 PY交易	pyjy
 QQ	qq
 QQ号	qqh
@@ -120,4 +122,4 @@ Windows7	wknqa
 Windows	wkns
 Word	wlrd
 X光	xgx
-X战警	xqjuPPT	ppt
+X战警	xqju
