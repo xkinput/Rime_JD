@@ -40997,6 +40997,7 @@
 好寻	hzxw
 好想	hzxx
 好想	hzxxa
+好像	hzxxai
 好象	hzxxau
 好凶	hzxy
 涸泽而渔	hzxya
@@ -110676,4 +110677,4 @@
 造字	zzzku
 造作	zzzl
 早早	zzzz
-早早早早	zzzzo好像	hzxxai
+早早早早	zzzzo
