@@ -60,17 +60,16 @@ testHasSchema(){
 	echo "复制Rime用户配置文件...................完成"
     fi
     echo -e "---------------------\n"
-    # rsync -avhu --progress $xk_path/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude="xkjd6.extended.dict.yaml" --exclude="xkjd6dz.extended.dict.yaml"--exclude=/* $rime
-    rsync -an --progress $xk_path/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude="xkjd6.extended.dict.yaml" --exclude="xkjd6dz.extended.dict.yaml" --exclude=/* $rime
+    rsync -avhu --progress $xk_path/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude="xkjd6.extended.dict.yaml" --exclude="xkjd6dz.extended.dict.yaml" --exclude=/* $rime
     rsync -avhu --progress $xk_path/*.schema.yaml $rime
 
 }
 
 echo "开始备份"
-# rm -rf 备份/*
+rm -rf 备份/*
 # 删除原有备份文件
-# mkdir 备份
-# cp -r $rime/* ./备份/
+mkdir 备份
+cp -r $rime/* ./备份/
 echo "备份原内容到当前目录下“备份”文件夹.....完成"
 echo "==========================================="
 echo "码表更新，请选择升级方式："
