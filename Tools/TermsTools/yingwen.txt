@@ -9,6 +9,7 @@ CDMA	cdm
 CRM	crm
 Caps Lock	cspk
 Ctrl	ctrl
+蹭WIFI	cwko
 C位	cww
 C语言	cyy
 对A	dbs
