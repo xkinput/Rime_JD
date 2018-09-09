@@ -3,6 +3,11 @@ name: xkjd6.yingwen
 version: "Q1"
 sort: original
 ...
+---
+name: xkjd6.yingwen
+version: "Q1"
+sort: original
+...
 BiangBiang面	bbmmu
 BGM	bgm
 B超	bjz
@@ -14,6 +19,7 @@ CDMA	cdm
 CRM	crm
 Caps Lock	cspk
 Ctrl	ctrl
+蹭WIFI	cwko
 C位	cww
 C语言	cyy
 对A	dbs
