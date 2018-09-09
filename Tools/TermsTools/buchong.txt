@@ -29,6 +29,7 @@
 急	jk
 屁	pk
 重	wy
+哟	yl
 # syxb 单字
 实	ekbo
 视	ekei
@@ -178,6 +179,7 @@
 衤	oaiuo
 辶	oao
 冘	oaua
+日	oi
 宀	ooa
 忄	ooi
 灬	oooo
