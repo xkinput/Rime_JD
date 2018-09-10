@@ -1,8 +1,3 @@
----
-name: xkjd6.lianjie
-version: "Q1"
-sort: original
-...
 http://	http
 http://nmlixa.gitee.io/jdweb/	ocx
 https://739497722.docs.qq.com/ipGva4mn5bo	oyb
