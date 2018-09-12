@@ -143,7 +143,7 @@ wxw_prompt:
   option_name: wxw_prompt
   show_in_comment: true
   comment_format:
-    - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/~$1$2 声笔:$3/"
+    - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/〔$3, $1$2〕/"
     - xform/^([a-z]+)$/$2/
   tips: all
  
