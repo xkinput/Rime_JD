@@ -48,6 +48,10 @@ cp -rf $buchong ./buchong.txt
 cp -rf $lianjie ./lianjie.txt
 
 echo 更为当前文件
+
+cp -rf $cizu ../../rime/opencc/WXWPromptFilters.txt
+echo 更为630简码提示词库
+
 sed -i '1 i---\nname: xkjd6.cizu\nversion: "Q1"\nsort: original\n...' $cizu
 sed -i '1 i---\nname: xkjd6.danzi\nversion: "Q1"\nsort: original\n...' $danzi
 sed -i '1 i---\nname: xkjd6.yingwen\nversion: "Q1"\nsort: original\n...' $yingwen

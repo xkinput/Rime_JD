@@ -17,6 +17,9 @@ switches:
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
+  - name: wxw_prompt
+    reset: 1
+    states: [ 630关, 630开 ]
     
 punctuator:
   full_shape:
@@ -114,6 +117,7 @@ engine:
     - simplifier@emoji_cn
     - simplifier@jffh
     - simplifier@bmms
+    - simplifier@wxw_prompt
     - reverse_lookup_translator
 
 speller:
@@ -130,6 +134,15 @@ translator:
   enable_user_dict: false
   encode_commit_history: true
   max_phrase_length: 6
+
+wxw_prompt:
+  opencc_config: wxwprompt.json
+  option_name: wxw_prompt
+  show_in_comment: true
+  comment_format:
+    - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/~$1$2 声笔:$3/"
+    - xform/^([a-z]+)$/$2/
+  tips: all
 
 emoji_cn:
   opencc_config: emoji.json
