@@ -15,8 +15,18 @@
 | README.md | readme.md文件 |
 
 ---
-#### 使用说明：
-* 获取本项目内容：
+
+##### 首次安装：
+Windows首选安装方式： [Windows键道6安装程序下载][914]
+说明：打包内包含完整本项目，克隆完成后，请按照下面Git安装后同步最新码表`git pull`后，升级到最新码表。
+
+Linux首选安装方式： 使用终端执行`wget -O installJDL.sh http://t.cn/EvwfoNT && ./installJDL.sh`
+说明：请确保系统已安装 wget 程序，未安装Debian系可使用 sudo apt install wget -y 安装，安装后，可使用项目内配备的升级工具做升级码表到最新。
+
+Android首选安装方式：[Android键道6安装包][915]
+说明：打包内包含码表与皮肤，安装完成后，请按照下面Git安装后同步最新码表`git pull`后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
+
+#### 安装Git使用说明：
  使用Git程序（可滚动更新）
  * Windows系统Git：[官网][905]|[微云][912]
 > 若速度不佳建议使用微云下载
@@ -26,7 +36,6 @@
 * IOS操作系统： iRime：指导教程 [iRime-Wiki][913]
 
 #### Git简述：
-##### 首次安装：
 1. 需要安装Git后，将克隆项目到本地（打开git bash中输入，下面一样的）
 `git clone https://gitee.com/nshu/Rime_JD`
 2. 切换到项目文件夹
@@ -137,3 +146,5 @@
 [911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
 [912]: https://share.weiyun.com/5xfC9Qk "Git微云地址"
 [913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
+[914]: https://pan.baidu.com/s/1Jlmbk8HXY-j4ZRwvpbGNGw "键道6RimeWindows小狼毫引导安装包"
+[915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
