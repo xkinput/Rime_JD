@@ -35,7 +35,7 @@ isHaveDict () {
 		echo "· 检测到$1词库，是否同时安装？ y/n"
 		read isInstall
 		if [[ "$isInstall" == [yY] ]]; then
-			cp -rf $2/rime/*.yaml "$rime"
+			cp -rf $2/rime/* "$rime"
 			echo "复制码表完成					完成"
 			echo "复制所有文件					完成"
 			count=`expr $count + 1`
