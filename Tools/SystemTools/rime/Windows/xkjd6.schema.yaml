@@ -20,6 +20,8 @@ switches:
   - name: wxw_prompt
     reset: 1
     states: [ 630关, 630开 ]
+  - name: EN2en
+    reset: 1
     
 punctuator:
   full_shape:
@@ -120,6 +122,7 @@ engine:
     - simplifier@jffh
     - simplifier@bmms
     - simplifier@wxw_prompt
+    - simplifier@EN2en      
     - reverse_lookup_translator
 
 speller:
@@ -151,6 +154,10 @@ wxw_prompt:
     - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/〔$3, $1$2〕/"
     - xform/^([a-z]+)$/$2/
   tips: all
+
+EN2en:
+  opencc_config: EN2en.json
+  option_name: EN2en
 
 emoji_cn:
   opencc_config: emoji.json
