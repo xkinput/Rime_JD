@@ -115,6 +115,7 @@ engine:
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - table_translator
+    - history_translator@repeat_history
   filters:
     - simplifier
     - uniquifier
@@ -137,6 +138,11 @@ translator:
   enable_user_dict: false
   encode_commit_history: true
   max_phrase_length: 6
+
+repeat_history:
+  input: ;h #重复上次上屏内容
+  size: 1
+  initial_quality: 10000
 
 wxw_prompt:
   opencc_config: wxwprompt.json
