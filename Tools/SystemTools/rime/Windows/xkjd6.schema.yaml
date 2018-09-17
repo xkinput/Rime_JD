@@ -127,7 +127,7 @@ engine:
 
 speller:
   auto_select: true
-  auto_select_qnique_candidate: true #空码自动顶
+  auto_select_unique_candidate: true #空码自动顶
   alphabet: 'zyxwvutsrqponmlkjihgfedcba;'
   initials: 'abcdefghijklmnopqrstuvwxyz;'
 
