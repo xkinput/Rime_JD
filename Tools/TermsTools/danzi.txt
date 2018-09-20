@@ -14988,7 +14988,7 @@
 唔	xro
 嗯	xroiav
 唔	xrovia
-啊	xs
+下	xs
 阿	xsa
 阿	xsaivo
 遐	xsav
@@ -15006,7 +15006,7 @@
 锕	xsio
 锕	xsioai
 侠	xsivou
-吓	xso
+啊	xso
 啊	xsoaiv
 暇	xsoi
 呷	xsoia
@@ -15014,7 +15014,8 @@
 暇	xsoiav
 吖	xsoo
 吖	xsooui
-瘕	xsov
+吓	xsov
+瘕	xsova
 瘕	xsovav
 吓	xsovio
 嗄	xsovu
