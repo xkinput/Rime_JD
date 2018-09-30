@@ -1,38 +1,76 @@
 #!/bin/bash
 
-cp -rf ../../rime/xkjd6.cizu.dict.yaml ../BackDict/
-cp -rf ../../rime/xkjd6.danzi.dict.yaml ../BackDict/
-cp -rf ../../rime/xkjd6.yingwen.dict.yaml ../BackDict/
-cp -rf ../../rime/xkjd6.wxw.dict.yaml ../BackDict/
-cp -rf ../../rime/xkjd6.buchong.dict.yaml ../BackDict/
-cp -rf ../../rime/xkjd6.chaojizici.dict.yaml ../BackDict/
+cizu=xkjd6.cizu.dict.yaml
+danzi=xkjd6.danzi.dict.yaml
+yingwen=xkjd6.yingwen.dict.yaml
+wxw=xkjd6.wxw.dict.yaml
+chaojizici=xkjd6.chaojizici.dict.yaml
+buchong=xkjd6.buchong.dict.yaml
+lianjie=xkjd6.lianjie.dict.yaml
+
+
+cp -rf ../../rime/$cizu ../BackDict/
+cp -rf ../../rime/$danzi ../BackDict/
+cp -rf ../../rime/$yingwen ../BackDict/
+cp -rf ../../rime/$wxw ../BackDict/
+cp -rf ../../rime/$chaojizici ../BackDict/
+cp -rf ../../rime/$buchong ../BackDict/
+cp -rf ../../rime/$lianjie ../BackDict/
+
 git add ../BackDict/*
 git commit -m "更新：备份旧词库"
+
+echo 清理旧排序文件
+rm $cizu
+rm $danzi
+rm $yingwen
+rm $wxw
+rm $chaojizici
+rm $buchong
+rm $lianjie
+
 echo 开始处理排序
-sort -t $'\t' -k 2 cizu.txt > xkjd6.cizu.dict.yaml
-sort -t $'\t' -k 2 danzi.txt > xkjd6.danzi.dict.yaml
-sort -t $'\t' -k 2 yingwen.txt > xkjd6.yingwen.dict.yaml
-sort -t $'\t' -k 2 wxw.txt > xkjd6.wxw.dict.yaml
-sort -t $'\t' -k 2 chaojizici.txt > xkjd6.chaojizici.dict.yaml
-cp -rf buchong.txt ./xkjd6.buchong.dict.yaml
-cp -rf xkjd6.cizu.dict.yaml ./cizu.txt
-cp -rf xkjd6.danzi.dict.yaml ./danzi.txt
-cp -rf xkjd6.yingwen.dict.yaml ./yingwen.txt
-cp -rf xkjd6.wxw.dict.yaml ./wxw.txt
-cp -rf xkjd6.buchong.dict.yaml ./buchong.txt
-cp -rf xkjd6.chaojizici.dict.yaml ./chaojizici.txt
+sort -t $'\t' -k 2 cizu.txt > $cizu
+sort -t $'\t' -k 2 danzi.txt > $danzi
+sort -t $'\t' -k 2 yingwen.txt > $yingwen
+sort -t $'\t' -k 2 wxw.txt > $wxw
+sort -t $'\t' -k 2 chaojizici.txt > $chaojizici
+# 以下不可重新排序,已复制放入
+# sort -t $'\t' -k 2 buchong.txt > $buchong
+# sort -t $'\t' -k 2 lianjie.txt > $lianjie
+cp -rf buchong.txt ./$buchong
+cp -rf lianjie.txt ./$lianjie
+
+cp -rf $cizu ./cizu.txt
+cp -rf $danzi ./danzi.txt
+cp -rf $yingwen ./yingwen.txt
+cp -rf $wxw ./wxw.txt
+cp -rf $chaojizici ./chaojizici.txt
+cp -rf $buchong ./buchong.txt
+cp -rf $lianjie ./lianjie.txt
+
 echo 更为当前文件
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.cizu.dict.yaml
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.danzi\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.danzi.dict.yaml
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.yingwen\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.yingwen.dict.yaml
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.wxw\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.wxw.dict.yaml
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchong\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.buchong.dict.yaml
-sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.chaojizici\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' xkjd6.chaojizici.dict.yaml
+
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $cizu
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.danzi\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $danzi
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.yingwen\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $yingwen
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.wxw\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $wxw
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchong\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $buchong
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.chaojizici\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $chaojizici
+sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.lianjie\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $lianjie
+
 echo 执行排序添加头部信息完成
-cp -rf xkjd6.cizu.dict.yaml ../../rime/
-cp -rf xkjd6.danzi.dict.yaml ../../rime/
-cp -rf xkjd6.yingwen.dict.yaml ../../rime/
-cp -rf xkjd6.wxw.dict.yaml ../../rime/
-cp -rf xkjd6.buchong.dict.yaml ../../rime/
-cp -rf xkjd6.chaojizici.dict.yaml ../../rime/
+cp -rf $cizu ../../rime/
+cp -rf $danzi ../../rime/
+cp -rf $yingwen ../../rime/
+cp -rf $wxw ../../rime/
+cp -rf $buchong ../../rime/
+cp -rf $chaojizici ../../rime/
+cp -rf $lianjie ../../rime/
 echo 已放置到主词库中
+
+git add . ../../rime/*
+# read -p "更新内容为：" cont
+# git commit -m "更新：$cont"
+git commit -m "更新：据议表更新词库"
+git push origin master
