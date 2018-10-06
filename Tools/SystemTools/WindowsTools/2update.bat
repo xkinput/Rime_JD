@@ -31,6 +31,7 @@ cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 echo 已开始，请稍等...
+git pull
 mkdir "%CD%\备份\"
 del "%CD%\备份\" /S /Q
 xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
