@@ -8,6 +8,7 @@ FOXMAIL	foxmail
 GIF	gif
 GIT	git
 GITHUB	github
+GITEE	gitee
 GOOD	good
 GOOGLE	google
 USB	usb
