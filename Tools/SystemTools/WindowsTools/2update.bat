@@ -31,7 +31,15 @@ cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 echo 已开始，请稍等...
+for %%i in ("../../../rime") do set thisTime1=%%~ti
 git pull
+for %%i in ("../../../rime") do set thisTime2=%%~ti
+if "%thisTime1%"=="%thisTime2%" (
+  echo 已是最新了……
+  ping -n 6 127.1 >nul
+  exit
+  pause
+)
 mkdir "%CD%\备份\"
 del "%CD%\备份\" /S /Q
 xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
