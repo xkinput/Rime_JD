@@ -20,7 +20,7 @@
 Windows首选安装方式： [Windows键道6安装程序下载][914]
 说明：打包内包含完整本项目，克隆完成后，请按照下面Git安装后同步最新码表`git pull`后，升级到最新码表。
 
-Linux首选安装方式： 使用终端执行`wget -O installJDL.sh http://t.cn/EvwfoNT && ./installJDL.sh`
+Linux首选安装方式： 使用终端执行`wget -O installJDL.sh https://jdweb-1252252629.cos.ap-chengdu.myqcloud.com/installJDL.sh && ./installJDL.sh`
 说明：请确保系统已安装 wget 程序，未安装Debian系可使用 sudo apt install wget -y 安装，安装后，可使用项目内配备的升级工具做升级码表到最新。
 
 Android首选安装方式：[Android键道6安装包][915]
