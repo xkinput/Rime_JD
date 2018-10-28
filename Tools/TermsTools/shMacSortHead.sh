@@ -32,8 +32,6 @@ rm $lianjie
 echo 开始处理排序
 sort -t $'\t' -k 2 cizu.txt > $cizu
 sort -t $'\t' -k 2 danzi.txt > $danzi
-# 附加单字全码
-cat danziall.txt >> $danzi
 sort -t $'\t' -k 2 yingwen.txt > $yingwen
 sort -t $'\t' -k 2 wxw.txt > $wxw
 sort -t $'\t' -k 2 chaojizici.txt > $chaojizici
@@ -52,6 +50,11 @@ cp -rf $buchong ./buchong.txt
 cp -rf $lianjie ./lianjie.txt
 
 echo 更为当前文件
+
+# 附加单字全码
+cat danziall.txt >> $danzi
+cp -rf $cizu ../../rime/opencc/WXWPromptFilters.txt
+echo 更为630简码提示词库
 
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $cizu
 sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.danzi\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $danzi
