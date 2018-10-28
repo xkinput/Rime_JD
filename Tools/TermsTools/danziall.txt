@@ -5388,7 +5388,6 @@
 疱	pzovua
 刨	pzuaii
 狍	pzuaua
-鲍	pzuaua
 脬	pzuuoo
 匏	pzvuua
 骎	qbaaav
@@ -7056,7 +7055,7 @@
 𥻗	wsouvo
 喳	wsovoi
 哇	wsovov
-詧	wsuao
+詧	wsuaov
 猹	wsuavo
 馇	wsuavo
 岔	wsuoia
