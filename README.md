@@ -1,6 +1,6 @@
 ﻿<h1 align="center">星空键道6</h1>
 
->作者：**吅吅大山** [**键道官网**][904] [加入官方群:320053116][903]
+>作者：**吅吅大山** [**键道官网**][904] [**键道6词库议表**][916] [**键道6查码工具**][] [加入官方群:320053116][903]
 ---
 #### 目录结构说明：
 
@@ -148,3 +148,5 @@ Android首选安装方式：[Android键道6安装包][915]
 [913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
 [914]: https://pan.baidu.com/s/1Jlmbk8HXY-j4ZRwvpbGNGw "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
+[916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
+[916]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
