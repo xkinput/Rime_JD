@@ -149,4 +149,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [914]: https://pan.baidu.com/s/1Jlmbk8HXY-j4ZRwvpbGNGw "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
 [916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
-[916]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
+[917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
