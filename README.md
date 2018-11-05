@@ -26,16 +26,17 @@ Linux首选安装方式： 使用终端执行`wget -O installJDL.sh https://jdwe
 Android首选安装方式：[Android键道6安装包][915]
 说明：打包内包含码表与皮肤，安装完成后，请按照下面Git安装后同步最新码表`git pull`后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
 
-#### 安装Git使用说明：
- 使用Git程序（可滚动更新）
- **[Git各下载地址][918]**
+#### 安装Git使用说明：使用Git程序（可滚动更新）
+
+ **[Git下载地址罗列][918]**
+
  * Windows系统Git：[官网][905]|[微云][912]
  * Linux/Mac系统Git：[自行安装]
  * Android系统Git：[下载(Pocket Git)][910]
 
 * IOS操作系统： iRime：指导教程 [iRime-Wiki][913]
 
-#### Git简述：
+#### 使用简述：
 1. 需要安装Git后，将克隆项目到本地（打开git bash中输入，下面一样的）
 `git clone https://gitee.com/nshu/Rime_JD`
 2. 切换到项目文件夹
@@ -76,7 +77,7 @@ Android首选安装方式：[Android键道6安装包][915]
 * 码表分类：[据议表调整： x个] 外加调整：词组 编码... x个
 * 工具类：系统名：工具名 文件名 纠错/添加/删除
 
->详见：**[git-简明指南][909] [码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
+>详见：**[git-简明指南][909] [git入门][919] [码云PR教程][907] [博客PR教程][906] [缩减仓库说明][908]**
 
 ---
 ### 星空系列其他Rime方案：
@@ -151,3 +152,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
 [917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
 [918]: https://gitee.com/all-about-git "各系统git罗列"
+[919]: https://gitee.com/help "git入门"
