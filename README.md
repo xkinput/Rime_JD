@@ -28,8 +28,8 @@ Android首选安装方式：[Android键道6安装包][915]
 
 #### 安装Git使用说明：
  使用Git程序（可滚动更新）
+ **[Git各下载地址][918]**
  * Windows系统Git：[官网][905]|[微云][912]
-> 若速度不佳建议使用微云下载
  * Linux/Mac系统Git：[自行安装]
  * Android系统Git：[下载(Pocket Git)][910]
 
@@ -150,3 +150,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
 [916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
 [917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
+[918]: https://gitee.com/all-about-git "各系统git罗列"
