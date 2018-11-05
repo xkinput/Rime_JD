@@ -152,4 +152,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
 [917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
 [918]: https://gitee.com/all-about-git "各系统git罗列"
-[919]: https://gitee.com/help "git入门"
+[919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
