@@ -34,11 +34,14 @@ echo 已开始，请稍等...
 for %%i in ("../../../rime") do set thisTime1=%%~ti
 git pull
 for %%i in ("../../../rime") do set thisTime2=%%~ti
+for %%i in ("%APPDATA%/Rime") do set thisTime3=%%~ti
 if "%thisTime1%"=="%thisTime2%" (
-  echo 已是最新了……
-  ping -n 6 127.1 >nul
-  exit
-  pause
+  if "%thisTime2%"=="%thisTime3%" (
+   echo 已是最新了……
+   ping -n 6 127.1 >nul
+   exit
+   pause
+  )
 )
 mkdir "%CD%\备份\"
 del "%CD%\备份\" /S /Q
