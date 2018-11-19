@@ -32,6 +32,8 @@
 噗	pj
 重	wy
 哟	yl
+咦	yk
+噫	yk
 哇	ws
 # syxb 单字
 实	ekbo

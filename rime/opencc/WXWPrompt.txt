@@ -399,7 +399,7 @@
 整个	qrge_qii
 正常	qrjp_qio
 主任	qjrno_qiu
-起点	qkdm_qiv
+其余	qkyl_qiv
 其实	qkek_qo
 注视	qjeka_qoa
 真是	qnek_qoi
