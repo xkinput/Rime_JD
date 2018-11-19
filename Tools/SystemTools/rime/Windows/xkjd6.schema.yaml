@@ -5,13 +5,15 @@ schema:
   schema_id: xkjd6
   name: 键道6
   version: "1"
+  author:
+    - 发明人 大牛
   dependencies:
     - xkjd6cx
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [ 中, 英 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: zh_trad
@@ -22,7 +24,7 @@ switches:
     states: [ 630关, 630开 ]
   - name: EN2en
     reset: 1
-    
+
 punctuator:
   full_shape:
     ' ' : { commit: '　' }
@@ -31,18 +33,18 @@ punctuator:
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
     '?' : { commit: ？ }
-    '/' : { commit: ？ }
     ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
     '"' : { pair: [ '“', '”' ] }
+    '/' : { commit: / }
     '\' : [ 、, ＼ ]
     '|' : [ ·, ｜, '§', '¦' ]
     '`' : ｀
     '~' : ～
     '!' : { commit: ！ }
-    '@' : ＠
-    '#' : ＃
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
     '%' : [ ％, '°', '℃' ]
     '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
     '^' : { commit: …… }
@@ -50,10 +52,10 @@ punctuator:
     '*' : [ ＊, ·, ・, ×, ※, ❂ ]
     '(' : （
     ')' : ）
-    '-' : '-'
+    '-' : －
     '_' : ——
-    '+' : '+'
-    '=' : '='
+    '+' : ＋
+    '=' : ＝
     '[' : [ 「, 【, 〔, ［ ]
     ']' : [ 」, 】, 〕, ］ ]
     '{' : [ 『, 〖, ｛ ]
@@ -63,8 +65,8 @@ punctuator:
     '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
+    '/' : { commit: / }
     '?' : { commit: ？ }
-    '/' : { commit: ？ }
     ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
@@ -113,23 +115,20 @@ engine:
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - table_translator
-    - history_translator@repeat_history
   filters:
     - simplifier
     - uniquifier
-    - simplifier@emoji_cn
     - simplifier@zh_trad
-    - simplifier@jffh
     - simplifier@bmms
     - simplifier@wxw_prompt
-    - simplifier@EN2en      
+    - simplifier@EN2en
     - reverse_lookup_translator
 
 speller:
   auto_select: true
   auto_select_unique_candidate: true #空码自动顶
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba;'
-  initials: 'abcdefghijklmnopqrstuvwxyz;'
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  initials: "abcdefghijklmnopqrstuvwxyz;"
 
 translator:
   dictionary: xkjd6.extended
@@ -154,11 +153,7 @@ wxw_prompt:
     - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/〔$3, $1$2〕/"
     - xform/^([a-z]+)$/$2/
   tips: all
-
-EN2en:
-  opencc_config: EN2en.json
-  option_name: EN2en
-
+ 
 emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
@@ -168,6 +163,10 @@ zh_trad:
   opencc_config: zhs2zht.ini
   option_name: zh_trad
 
+EN2en:
+  opencc_config: EN2en.json
+  option_name: EN2en
+
 bmms:
   opencc_config: pinyin.json
   option_name: bmms
@@ -175,12 +174,18 @@ bmms:
   comment_format:
     - xform/'/ /
 
+custom_phrase:
+  dictionary: ""
+  user_dict: user_dict
+  db_class: stabledb
+  enable_sentence: false
+  initial_quality: "0"
+
 reverse_lookup:
   dictionary: xkjd6cx
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
-    - xform/ /, /
 
 punctuator:
   import_preset: symbols
@@ -189,7 +194,6 @@ key_binder:
   bindings:
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
-    - { when: always, accept: F6, select: .next }
     - { when: always, accept: F7, toggle: zh_trad }
     - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
@@ -200,3 +204,4 @@ recognizer:
   patterns:
     reverse_lookup: "[a-z`]*`+[a-z`]*"
     punct: "^/([0-9]0?|[a-z]+)$"
+    english: "^'[A-Z|a-z]*'?$"
