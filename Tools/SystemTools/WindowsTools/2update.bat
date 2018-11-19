@@ -32,7 +32,7 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 echo 已开始，请稍等...
 for %%i in ("../../../rime") do set thisTime1=%%~ti
-git pull
+git pull origin master
 for %%i in ("../../../rime") do set thisTime2=%%~ti
 for %%i in ("%APPDATA%/Rime") do set thisTime3=%%~ti
 if "%thisTime1%"=="%thisTime2%" (
