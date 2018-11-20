@@ -67,5 +67,5 @@ echo.
 echo 已安装完成！
 echo.
 echo 重新部署
-start %CD%\4deploy.bat
+"%CD%\4deploy.bat"
 exit
