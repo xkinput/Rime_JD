@@ -1,0 +1,22 @@
+patch:
+  style/color_scheme: psionics #主题颜色
+  style/font_point: 14 #字体大小
+  style/horizontal: false #是否横向 true开/false关
+  style/layout/border: 2 #边框
+  style/layout/margin_x: 12
+  style/layout/margin_y: 12
+  style/layout/hilite_padding: 4
+  style/layout/hilite_spacing: 2
+  style/layout/spacing: 5
+  style/layout/candidate_spacing: 5
+  style/layout/round_corner: 0
+  style/corner_radius: 0
+  preset_color_schemes/metro:
+    back_color: 0xffffff
+    border_color: 0x444444
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0x444444
+    hilited_candidate_text_color: 0xffffff
+    hilited_text_color: 0x000000
+    name: "metro"
+    text_color: 0x000000
