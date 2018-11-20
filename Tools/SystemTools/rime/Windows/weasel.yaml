@@ -10,7 +10,7 @@ app_options:
     ascii_mode: true
 
 style:
-  color_scheme: steam
+  color_scheme: aqua
   font_face: Microsoft YaHei
   font_point: 14
   horizontal: false

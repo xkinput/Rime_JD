@@ -31,39 +31,66 @@ cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 echo 已开始，请稍等...
-for %%i in ("../../../rime") do set thisTime1=%%~ti
 git pull origin master
-for %%i in ("../../../rime") do set thisTime2=%%~ti
-for %%i in ("%APPDATA%/Rime") do set thisTime3=%%~ti
-if "%thisTime1%"=="%thisTime2%" (
-  if "%thisTime2%"=="%thisTime3%" (
-   echo 已是最新了……
-   ping -n 6 127.1 >nul
-   exit
-   pause
-  )
+echo.
+echo 获取最新资料完成
+echo.
+echo 3秒后开始更新，Ctrl + C停止……
+ping -n 3 127.1 >nul
+
+if exist "%CD%\备份\" (
+  del "%CD%\备份\" /S /Q
+) else (
+  mkdir "%CD%\备份\"
 )
-mkdir "%CD%\备份\"
-del "%CD%\备份\" /S /Q
 xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
 cls
 echo 备份原有词库		完成
+
 taskkill /f /im WeaselServer.exe
 del "%APPDATA%\Rime\" /S /Q
 xcopy "..\..\..\rime" "%APPDATA%\Rime\" /Y /E
 echo 复制码表文件		完成
+
 rmdir "%APPDATA%\Rime\Windows" /S /Q
 echo 删除冗余文件		完成
+
 xcopy "..\rime\Windows\*" "%APPDATA%\Rime\" /Y /E
 echo 复制独有配置		完成
-xcopy ".\备份\xkjd6.user.dict.yaml" "%APPDATA%\Rime\" /Y /E
-xcopy ".\备份\xkjd6.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
-xcopy ".\备份\xkjd6dz.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
-echo 还原用户配置		完成
+
 cls
+
+if exist ".\备份\xkjd6.user.dict.yaml" (
+  xcopy ".\备份\xkjd6.user.dict.yaml" "%APPDATA%\Rime\" /Y /E
+  echo 用户词库还原完成
+) else (
+  echo 没有用户词库跳过
+)
+if exist ".\备份\xkjd6.extended.dict.yaml" (
+  xcopy ".\备份\xkjd6.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
+  echo 扩展配置还原完成
+) else (
+  echo 没有扩展配置跳过
+)
+if exist ".\备份\xkjd6dz.extended.dict.yaml" (
+  xcopy ".\备份\xkjd6dz.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
+  echo 单字扩展配置还原完成
+) else (
+  echo 没有单字扩展配置跳过
+)
+echo 还原用户配置		完成
+
+if exist "%CD%\用户数据\" (
+  xcopy ".\用户数据\*" "%APPDATA%\Rime\" /Y /E
+  echo 还原用户数据		完成
+) else (
+  mkdir "%CD%\用户数据\"
+)
+
 type ..\rime\Windows\_*.txt
 echo.
 echo.
+
 echo 已安装完成！
 echo.
 echo 重新部署
