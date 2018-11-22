@@ -69,12 +69,23 @@ else
   echo "合并链接  OK"
 fi
 
-sed -i ":a;N;s/\n*---\n*//g;ta" ./xkjd6.dict.yaml
-sed -i ":a;N;s/\n*\.\.\.\n*//g;ta" ./xkjd6.dict.yaml
-sed -i ":a;N;s/\n*name:\s.*\n*//g;ta" ./xkjd6.dict.yaml
-sed -i ":a;N;s/\n*version:\s.*\n*//g;ta" ./xkjd6.dict.yaml
-sed -i ":a;N;s/\n*sort:\s.*\n*//g;ta" ./xkjd6.dict.yaml
-echo "去除各头信息 OK"
+if [ $(uname) == "Darwin" ];then
 
-sed -i '1i ---\nname: xkjd6\nversion: "Q1"\nsort: original\n...' ./xkjd6.dict.yaml
+  sed -i '' -E $'/---/,/\\.\\.\\./d' ./xkjd6.dict.yaml
+  echo "去除各头信息 OK"
+  sed -i '' -E $'1 i\\\n---\\\nname: xkjd6\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' ./xkjd6.dict.yaml
+
+else
+
+  sed -i ":a;N;s/\n*---\n*//g;ta" ./xkjd6.dict.yaml
+  sed -i ":a;N;s/\n*\.\.\.\n*//g;ta" ./xkjd6.dict.yaml
+  sed -i ":a;N;s/\n*name:\s.*\n*//g;ta" ./xkjd6.dict.yaml
+  sed -i ":a;N;s/\n*version:\s.*\n*//g;ta" ./xkjd6.dict.yaml
+  sed -i ":a;N;s/\n*sort:\s.*\n*//g;ta" ./xkjd6.dict.yaml
+  echo "去除各头信息 OK"
+
+  sed -i '1i ---\nname: xkjd6\nversion: "Q1"\nsort: original\n...' ./xkjd6.dict.yaml
+
+fi
+
 echo "添加头信息 OK"
