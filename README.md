@@ -154,7 +154,7 @@ Android首选安装方式：[Android键道6安装包][915]
 [911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
 [912]: https://share.weiyun.com/5xfC9Qk "Git微云地址"
 [913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
-[914]: https://jdweb-1252252629.cos.ap-chengdu.myqcloud.com/%E5%B0%8F%E7%8B%BC%E6%AF%ABrime%E9%94%AE%E9%81%936_v0.12.0.exe?q-sign-algorithm=sha1&q-ak=AKIDWUXEVONZ9X84r5bakICGyjoQ7vOAOyPz&q-sign-time=1542713650;1542715450&q-key-time=1542713650;1542715450&q-header-list=&q-url-param-list=&q-signature=0405fdf28744d259de58af404aedfce244c11aa2&x-cos-security-token=f04d392428abc3d26bf47f8bfd4178146f452db810001 "键道6RimeWindows小狼毫引导安装包"
+[914]: https://pan.baidu.com/s/1Pu_llP-NO4qva2fv8hjxYg "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
 [916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
 [917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
