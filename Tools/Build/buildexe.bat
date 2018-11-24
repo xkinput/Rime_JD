@@ -18,4 +18,4 @@ if exist "Rime_JD.exe" (
 
 
 echo 开始构建7zip
-7z a -m1=LZMA Rime_JD.7z zma ..\..\
+7z a -m1=LZMA Rime_JD.7z ..\..\
