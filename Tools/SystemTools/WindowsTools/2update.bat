@@ -82,6 +82,7 @@ echo 还原用户配置		完成
 
 if exist "%CD%\用户数据\" (
   xcopy ".\用户数据\*" "%APPDATA%\Rime\" /Y /E
+  xcopy ".\用户数据\preview\*" "C:\Program Files (x86)\Rime\weasel-0.12.0\data\preview\" /Y /E
   echo 还原用户数据		完成
 ) else (
   mkdir "%CD%\用户数据\"
