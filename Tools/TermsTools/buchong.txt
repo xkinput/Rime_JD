@@ -28,6 +28,7 @@
 脚	jc
 届	jd
 急	jk
+呵	he
 屁	pk
 噗	pj
 重	wy
