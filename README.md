@@ -144,7 +144,7 @@ Android首选安装方式：[Android键道6安装包][915]
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
 [903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "吅吅大山的QQ群"
-[904]: http://xkjd.coding.me "键道官网"
+[904]: https://xkjd.coding.me "键道官网"
 [905]: https://git-scm.com/ "Git"
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
 [907]: http://git.mydoc.io/?t=180700 "码云PR教程"
