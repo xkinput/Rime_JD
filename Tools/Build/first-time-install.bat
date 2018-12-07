@@ -13,8 +13,22 @@ echo ======================
 echo 2、复制码表，并自动部署
 CLS
 
-echo 已开始，请稍等...
-git pull origin master
+echo 本机git版本为：
+git --version
+echo.
+if %ERRORLEVEL% EQU 0 (
+  echo 获取最新码表：
+  git pull origin master
+  echo 获取最新码表完成
+) else (
+  cls
+  echo.
+  echo 未安装git程序，将安装git程序。
+  "Tools\Build\Git-2.19.2-64-bit.exe"
+  echo 获取最新码表：
+  git pull origin master
+  echo 获取最新码表完成
+)
 echo.
 echo 获取最新资料完成
 echo.
