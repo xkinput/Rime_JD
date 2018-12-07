@@ -30,10 +30,23 @@ setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
-echo 已开始，请稍等...
-git pull origin master
+echo 本机git版本为：
+git --version
 echo.
-echo 获取最新资料完成
+if %ERRORLEVEL% EQU 0 (
+  echo 获取最新码表：
+  git pull origin master
+  echo 获取最新码表完成
+) else (
+  cls
+  echo.
+  echo 未安装git程序，请安装git程序！
+  ping -n 3 127.1 >nul
+  echo.
+  echo 十秒后自动退出...
+  ping -n 10 127.1 >nul
+  exit
+)
 echo.
 echo 3秒后开始更新，Ctrl + C停止……
 ping -n 3 127.1 >nul
