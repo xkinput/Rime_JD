@@ -51,7 +51,7 @@ Android首选安装方式：[Android键道6安装包][915]
 #### 最后：
 > 重新部署，并尝试输入文字。安装完成。
 
-#### 键道6方案文档[下载][]
+#### 键道6方案文档[下载][920]
 
 #### 扩展说明：
 1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
