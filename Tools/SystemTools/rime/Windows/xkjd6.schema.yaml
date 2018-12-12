@@ -16,7 +16,7 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: zh_trad
+  - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
   - name: wxw_prompt
@@ -118,7 +118,7 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - simplifier@zh_trad
+    - simplifier@jffh
     - simplifier@bmms
     - simplifier@wxw_prompt
     - simplifier@EN2en
@@ -159,9 +159,9 @@ emoji_cn:
   option_name: emoji_cn
   tips: all
 
-zh_trad:
-  opencc_config: zhs2zht.ini
-  option_name: zh_trad
+jffh:
+  opencc_config: s2tw.json
+  option_name: jffh
 
 EN2en:
   opencc_config: EN2en.json
@@ -194,7 +194,7 @@ key_binder:
   bindings:
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
-    - { when: always, accept: F7, toggle: zh_trad }
+    - { when: always, accept: F7, toggle: jffh }
     - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
     - { when: has_menu, accept: "^", toggle: bmms}
