@@ -51,7 +51,7 @@ Android首选安装方式：[Android键道6安装包][915]
 #### 最后：
 > 重新部署，并尝试输入文字。安装完成。
 
-#### 
+#### 键道6方案文档[下载][]
 
 #### 扩展说明：
 1. 扩展控制文件为 xkjd6.extended.dict.yaml / xkjd6dz.extended.dict.yaml
@@ -160,3 +160,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [917]: http://nshu.gitee.io/jdweb/tools/search "键道6查码工具"
 [918]: https://gitee.com/all-about-git "各系统git罗列"
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
+[920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
