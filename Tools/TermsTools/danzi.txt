@@ -598,6 +598,7 @@
 敦	dbovu
 追	dbu
 堆	dbv
+㙂	dbvo
 碓	dbvu
 掉	dc
 刁	dca
