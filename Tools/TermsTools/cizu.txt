@@ -3008,6 +3008,7 @@
 鄙视	bkek
 必是	bkeko
 笔试	bkeku
+鼻屎	bkekua
 彼时	bkekuo
 比试	bkekv
 逼视	bkekvo
@@ -9308,6 +9309,7 @@
 调查	dcws
 钓船	dcwt
 调为	dcww
+凋萎	dcwwo
 吊床	dcwx
 掉床	dcwxi
 吊窗	dcwxo
@@ -9831,10 +9833,10 @@
 大大小小	ddxxv
 道德修养	ddxy
 都傲	ddxz
-痘印	ddyb
+抖音	ddyb
 叠印	ddyba
 叠音	ddybao
-抖音	ddybi
+痘印	ddybo
 逗引	ddybv
 都有	ddyd
 斗友	ddydo
@@ -18108,6 +18110,7 @@
 输入	ejrj
 数日	ejrk
 孰若	ejrl
+时节如流	ejrlo
 世界人民	ejrm
 熟人	ejrn
 数人	ejrno
@@ -18888,6 +18891,7 @@
 十四	eksk
 誓死	ekski
 失算	ekst
+试算	eksto
 石笋	eksw
 试送	eksy
 失调	ektc
@@ -25389,6 +25393,7 @@
 支招	fkqzu
 炙肉	fkrd
 炙热	fkre
+制热	fkreu
 直燃	fkrf
 植入	fkrj
 置入	fkrji
@@ -30847,6 +30852,7 @@
 各抒己见	gejju
 革除	gejjv
 各级	gejk
+歌姬	gejkv
 格局	gejl
 割据	gejlo
 各具	gejlu
@@ -36117,6 +36123,7 @@
 回调	hbtc
 回头	hbtd
 回帖	hbtdi
+话不投机半句多	hbtdo
 会谈	hbtf
 回弹	hbtfi
 会听	hbtg
@@ -46057,6 +46064,7 @@
 几种	jkfyu
 击中	jkfyv
 几招	jkfz
+长宽高	jkg
 机柜	jkgb
 机构	jkgd
 几个	jkge
@@ -46862,6 +46870,7 @@
 巨量	jllx
 巨龙	jlly
 聚拢	jllyv
+巨佬	jllz
 讲礼貌	jlm
 出了名	jlma
 居民	jlmb
@@ -48933,6 +48942,7 @@
 城隍	jrhxv
 橙红	jrhy
 称号	jrhz
+乘号	jrhzu
 金融界	jrj
 出入境	jrja
 绞肉机	jrjai
@@ -49818,6 +49828,7 @@
 交通银行	jtyh
 金田一	jtyi
 脚痛医脚	jtyj
+鸡同鸭讲	jtyja
 倦意	jtyk
 金童玉女	jtyn
 圈养	jtyp
@@ -50579,6 +50590,7 @@
 将政	jxqr
 奖券	jxqt
 进行曲	jxqv
+降准	jxqw
 假戏真做	jxqz
 出席人	jxr
 酱肉	jxrd
@@ -52081,8 +52093,8 @@
 砍树	kfejv
 空置税	kfeo
 看上	kfep
-砍杀	kfes
-看啥	kfesi
+看啥	kfes
+砍杀	kfesv
 看谁	kfew
 开发者	kff
 看着	kffe
@@ -59084,6 +59096,7 @@
 雷害	lwhh
 类乎	lwhj
 了无痕迹	lwhja
+列文虎克	lwhk
 累活	lwhl
 泪痕	lwhn
 泪花	lwhq
@@ -60930,6 +60943,7 @@
 漫卷	mfjt
 满潮	mfjz
 满口	mfkd
+满课	mfke
 蛮快	mfkg
 麻烦了	mfl
 满洲里	mfla
@@ -63304,7 +63318,6 @@
 蒙着	mrqe
 盟主	mrqj
 蒙住	mrqji
-萌主	mrqjio
 猛起	mrqk
 猛涨	mrqp
 梦秋	mrqq
@@ -64455,6 +64468,7 @@
 猫国	mzgl
 蒙在鼓里	mzgli
 毛根	mzgn
+毛管	mzgt
 铆工	mzgy
 民族工业	mzgya
 冒高	mzgz
@@ -68842,6 +68856,7 @@
 批次	pkck
 皮层	pkcr
 皮草	pkcz
+皮雕	pkdc
 批斗	pkdd
 批的	pkde
 屁的	pkdea
@@ -82082,6 +82097,7 @@
 送殡	sybb
 送别	sybd
 松柏	sybh
+岁月不居	sybj
 松绑	sybp
 虽远必诛	sybq
 岁月不饶人	sybr
@@ -84976,6 +84992,7 @@
 痛哭流涕	tklt
 涕泪	tklw
 体谅	tklx
+体量	tklxi
 提捞	tklz
 土库曼	tkm
 提名	tkmg
@@ -86521,6 +86538,7 @@
 贪污罪	twz
 吞走	twzd
 通信班	txb
+天线宝宝	txbb
 天下本无事	txbe
 体细胞	txbi
 听而不闻	txbw
@@ -89171,6 +89189,7 @@
 无口	wjkd
 无可	wjke
 无计可施	wjkev
+无刻	wjkevo
 误刊	wjkf
 五块	wjkg
 无家可归	wjkgv
@@ -93969,6 +93988,7 @@
 小辈	xcbw
 小报	xcbz
 小宝	xcbzi
+削薄	xcbzii
 小包	xcbziu
 校测	xcce
 小菜	xcch
@@ -94603,6 +94623,7 @@
 欧债	xdfh
 歇伏	xdfj
 挟制	xdfk
+獬豸	xdfku
 想到这里	xdfl
 案牍之劳	xdflo
 卸妆	xdfm
@@ -98722,6 +98743,7 @@
 嚣张跋扈	xqbhoa
 修补	xqbj
 修编	xqbm
+修边	xqbmi
 行政部门	xqbmu
 学前班	xqbo
 哀其不争	xqbq
@@ -100675,8 +100697,8 @@
 想歪	xxwhv
 祥物	xxwj
 悬而未决	xxwji
-相持	xxwk
-想吃	xxwkv
+想吃	xxwk
+相持	xxwkv
 向我	xxwl
 信息网络	xxwli
 像我	xxwliu
@@ -104240,6 +104262,7 @@
 月半	yhbf
 月饼	yhbg
 阅兵	yhbgo
+友哈巴赫	yhbh
 越不	yhbj
 有何不可	yhbk
 烟花爆竹	yhbq
@@ -104363,6 +104386,7 @@
 越界	yhjdv
 沿海城市	yhje
 月产	yhjf
+阅后即焚	yhjfo
 月经	yhjg
 银行家	yhji
 月初	yhjj
@@ -110803,7 +110827,8 @@
 字画	zkhq
 恣横	zkhr
 自环	zkht
-紫黑	zkhw
+自黑	zkhw
+紫黑	zkhwi
 缁黄	zkhx
 紫红	zkhy
 自豪	zkhz
