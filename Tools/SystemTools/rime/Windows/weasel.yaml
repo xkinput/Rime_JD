@@ -541,7 +541,7 @@ preset_color_schemes:
     
   static2:
     name: "静静"
-    author: "不书/nshu"
+    author: "不书/nshu <nmlixa@163.com>"
     back_color: 0xFAFAFA
     border_color: 0xBBBBBB
     text_color: 0xFF8C13
