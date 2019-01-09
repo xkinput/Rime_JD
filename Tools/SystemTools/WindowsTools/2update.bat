@@ -33,6 +33,7 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 echo 本机git版本为：
 git --version
 echo.
+
 if %ERRORLEVEL% EQU 0 (
   echo 获取最新码表：
   git pull origin master

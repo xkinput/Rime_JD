@@ -8,6 +8,6 @@ echo 请稍等...
 "C:\Program Files (x86)\Rime\weasel-0.12.0\WeaselDeployer.exe" /deploy
 cls
 echo 部署完成！
-echo 可以关闭我了
+echo 更新完成，可以关闭我了
 "C:\Program Files (x86)\Rime\weasel-0.12.0\WeaselServer.exe"
 exit
