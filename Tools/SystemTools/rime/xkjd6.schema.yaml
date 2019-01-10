@@ -173,6 +173,12 @@ bmms:
   comment_format:
     - xform/'/ /
 
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_sentence: false
+
 reverse_lookup:
   dictionary: xkjd6cx
   comment_format:

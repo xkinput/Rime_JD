@@ -56,13 +56,12 @@ else
 	rm -rf 备份/*
 fi
 
-if [ ! -f "$rime/default.yaml" ]; then
+if [ ! -f "$rime/installation.yaml" ]; then
 	echo "· 未发现$rime无需备份"
 else
 	cp -rf $rime/* ./备份/
 	echo "· 备份“$rime”到“$bak”文件夹	完成"
 fi
-
 sleep 1
 
 #清空Rime目录
@@ -77,6 +76,7 @@ clear
 isHaveDict "键道6" $xkjd
 if [ $? == 1 ]; then
     cp -rf ../rime/*.yaml $rime/
+    cp -f ../rime/Mac/*.yaml $rime/
     JDL="键道6"
 fi
 
