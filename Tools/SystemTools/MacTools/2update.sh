@@ -77,6 +77,8 @@ isHaveDict "键道6" $xkjd
 if [ $? == 1 ]; then
     cp -rf ../rime/*.yaml $rime/
     cp -f ../rime/Mac/*.yaml $rime/
+    cp -f ../../Extended/xkjd6.iboot.dict.yaml $rime/
+
     JDL="键道6"
 fi
 
