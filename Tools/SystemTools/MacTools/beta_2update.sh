@@ -7,7 +7,7 @@ xkyb="../../../../rime_xkyb"
 my_default="default.custom.yaml"
 rime="$HOME/Library/Rime"
 
-JDL=""
+JD=""
 YB=""
 LB=""
 xk_name=""
@@ -87,13 +87,22 @@ case $my_select in
     ./2update.sh
     exit
   ;;
+  *)
+    echo "退出当前脚本执行"
+    exit
+  ;;
 esac
 
 echo "==========================================="
 sleep 2
 clear
 echo "已安装方案：$xk_name"
-echo "请重新部署鼠须管后再尝试使用。"
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/Squirrel --reload
+if [ "$?" -ne 0 ]; then
+    echo "请在鼠须管重新部署后再尝试使用。"
+else
+    echo "部署成功，可尝试使用。"
+fi
 echo "==========================================="
 sleep 1
 exit

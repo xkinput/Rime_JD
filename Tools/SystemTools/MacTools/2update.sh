@@ -6,7 +6,7 @@ xkyb="../../../../rime_xkyb"
 rime="$HOME/Library/Rime"
 bak="./备份"
 
-JDL=""
+JD=""
 YB=""
 LB=""
 
@@ -57,10 +57,10 @@ else
 fi
 
 if [ ! -f "$rime/installation.yaml" ]; then
-	echo "· 未发现$rime无需备份"
+	echo "· 未发现 $rime 无需备份"
 else
 	cp -rf $rime/* ./备份/
-	echo "· 备份“$rime”到“$bak”文件夹	完成"
+	echo "· 备份“ $rime ”到“ $bak ”文件夹	完成"
 fi
 sleep 1
 
@@ -79,7 +79,7 @@ if [ $? == 1 ]; then
     cp -f ../rime/Mac/*.yaml $rime/
     cp -f ../../Extended/xkjd6.iboot.dict.yaml $rime/
 
-    JDL="键道6"
+    JD="键道6"
 fi
 
 isHaveDict "一笔" $xkyb
@@ -120,8 +120,13 @@ echo "==========================================="
 sleep 2
 clear
 echo "==========================================="
-echo "已安装方案：$count个 $JD $YB $LB"
-echo "请在鼠须管重新部署后再尝试使用。"
+echo "已安装方案：$count 个 $JD $YB $LB"
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/Squirrel --reload
+if [ "$?" -ne 0 ]; then
+    echo "请在鼠须管重新部署后再尝试使用。"
+else
+    echo "部署成功，可尝试使用。"
+fi
 echo "==========================================="
 sleep 1
 exit
