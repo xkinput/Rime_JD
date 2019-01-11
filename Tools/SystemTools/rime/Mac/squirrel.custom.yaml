@@ -16,7 +16,7 @@ patch:
   style/font_face: "PingFangSC-Medium,NotoSansCJKsc-Medium,HanaMinA"
   style/label_font_point: 14 #候選編號大小
   style/label_font_face: "Arial" #候選詞編號字體 Arial Hebrew
-  style/font_point: 15 #候選字詞大小
+  style/font_point: 18 #候選字詞大小
   style/spacing: 0
   style/line_spacing: 5
   style/border_width: 0
@@ -24,7 +24,7 @@ patch:
   style/corner_radius: 5
 
   # style/font_face: ".PingFang TC,.PingFang SC,Source Han Sans Normal" #"NotoSansCJKtc-Regular"     我喜歡的字體名稱
-  style/color_scheme: psionics
+  style/color_scheme: Apathy
 
   # 0xBBGGRR
   preset_color_schemes/yue_railscasts:
