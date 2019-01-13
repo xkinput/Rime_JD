@@ -85,11 +85,5 @@ cp -rf $lianjie ../../rime/
 echo 已放置到主词库中
 
 git add . ../../rime/*
-if [ $(uname) == "Darwin" ];then
-    git commit -m "更新：据议表更新词库"
-    git push origin master
-else
-    read -p "更新内容为：" cont
-    git commit -m "更新：$cont"
-    git push
-fi
+git commit -m "更新：据议表更新词库"
+git push origin master
