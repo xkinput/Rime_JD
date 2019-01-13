@@ -22,7 +22,7 @@ style:
   auto_caps: false #自动句首大写:true|false|ascii
   background_dim_amount: 0.5
   color_scheme: jing #默认配色方案
-  speech_opencc_config: s2t.json #语音输入简繁转换
+  speech_opencc_config: t2s.json #语音输入简繁转换
   reset_ascii_mode: false #显示键盘时重置为中文状态
   latin_locale: en_US #西文语言
   locale: zh_TW #预设语言 zh_TW,zh_CN,zh_HK
