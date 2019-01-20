@@ -1,6 +1,7 @@
 猋	bcvuv
 嫑	bcvuvi
 猋	bcvuvu
+誧	bjovvi
 𬷕	bjviu
 𬷕	bjviua
 夶	bkvuv
@@ -52,6 +53,7 @@
 𫓧	fjiovv
 𫖯	fjuovu
 𫄨	fkaauo
+㩼	fkuauo
 𬃊	fkvuuu
 𬸦	flovu
 𬸦	flovua
@@ -97,6 +99,7 @@
 𬭎	hyioo
 𬭎	hyiooo
 𫟹	hyiovi
+䜰	hzuoui
 𬬱	jbiouu
 𬊤	jfouo
 𬊤	jfouou
@@ -174,6 +177,7 @@
 𬜯	lxiivi
 𬕂	lyuvv
 𬕂	lyuvvi
+䜮	lzuooo
 𫭼	lzvo
 𫭼	lzvoii
 𬇕	mfav
@@ -380,7 +384,3 @@
 孖	zkaaaa
 𭎂	zyvo
 𭎂	zyvoii
-䜰	hzuoui
-䜮	lzuooo
-㩼	fkuauo
-誧	bjovvi
