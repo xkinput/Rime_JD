@@ -262,8 +262,8 @@
 开支	khfk_kuo
 靠近	kzjb_kuu
 空气	kyqk_kuv
-看到	kfdz_kv
-开车	khje_kva
+开车	kfdz_kv
+看到	khje_kva
 快速	kgsj_kvi
 看来	kflh_kvo
 客厅	ketg_kvu
