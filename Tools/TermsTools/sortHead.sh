@@ -64,6 +64,13 @@ if [ $(uname) == "Darwin" ];then
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.chaojizici\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $chaojizici
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.lianjie\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $lianjie
 
+    if [[ (-x "$(command -v python3)") && (-f "make_wxw_json.py") ]];then
+	python3 make_wxw_json.py
+        echo "630 词组提示更新完毕"
+    else
+        echo "630 词组提示尚未更新"
+    fi
+
 else
     sed -i '1 i---\nname: xkjd6.cizu\nversion: "Q1"\nsort: original\n...' $cizu
     sed -i '1 i---\nname: xkjd6.danzi\nversion: "Q1"\nsort: original\n...' $danzi
