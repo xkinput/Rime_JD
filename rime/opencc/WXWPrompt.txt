@@ -21,7 +21,7 @@
 别的	bdde_bui
 爸爸	bsbs_buo
 变得	bmde_buu
-不知	bjfk_buv
+不知	bjfkv_buv
 不过	bjgl_bv
 不到	bjdz_bva
 不想	bjxx_bvi
@@ -61,7 +61,7 @@
 到了	dzle_da
 大约	dsyh_daa
 肚子	djzk_dai
-淡淡	dfdf_dao
+都能	ddnr_dao
 打架	dsjsi_dau
 当即	dpjk_dav
 多少	dlez_di
@@ -84,7 +84,7 @@
 打算	dsst_duv
 东西	dyxk_dv
 得到	dedz_dva
-地下	dkxs_dvi
+底下	dkxso_dvi
 大哥	dsge_dvo
 对面	dbmm_dvu
 对于	dbyl_dvv
@@ -189,7 +189,7 @@
 好人	hzrn_hii
 黄金	hmjb_hio
 好看	hzkf_hiu
-如何	rjhe_hiv
+还会	hhhb_hiv
 还是	hhek_ho
 或许	hlxl_hoa
 哈哈	hsh_hoi
@@ -206,7 +206,7 @@
 回到	hbdz_hva
 还要	hhyz_hvi
 回来	hblh_hvo
-好奇	hzqk_hvu
+后面	hdmm_hvu
 活动	hldy_hvv
 继续	jkxl_ja
 成绩	jrjk_jaa
@@ -262,8 +262,8 @@
 开支	khfk_kuo
 靠近	kzjb_kuu
 空气	kyqk_kuv
-开车	kfdz_kv
-看到	khje_kva
+开车	khje_kv
+看到	kfdz_kva
 快速	kgsj_kvi
 看来	kflh_kvo
 客厅	ketg_kvu
@@ -283,7 +283,7 @@
 厉害	lkhh_lo
 来说	lhel_loa
 力量	lklx_loi
-老头	lztd_loo
+老头	lztdu_loo
 两只	lxfk_lou
 立刻	lkke_lov
 了解	lcjd_lu
@@ -332,7 +332,7 @@
 年纪	nmjk_naa
 女孩	nlhh_nai
 难以	nfyk_nao
-努力	njlk_nau
+你好	nkhz_nau
 农民	nymb_nav
 你们	nkmn_ni
 哪里	nsl_nia
@@ -342,7 +342,7 @@
 那些	nsxd_niv
 难道	nfdz_no
 内心	nwxb_noa
-能量	nrlx_noi
+那是	nsek_noi
 内容	nwry_noo
 怒火	njhl_nou
 内部	nwbj_nov
@@ -402,7 +402,7 @@
 其余	qkyl_qiv
 其实	qkek_qo
 注视	qjeka_qoa
-真是	qnek_qoi
+真是	qneku_qoi
 确实	qhek_qoo
 正义	qryk_qou
 情况	qgkm_qov
@@ -429,6 +429,7 @@
 人人	rnrn_rii
 如今	rjjb_rio
 软件	rtjm_riu
+如何	rjhe_riv
 认为	rnww_ro
 认识	rnek_roa
 容易	ryyk_roi
@@ -483,10 +484,10 @@
 天赋	tmfj_tao
 头发	tdfs_tau
 唾沫	tlme_tav
-他们	tsmn_ti
+他们	tsmni_ti
 听见	tgjm_tia
 痛苦	tykj_tii
-她们	tsmna_tio
+她们	tsmn_tio
 条件	tcjm_tiu
 停止	tgfk_tiv
 特别	tebd_to
@@ -535,7 +536,7 @@
 无比	wjbk_wva
 无聊	wjlc_wvi
 未来	wwlh_wvo
-无奈	wjnh_wvu
+外面	whmm_wvu
 唯一	wwyk_wvv
 喜欢	xkht_xa
 系统	xkty_xaa
@@ -650,7 +651,6 @@
 光明	gmmg_gm
 花草	hqcz_hc
 很快	hnkg_hk
-后面	hdmm_hm
 快餐	kgcf_kc
 可靠	kekz_kk
 开门	khmn_km
@@ -679,7 +679,6 @@
 提前	tkqm_tq
 同学	tyxh_tx
 为此	wwck_wc
-外面	whmm_wm
 完全	wfqt_wq
 因此	ybck_yc
 以及	ykjk_yj
