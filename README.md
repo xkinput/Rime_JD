@@ -23,15 +23,11 @@ Windows首选安装方式： [Windows键道6安装程序下载][914]
 说明：打包内包含完整本项目，克隆完成后，请按照下面Git安装后同步最新码表`git pull`后，升级到最新码表。
 
 Linux首选安装方式： 
-使用终端执行
+下载：[附件][922] 中 installJDL脚本 然后在脚本目录 终端执行
 
-`wget -O installJDL.sh http://pjzgavv5k.bkt.clouddn.com/installJDL.sh && ./installJDL.sh`
+`./installJDL.sh`
 
-或
-
-`curl -O installJDL.sh http://pjzgavv5k.bkt.clouddn.com/installJDL.sh && ./installJDL.sh`
-
-说明：请确保系统已安装 wget 程序，未安装Debian系可使用 sudo apt install wget -y 安装，安装后，可使用项目内配备的升级工具做升级码表到最新。
+说明：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
 Android首选安装方式：[Android键道6安装包][915]
 说明：打包内包含码表与皮肤，安装完成后，请按照下面Git安装后同步最新码表`git pull`后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
@@ -172,4 +168,4 @@ Android首选安装方式：[Android键道6安装包][915]
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
 [921]: https://gitee.com/nshu/Rime_JD/wikis/pages "键道6wiki文档"
-h
+[922]: https://gitee.com/nshu/Rime_JD/attach_files '附件地址'
