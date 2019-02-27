@@ -80,12 +80,6 @@ if exist ".\备份\xkjd6.user.dict.yaml" (
 ) else (
   echo 没有用户词库跳过
 )
-if exist ".\备份\xkjd6.extended.dict.yaml" (
-  xcopy ".\备份\xkjd6.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
-  echo 扩展配置还原完成
-) else (
-  echo 没有扩展配置跳过
-)
 if exist ".\备份\xkjd6dz.extended.dict.yaml" (
   xcopy ".\备份\xkjd6dz.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
   echo 单字扩展配置还原完成
