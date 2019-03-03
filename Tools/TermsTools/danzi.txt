@@ -124,6 +124,7 @@
 埠	bjvo
 埗	bjvoi
 埔	bjvov
+㘵	bjvovu
 比	bk
 避	bka
 纰	bkaa
@@ -453,6 +454,7 @@
 掺	cfiu
 粲	cfiv
 惨	cfo
+喰	cfoi
 惭	cfoo
 灿	cfou
 䅟	cfu
@@ -1202,14 +1204,14 @@
 氏	ekuav
 鼫	ekui
 释	ekuo
-辻 	ekuoo
+辻	ekuoo
 弑	ekuov
 失	ekuv
 适	ekuvo
 舐	ekuvu
 矢	ekuvv
-䏡	ekuvvi
 筮	ekuvvi
+䏡	ekuvvi
 事	ekv
 轼	ekva
 世	ekvi
@@ -4018,8 +4020,8 @@
 搂	ldi
 髅	ldia
 蝼	ldiao
-䁖	ldiaou
 嵝	ldiaou
+䁖	ldiaou
 蒌	ldii
 镂	ldio
 偻	ldiou
@@ -4799,9 +4801,9 @@
 虻	mria
 蜢	mriaa
 蠓	mriai
-㠓	mriaii
 幪	mriaii
 蟒	mriaii
+㠓	mriaii
 萌	mrii
 瞢	mriii
 鹲	mriiu
@@ -5674,6 +5676,7 @@
 祺	qkoav
 棨	qkoavv
 蹊	qkoi
+喰	qkoio
 跂	qkoiu
 踦	qkoiv
 器	qkoo
@@ -6343,6 +6346,7 @@
 损	swi
 荪	swii
 隼	swio
+喰	swo
 笋	swu
 狲	swua
 飧	swuai
@@ -8127,6 +8131,8 @@
 应	yg
 盈	yga
 缨	ygaa
+瀴	ygaao
+瀴	ygaaoa
 滢	ygai
 潆	ygaii
 溁	ygaiio
@@ -8410,8 +8416,8 @@
 鱼	ylu
 狱	ylua
 馀	yluai
-㺄	yluaiv
 狳	yluaiv
+㺄	yluaiv
 饫	yluau
 舆	ylui
 禹	yluia
@@ -8821,13 +8827,14 @@
 鄫	zroua
 䎖	zrouao
 矰	zru
-杂	zs
+咋	zs
 扎	zsi
 拶	zsiu
 咋	zso
 咱	zsou
 咂	zsov
-臜	zsu
+杂	zsu
+臜	zsuv
 砸	zsv
 匝	zsvi
 赚	zta
