@@ -452,6 +452,7 @@
 掺	cfiuao
 餐	cfivio
 粲	cfivou
+喰	cfoioa
 惨	cfooao
 惭	cfoova
 灿	cfouia
@@ -3506,13 +3507,13 @@
 承	jraivv
 蛏	jriaao
 瞠	jriaio
+峸	jriavu
 铛	jrioio
 牚	jriova
 铖	jriovu
 抢	jriuia
 撑	jriuio
 偁	jriuoo
-峸	jriavu
 裎	jroaov
 诚	jroavu
 晟	jroivu
@@ -5059,6 +5060,7 @@
 呐	nsoiau
 肭	nsuiau
 南	nsuoia
+雫	nsvovi
 暖	ntoiuo
 那	nwavai
 内	nwiauo
@@ -5673,6 +5675,7 @@
 讫	qkoauv
 祺	qkoavi
 棨	qkoavv
+喰	qkoioa
 跂	qkoiuo
 蹊	qkoiuo
 踦	qkoivu
@@ -6346,6 +6349,7 @@
 荪	swiiai
 隼	swiouo
 损	swiuoa
+喰	swoioa
 狲	swuaai
 飧	swuaio
 笋	swuvav
@@ -8884,4 +8888,3 @@
 枣	zzvioo
 𥖨	zzvuoo
 璪	zzvvoo
-雫	nsvovi
