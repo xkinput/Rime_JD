@@ -74,20 +74,6 @@ echo 复制独有配置		完成
 
 cls
 
-if exist ".\备份\xkjd6.user.dict.yaml" (
-  xcopy ".\备份\xkjd6.user.dict.yaml" "%APPDATA%\Rime\" /Y /E
-  echo 用户词库还原完成
-) else (
-  echo 没有用户词库跳过
-)
-if exist ".\备份\xkjd6dz.extended.dict.yaml" (
-  xcopy ".\备份\xkjd6dz.extended.dict.yaml" "%APPDATA%\Rime\" /Y /E
-  echo 单字扩展配置还原完成
-) else (
-  echo 没有单字扩展配置跳过
-)
-echo 还原用户配置		完成
-
 if exist "%CD%\用户数据\" (
   xcopy ".\用户数据\*" "%APPDATA%\Rime\" /Y /E
   xcopy ".\用户数据\preview\*" "C:\Program Files (x86)\Rime\weasel-0.12.0\data\preview\" /Y /E
