@@ -117,7 +117,7 @@ Android首选安装方式：[Android键道6安装包][915]
 > 键道的跨平台使用离不开以上优秀的输入平台
 
 [998]: https://gitee.com/thxnder/xxjd/tree/master/release "新版本小小键道"
-[999]: https://gitee.com/nshu/Rime_JD "新版本RIME键道"
+[999]: https://gitee.com/xkinput/Rime_JD "新版本RIME键道"
 
 [101]: https://github.com/rime/weasel "小狼毫－Rime 輸入法 for Windows"
 [102]: https://github.com/rime/squirrel "鼠鬚管－Rime 輸入法 for Mac OS X"
@@ -132,15 +132,15 @@ Android首选安装方式：[Android键道6安装包][915]
 [201]: http://rime.im "rime主页"
 [202]: https://github.com/osfans "TRIME作者页面"
 [203]: https://github.com/dgod/yong "小小主页"
-[204]: https://gitee.com/nshu/Rime_JD "Rime键道主页"
+[204]: https://gitee.com/xkinput/Rime_JD "Rime键道主页"
 [205]: http://thxnder.gitee.io/xxjd "小小键道主页"
 [206]: https://gitee.com/thxnder "「小小键道」 维护者"
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
-[208]: https://gitee.com/nshu/Rime_JD/releases "发行页"
-[209]: https://gitee.com/nshu/Rime_JD/repository/archive/master.zip "Download"
-[210]: https://gitee.com/nshu/Rime_JD/tree/master/Tools/SystemTools "/Tools/SystemTools"
-[211]: https://gitee.com/nshu/Rime_JD/tree/master/rime "/rime"
-[212]: https://gitee.com/nshu/Rime_JD/tree/master/SystemTools/Android "Android"
+[208]: https://gitee.com/xkinput/Rime_JD/releases "发行页"
+[209]: https://gitee.com/xkinput/Rime_JD/repository/archive/master.zip "Download"
+[210]: https://gitee.com/xkinput/Rime_JD/tree/master/Tools/SystemTools "/Tools/SystemTools"
+[211]: https://gitee.com/xkinput/Rime_JD/tree/master/rime "/rime"
+[212]: https://gitee.com/xkinput/Rime_JD/tree/master/SystemTools/Android "Android"
 [213]: https://gitee.com/morler/rime_xklb "两笔地址"
 [214]: https://gitee.com/morler "Morler"
 [215]: https://github.com/dzyht/rime_xkyb "一笔地址"
@@ -167,6 +167,6 @@ Android首选安装方式：[Android键道6安装包][915]
 [918]: https://gitee.com/all-about-git "各系统git罗列"
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
-[921]: https://gitee.com/nshu/Rime_JD/wikis/pages "键道6wiki文档"
-[922]: https://gitee.com/nshu/Rime_JD/attach_files '附件地址'
+[921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
+[922]: https://gitee.com/xkinput/Rime_JD/attach_files '附件地址'
 [923]: https://nshu.gitee.io/jdweb/public/installJDL.sh '键道6Linux脚本'
