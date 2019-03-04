@@ -1,4 +1,4 @@
-﻿<h1 align="center">星空键道6</h1>
+<h1 align="center">星空键道6</h1>
 
 >作者：**吅吅大山** [**键道官网**][904]  [**键道6词库议表**][916]  [**键道6查码工具**][917]  [加入官方群:320053116][903]
 
@@ -44,7 +44,7 @@ Android首选安装方式：[Android键道6安装包][915]
 
 #### 使用简述：
 1. 需要安装Git后，将克隆项目到本地（打开git bash中输入，下面一样的）
-`git clone https://gitee.com/nshu/Rime_JD`
+`git clone https://gitee.com/xkinput/Rime_JD`
 2. 切换到项目文件夹
 `cd Rime_JD`
 3. 在文件管理器打开当前目录（`pwd`可以查看目录位置），进入Rime_JD/Tools/SystemTools/对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
@@ -70,7 +70,7 @@ Android首选安装方式：[Android键道6安装包][915]
 ##### 若你想要发起发起PR为本项目做出贡献：
 创建远程仓库，指向 PR 提交者的仓库
 1. 指定上游地址
-`git remote add upstream https://gitee.com/nshu/Rime_JD.git`
+`git remote add upstream https://gitee.com/xkinput/Rime_JD.git`
 2. 从该远程仓库拉取代码
 `git fetch upstream`
 **如果上游更新内容含有 缩减仓库历史，请在push 代码前 pull rebasel 详见：缩减仓库说明**
