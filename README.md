@@ -23,9 +23,14 @@
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
   * Linux 首选安装方式： 
-    下载[附件][923]脚本 然后在脚本目录 终端执行  
-    `./installJDL.sh`  
-    > 说明：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
+    终端执行：
+    `wget -O installJDL.sh https://xkinput.gitee.io/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
+
+    或者：
+    下载[附件][923]脚本，切换到脚本所在目录终端执行：  
+    `./installJDL.sh`
+
+    > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
   * Android 首选安装方式：[Android键道6安装包][915]
     > 说明：打包内包含码表与皮肤，安装完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
