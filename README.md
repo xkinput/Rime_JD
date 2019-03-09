@@ -178,4 +178,4 @@
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
 [921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
 [922]: https://gitee.com/xkinput/Rime_JD/attach_files '附件地址'
-[923]: https://xkinput.gitee.io/public/installJDL.sh '键道6Linux脚本'
+[923]: https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh '键道6Linux脚本'
