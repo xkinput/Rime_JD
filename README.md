@@ -24,7 +24,7 @@
 
   * Linux 首选安装方式： 
     终端执行：
-    `wget -O installJDL.sh https://xkinput.gitee.io/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
+    `wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
 
     或者：
     下载[附件][923]脚本，切换到脚本所在目录终端执行：  
