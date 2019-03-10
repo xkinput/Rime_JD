@@ -5,7 +5,6 @@ yingwen=xkjd6.yingwen.dict.yaml
 wxw=xkjd6.wxw.dict.yaml
 chaojizici=xkjd6.chaojizici.dict.yaml
 buchong=xkjd6.buchong.dict.yaml
-buchongcizu=xkjd6.buchongcizu.dict.yaml
 lianjie=xkjd6.lianjie.dict.yaml
 
 cp -rf ../../rime/$cizu ../BackDict/
@@ -14,7 +13,6 @@ cp -rf ../../rime/$yingwen ../BackDict/
 cp -rf ../../rime/$wxw ../BackDict/
 cp -rf ../../rime/$chaojizici ../BackDict/
 cp -rf ../../rime/$buchong ../BackDict/
-cp -rf ../../rime/$buchongcizu ../BackDict/
 cp -rf ../../rime/$lianjie ../BackDict/
 
 git add ../BackDict/*
@@ -27,7 +25,6 @@ rm $yingwen
 rm $wxw
 rm $chaojizici
 rm $buchong
-rm $buchongcizu
 rm $lianjie
 clear
 echo 创建词库
@@ -37,7 +34,6 @@ cp -rf yingwen.txt ./$yingwen
 cp -rf wxw.txt ./$wxw
 cp -rf chaojizici.txt ./$chaojizici
 cp -rf buchong.txt ./$buchong
-cp -rf buchongcizu.txt ./$buchongcizu
 cp -rf lianjie.txt ./$lianjie
 
 # 附加单字全码
@@ -52,7 +48,6 @@ if [ $(uname) == "Darwin" ];then
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.yingwen\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $yingwen
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.wxw\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $wxw
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchong\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $buchong
-    sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchongcizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $buchongcizu
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.chaojizici\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $chaojizici
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.lianjie\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $lianjie
 
@@ -70,7 +65,6 @@ else
     sed -i '1 i---\nname: xkjd6.wxw\nversion: "Q1"\nsort: original\n...' $wxw
     sed -i '1 i---\nname: xkjd6.chaojizici\nversion: "Q1"\nsort: original\n...' $chaojizici
     sed -i '1 i---\nname: xkjd6.buchong\nversion: "Q1"\nsort: original\n...' $buchong
-    sed -i '1 i---\nname: xkjd6.buchongcizu\nversion: "Q1"\nsort: original\n...' $buchongcizu
     sed -i '1 i---\nname: xkjd6.lianjie\nversion: "Q1"\nsort: original\n...' $lianjie
 fi
 
@@ -80,7 +74,6 @@ cp -rf $danzi ../../rime/
 cp -rf $yingwen ../../rime/
 cp -rf $wxw ../../rime/
 cp -rf $buchong ../../rime/
-cp -rf $buchongcizu ../../rime/
 cp -rf $chaojizici ../../rime/
 cp -rf $lianjie ../../rime/
 echo 已放置到主词库中
