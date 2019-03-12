@@ -19,16 +19,12 @@
 ---
 
 #### 首次安装：
-  * Windows 首选安装方式： [Windows键道6安装程序下载][914]  
+  * Windows 首选安装方式： [Windows键道6安装程序下载][922]  
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
   * Linux 首选安装方式： 
     终端执行：
     `wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
-
-    或者：
-    下载[附件][923]脚本，切换到脚本所在目录终端执行：  
-    `./installJDL.sh`
 
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
@@ -178,4 +174,3 @@
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
 [921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
 [922]: https://gitee.com/xkinput/Rime_JD/attach_files '附件地址'
-[923]: https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh '键道6Linux脚本'
