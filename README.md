@@ -42,7 +42,7 @@
  * Windows 系统 Git：[官网][905]|[微云][912]
  * Linux 系统 Git：[自行安装]
  * Mac 系统 Git：内建 git 程序，无需另外安装
- * Android 系统 Git：[下载(Pocket Git)][910]|[下载(MGit)][]
+ * Android 系统 Git：[下载(Pocket Git)][910]|[下载(MGit)][923]
  * iOS 系统：现阶段无法使用 git 更新，请参考[首次安装方式](#ios-install)
 
 ##### 使用简述：
