@@ -642,8 +642,8 @@
 兜	dduiua
 牒	dduivi
 都	dduoai
-䏲	dduoua
 爹	dduoua
+䏲	dduoua
 耋	dduova
 瓞	dduuuv
 迭	dduvoa
@@ -1207,8 +1207,8 @@
 弑	ekuovv
 适	ekuvoa
 舐	ekuvua
-䏡	ekuvvi
 筮	ekuvvi
+䏡	ekuvvi
 失	ekuvvu
 矢	ekuvvu
 轼	ekvavv
@@ -1504,8 +1504,8 @@
 赋	fjaovv
 妇	fjauav
 浮	fjauoo
-㳇	fjauou
 滏	fjauou
+㳇	fjauou
 弗	fjavau
 艴	fjavua
 幅	fjia
@@ -1516,8 +1516,8 @@
 蝠	fjiavo
 罘	fjiavu
 蚨	fjiavv
-䓛	fjiiav
 茀	fjiiav
+䓛	fjiiav
 苻	fjiiiv
 茯	fjiiiv
 菔	fjiiua
@@ -1985,6 +1985,7 @@
 鳜	gbuavu
 鬼	gbuiao
 皈	gbuiuu
+攰	gbuoua
 簋	gbuvav
 筀	gbuvvo
 轨	gbvaua
@@ -2962,8 +2963,8 @@
 颉	jdvovu
 檞	jdvuau
 碣	jdvuoi
-㛃	jdvvau
 楷	jdvvau
+㛃	jdvvau
 玠	jdvviu
 桔	jdvvoo
 戒	jdvvui
@@ -3062,8 +3063,8 @@
 靓	jgvvia
 璥	jgvvii
 璟	jgvvoi
-䴖	jgvvua
 静	jgvvua
+䴖	jgvvua
 井	jgvvui
 绝	jhaaua
 孓	jhaioo
@@ -4017,10 +4018,10 @@
 陋	ldaivi
 溇	ldaouv
 洌	ldavua
-䁖	ldiaou
 嵝	ldiaou
 蝼	ldiaou
 髅	ldiaou
+䁖	ldiaou
 蒌	ldiiou
 镂	ldioou
 偻	ldiouv
@@ -4378,8 +4379,8 @@
 朗	lpoauu
 塱	lpoavo
 㮾	lpoavv
-㫰	lpoioa
 阆	lpoioa
+㫰	lpoioa
 啷	lpooav
 烺	lpouoa
 廊	lpovoa
@@ -4799,10 +4800,10 @@
 孟	mraiia
 濛	mraiio
 蜢	mriaai
-㠓	mriaii
 幪	mriaii
 蟒	mriaii
 蠓	mriaii
+㠓	mriaii
 虻	mriaov
 瞢	mriiia
 萌	mriioi
@@ -5223,9 +5224,9 @@
 濞	pkauia
 媲	pkauui
 劈	pkavau
-䴙	pkavov
 譬	pkavov
 辟	pkavov
+䴙	pkavov
 屁	pkavva
 甓	pkavva
 罴	pkiaoo
@@ -5737,8 +5738,8 @@
 氍	qliauv
 曲	qliavi
 岖	qliavu
-䓛	qliiav
 蕖	qliiav
+䓛	qliiav
 蘧	qliiiv
 苣	qliiva
 觑	qlivia
@@ -5820,6 +5821,7 @@
 圲	qmvouv
 牵	qmvuuv
 杄	qmvuvi
+瓩	qmwsva
 纼	qnaaav
 缜	qnaauo
 浈	qnaiva
@@ -6465,8 +6467,8 @@
 渟	tgaovo
 婷	tgauov
 汀	tgavii
-䗴	tgiauv
 蜓	tgiauv
+䗴	tgiauv
 町	tgiavi
 葶	tgiiov
 莛	tgiiuv
@@ -6649,11 +6651,11 @@
 熥	trouao
 誊	trouov
 疼	trovua
-䲢	truouv
 滕	truouv
 縢	truouv
 腾	truouv
 螣	truouv
+䲢	truouv
 漯	tsaiav
 溻	tsaoia
 沓	tsaoii
@@ -7956,8 +7958,8 @@
 胤	ybuaao
 夤	ybuaoo
 狺	ybuaov
-䲟	ybuaua
 饮	ybuaua
+䲟	ybuaua
 殷	ybuuua
 氤	ybuvia
 鄞	ybviai
@@ -8126,8 +8128,8 @@
 餍	yfvuio
 魇	yfvuui
 厌	yfvuvu
-䶮	yfvuvv
 研	yfvuvv
+䶮	yfvuvv
 琰	yfvvou
 艳	yfvvua
 缨	ygaaao
@@ -8244,8 +8246,8 @@
 铱	ykioov
 镱	ykioov
 仪	ykiouo
-㑊	ykiovu
 依	ykiovu
+㑊	ykiovu
 挹	ykiuoa
 佾	ykiuou
 揖	ykiuov
@@ -8414,9 +8416,9 @@
 育	ylovuu
 吁	ylovvi
 鱼	yluaia
-㺄	yluaiv
 狳	yluaiv
 馀	yluaiv
+㺄	yluaiv
 狱	yluaoa
 饫	yluauv
 鄅	yluiai
