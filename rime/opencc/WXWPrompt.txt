@@ -129,7 +129,7 @@
 众人	fyrn_fii
 非常	fwjp_fio
 直接	fkjd_fiu
-桌上	flep_fiv
+这些	fexd_fiv
 知道	fkdz_fo
 放心	fpxb_foa
 只是	fkek_foi
@@ -394,14 +394,14 @@
 前台	qmth_qao
 强忍	qxrna_qau
 逐渐	qjjm_qav
-这些	fexd_qi
-其他	qkts_qia
+其他	qkts_qi
+其中	qkfy_qia
 整个	qrge_qii
 正常	qrjp_qio
 主任	qjrno_qiu
 其余	qkyl_qiv
 其实	qkek_qo
-注视	qjeka_qoa
+注视	qjekao_qoa
 真是	qneku_qoi
 确实	qhek_qoo
 正义	qryk_qou
@@ -594,7 +594,7 @@
 一种	ykfy_yuv
 一样	ykyp_yv
 一切	ykqd_yva
-一下	_yvi
+一下	ykxsv_yvi
 一起	ykqk_yvo
 拥有	yyyd_yvu
 一天	yktm_yvv
