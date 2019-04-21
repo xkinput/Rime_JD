@@ -1300,7 +1300,6 @@
 垧	epvo
 殇	epvu
 刷	eq
-涮	eqa
 唰	eqo
 耍	eqv
 生	er
