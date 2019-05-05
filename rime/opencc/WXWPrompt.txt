@@ -135,7 +135,7 @@
 只是	fkek_foi
 放学	fpxh_foo
 之前	fkqm_fou
-父亲	fjqb_fov
+放弃	fpqk_fov
 这么	feme_fu
 疯狂	frkm_fua
 转身	ften_fui
@@ -280,10 +280,10 @@
 两位	lxww_lio
 老师	lzek_liu
 脸上	lmep_liv
-厉害	lkhh_lo
+老是	lzekuo_lo
 来说	lhel_loa
 力量	lklx_loi
-老头	lztdu_loo
+厉害	lkhh_loo
 两只	lxfk_lou
 立刻	lkke_lov
 了解	lcjd_lu
