@@ -8487,7 +8487,7 @@
 磁悬浮	cxf
 残奥会	cxh
 促膝交谈	cxjt
-菜虛鲲	cxk
+菜虚鲲	cxk
 次显码表	cxmb
 藏形匿影	cxny
 曹雪芹	cxq
@@ -13339,8 +13339,8 @@
 断然拒绝	drjjo
 等级	drjk
 登记	drjka
-登机	drjkav
 登基	drjkav
+登机	drjkav
 等急	drjku
 灯具	drjl
 等距	drjlu
@@ -18300,7 +18300,8 @@
 述学	ejxhvo
 上进心	ejxi
 山脚下	ejxiu
-舒尔	ejxj
+倏尔	ejxj
+山间小径	ejxji
 熟悉	ejxk
 梳洗	ejxkv
 书序	ejxl
@@ -18522,8 +18523,8 @@
 实施	ekeko
 时势	ekekoi
 实时	ekekoo
-时事	ekekov
 实事	ekekov
+时事	ekekov
 适时	ekeku
 失势	ekekui
 失实	ekekuo
@@ -18608,8 +18609,8 @@
 时钟	ekfyoi
 试种	ekfyou
 适中	ekfyu
-失重	ekfyuu
 十种	ekfyuu
+失重	ekfyuu
 示众	ekfyv
 十兆	ekfz
 是鬼	ekgb
@@ -18721,8 +18722,8 @@
 市级	ekjkoa
 市集	ekjkoi
 试剂	ekjkoo
-时机	ekjkov
 实机	ekjkov
+时机	ekjkov
 十几	ekjku
 十级	ekjkua
 世纪	ekjkv
@@ -23620,8 +23621,8 @@
 反面	ffmm
 方方面面	ffmmo
 翻面	ffmmu
-朝朝暮暮	ffmmuu
 分分秒秒	ffmmuu
+朝朝暮暮	ffmmuu
 烦闷	ffmn
 繁忙	ffmp
 反码	ffms
@@ -24082,6 +24083,7 @@
 摘菜	fhch
 复合材料	fhcl
 寨村	fhcw
+止滑垫	fhd
 摘掉	fhdc
 中华大地	fhdd
 摘得	fhde
@@ -24337,8 +24339,8 @@
 富庶	fjejo
 腐熟	fjejoo
 服输	fjeju
-负数	fjejuo
 复数	fjejuo
+负数	fjejuo
 复述	fjejuv
 服饰	fjek
 赋诗	fjeka
@@ -24708,6 +24710,7 @@
 腹胀	fjqpu
 扶正	fjqr
 夫权	fjqt
+赋权	fjqta
 风景区	fjqu
 支局长	fjqua
 副局长	fjqv
@@ -25242,6 +25245,7 @@
 之恨	fkhnoo
 支行	fkhp
 直航	fkhpu
+止滑	fkhq
 制衡	fkhr
 置换	fkht
 指环	fkhti
@@ -25767,8 +25771,8 @@
 之义	fkykoo
 之役	fkykou
 质疑	fkyku
-直译	fkykuo
 旨意	fkykuo
+直译	fkykuo
 致以	fkykv
 致意	fkykvo
 至于	fkyl
@@ -29777,9 +29781,9 @@
 中医院	fyyiv
 中医	fyyk
 中意	fyyki
+众议	fyykio
 忠义	fyykio
 钟意	fyykio
-众议	fyykio
 反咬一口	fyyku
 终于	fyyl
 忠于	fyyli
@@ -30247,8 +30251,8 @@
 过半数	gbev
 更别说	gbevo
 更不是	gbevv
-赶不上	gbevvi
 根本上	gbevvi
+赶不上	gbevvi
 归顺	gbew
 归谁	gbewi
 贵霜	gbex
@@ -32067,6 +32071,7 @@
 工程部	gjbvu
 古碑	gjbw
 古堡	gjbz
+鼓包	gjbzv
 关键词	gjc
 肝肠寸断	gjcd
 估测	gjce
@@ -36044,6 +36049,7 @@
 悔改	hbgh
 回改	hbghi
 回顾	hbgj
+蟪蛄	hbgji
 惠顾	hbgjv
 回国	hbgl
 回过	hbgli
@@ -42738,8 +42744,8 @@
 叫谁	jceboo
 教授	jced
 叫兽	jcedo
-交手	jcedoi
 交售	jcedoi
+交手	jcedoi
 脚手	jcedu
 交涉	jcee
 储藏室	jcei
@@ -43291,8 +43297,8 @@
 京东商城	jdejo
 解释	jdek
 结实	jdeka
-结识	jdekao
 届时	jdekao
+结识	jdekao
 结石	jdekav
 揭示	jdeki
 节食	jdekii
@@ -43650,6 +43656,7 @@
 杰森	jdsn
 结算	jdst
 接榫	jdsw
+掘地三尺	jdswi
 接送	jdsy
 超导体	jdt
 借条	jdtc
@@ -46567,8 +46574,8 @@
 基诺	jknlv
 几年	jknm
 纪念	jknma
-鸡年	jknmau
 纪年	jknmau
+鸡年	jknmau
 记念	jknmo
 饥渴难耐	jknn
 就可能	jkno
@@ -50041,6 +50048,7 @@
 绢素	jtsj
 绢丝	jtsk
 狡兔三窟	jtsku
+举头三尺有神明	jtsm
 集体所有	jtsy
 倦态	jtth
 叫天天不应，叫地地不灵	jttl
@@ -60359,10 +60367,10 @@
 老帅	lzeg
 老鼠	lzej
 老树	lzeju
-老是	lzek
+老师	lzek
 老实	lzeku
 老湿	lzekua
-老师	lzekui
+老是	lzekuo
 老式	lzekuv
 老说	lzel
 劳神	lzen
@@ -68501,6 +68509,7 @@
 磐田	pftm
 潘塔	pfts
 叛逃	pftz
+蟠桃	pftzi
 攀扯	pfwe
 攀诬	pfwj
 贫富差距	pfwju
@@ -73448,6 +73457,7 @@
 证据确凿	qjqzo
 正常人	qjr
 猪肉	qjrd
+朱肉	qjrdu
 助燃	qjrf
 全家人	qjri
 注入	qjrj
@@ -74338,8 +74348,8 @@
 区间	qljm
 去见	qljmv
 去建	qljmva
-取件	qljmvi
 去捡	qljmvi
+取件	qljmvi
 去剪	qljmvo
 取长	qljp
 屈就	qljq
@@ -75425,6 +75435,7 @@
 张榜	qpbp
 唱吧	qpbs
 长辈	qpbw
+胀包	qpbz
 账册	qpce
 张璨	qpcf
 掌财	qpch
@@ -76417,6 +76428,7 @@
 正则	qrze
 前人栽树	qrzeo
 正在	qrzh
+整租	qrzj
 整字	qrzk
 争做	qrzl
 整座	qrzlv
@@ -76582,9 +76594,9 @@
 全份	qtfni
 全放	qtfp
 全封	qtfr
-权诈	qtfs
+拳法	qtfs
 全发	qtfsi
-拳法	qtfso
+权诈	qtfsv
 全费	qtfw
 权重	qtfy
 圈中	qtfyi
@@ -88538,8 +88550,8 @@
 物质世界	wfeju
 完事	wfek
 万事	wfekv
-顽石	wfekvv
 万世	wfekvv
+顽石	wfekvv
 晚霜	wfem
 弯身	wfen
 晚上	wfep
@@ -89648,8 +89660,8 @@
 物力	wjlku
 无力	wjlkv
 武力	wjlkva
-无礼	wjlkvo
 兀立	wjlkvo
+无礼	wjlkvo
 无利	wjlkvu
 无理	wjlkvv
 无虑	wjll
@@ -91245,6 +91257,7 @@
 网状	wpfm
 往访	wpfp
 望风	wpfr
+汪峰	wpfra
 王法	wpfs
 枉法	wpfsv
 网传	wpft
@@ -95605,8 +95618,8 @@
 学术界	xejo
 新手机	xejoi
 新世界	xejov
-显示出	xejova
 新世纪	xejova
+显示出	xejova
 讹称	xejr
 二十九	xejv
 俄军	xejw
@@ -100101,7 +100114,7 @@
 选错	xtcl
 璇琮	xtcy
 萱草	xtcz
-新天地	xtd
+想太多	xtd
 选调	xtdc
 悬吊	xtdci
 选的	xtde
@@ -100112,6 +100125,7 @@
 宣读	xtdj
 选读	xtdju
 选点	xtdm
+新天地	xtdo
 选登	xtdr
 宣东	xtdy
 选到	xtdz
@@ -105169,8 +105183,8 @@
 以己昏昏,使人昭昭	yjhq
 有机会	yjhv
 研究会	yjhvo
-有计划	yjhvov
 原计划	yjhvov
+有计划	yjhvov
 有句话	yjhvu
 衣锦还乡	yjhx
 以旧换新	yjhxa
