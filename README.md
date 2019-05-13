@@ -39,7 +39,7 @@
 
  **[Git下载地址罗列][918]**
 
- * Windows 系统 Git：[官网][905]|[微云][912]
+ * Windows 系统 Git：[官网][905]|[国内镜像源][912]
  * Linux 系统 Git：[自行安装]
  * Mac 系统 Git：内建 git 程序，无需另外安装
  * Android 系统 Git：[下载(Pocket Git)][910]|[下载(MGit)][922]
@@ -163,7 +163,7 @@
 [909]: http://rogerdudler.github.io/git-guide/index.zh.html "git - 简明指南"
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
 [911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
-[912]: https://share.weiyun.com/5xfC9Qk "Git微云地址"
+[912]: https://npm.taobao.org/mirrors/git-for-windows "Git淘宝镜像地址"
 [913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
 [914]: https://pan.baidu.com/s/1uvTbIKwxzJU-Udk4WeDAwQ "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
