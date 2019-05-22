@@ -21,6 +21,7 @@
 #### 首次安装：
   * Windows 首选安装方式： [Windows键道6安装程序下载][922]  
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
+
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
   * Linux 首选安装方式： 
     终端执行：
@@ -30,6 +31,7 @@
 
   * Android 首选安装方式：[Android键道6安装包][915]
     > 说明：打包内包含码表与皮肤，安装完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
+
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53238185
     <a name="ios-install"></a>
   * iOS 首选安装方式：
