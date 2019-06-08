@@ -7,11 +7,6 @@ else
   echo "删除旧词库文件"
 fi
 
-cat >>./$outFileName<< EOF
----config@码表分类=主码-1
----config@码表别名=主词库
-EOF
-
 if [ ! -f "../../rime/xkjd6.danzi.dict.yaml" ];then
   echo "合并单字失败  ERR"
 else
@@ -84,12 +79,21 @@ echo "去除各头信息 OK"
 
 cat >>./$outFileName<< EOF
 \$ddcmd(run(calc.exe),[计算器])	ojs
-\$ddcmd(help(https://gitee.com/xkinput/Rime_JD/wikis/pages),[入门文档])	orm
 \$ddcmd(run(notepad.exe),[记事本])	oje
 \$ddcmd(run(mspaint.exe),[画图])	oht
-\$ddcmd(config(/do 输出反查),[反查]：<last.1>)	ofw
+\$ddcmd(config(/do 剪贴板反查),[剪贴板反查])	ojw
+\$ddcmd(config(/do 输出反查),[反查]：<last.1>)	oew
 \$ddcmd(config(/do 在线加词),[在线加词])	ojc
 \$ddcmd(config(/do 码表),[码表])	omb
+\$ddcmd(help(https://gitee.com/xkinput/Rime_JD/wikis/pages),[入门文档])	orm
+\$ddcmd(run(http://www.zdic.net/sousuo/?q=<last.1>),[汉典]:<last.1>)	ohd
+\$ddcmd(<date.yyyy>年<date.m>月<date.d>日,<date.yyyy>年<date.m>月<date.d>日)	orq
+\$ddcmd(<date.yyyy>-<date.mm>-<date.dd>,<date.yyyy>-<date.mm>-<date.dd>)	orq
+\$ddcmd(<date.YYYY>年<date.M>月<date.D>日,<date.YYYY>年<date.M>月<date.D>日)	orq
+\$ddcmd(keyboard(<35><36+Shift><46><36>),[删当前行])	oee
+\$ddcmd(<date.z> <time.h>:<time.mm>,<date.z> <time.h>:<time.mm>)	oej
+\$ddcmd(convert(繁体输出,切换),[简繁切换])	ojf
+\$ddcmd(run(https://739497722.docs.qq.com/ipGva4mn5bo#BB08J2),[申请表加词])	oeq
 EOF
 
 echo "添加多多脚本 OK"
