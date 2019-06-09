@@ -7,6 +7,10 @@ else
   echo "删除旧词库文件"
 fi
 
+cat >>./$outFileName<< EOF
+--多多键道6--
+EOF
+
 if [ ! -f "../../rime/xkjd6.danzi.dict.yaml" ];then
   echo "合并单字失败  ERR"
 else
