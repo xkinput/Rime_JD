@@ -23,9 +23,11 @@
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
-  * Linux 首选安装方式： 
+  * Linux 及首选安装方式： 
     终端执行：
     `wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
+
+    > Mac可使用 https://github.com/neolee/SCU 做日常配置操作
 
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
@@ -37,6 +39,8 @@
   * iOS 首选安装方式：
     - iRime：至 app store 搜寻 iRime 下载 app，并参考[iRime指导教程][913]
     - 落格（付费软件）：至 app store 搜寻落格下载 app，至「对数云-主码表」下载「星空键道6.2 -- 官方版本]
+
+https://github.com/neolee/SCU
 
 #### 安装 Git 使用说明：使用 Git 程序（可滚动更新）
 
