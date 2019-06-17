@@ -35,4 +35,4 @@ time_translator = require("time")
 
 -- single_char_filter: 候选项重排序，使单字优先
 -- 详见 `lua/single_char.lua`
-single_char_filter = require("single_char")
+-- single_char_filter = require("single_char")
