@@ -122,7 +122,7 @@ engine:
     - simplifier@wxw_prompt
     - simplifier@EN2en
     - reverse_lookup_translator
-    - lua_filter@single_char_filter
+    # - lua_filter@single_char_filter
 
 speller:
   auto_select: true
