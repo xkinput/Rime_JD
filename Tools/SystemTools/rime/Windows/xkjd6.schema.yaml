@@ -115,6 +115,8 @@ engine:
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - table_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
   filters:
     - simplifier
     - uniquifier
@@ -123,6 +125,7 @@ engine:
     - simplifier@wxw_prompt
     - simplifier@EN2en
     - reverse_lookup_translator
+    - lua_filter@single_char_filter
 
 speller:
   auto_select: true
