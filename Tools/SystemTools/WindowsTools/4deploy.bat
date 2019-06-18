@@ -14,6 +14,10 @@ if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" (
 "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" /deploy
 )
 
+if exist "C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselDeployer.exe" (
+"C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselDeployer.exe" /deploy
+)
+
 cls
 echo 部署完成！
 echo 更新完成，可以关闭我了
@@ -24,6 +28,10 @@ if exist "C:\Program Files (x86)\Rime\weasel-0.13.0\WeaselServer.exe" (
 
 if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe" (
 "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe"
+)
+
+if exist "C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselServer.exe" (
+"C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselServer.exe"
 )
 
 exit
