@@ -20,13 +20,15 @@ local conf = {
    number = {"〇", "一", "二", "三", "四", "五", "六", "七", "八", "九"},
 }
 
-local function translateDateSuffix(text)
-   local isReplace = true
+local function translateDateSuffix(text, type)
    for i = 1, string.len(text) do
-      if (isReplace == true) then
-         text = string.gsub(text, '〇', '', 1)
-         text = string.gsub(text, '一', '十', 1)
-         isReplace = false
+      text = string.gsub(text, '〇', '', 1)
+      if (type == 'day' and i == 1) then
+         text = string.gsub(text, '^二', '二十', 1)
+         text = string.gsub(text, '^三', '三十', 1)
+      end
+      if (type == 'month' or (type == 'day' and i == 2)) then
+         text = string.gsub(text, '^一', '十', 1)
       end
    end
    return text
@@ -48,15 +50,20 @@ local function getUpDate()
    
    local hour = translateDate(h)
    local month = translateDate(m)
-   local month = translateDateSuffix(month)
+   local month = translateDateSuffix(month, 'month')
    local day = translateDate(d)
-   local day = translateDateSuffix(day)
+   local day = translateDateSuffix(day, 'day')
    local res = string.format("%s年%s月%s日", hour, month, day)
    return res
 end
 
 local function translator(input, seg)
-   -- 如果输入串为 `date` 则翻译
+   if (input == "o") then
+      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), "~rq"))
+   end
+   if (input == "or") then
+      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), "~q"))
+   end
    if (input == "orq") then
       --[[ 用 `yield` 产生一个候选项
            候选项的构造函数是 `Candidate`，它有五个参数：
@@ -66,9 +73,9 @@ local function translator(input, seg)
             - text:  候选项的文本
             - comment: 候选项的注释
        --]]
-      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), " 日期"))
-      yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), " 日期"))
-      yield(Candidate("date", seg.start, seg._end, getUpDate(), " 日期"))
+      yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
+      yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d"), ""))
+      yield(Candidate("date", seg.start, seg._end, getUpDate(), ""))
    end
 end
 
