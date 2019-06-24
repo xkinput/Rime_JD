@@ -33,6 +33,7 @@ date_translator = require("date")
 time_translator = require("time")
 
 
+wxw_comment_filter = require("wxw")
 -- single_char_filter: 候选项重排序，使单字优先
 -- 详见 `lua/single_char.lua`
 -- single_char_filter = require("single_char")
