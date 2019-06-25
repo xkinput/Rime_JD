@@ -709,7 +709,11 @@ local function wxw_comment_filter(input, env)
   wxw_switch = env.engine.context:get_option("wxw")
   for cand in input:iter() do
     if (not wxw_switch and exists(wxw_codes, cand.text)) then
-      cand:get_genuine().comment = cand.comment .. " " .. "〔" .. wxw_codes[cand.text].normal .. ", " .. wxw_codes[cand.text].simp .. "〕"
+      if (cand._end - cand.start >= 4) then
+	  cand:get_genuine().comment = cand.comment .. " " .. "〔" .. wxw_codes[cand.text].simp .. "〕 亲，有简码不用一下吗"
+      else
+	  cand:get_genuine().comment = cand.comment .. " " .. "〔" .. wxw_codes[cand.text].normal .. "〕亲，恭喜你得到简码一枚"
+      end
     end
     yield(cand)
 
@@ -717,3 +721,4 @@ local function wxw_comment_filter(input, env)
 end
 
 return wxw_comment_filter
+
