@@ -705,9 +705,10 @@ local function exists(wxw_filter, text)
   return true
 end
 
-local function wxw_comment_filter(input)
+local function wxw_comment_filter(input, env)
+  wxw_switch = env.engine.context:get_option("wxw")
   for cand in input:iter() do
-    if (exists(wxw_codes, cand.text)) then
+    if (not wxw_switch and exists(wxw_codes, cand.text)) then
       cand:get_genuine().comment = cand.comment .. " " .. "〔" .. wxw_codes[cand.text].normal .. ", " .. wxw_codes[cand.text].simp .. "〕"
     end
     yield(cand)
