@@ -673,6 +673,7 @@
 百度一下	bdyx
 别用	bdyy
 膀大腰圆	bdyyu
+棒打鸳鸯	bdyyv
 别要	bdyz
 半吊子	bdz
 别醉	bdzb
@@ -3846,6 +3847,7 @@
 边属	bmeja
 便是	bmek
 鞭尸	bmeka
+缏尸	bmekaa
 便士	bmeki
 辨识	bmeko
 鞭尸	bmekv
@@ -10161,6 +10163,7 @@
 订书针	deqoa
 得球	deqq
 德政	deqr
+得证	deqru
 多少钱	dequ
 短时期	dequo
 都是这样	deqy
@@ -10785,6 +10788,7 @@
 打广告	dggi
 顶骨	dggj
 大功告成	dggjv
+德国骨科	dggk
 定国	dggl
 定岗	dggp
 定更	dggr
@@ -14848,6 +14852,7 @@
 定心丸	dxw
 地下五笔	dxwb
 大而无当	dxwd
+大爱无疆	dxwj
 第二位	dxwu
 达尔文	dxwv
 淡而无味	dxww
@@ -18587,6 +18592,7 @@
 师叔	ekejii
 市属	ekejo
 诗书	ekejoa
+时蔬	ekejoi
 实数	ekejoo
 试试	ekek
 史诗	ekeki
@@ -18850,7 +18856,8 @@
 师匠	ekjxi
 是将	ekjxo
 诗抄	ekjz
-适口	ekkd
+视口	ekkd
+适口	ekkdu
 时刻	ekke
 食客	ekkei
 石刻	ekkev
@@ -18923,6 +18930,7 @@
 失明	ekmgu
 试卖	ekmh
 师母	ekmj
+实木	ekmjo
 十米	ekmk
 始末	ekml
 石墨	ekmlv
@@ -19388,6 +19396,7 @@
 说来话长	elhj
 说谎	elhm
 数理化	elho
+实例化	elhoi
 说话	elhq
 说谎	elhx
 说好	elhz
@@ -22472,7 +22481,6 @@
 稍作	ezzl
 少增	ezzr
 稍早	ezzz
-这是	f2
 皱巴巴	fbb
 治标不治本	fbbb
 这并不是	fbbe
@@ -28662,6 +28670,7 @@
 飞铲	fwjf
 非经	fwjg
 废柴	fwjh
+非蠢即坏	fwjhi
 肥差	fwjhu
 蜂王浆	fwji
 废除	fwjj
@@ -28702,6 +28711,7 @@
 飞来	fwlh
 飞掠	fwlha
 肥来	fwlhu
+飞卢	fwlj
 费力	fwlk
 飞离	fwlka
 非礼	fwlki
@@ -31330,7 +31340,8 @@
 各业	geyeu
 格言	geyf
 高山仰止	geyfo
-个营	geyg
+隔应	geyg
+个营	geygi
 个月	geyh
 隔月	geyha
 各月	geyhu
@@ -32640,6 +32651,7 @@
 雇车	gjwe
 古玩	gjwf
 鼓舞	gjwj
+孤鹜	gjwja
 谷物	gjwju
 古物	gjwjuu
 固齿	gjwk
@@ -38829,7 +38841,8 @@
 火红	hlhy
 合理化建议	hlhyi
 活好	hlhz
-红领巾	hlj
+回老家	hlj
+红领巾	hlja
 霍金	hljb
 汗流浃背	hljba
 祸教	hljc
@@ -38840,8 +38853,7 @@
 后来居上	hljeu
 火警	hljg
 火柴	hljh
-回老家	hlji
-回笼觉	hljiu
+回笼觉	hlji
 黑龙江	hljiv
 豁出	hljj
 活出	hljja
@@ -39072,8 +39084,8 @@
 荒村	hmcw
 荒草	hmcz
 黑名单	hmd
-黄蝶	hmdd
-黄豆	hmddv
+黄豆	hmdd
+黃蝶	hmddv
 黄的	hmde
 荒诞	hmdf
 黄疸	hmdfv
@@ -39648,6 +39660,7 @@
 海平面	hpm
 航母	hpmj
 航模	hpml
+行末	hpmlu
 航煤	hpmw
 杭宁	hpng
 行内	hpnw
@@ -41100,8 +41113,8 @@
 呼吸道	hxd
 好兄弟	hxda
 韩信点兵	hxdb
-黄蝶	hxdd
-黄豆	hxddv
+黄豆	hxdd
+黃蝶	hxddv
 黄的	hxde
 荒诞	hxdf
 好心当成驴肝肺	hxdfa
@@ -46996,6 +47009,7 @@
 挤眼	jkyfi
 几眼	jkyfu
 基岩	jkyfv
+吉言	jkyfvo
 极影	jkyg
 几月	jkyh
 激越	jkyha
@@ -48175,6 +48189,7 @@
 沉椿	jnjw
 陈军	jnjwa
 沉降	jnjx
+借你吉言	jnjy
 沉疴	jnke
 衬裤	jnkj
 艰难困苦	jnkk
@@ -51214,6 +51229,7 @@
 假以时日	jyer
 教研室	jyeu
 车钥匙	jyev
+谨言慎行	jyex
 教育事业	jyey
 经营者	jyf
 均匀分布	jyfb
@@ -63790,7 +63806,7 @@
 梦幻	mrht
 蒙混	mrhw
 蒙哄	mrhy
-麦乳精	mrj
+美人计	mrj
 猛进	mrjb
 孟郊	mrjc
 梦境	mrjg
@@ -63801,9 +63817,11 @@
 孟臣	mrjna
 美人尖	mrjo
 美人计	mrjoi
+美容觉	mrjoo
 孟昶	mrjp
 萌城	mrjr
 猛然间	mrju
+麦乳精	mrjv
 盟军	mrjw
 孟春	mrjwa
 猛降	mrjx
@@ -71143,7 +71161,8 @@
 勤勉	qbmm
 招兵买马	qbmmi
 亲妈	qbms
-亲美	qbmw
+亲妹	qbmw
+亲美	qbmwo
 岂不美哉	qbmz
 千百年	qbn
 禽鸟	qbnc
@@ -72872,6 +72891,7 @@
 轻弱	qgrl
 全国人民	qgrm
 情人	qgrn
+清人	qgrna
 请让	qgrp
 轻软	qgrt
 整个人	qgrv
@@ -73956,10 +73976,10 @@
 启示	qkeko
 启事	qkekov
 气势	qkeku
-七十	qkekv
-起始	qkekva
+起始	qkekv
 起誓	qkekvi
 妻室	qkekvo
+七十	qkekvu
 奇事	qkekvv
 齐说	qkel
 起身	qken
@@ -77480,6 +77500,7 @@
 腔肠	qxjp
 抢救	qxjq
 强加	qxjs
+气象局	qxju
 强纯	qxjw
 政协常委	qxjwv
 强将	qxjx
@@ -85660,6 +85681,7 @@
 梯河	tkhe
 题海	tkhh
 鹈鹕	tkhj
+醍醐	tkhjv
 提货	tkhl
 提花	tkhq
 替换	tkht
@@ -101939,6 +101961,7 @@
 胸胁	xyxd
 形影相吊	xyxdv
 凶恶	xyxe
+相由心生	xyxev
 凶案	xyxf
 安于现状	xyxfo
 血雨腥风	xyxfu
@@ -102970,6 +102993,7 @@
 有风	ydfr
 以德服人	ydfra
 油炸	ydfs
+油渣	ydfsa
 诱发	ydfso
 有法	ydfsv
 右转	ydft
@@ -103489,7 +103513,7 @@
 犹疑	ydyku
 有益	ydykv
 有意	ydykvo
-有疑	ydykvu
+右移	ydykvu
 由于	ydyl
 又与	ydyla
 优于	ydyli
