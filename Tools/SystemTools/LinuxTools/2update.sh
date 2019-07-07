@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 
 JD=""
@@ -34,7 +35,7 @@ isHaveDict () {
 	else
 		echo "· 检测到$1词库，是否同时安装？ y/n"
 		read isInstall
-		if [[ "$isInstall" == [yY] ]]; then
+		if [[ $isInstall == [yY] ]]; then
 			cp -rf $2/rime/* "$rime"
 			echo "复制码表完成					完成"
 			echo "复制所有文件					完成"
@@ -87,6 +88,7 @@ clear
 isHaveDict "键道6" $xkjd
 if [ $? == 1 ]; then
 	cp -rf ../rime/*.yaml $rime/
+	cp -rf ../rime/Linux/* $rime/
 	JD="键道6"
 fi
 isHaveDict "一笔一道魔道" $xkyb
@@ -131,6 +133,7 @@ sleep 2
 clear
 echo "==========================================="
 echo "已安装方案：$count个 $JD $YB $LB"
+fcitx -r
 echo "请在fcitx重新部署后再尝试使用。"
 echo "==========================================="
 sleep 1

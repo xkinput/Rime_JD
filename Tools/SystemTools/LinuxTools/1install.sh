@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 Get_SysPack_Name(){
     if grep -Eqii "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
