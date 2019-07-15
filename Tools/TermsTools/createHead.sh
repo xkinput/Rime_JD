@@ -36,8 +36,6 @@ cp -rf chaojizici.txt ./$chaojizici
 cp -rf buchong.txt ./$buchong
 cp -rf lianjie.txt ./$lianjie
 
-# 附加单字全码
-cat danziall.txt >> $danzi
 cp -rf $cizu ../../rime/opencc/WXWPromptFilters.txt
 echo 更为630简码提示词库
 
