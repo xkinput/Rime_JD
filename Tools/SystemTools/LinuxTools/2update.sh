@@ -10,6 +10,7 @@ jd=$(pwd);
 xkjd=../../../../Rime_JD
 xklb=../../../../rime_xklb
 xkyb=../../../../rime_xkybd
+userDict=./用户词库
 echo "获取键道最新词库..."
 git pull
 echo "获取两笔最新词库..."
@@ -33,9 +34,11 @@ isHaveDict () {
 	if [ ! -d $2 ]; then
 		echo "· 没有$1词库，跳过。"
 	else
-		echo "· 检测到$1词库，是否同时安装？ y/n"
-		read isInstall
-		if [[ $isInstall == [yY] ]]; then
+        read -p "· 检测到$1词库，是否同时安装？ y/n" -n 1 isInstall
+        if [ -z "${isInstall}" ];then
+            isInstall=y
+        fi
+        if [[ $isInstall == [yY] ]]; then
 			cp -rf $2/rime/* "$rime"
 			echo "复制码表完成					完成"
 			echo "复制所有文件					完成"
@@ -120,6 +123,15 @@ isHaveUserDict "键道6" xkjd6dz.extended.dict.yaml
 isHaveUserDict "一笔" xkyb.user.dict.yaml
 isHaveUserDict "两笔" xklb.user.dict.yaml
 
+# 检测当前目录用户词库
+if [ ! -d $userDict ]; then
+	echo "未发现$userDict"
+else
+	cp -rf $userDict/* $rime/
+	echo "· 当前目录用户词库					完成"
+fi
+sleep 2
+
 clear
 echo "预览 $rime/"
 echo "==========================================="
@@ -133,8 +145,9 @@ sleep 2
 clear
 echo "==========================================="
 echo "已安装方案：$count个 $JD $YB $LB"
-fcitx -r
-echo "请在fcitx重新部署后再尝试使用。"
-echo "==========================================="
 sleep 1
+fcitx -r
+echo "正在自动部署中……"
+echo "检查部署成功后若未退出请Ctrl + C 结束"
+echo "==========================================="
 exit
