@@ -10,7 +10,7 @@ jd=$(pwd);
 xkjd=../../../../Rime_JD
 xklb=../../../../rime_xklb
 xkyb=../../../../rime_xkybd
-userDict=./用户词库
+userDict=./用户数据
 echo "获取键道最新词库..."
 git pull
 echo "获取两笔最新词库..."
