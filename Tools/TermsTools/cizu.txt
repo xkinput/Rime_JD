@@ -22225,7 +22225,6 @@
 适用于	eyy
 是一样的	eyyd
 神一样的	eyydo
-术业有专攻	eyyfg
 术业有专攻	eyyg
 商业银行	eyyh
 事业有成	eyyj
@@ -27456,7 +27455,6 @@
 风度	frdj
 肥肉大酒	frdju
 封堵	frdjv
-酆都	frdjvu
 酆都	frdjvv
 封底	frdk
 疯癫	frdm
@@ -79233,7 +79231,6 @@
 如要	rjyz
 入药	rjyzu
 乳摇	rjyzui
-乳摇	rjyzuo
 如在	rjzh
 褥子	rjzk
 孺子	rjzka
@@ -85430,7 +85427,6 @@
 途中	tjfy
 图中	tjfyi
 图种	tjfyiu
-图种	tjfyu
 土沟	tjgd
 图个	tjge
 突感	tjgf
@@ -106300,7 +106296,6 @@
 宜家	ykjsoo
 一架	ykjsv
 一加	ykjsva
-一加	ykjsvu
 一卷	ykjt
 宜春	ykjw
 乙醇	ykjwa
@@ -107563,7 +107558,6 @@
 虞美人	ymr
 颜面扫地	ymsd
 一亩三分地	ymsdv
-一亩三分地	ymsfd
 与民同乐	ymtl
 扬眉吐气	ymtq
 有名无实	ymwe
