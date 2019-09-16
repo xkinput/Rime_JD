@@ -1,4 +1,4 @@
-﻿# Rime default settings
+# Rime default settings
 # encoding: utf-8
 
 config_version: "0.35"
@@ -6,6 +6,7 @@ config_version: "0.35"
 schema_list:
   - schema: xkjd6
   - schema: xkjd6dz
+  - schema: xkjd6_bj
 
 switcher:
   caption: "「切换方案」"
