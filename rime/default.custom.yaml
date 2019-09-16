@@ -8,5 +8,7 @@ patch:
   schema_list:
     - schema: xkjd6
     - schema: xkjd6dz
+    - schema: xkjd6_bj
+
   menu:
     page_size: 6
