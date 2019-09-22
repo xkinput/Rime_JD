@@ -402,6 +402,7 @@
 表达式	bde
 别睡	bdeb
 别手	bded
+饱读诗书	bdee
 别删	bdef
 不得善终	bdefv
 保定市	bdei
@@ -589,6 +590,7 @@
 不打算	bds
 瘪三	bdsf
 憋死	bdsk
+百度搜索	bdss
 本打算	bdsv
 冰冻三尺	bdsw
 鳖孙	bdswo
@@ -851,6 +853,7 @@
 不着边际	bfbjvo
 比质比价	bfbjvu
 半壁	bfbk
+半笔	bfbko
 不折不扣	bfbkv
 斑驳	bfbl
 保质保量	bfbli
@@ -1466,11 +1469,11 @@
 并拆	bgjh
 并处	bgjj
 百感交集	bgjjv
-冰机	bgjk
+并集	bgjk
 屏迹	bgjka
-并集	bgjko
+并击	bgjko
 冰肌	bgjkou
-并击	bgjkov
+冰机	bgjkov
 并举	bgjl
 病句	bgjlo
 并肩	bgjm
@@ -2804,6 +2807,7 @@
 不差	bjws
 补差	bjwso
 不挖	bjwsv
+不查	bjwsvv
 不传	bjwt
 不成问题	bjwtv
 不成文	bjwv
@@ -3817,6 +3821,9 @@
 变调	bmdc
 扁豆	bmdd
 变得	bmde
+编的	bmdea
+变的	bmdeo
+扁的	bmdeou
 扁担	bmdf
 变淡	bmdfo
 本末倒置	bmdfv
@@ -5415,7 +5422,9 @@
 备料	bwlc
 北楼	bwld
 卑劣	bwldu
-贝勒	bwle
+背了	bwle
+贝勒	bwlea
+备了	bwleu
 惫懒	bwlf
 贝岭	bwlg
 北路	bwlj
@@ -7516,7 +7525,8 @@
 粗字	cjzk
 粗杂	cjzs
 促进作用	cjzy
-此表	ckbc
+词表	ckbc
+此表	ckbci
 辞别	ckbd
 次半	ckbf
 此版	ckbfi
@@ -9316,10 +9326,12 @@
 掉价	dcjs
 雕镌	dcjt
 得寸进尺	dcjw
+大词库	dck
 吊扣	dckd
 雕刻	dcke
 调开	dckh
 凋枯	dckj
+单词卡	dcko
 掉卡	dcks
 吊空	dcky
 电磁炉	dcl
@@ -20669,8 +20681,8 @@
 商用	epyy
 上涌	epyyi
 上药	epyz
-屎盆子	epz
-水瓶座	epza
+水瓶座	epz
+屎盆子	epza
 上奏	epzd
 上则	epze
 上载	epzh
@@ -21025,6 +21037,7 @@
 生料	erlcu
 盛烈	erld
 生了	erle
+深入落实	erlea
 生灵	erlg
 省略	erlh
 生来	erlhu
@@ -21716,6 +21729,7 @@
 谁人	ewrn
 谁让	ewrp
 事务所	ews
+沈万三	ewsa
 顺遂	ewsb
 尸位素餐	ewsc
 税务所	ewsu
@@ -22167,20 +22181,21 @@
 摄影棚	eypio
 实验品	eypo
 视音频	eypoo
-摄影展	eyq
+试用期	eyq
 谁与争锋	eyqf
 数易其稿	eyqg
 说也奇怪	eyqgo
 使用者	eyqi
+摄影展	eyqio
 使用期	eyqiu
 使用权	eyqiuv
 上一站	eyqiv
 数以千计	eyqj
 善游者溺	eyqn
-试用期	eyqo
+商业区	eyqo
 实验区	eyqoa
 试验区	eyqoav
-商业区	eyqoi
+商业圈	eyqoi
 受益者	eyqu
 顺义区	eyquo
 适应症	eyquoo
@@ -22225,7 +22240,6 @@
 适用于	eyy
 是一样的	eyyd
 神一样的	eyydo
-术业有专攻	eyyfg
 术业有专攻	eyyg
 商业银行	eyyh
 事业有成	eyyj
@@ -23886,6 +23900,7 @@
 反握	ffwlu
 反问	ffwn
 范文	ffwni
+反文	ffwnu
 梵文	ffwnv
 藩王	ffwp
 反差	ffws
@@ -27457,7 +27472,6 @@
 肥肉大酒	frdju
 封堵	frdjv
 酆都	frdjvu
-酆都	frdjvv
 封底	frdk
 疯癫	frdm
 风灯	frdr
@@ -28595,7 +28609,8 @@
 非党	fwdp
 肥大	fwds
 非短	fwdt
-服务队	fwdu
+服务端	fwdu
+服务队	fwduu
 非得	fwdw
 风驰电掣	fwdwu
 飞动	fwdy
@@ -29785,6 +29800,7 @@
 钟头	fytd
 中铁	fytdi
 重头	fytdu
+专业团队	fytdv
 重于泰山	fyte
 中坛	fytf
 风雨同舟	fytfu
@@ -33866,6 +33882,7 @@
 顾全大局	gqdj
 瓜蒂	gqdk
 关注点	gqdo
+关注度	gqdoa
 挂挡	gqdp
 呱嗒	gqds
 挂断	gqdt
@@ -41463,6 +41480,7 @@
 黄呀	hxys
 荒原	hxyt
 很需要	hxyu
+胡雪岩	hxyv
 黄晕	hxyw
 化学药物	hxywi
 会心一笑	hxyx
@@ -42254,8 +42272,7 @@
 仅把	jbbs
 金杯	jbbw
 津巴布韦	jbbwa
-劲爆	jbbz
-紧抱	jbbzi
+紧抱	jbbz
 紧催	jbcb
 紧凑	jbcd
 进餐	jbcf
@@ -42366,6 +42383,7 @@
 长白山	jbeu
 脚步声	jbeui
 称不上	jbeuv
+经报上级审批同意	jbey
 金哨	jbez
 承包费	jbf
 加班费	jbfa
@@ -44490,7 +44508,7 @@
 颤声	jfero
 蝉纱	jfes
 简直是	jfeu
-紧接着	jff
+几分钟	jff
 鸡爪疯	jffa
 疾风知劲草	jffc
 缠着	jffe
@@ -44504,7 +44522,6 @@
 记者站	jffo
 产房	jffp
 阐发	jffs
-几分钟	jffu
 急转直下	jffx
 颤沼	jffz
 价值观	jfg
@@ -44731,6 +44748,7 @@
 竟被	jgbwo
 居高不下	jgbx
 警报	jgbz
+劲爆	jgbza
 京报	jgbzo
 惊爆	jgbzoo
 几个词	jgc
@@ -46010,7 +46028,7 @@
 除皮	jjpk
 出片	jjpm
 触碰	jjpr
-急救站	jjq
+紧接着	jjq
 经济区	jjqa
 经济圈	jjqaa
 继承权	jjqaav
@@ -46025,8 +46043,7 @@
 出清	jjqg
 除却	jjqh
 经济全球化	jjqha
-紧接着	jjqi
-佼佼者	jjqii
+佼佼者	jjqi
 出猪	jjqj
 初期	jjqk
 出奇	jjqka
@@ -46048,6 +46065,7 @@
 初秋	jjqqo
 出征	jjqr
 除权	jjqt
+急救站	jjqu
 畜群	jjqw
 出墙	jjqx
 出招	jjqz
@@ -49068,10 +49086,10 @@
 就怕	jqps
 久陪	jqpw
 就跑	jqpz
-紧接着	jqq
-居住区	jqqa
+静悄悄	jqq
+沉住气	jqqa
 陈绮贞	jqqaa
-沉住气	jqqai
+居住区	jqqai
 就寝	jqqb
 九窍	jqqc
 敬请期待	jqqd
@@ -49109,7 +49127,6 @@
 纠正	jqqr
 酒泉	jqqt
 九泉	jqqtu
-静悄悄	jqqv
 近朱者赤	jqqw
 鸠占鹊巢	jqqwu
 捐弃前嫌	jqqx
@@ -51364,7 +51381,9 @@
 出远门	jyma
 沉冤莫白	jymb
 长远目标	jymbu
+经营模式	jyme
 长夜漫漫	jymm
+经营摸索	jyms
 金玉满堂	jymt
 彻夜难眠	jynm
 长夜难明	jynmu
@@ -53540,6 +53559,7 @@
 慷慨解囊	kkjn
 慷慨激昂	kkjx
 慷慨就义	kkjy
+坎坎坷坷	kkkk
 可口可乐	kkkl
 快快乐乐	kkll
 苦口良药	kkly
@@ -55973,6 +55993,7 @@
 了嘛	lemsa
 勒马	lemsv
 李世民	lemv
+六十年	len
 六十年代	lend
 了呢	lene
 勒内	lenw
@@ -64838,14 +64859,15 @@
 蚂蚁财富	mycf
 民意测验	mycy
 每一段	myd
-没有的	myda
-满意度	mydao
+满意度	myda
+没有的	mydav
 没有得到	mydd
 没有达到	mydda
 没有多少	myde
 没有地方	mydf
 没有道理	mydl
 慢一点	mydo
+美誉度	mydoo
 命运多舛	mydw
 民意调查	mydwa
 没有答案	mydx
@@ -70197,6 +70219,7 @@
 批评家	ppj
 旁近	ppjb
 旁街	ppjd
+品牌价值	ppjf
 旁出	ppjj
 平平静静	ppjjv
 旁及	ppjk
@@ -70248,6 +70271,8 @@
 螃蟹	ppxd
 旁系	ppxk
 平平安安	ppxx
+品牌效应	ppxy
+澎湃汹涌	ppxya
 旁有	ppyd
 彷徉	ppyp
 批评与自我批评	ppypi
@@ -73089,6 +73114,7 @@
 清誉	qgylao
 清雨	qgylav
 情欲	qgylo
+请予	qgyloa
 请于	qgylov
 青玉	qgylv
 青羽	qgylva
@@ -73636,6 +73662,7 @@
 竹简	qjjmu
 诸宸	qjjn
 这几句	qjjo
+情景剧	qjjoo
 将进酒	qjjov
 主场	qjjp
 驻场	qjjpa
@@ -73855,6 +73882,7 @@
 主查	qjwso
 驻川	qjwt
 助威	qjww
+全键无冲	qjwwi
 诸位	qjwwo
 主委	qjwwou
 朝九晚五	qjwwu
@@ -76199,6 +76227,7 @@
 求靠	qqkz
 住宅楼	qql
 秋林	qqlb
+正确领导	qqld
 求乐	qqle
 秋兰	qqlf
 丘陵	qqlg
@@ -76999,6 +77028,7 @@
 全局	qtjl
 全剧	qtjli
 全歼	qtjm
+全键	qtjmi
 权臣	qtjn
 全场	qtjp
 全长	qtjpi
@@ -79233,7 +79263,6 @@
 如要	rjyz
 入药	rjyzu
 乳摇	rjyzui
-乳摇	rjyzuo
 如在	rjzh
 褥子	rjzk
 孺子	rjzka
@@ -81653,6 +81682,7 @@
 似曾	skcri
 思忖	skcw
 饲草	skcz
+斯柯达	skd
 四对	skdb
 死掉	skdc
 撕掉	skdci
@@ -82193,7 +82223,8 @@
 所成	sljru
 索价	sljs
 苏联解体	sljt
-三六九	sljv
+速录机	sljv
+三六九	sljvo
 所讲	sljx
 斯洛克	slk
 所扣	slkd
@@ -82325,6 +82356,7 @@
 索引	slyb
 所引	slybu
 所有	slyd
+洒了一地	slyda
 所言	slyf
 缩影	slyg
 所应	slygu
@@ -85430,7 +85462,6 @@
 途中	tjfy
 图中	tjfyi
 图种	tjfyiu
-图种	tjfyu
 土沟	tjgd
 图个	tjge
 突感	tjgf
@@ -85653,6 +85684,7 @@
 图影	tjyg
 图一	tjyk
 土语	tjyl
+唐继尧	tjyo
 图样	tjyp
 涂鸦	tjys
 图元	tjyt
@@ -90318,6 +90350,7 @@
 误闯	wjwx
 万箭穿心	wjwxv
 无重	wjwy
+无冲	wjwyv
 五角星	wjx
 无心	wjxb
 无效	wjxc
@@ -92017,9 +92050,11 @@
 完全一样	wqyy
 闻者足戒	wqzj
 传染病	wrb
+无人不知	wrbf
 宠辱不惊	wrbj
 瓮鼻	wrbk
 蓊勃	wrbl
+无人不晓	wrbx
 吃软不吃硬	wrby
 万人次	wrc
 蕹菜	wrch
@@ -92595,6 +92630,7 @@
 传媒	wtmw
 传你	wtnk
 串女	wtnl
+我太难了	wtnlu
 穿暖	wtnt
 船内	wtnw
 船票	wtpc
@@ -95130,7 +95166,8 @@
 笑林	xclbu
 笑料	xclc
 小楼	xcld
-笑了	xcle
+小了	xcle
+笑了	xcleu
 小兰	xclf
 小岭	xclg
 小路	xclj
@@ -96069,8 +96106,9 @@
 形式化	xehv
 鹅黄	xehx
 噩耗	xehz
-洗手间	xej
-洗漱间	xeja
+新世纪	xej
+洗手间	xeja
+洗漱间	xejaa
 扼紧	xejb
 兴衰成败	xejbo
 阿胶	xejc
@@ -96084,11 +96122,10 @@
 细水长流	xejla
 学术交流	xejlo
 形神俱灭	xejm
-学术界	xejo
+显示出	xejo
 新手机	xejoi
-新世界	xejov
-显示出	xejova
-新世纪	xejova
+学术界	xejov
+新世界	xejovi
 讹称	xejr
 二十九	xejv
 俄军	xejw
@@ -96248,7 +96285,9 @@
 相生相克	xexkv
 鄂县	xexm
 学术性	xexo
+学术型	xexoo
 新生儿	xexou
+学术型	xexov
 恶声恶气	xexq
 凶杀案	xexu
 现实性	xexv
@@ -97782,6 +97821,7 @@
 挨肩擦背	xjcb
 二册	xjce
 二次	xjck
+新举措	xjco
 二层	xjcr
 下酒菜	xjcv
 二寸	xjcw
@@ -97946,7 +97986,9 @@
 二建	xjjmv
 耳沉	xjjn
 新经济	xjjo
+新境界	xjjov
 安监局	xjjoi
+新境界	xjjov
 二厂	xjjp
 而成	xjjr
 二程	xjjrv
@@ -98653,7 +98695,9 @@
 吸音	xkybo
 星空一笔	xkyboo
 稀有	xkyd
-西游	xkydv
+吸油	xkydo
+西柚	xkydv
+西游	xkydva
 洗液	xkye
 吸烟	xkyf
 戏言	xkyfa
@@ -99025,6 +99069,7 @@
 阿里云	xlya
 须有	xlyd
 哦呦	xlydo
+心里有底	xlydoi
 需有	xlydv
 续页	xlye
 哦耶	xlyeo
@@ -99961,7 +100006,8 @@
 血债血还	xqxhu
 修正案	xqxi
 小确幸	xqxiv
-血债血偿	xqxj
+秀儿	xqxj
+血债血偿	xqxju
 休息	xqxk
 修习	xqxki
 休闲	xqxm
@@ -100750,6 +100796,7 @@
 宣判	xtpf
 选派	xtph
 悬瀑	xtpj
+新突破	xtpo
 选配	xtpw
 小提琴	xtq
 悬桥	xtqc
@@ -100913,6 +100960,7 @@
 寻址	xwfka
 宣传周	xwfo
 寻访	xwfp
+兴旺发展	xwfq
 熏风	xwfr
 巽风	xwfra
 新闻发言人	xwfro
@@ -104824,6 +104872,7 @@
 一个多星期	ygdq
 应答	ygds
 英短	ygdt
+一锅端	ygdv
 英吨	ygdw
 有关单位	ygdwv
 一个东西	ygdx
@@ -106300,7 +106349,6 @@
 宜家	ykjsoo
 一架	ykjsv
 一加	ykjsva
-一加	ykjsvu
 一卷	ykjt
 宜春	ykjw
 乙醇	ykjwa
@@ -106649,6 +106697,8 @@
 椅套	yktzv
 一淘	yktzva
 郁可唯	ykw
+一茬	ykws
+一查	ykwsv
 一筹	ykwd
 一万	ykwf
 壹万	ykwf
@@ -106687,6 +106737,8 @@
 以往	ykwpa
 已往	ykwpau
 一望	ykwpv
+一茬	ykws
+一刹	ykwsv
 遗传	ykwt
 一串	ykwtv
 以为	ykww
@@ -107563,7 +107615,6 @@
 虞美人	ymr
 颜面扫地	ymsd
 一亩三分地	ymsdv
-一亩三分地	ymsfd
 与民同乐	ymtl
 扬眉吐气	ymtq
 有名无实	ymwe
@@ -107632,6 +107683,7 @@
 延年益寿	ynye
 一男一女	ynyn
 一年又一年	ynynv
+云南映像	ynyx
 英年早逝	ynze
 疑难杂症	ynzq
 又能怎样	ynzy
@@ -111845,6 +111897,7 @@
 字段	zkdt
 自动	zkdy
 自导	zkdz
+字道	zkdzo
 最开始	zke
 滋水	zkeb
 自首	zked
@@ -113836,4 +113889,3 @@
 造作	zzzl
 早早	zzzz
 早早早早	zzzzo
-
