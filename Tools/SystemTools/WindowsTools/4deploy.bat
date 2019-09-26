@@ -14,8 +14,8 @@ if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" (
 "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" /deploy
 )
 
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselDeployer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselDeployer.exe" /deploy
+if exist "C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselDeployer.exe" (
+"C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselDeployer.exe" /deploy
 )
 
 cls
@@ -30,8 +30,8 @@ if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe" (
 "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe"
 )
 
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselServer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.2\WeaselServer.exe"
+if exist "C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselServer.exe" (
+"C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselServer.exe"
 )
 
 exit
