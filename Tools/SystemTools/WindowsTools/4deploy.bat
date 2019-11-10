@@ -6,32 +6,19 @@ title 小狼毫重新部署工具
 echo 正在尝试自动部署！
 echo 请稍等...
 
-if exist "C:\Program Files (x86)\Rime\weasel-0.13.0\WeaselDeployer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.13.0\WeaselDeployer.exe" /deploy
-)
+set weaselVersion=0.14.3
+set weaselInstallPath="C:\Program Files (x86)\Rime\weasel-%weaselVersion%"
 
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselDeployer.exe" /deploy
-)
-
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselDeployer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselDeployer.exe" /deploy
+if exist %weaselInstallPath%\WeaselDeployer.exe (
+  %weaselInstallPath%\WeaselDeployer.exe /deploy
 )
 
 cls
 echo 部署完成！
 echo 更新完成，可以关闭我了
 
-if exist "C:\Program Files (x86)\Rime\weasel-0.13.0\WeaselServer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.13.0\WeaselServer.exe"
-)
-
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.0\WeaselServer.exe"
-)
-
-if exist "C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselServer.exe" (
-"C:\Program Files (x86)\Rime\weasel-0.14.3\WeaselServer.exe"
+if exist %weaselInstallPath%\WeaselServer.exe (
+  %weaselInstallPath%\WeaselServer.exe
 )
 
 exit

@@ -30,13 +30,23 @@ setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
+set gitBash=git
+set gitPath=..\..\..\..\_TOOLS\MinGit\cmd\git.exe
+
+set weaselVersion=0.14.3
+set weaselInstallPath="C:\Program Files (x86)\Rime\weasel-%weaselVersion%"
+
+if exist %gitPath% (
+  set gitBash=%gitPath%
+)
+
 echo 本机git版本为：
-git --version
+%gitBash% --version
 echo.
 
 if %ERRORLEVEL% EQU 0 (
   echo 获取最新码表：
-  git pull origin master
+  %gitBash% pull origin master
   echo 获取最新码表完成
 ) else (
   cls
@@ -76,7 +86,7 @@ cls
 
 if exist "%CD%\用户数据\" (
   xcopy ".\用户数据\*" "%APPDATA%\Rime\" /Y /E
-  xcopy ".\用户数据\preview\*" "C:\Program Files (x86)\Rime\weasel-0.14.3\data\preview\" /Y /E
+  xcopy ".\用户数据\preview\*" %weaselInstallPath%\data\preview\ /Y /E
   echo 还原用户数据		完成
 ) else (
   mkdir "%CD%\用户数据\"
