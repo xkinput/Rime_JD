@@ -19,7 +19,7 @@
 ---
 
 #### 首次安装：
-  * Windows 首选安装方式： [Windows键道6安装程序下载][922]  
+  * Windows 首选安装方式： [Windows键道6安装程序下载][923]  
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
@@ -186,4 +186,5 @@ https://github.com/neolee/SCU
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
 [921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
-[922]: https://gitee.com/xkinput/Rime_JD/attach_files '附件地址'
+[922]: https://gitee.com/xkinput/Rime_JD/attach_files "附件地址"
+[923]: http://rimejd.ys168.com "rime键道永硕网盘地址"
