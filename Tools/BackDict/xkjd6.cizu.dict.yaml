@@ -1835,6 +1835,7 @@ sort: original
 败方	bhfpa
 摆放	bhfpi
 摆风	bhfr
+百峰	bhfrv
 白发	bhfs
 抱恨终天	bhft
 不合法	bhfv
@@ -2957,6 +2958,7 @@ sort: original
 不用	bjyy
 背景音乐	bjyyi
 不要	bjyz
+步摇	bjyzi
 补药	bjyzo
 败家子	bjz
 不醉	bjzb
@@ -23954,7 +23956,8 @@ sort: original
 饭碗	ffwf
 番外	ffwh
 反诬	ffwj
-反复无常	ffwju
+凡物	ffwju
+反复无常	ffwjuu
 饭匙	ffwk
 烦我	ffwl
 反握	ffwlu
@@ -27181,7 +27184,7 @@ sort: original
 放弃	fpqk
 放气	fpqko
 房企	fpqkoi
-放起	fpqkov
+房契	fpqkov
 防区	fpql
 众叛亲离	fpqli
 房前	fpqm
@@ -36215,6 +36218,7 @@ sort: original
 恨不得	hbd
 汇兑	hbdb
 会对	hbdbi
+回怼	hbdbia
 货不对板	hbdbiv
 毁掉	hbdc
 回调	hbdci
@@ -48821,6 +48825,7 @@ sort: original
 解剖学	jpx
 长信	jpxb
 常新	jpxbi
+常心	jpxbio
 畅销	jpxc
 常笑	jpxci
 长效	jpxcu
@@ -51323,6 +51328,7 @@ sort: original
 江阴	jxyb
 酱油	jxyd
 将有	jxydo
+将由	jxydoi
 教学要点	jxydu
 浆液	jxye
 惩恶扬善	jxyeu
@@ -66641,6 +66647,7 @@ sort: original
 你问	nkwn
 拟文	nkwni
 溺亡	nkwp
+逆网	nkwpo
 逆差	nkws
 泥洼	nkwsa
 你穿	nkwt
@@ -70154,6 +70161,7 @@ sort: original
 贫民窟	pmk
 片刻	pmke
 片库	pmkj
+偏枯	pmkji
 偏宽	pmkt
 片林	pmlb
 骈列	pmld
@@ -74054,6 +74062,7 @@ sort: original
 主程序	qjx
 诛心	qjxb
 诛心	qjxbo
+猪心	qjxbu
 注销	qjxc
 住校	qjxci
 助销	qjxcii
@@ -74899,7 +74908,7 @@ sort: original
 去了	qlle
 娶了	qllev
 取了	qlleva
- 取乐	qllevu
+取乐	qllevu
 趣览	qllf
 去领	qllg
 取来	qllh
@@ -80821,6 +80830,7 @@ sort: original
 随性	sbxga
 尿性	sbxgao
 四边形	sbxi
+扫把星	sbxii
 随喜	sbxk
 岁序	sbxl
 岁修	sbxq
@@ -86518,6 +86528,7 @@ sort: original
 田中	tmfyi
 天照	tmfz
 天癸	tmgb
+天规	tmgbv
 天狗	tmgd
 舔狗	tmgdu
 天格	tmge
@@ -88366,7 +88377,7 @@ sort: original
 桃心	tzxbv
 套写	tzxd
 逃学	tzxh
-套二	tzxj
+掏耳	tzxj
 淘洗	tzxk
 讨喜	tzxko
 套现	tzxm
@@ -90193,6 +90204,7 @@ sort: original
 无核	wjhe
 乌合	wjheu
 武汉	wjhf
+无憾	wjhfv
 无害	wjhh
 呜呼	wjhj
 芜湖	wjhji
@@ -97551,7 +97563,7 @@ sort: original
 爱火	xhhl
 爱恨	xhhn
 血痕	xhhnu
-诶嘿嘿	xhho
+心慌慌	xhho
 碍航	xhhp
 雪花	xhhq
 学画	xhhqo
@@ -97881,8 +97893,9 @@ sort: original
 学委	xhwwou
 爱围	xhwwu
 哀怆	xhwx
-爱虫	xhwy
+爱宠	xhwy
 学海无涯	xhwyo
+爱虫	xhwyu
 爱巢	xhwz
 学潮	xhwzo
 下划线	xhx
@@ -98250,6 +98263,7 @@ sort: original
 徐静蕾	xjlu
 形成了	xjlv
 下降了	xjlva
+想出来	xjlvav
 下脚料	xjlvu
 下九流	xjlvua
 形成了	xjlvv
@@ -100013,6 +100027,7 @@ sort: original
 秀装	xqfm
 羞愤	xqfn
 学区房	xqfo
+享清福	xqfoa
 修房	xqfp
 秀峰	xqfr
 秀发	xqfs
@@ -101973,6 +101988,7 @@ sort: original
 想笑	xxxc
 想写	xxxd
 想些	xxxdv
+相偕	xxxdvi
 相爱相杀	xxxe
 想按	xxxf
 心胸狭窄	xxxfo
@@ -103894,6 +103910,7 @@ sort: original
 右移	ydykvu
 由于	ydyl
 又与	ydyla
+游于	ydylav
 优于	ydyli
 囿于	ydyliv
 忧郁	ydylo
@@ -106874,6 +106891,7 @@ sort: original
 一死	ykskvv
 一所	yksl
 乙酸	yksta
+一酸	ykstv
 移送	yksy
 一扫	yksz
 一卡通	ykt
@@ -106944,8 +106962,8 @@ sort: original
 义乌	ykwjo
 衣物	ykwjou
 亦无	ykwjov
-一无	ykwjv
-医务	ykwjvu
+医务	ykwjv
+一物	ykwjvu
 一尺	ykwk
 义齿	ykwko
 一池	ykwkv
@@ -111513,6 +111531,7 @@ sort: original
 再睡	zheb
 在手	zhed
 再受	zhedv
+在售	zhedvi
 做好事	zhei
 栽树	zhej
 在世	zhek

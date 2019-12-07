@@ -2216,6 +2216,7 @@
 曙	ejoii
 曙	ejoiia
 暑	ejoiuo
+糬	ejou
 数	ejouuv
 孰	ejov
 庶	ejovo
@@ -12391,6 +12392,7 @@
 梢	szviou
 埽	szvoav
 他	t
+榙	tavii
 推	tb
 退	tba
 退	tbavoa
