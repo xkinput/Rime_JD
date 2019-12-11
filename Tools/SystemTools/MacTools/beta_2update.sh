@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # set -x
+rootDir=`dirname $0`
+cd $rootDir
 xkjd="../../../../Rime_JD/rime"
 xklb="../../../../rime_xklb"
 xkyb="../../../../rime_xkyb"
