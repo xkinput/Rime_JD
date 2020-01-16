@@ -1,5 +1,4 @@
 <h1 align="center">星空键道6</h1>
-
 >作者：**吅吅大山** [**键道官网**][904]  [**键道6词库议表**][916]  [**键道6查码工具**][917]  [加入官方群:320053116][903]
 
 >文档： 键道6方案文档[ wiki文档][921] [下载][922]
@@ -23,19 +22,56 @@
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
-  * Linux 及首选安装方式： 
+    
+  * Linux 首选安装方式： 
     终端执行：
     `wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
 
-    > Mac可使用 https://github.com/neolee/SCU 做日常配置操作
-
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
+  * Mac 首选安装方式：
+    
+    1. 安装鼠须管
+
+       > 有两种方式安装鼠须管，请选其1操作即可
+
+       1. 下载 [鼠须管文件安装][924]
+
+       2. brew方式(需要提前安装brew)
+    
+          ```bash
+          brew cask install squirrel
+          ```
+    
+    2. 克隆rime键道仓库(选一个仓库的使用)
+    
+       ```bash
+       // 码云仓库(国内建议使用，速度更快)
+       git clone https://gitee.com/xkinput/Rime_JD/
+       // github仓库(国际通用国内速度较慢)
+       git clone https://github.com/xkinput/Rime_JD/
+       ```
+    
+    3. 执行Mac专有脚本以完成键道码表部署
+    
+       ```
+       // 跳转到Rime_JD目录中Mac脚本目录
+       cd Rime_JD/Tools/SystemTools/MacTools/
+       // 执行2update.sh 选择安装键道6词库y
+       ./2update.sh
+       // 待完成后尝试输入即可
+       ```
+    
+    可使用 https://github.com/neolee/SCU 做日常配置操作
+    
+    > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
+    
   * Android 首选安装方式：[Android键道6安装包][915]
     > 说明：打包内包含码表与皮肤，安装完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53238185
     <a name="ios-install"></a>
+    
   * iOS 首选安装方式：
     - iRime：至 app store 搜寻 iRime 下载 app，并参考[iRime指导教程][913]
     - 落格（付费软件）：至 app store 搜寻落格下载 app，至「对数云-主码表」下载「星空键道6.2 -- 官方版本]
@@ -112,14 +148,14 @@ https://github.com/neolee/SCU
 ---
 ### 键道6第三方维护版本：
 
-| RIME | 小小 | 
+| RIME | 小小 |
 | ------------- |:-------------:|
 | [Qshu][204] | [thxnder][206] |
 | [主页][204] | [主页][205] |
 ---
 ### 扩展词库：
 
-| 正體字碼表 | 二分词库 | 诗词引导 | 
+| 正體字碼表 | 二分词库 | 诗词引导 |
 | ------------- |:-------------:|:-------------:|
 | [岳飞丫飞][207] | 吅吅大山 | [thxnder][206] |
 | [主页][207] |   | [主页][206] |
@@ -188,3 +224,4 @@ https://github.com/neolee/SCU
 [921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
 [922]: https://gitee.com/xkinput/Rime_JD/attach_files "附件地址"
 [923]: http://rimejd.ys168.com "rime键道永硕网盘地址"
+[924]: https://rime.im/download/#macOS	"rime.im MacOS"
