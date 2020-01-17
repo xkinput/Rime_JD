@@ -8,13 +8,13 @@
 
 | 路径 | 作用 |
 | :-------------|:-------------: |
-| /Tools | 工具目录 |
-| /Tools/BackDict | 备份上次码表 |
-| /Tools/Extended | 扩展码表 |
-| /Tools/SystemTools | 各系统配置文件工具 |
-| /Tools/TermsTools | 词组排序工具 |
-| /rime | 主码表文件夹[主码表] |
-| README.md | readme.md 说明文件 |
+| [/Tools](./Tools) | 工具目录 |
+| [/Tools/BackDict](./Tools/BackDict) | 备份上次码表 |
+| [/Tools/Extended](./Tools/Extended) | 扩展码表 |
+| [/Tools/SystemTools](./Tools/SystemTools) | 各系统配置文件工具 |
+| [/Tools/TermsTools](/Tools/TermsTools) | 词组排序工具 |
+| [/rime](./rime) | 主码表文件夹[主码表] |
+| [README.md](./README.md) | readme.md说明文件 |
 
 ---
 
@@ -26,7 +26,9 @@
     
   * Linux 首选安装方式： 
     终端执行：
-    `wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh`
+    ``` bash
+    wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh
+    ```
 
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
 
@@ -40,30 +42,30 @@
 
        2. brew方式(需要提前安装brew)
     
-          ```bash
+          ``` bash
           brew cask install squirrel
           ```
     
     2. 克隆rime键道仓库(选一个仓库的使用)
     
-       ```bash
-       // 码云仓库(国内建议使用，速度更快)
+       ``` bash
+       # 码云仓库(国内建议使用，速度更快)
        git clone https://gitee.com/xkinput/Rime_JD/
-       // github仓库(国际通用国内速度较慢)
+       # github仓库(国际通用国内速度较慢)
        git clone https://github.com/xkinput/Rime_JD/
        ```
     
     3. 执行Mac专有脚本以完成键道码表部署
     
-       ```
-       // 跳转到Rime_JD目录中Mac脚本目录
+       ``` bash
+       # 跳转到Rime_JD目录中Mac脚本目录
        cd Rime_JD/Tools/SystemTools/MacTools/
-       // 执行2update.sh 选择安装键道6词库y
+       # 执行2update.sh 选择安装键道6词库y
        ./2update.sh
-       // 待完成后尝试输入即可
+       # 待完成后尝试输入即可
        ```
     
-    可使用 https://github.com/neolee/SCU 做日常配置操作
+    Mac可使用 [SCU][925] 做日常配置操作
     
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
     
@@ -76,8 +78,6 @@
   * iOS 首选安装方式：
     - iRime：至 app store 搜寻 iRime 下载 app，并参考[iRime指导教程][913]
     - 落格（付费软件）：至 app store 搜寻落格下载 app，至「对数云-主码表」下载「星空键道6.2 -- 官方版本]
-
-https://github.com/neolee/SCU
 
 #### 并击功能：
 > 并击功能说明：在并击模式下，可实现字词100%左右互击，也能更方便的处理某些别手键位。目前并击功能已集成于本项目的Windows键道6之内，其他平台的用户请自行提取配置文件。如您在使用过程中有任何疑问，可在本项目留言咨询，或加入官方群讨论。
@@ -96,15 +96,18 @@ https://github.com/neolee/SCU
  * iOS 系统：现阶段无法使用 git 更新，请参考[首次安装方式](#ios-install)
 
 ##### 使用简述：
-1. 需要安装 Git 后，将克隆项目到本地（打开 git bash 中输入，下面一样的）
-`git clone https://gitee.com/xkinput/Rime_JD`
-2. 切换到项目文件夹
-`cd Rime_JD`
-3. 在文件管理器打开当前目录（`pwd` 可以查看目录位置），进入 Rime_JD/Tools/SystemTools/ 对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
-
+``` bash
+# 需要安装 Git 后，将克隆项目到本地（打开 git bash 中输入，下面一样的）
+git clone https://gitee.com/xkinput/Rime_JD
+# 切换到项目文件夹
+cd Rime_JD
+# 在文件管理器打开当前目录（`pwd` 可以查看目录位置），进入 Rime_JD/Tools/SystemTools/ 对应系统的工具目录执行复制码表工具（1install），再重新部署即可更新完成
+```
 ##### 获取更新：
 1. 获取上游地址的 master 分支
-`git pull`
+``` bash
+git pull
+```
 2. 获取后，执行复制码表工具（2update），再重新部署即可更新完成
 
 #### 最后：
@@ -226,3 +229,4 @@ https://github.com/neolee/SCU
 [922]: https://gitee.com/xkinput/Rime_JD/attach_files "附件地址"
 [923]: http://rimejd.ys168.com "rime键道永硕网盘地址"
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
+[925]: https://github.com/neolee/SCU  "SCU MacOS"
