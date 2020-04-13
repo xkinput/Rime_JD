@@ -94,7 +94,7 @@
  * Windows 系统 Git：[官网][905]|[国内镜像源][912]
  * Linux 系统 Git：[自行安装]
  * Mac 系统 Git：内建 git 程序，无需另外安装
- * Android 系统 Git：[下载(Pocket Git)][910]|[下载(MGit)][922]
+ * Android 系统 Git：[下载(MGit)][926]|[下载(Pocket Git)][910]
  * iOS 系统：现阶段无法使用 git 更新，请参考[首次安装方式](#ios-install)
 
 ##### 使用简述：
@@ -232,3 +232,4 @@ git pull
 [923]: http://rimejd.ys168.com "rime键道永硕网盘地址"
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
 [925]: https://github.com/neolee/SCU  "SCU MacOS"
+[926]: https://f-droid.org/zh_Hans/packages/com.manichord.mgit "MGit For Android"
