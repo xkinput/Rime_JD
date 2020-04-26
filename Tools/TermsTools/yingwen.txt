@@ -73,6 +73,7 @@ NBA	nbs
 NEW	new
 NOTE	nlte
 NASA	nsss
+PC端	pcd
 PC机	pcjku
 PERFECT	pert
 PHOTOSHOP	phlp
@@ -108,7 +109,8 @@ ATM	stm
 THX	thx
 TIM	tkm
 TAPTAP	tspt
-T型台	txth
+T恤	txlv
+T型台	txtv
 U盘	upf
 VIP	vkp
 WELCOME	wjlja
