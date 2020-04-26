@@ -153,6 +153,7 @@
 一	v
 朩	v
 # 部首偏旁
+𠃌	a
 巛	aaa
 毌	aaiv
 糸	aaoiuo
@@ -183,7 +184,7 @@
 刂	ii
 金	io
 钅	io
-	iou
+⺌	iou
 氺	iovuo
 扌	iu
 手	iu
@@ -208,7 +209,7 @@
 丬	ovi
 啇	ovouia
 疒	ovuov
-	ua
+⺈	ua
 勹	ua
 匕	ua
 几	ua
@@ -221,10 +222,10 @@
 十	uo
 㐅	uo
 爫	uoou
-	uovauo
+𢦏	uovauo
 耂	uovu
 彡	uuu
-	uv
+𠂉	uv
 牜	uviv
 攵	uvuo
 钅	uvvva
@@ -233,13 +234,13 @@
 疌	vavviv
 覀	viaiiv
 艹	vii
-	viiv
+龷	viiv
 扌	viv
 土	vo
 士	vo
 畐	voiavi
-	vu
+𠂇	vu
 丆	vu
 廾	vui
-	vviv
-	vvvuo
+龶	vviv
+𡗗	vvvuo

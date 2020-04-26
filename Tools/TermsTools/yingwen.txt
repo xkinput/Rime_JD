@@ -6,7 +6,8 @@ BACKSPACE	bscei
 B超	bwz
 CDMA	cdm
 CRM	crm
-CAPS LOCK	cspk
+CAPS	cspk
+LOCK	cspk
 CTRL	ctrl
 蹭WIFI	cwko
 C位	cww
@@ -41,25 +42,34 @@ IC卡	kck
 IOS	kls
 IMEI	kmek
 IMAC	kms
-IMAC PRO	kmsp
+IMAC	kmsp
+PRO	kmsp
 IP	kp
 IP地址	kpdf
 IP电话	kpdh
 IPHONE	kph
-IPHONE 8	kphb
-IPHONE 7	kphq
-IPHONE 8 PLUS	kphs
-IPHONE X	kphx
+IPHONE	kphb
+8	kphb
+IPHONE	kphq
+7	kphq
+IPHONE	kphs
+8	kphs
+PLUS	kphs
+IPHONE	kphx
+X	kphx
 KPI	kpk
 IP卡	kpki
 IPAD	kps
 IPAD	kpsd
-IPAD PRO	kpsp
+IPAD	kpsp
+PRO	kpsp
 IPTV	kptv
 K线图	kxt
 OFFICE	lffeo
-OFFICE 2016	lffl
-OFFICE 2013	lffso
+OFFICE	lffl
+2016	lffl
+OFFICE	lffso
+2013	lffso
 OFO	lfl
 OFO小黄车	lfljo
 OFO小黄车	lflw
@@ -73,12 +83,15 @@ NBA	nbs
 NEW	new
 NOTE	nlte
 NASA	nsss
+PC端	pcd
 PC机	pcjku
 PERFECT	pert
 PHOTOSHOP	phlp
 PLUS	pljs
-POWER POINT	plkt
-POWER POINT	plwt
+POWER	plkt
+POINT	plkt
+POWER	plwt
+POINT	plwt
 PPT	ppt
 PY交易	pyjy
 QQ	qq
@@ -108,7 +121,8 @@ ATM	stm
 THX	thx
 TIM	tkm
 TAPTAP	tspt
-T型台	txth
+T恤	txlv
+T型台	txtv
 U盘	upf
 VIP	vkp
 WELCOME	wjlja
