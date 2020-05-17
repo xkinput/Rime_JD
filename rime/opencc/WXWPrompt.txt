@@ -1,6 +1,6 @@
 不能	bjnr_ba
 班级	bfjk_baa
-不了	bjle_bai
+不了	bjlcva_bai
 宝贝	bzbw_bao
 不好	bjhz_bau
 不敢	bjgf_bav

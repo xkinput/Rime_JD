@@ -9013,6 +9013,7 @@
 母	mjaaov
 牟	mjao
 牟	mjaouv
+楘	mjaov
 姆	mjau
 姆	mjauaa
 姥	mjauu
@@ -11905,6 +11906,7 @@
 扔	rri
 仍	rriauu
 扔	rriuau
+礽	rro
 软	rt
 阮	rta
 阮	rtaivv
