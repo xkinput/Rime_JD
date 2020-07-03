@@ -41,6 +41,7 @@ echo 更为630简码提示词库
 
 if [ $(uname) == "Darwin" ];then
 
+    sed -i '' -E $'s///' ./*.txt
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.cizu\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $cizu
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.danzi\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $danzi
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.yingwen\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $yingwen
@@ -48,6 +49,7 @@ if [ $(uname) == "Darwin" ];then
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.buchong\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $buchong
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.chaojizici\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $chaojizici
     sed -i '' -E $'1 i\\\n---\\\nname: xkjd6.lianjie\\\nversion: "Q1"\\\nsort: original\\\n...\\\n' $lianjie
+    sed -i '' -E $'s///' ../../rime/*.yaml
 
     if [[ (-x "$(command -v python3)") && (-f "make_wxw_json.py") ]];then
 	python3 make_wxw_json.py
