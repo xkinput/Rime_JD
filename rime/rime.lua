@@ -36,3 +36,11 @@ time_translator = require("time")
 -- single_char_filter: 候选项重排序，使单字优先
 -- 详见 `lua/single_char.lua`
 -- single_char_filter = require("single_char")
+
+
+-- xkjd6_filter: 单字模式 & 630 即 ss 词组提示
+--- 修改自 @懒散 TsFreddie https://github.com/TsFreddie/jdc_lambda/blob/master/rime/lua/xkjdc_sbb_hint.lua
+-- 可由 schema 的 danzi_mode 与 wxw_hint 开关控制
+-- 详见 `lua/xkjd6_filter.lua`
+xkjd6_filter = require("xkjd6_filter")
+

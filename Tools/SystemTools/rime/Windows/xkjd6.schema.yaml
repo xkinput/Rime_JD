@@ -19,9 +19,9 @@ switches:
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
-  - name: wxw_prompt
-    reset: 1
-    states: [ 630关, 630开 ]
+  - name: sbb_hint
+    reset: 1 # 改成0默认关闭
+    states: [ "关₆₃₀", "开₆₃₀" ]
   - name: EN2en
     reset: 1
 
@@ -122,9 +122,9 @@ engine:
     - uniquifier
     - simplifier@jffh
     - simplifier@bmms
-    - simplifier@wxw_prompt
     - simplifier@EN2en
     - reverse_lookup_translator
+    - lua_filter@xkjd6_filter
     # - lua_filter@single_char_filter
 
 speller:
@@ -148,15 +148,6 @@ repeat_history:
   size: 1
   initial_quality: 10000
 
-wxw_prompt:
-  opencc_config: wxwprompt.json
-  option_name: wxw_prompt
-  show_in_comment: true
-  comment_format:
-    - "xform/^([bcdefghjklmnpqrstwxyz]{2,4})([avuio]{0,3})_(.+)$/〔$3, $1$2〕/"
-    - xform/^([a-z]+)$/$2/
-  tips: all
- 
 emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
@@ -206,5 +197,10 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "[a-z`]*`+[a-z`]*"
-    punct: "^/([0-9]0?|[a-z]+)$"
     english: "^'[A-Z|a-z]*'?$"
+    danzi_lookup: "[a-z`]*`+[a-z`]*"
+    punct: "^/([0-9]0?|[a-z]+)$"
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    pinyin: "(?<![`A-Z])`[a-z']*;?$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
