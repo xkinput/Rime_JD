@@ -42,28 +42,37 @@ testHasSchema(){
     echo "==========================================="
     echo "检测是否配置「 $xk_name 」方案: "
     if [ -f "$rime/$my_default" ]; then
-	xk_is_ID=$(grep "^ \+\- schema: $xk_ID$" $rime/$my_default)
-	xk_is_dzID=$(grep "^ \+\- schema: $xk_dzID$" $rime/$my_default)
+        xk_is_ID=$(grep "^[^#]*schema: $xk_ID$" $rime/$my_default)
+        xk_is_dzID=$(grep "^[^#]*schema: $xk_dzID" $rime/$my_default)
 	if [[ -z $xk_is_ID ]] && [[ -z $xk_is_dzID ]]; then
-	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
-	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
-	  echo -e "添加$xk_name方案到 $my_default ..................完成"
+            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
+            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
+            echo -e "添加$xk_name方案到 $my_default ..................完成"
 	elif [[ -z $xk_is_ID ]] && [[ -n $xk_is_dzID ]]; then
-	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
-	  echo -e "添加$xk_name主方案到 $my_default ................完成"
+            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
+            echo -e "添加$xk_name主方案到 $my_default ................完成"
 	elif [[ -n $xk_is_ID ]] && [[ -z $xk_is_dzID ]]; then
-	  sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
-	  echo -e "添加$xk_name单字方案到 $my_default ..............完成"
+            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
+            echo -e "添加$xk_name单字方案到 $my_default ..............完成"
 	else
-	  echo -e "已设置$xk_name"
+            echo -e "已设置$xk_name"
 	fi
     else
-	cp  ../default*yaml $rime
+	cp  ../default.custom.yaml $rime
 	echo "复制Rime用户配置文件...................完成"
     fi
     echo -e "---------------------\n"
-    rsync -avhu --progress $xk_path/ --include="*.dict.yaml" --include="*.schema.yaml" --include=/opencc --exclude="xkjd6.extended.dict.yaml" --exclude="xkjd6dz.extended.dict.yaml" --exclude=/* $rime
-    rsync -avhu --progress $xk_path/*.schema.yaml $rime
+    rsync -avhI --progress \
+      $xk_path/ \
+      --include="*.dict.yaml" \
+      --include="*.schema.yaml" \
+      --include=/opencc \
+      --include=/lua \
+      --exclude="xkjd6.extended.dict.yaml" \
+      --exclude="xkjd6dz.extended.dict.yaml" \
+      --exclude=/* \
+      $rime
+    rsync -avhI --progress $xk_path/*.schema.yaml $rime
 
 }
 
@@ -96,14 +105,14 @@ case $my_select in
 esac
 
 echo "==========================================="
-sleep 2
+sleep 3
 clear
 echo "已安装方案：$xk_name"
 /Library/Input\ Methods/Squirrel.app/Contents/MacOS/Squirrel --reload
 if [ "$?" -ne 0 ]; then
     echo "请在鼠须管重新部署后再尝试使用。"
 else
-    echo "部署成功，可尝试使用。"
+    echo "部署进行中，请待部署完成后，再尝试使用。"
 fi
 echo "==========================================="
 sleep 1

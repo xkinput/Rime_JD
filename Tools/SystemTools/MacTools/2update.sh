@@ -7,6 +7,7 @@ xklb="../../../../rime_xklb"
 xkyb="../../../../rime_xkyb"
 rime="$HOME/Library/Rime"
 bak="./备份"
+userDict="./用户数据"
 
 JD=""
 YB=""
@@ -106,9 +107,20 @@ fi
 
 isHaveUserDict "键道6" "xkjd6.user.dict.yaml"
 isHaveUserDict "键道6" "xkjd6.extended.dict.yaml"
+isHaveUserDict "键道6" "squirrel.custom.yaml"
 isHaveUserDict "键道6" "xkjd6dz.extended.dict.yaml"
 isHaveUserDict "一笔" "xkyb.user.dict.yaml"
 isHaveUserDict "两笔" "xklb.user.dict.yaml"
+
+
+# 检测当前目录用户词库
+if [ ! -d $userDict ]; then
+        echo "未发现$userDict"
+else
+        cp -rf $userDict/* $rime/
+        echo "· 当前目录用户词库					完成"
+fi
+sleep 2
 
 clear
 echo "预览 $rime/"
@@ -127,7 +139,7 @@ echo "已安装方案：$count 个 $JD $YB $LB"
 if [ "$?" -ne 0 ]; then
     echo "请在鼠须管重新部署后再尝试使用。"
 else
-    echo "部署成功，可尝试使用。"
+    echo "部署进行中，请待部署完成后，再尝试使用。"
 fi
 echo "==========================================="
 sleep 1
