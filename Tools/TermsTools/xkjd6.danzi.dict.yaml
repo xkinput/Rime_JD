@@ -210,7 +210,7 @@ sort: original
 百	bhv
 柏	bhvu
 柏	bhvuia
-百	bhvuoi
+百	bhvuia
 部	bj
 步	bji
 蔀	bjii
@@ -4688,6 +4688,7 @@ sort: original
 虺	hbvu
 虺	hbvuia
 灰	hbvuou
+豗	hbvuvu
 慧	hbvv
 彗	hbvva
 彗	hbvvav
@@ -8538,7 +8539,7 @@ sort: original
 埌	lpvoo
 埌	lpvooa
 琅	lpvvoa
-刘	lq
+六	lq
 流	lqa
 绺	lqaa
 骝	lqaau
@@ -8567,7 +8568,7 @@ sort: original
 镠	lqioao
 锍	lqioov
 镏	lqioua
-六	lqo
+刘	lqo
 熘	lqou
 熘	lqouua
 瘤	lqov
@@ -10083,6 +10084,7 @@ sort: original
 坪	pgv
 平	pgvouv
 坪	pgvovo
+砯	pgvuao
 枰	pgvv
 枰	pgvvou
 玶	pgvvv
@@ -16062,6 +16064,7 @@ sort: original
 呓	ykoii
 呓	ykoiia
 易	ykoiua
+昳	ykoiuv
 宜	ykoo
 忆	ykooa
 忆	ykooaa
@@ -17242,3 +17245,4 @@ sort: original
 𥖨	zzvuoo
 璪	zzvv
 璪	zzvvoo
+

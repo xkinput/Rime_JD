@@ -79,6 +79,7 @@
 # 一简二重
 又	a
 吧	b
+此	c
 都	d
 识	e
 实	e
@@ -130,9 +131,12 @@
 甥	erei
 支	fkea
 执	fkfu
+庄	fxgv
 饺	jceo
 竞	jglo
+寂	jkbi
 鸡	jkyu
+嫁	jsno
 悉	xkpo
 疫	ykbu
 意	yklo
