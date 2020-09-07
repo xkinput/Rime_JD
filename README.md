@@ -21,7 +21,7 @@
 ---
 
 #### 首次安装：
-  * Windows 首选安装方式： [Windows键道6安装程序下载][923]  
+  * Windows 首选安装方式： [Windows键道6安装程序下载][927]
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
@@ -71,8 +71,12 @@
     
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
     
-  * Android 首选安装方式：[Android键道6安装包][915]
-    > 说明：打包内包含码表与皮肤，安装完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，复制最新码表到对应用户目录，重新部署以升级到最新码表。
+  * Android 首选安装方式：[Android键道6安装包][927]
+    > 首先：安装安装包，打包内包含码表与皮肤，以及词库（内置词库比较旧，建议安装后继续下一步，来更新词库）
+
+    > 使用MGit来克隆rime键道最新词库：，请按照下面[安卓系统MGit](#android-系统-git)安装后克隆 `https://gitee.com/xkinput/Rime_JD` 最新码表，复制最新码表到对应用户目录，重新部署以升级到最新码表。
+
+    > 更新方式：安装上面所讲的MGit，进入Rime_JD，点击侧栏里的`拉取`等待完成后，再次将最新码表复制到用户目录，重新部署同文输入法即可。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53238185
     <a name="ios-install"></a>
@@ -91,10 +95,14 @@
 
  **[Git下载地址罗列][918]**
 
- * Windows 系统 Git：[官网][905]|[国内镜像源][912]
+ * ##### Windows 系统 Git：
+
+    [官网][905]|[国内镜像源][912]
  * Linux 系统 Git：[自行安装]
  * Mac 系统 Git：内建 git 程序，无需另外安装
- * Android 系统 Git：[下载(MGit)][926]|[下载(Pocket Git)][910]
+ * ##### Android 系统 Git：
+
+    [下载(MGit)][926]
  * iOS 系统：现阶段无法使用 git 更新，请参考[首次安装方式](#ios-install)
 
 ##### 使用简述：
@@ -233,3 +241,4 @@ git pull
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
 [925]: https://github.com/neolee/SCU  "SCU MacOS"
 [926]: https://f-droid.org/zh_Hans/packages/com.manichord.mgit "MGit For Android"
+[927]: https://wwa.lanzous.com/b0dhdlkj "RimeJD蓝凑云共享地址"
