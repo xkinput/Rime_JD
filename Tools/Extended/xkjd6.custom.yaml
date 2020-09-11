@@ -1,0 +1,15 @@
+patch:
+  # ========= 设置：顶字上屏 [[
+  recognizer/patterns/+:
+    special: "^(?:;?[avuio])[a-z]{0,}"
+
+  switches/+:
+    - name: completion
+      reset: 1
+      states: [ "匹配", "补全" ]
+
+  topup/topup_this: ";bcdefghjklmnpqrstwxyz"
+  topup/topup_with: "avuio"
+  speller/auto_select: false
+  topup/topup_command: false
+  # ========== ]]

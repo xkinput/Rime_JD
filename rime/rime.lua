@@ -44,3 +44,8 @@ time_translator = require("time")
 -- 详见 `lua/xkjd6_filter.lua`
 xkjd6_filter = require("xkjd6_filter")
 
+-- 顶功处理器
+topup_processor = require("for_topup")
+
+-- 声笔笔简码提示 | 顶功提示 | 补全处理
+hint_filter = require("for_hint")

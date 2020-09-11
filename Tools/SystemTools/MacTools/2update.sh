@@ -78,7 +78,7 @@ clear
 
 isHaveDict "键道6" $xkjd
 if [ $? == 1 ]; then
-    cp -rf ../rime/*.yaml $rime/
+    cp -rf ../rime/xkjd6dz.schema.yaml $rime/
     cp -f ../rime/Mac/*.yaml $rime/
     cp -f ../../Extended/xkjd6.iboot.dict.yaml $rime/
 
