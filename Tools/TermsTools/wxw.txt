@@ -150,7 +150,7 @@
 发现	fvv
 更加	ga
 高级	gaa
-公子	gai
+国际	gai
 关注	gao
 姑娘	gau
 公司	gav
@@ -243,7 +243,7 @@
 看出	kai
 可能	kao
 开始	kau
-看清	kav
+夸张	kav
 况且	ki
 看见	kia
 刻苦	kii
@@ -374,7 +374,7 @@
 评论	poa
 平日	poi
 凭空	poo
-培养	pou
+判断	pou
 片刻	pov
 品质	pu
 平凡	pua
@@ -429,13 +429,13 @@
 人人	rii
 如今	rio
 软件	riu
-如何	riv
+任何	riv
 认为	ro
 认识	roa
 容易	roi
 人家	roo
 人类	rou
-容颜	rov
+如意	rov
 然后	ru
 仍然	rua
 热血	rui
@@ -610,11 +610,11 @@
 咱们	zio
 左手	ziu
 早上	ziv
-作为	zo
+总是	zo
 再说	zoa
 暂时	zoi
 在家	zoo
-总是	zou
+作为	zou
 再次	zov
 怎么	zu
 自然	zua

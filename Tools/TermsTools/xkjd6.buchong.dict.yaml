@@ -53,11 +53,11 @@ sort: original
 如何	rh
 人们	rm
 日期	rq
-染色	rs
+热搜	rs
 热线	rx
 三次	sc
 搜狗	sg
-算吗	sm
+司马	sm
 索取	sq
 思想	sx
 太难	tn
@@ -101,6 +101,8 @@ sort: original
 意	y
 玩	w
 咋	z
+# 一简三重
+疫	y
 # 二简二重
 叭	bs
 氏	ek
@@ -112,6 +114,7 @@ sort: original
 凉	lx
 噗	pj
 屁	pk
+弃	qk
 嘁	qk
 哇	ws
 喂	ww
@@ -149,6 +152,7 @@ sort: original
 怡	ykxa
 # 补充词组
 富强 民主 文明 和谐 自由 平等 公正 法治 爱国 敬业 诚信 友善	fmwh
+国民生产总值	gdp
 # 补充提示
 乛	a
 	a
