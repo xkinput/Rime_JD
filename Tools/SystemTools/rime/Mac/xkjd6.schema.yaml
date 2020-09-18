@@ -50,6 +50,8 @@ switches:
     states: [ "关₆₆₀", "开₆₆₀" ]
   - name: completion
     reset: 1
+  - name: EN2en
+    reset: 1
 
 
 punctuator:
