@@ -22,6 +22,7 @@ layout:
     - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{3}).(.*)$/$1`$2/
     - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{4}).(.*)$/$1`$2/
     - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{5}).$/$1`/
+    - derive/^[bcdefghjklmnpqrstwxyz;]{2}([avuio`]*)$/``$1/
 
   # input_code:
   #   date: orq
@@ -50,6 +51,7 @@ switches:
     states: [ "关₆₆₀", "开₆₆₀" ]
   - name: completion
     reset: 1
+  #   states: [ "匹配", "补全" ]
   - name: EN2en
     reset: 1
 
@@ -84,7 +86,7 @@ punctuator:
     '-' : '-'
     '_' : ——
     '+' : '+'
-    '=' : '='
+    '=' : [ '=' ]
     '[' : [ 「, 【, 〔, ［ ]
     ']' : [ 」, 】, 〕, ］ ]
     '{' : [ 『, 〖, ｛ ]
@@ -117,7 +119,7 @@ punctuator:
     '-' : '-'
     '_' : ——
     '+' : '+'
-    '=' : '='
+    '=' : [ '=' ]
     '[' : [ 「, 【, 〔, ［ ]
     ']' : [ 」, 】, 〕,  ］ ]
     '{' : [ 『, 〖, ｛ ]
@@ -149,6 +151,7 @@ engine:
     - table_translator@custom_phrase
     - lua_translator@date_translator
     - lua_translator@time_translator
+    - lua_translator@number_translator
   filters:
     - lua_filter@hint_filter
     - simplifier@emoji_cn
@@ -251,6 +254,7 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    jsq: "^=[^;]+$"
 
 
 topup:
@@ -264,3 +268,4 @@ topup:
 
 # input_code:
 #   __include: "layout/input_code"
+
