@@ -1,5 +1,5 @@
 --[[
-number_translator: 将 `/` + 阿拉伯数字 翻译为大小写汉字
+number_translator: 将 `=` + 阿拉伯数字 翻译为大小写汉字
 --]]
 
 local confs = {
@@ -14,18 +14,6 @@ local confs = {
       number = { [0] = "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" },
       suffix = { [0] = "", "十", "百", "千" },
       suffix2 = { [0] = "", "万", "亿", "万亿", "亿亿" }
-   },
-   {
-      comment = " 大寫",
-      number = { [0] = "零", "壹", "貳", "參", "肆", "伍", "陸", "柒", "捌", "玖" },
-      suffix = { [0] = "", "拾", "佰", "仟" },
-      suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
-   },
-   {
-      comment = " 小寫",
-      number = { [0] = "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" },
-      suffix = { [0] = "", "十", "百", "千" },
-      suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
    },
 }
 
@@ -80,7 +68,7 @@ local function read_number(conf, n)
 end
 
 local function translator(input, seg)
-   if string.sub(input, 1, 1) == "/" then
+   if string.sub(input, 1, 1) == "=" then
       local n = string.sub(input, 2)
       if tonumber(n) ~= nil then
 	 for _, conf in ipairs(confs) do
@@ -92,3 +80,4 @@ local function translator(input, seg)
 end
 
 return translator
+

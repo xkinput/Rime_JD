@@ -49,3 +49,7 @@ topup_processor = require("for_topup")
 
 -- 声笔笔简码提示 | 顶功提示 | 补全处理
 hint_filter = require("for_hint")
+
+-- number_translator: 将 `=` + 阿拉伯数字 翻译为大小写汉字
+-- 详见 `lua/number.lua`
+number_translator = require("number")
