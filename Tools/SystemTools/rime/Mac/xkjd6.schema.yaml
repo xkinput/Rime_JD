@@ -57,7 +57,7 @@ switches:
 
 
 punctuator:
-  import_preset: symbols_ysl
+  import_preset: symbols
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
