@@ -4,7 +4,7 @@
 schema:
   schema_id: xkjd6
   name: 键道6
-  version: "2"
+  version: "2.1"
 
 
 # Layout config
@@ -57,6 +57,7 @@ switches:
 
 
 punctuator:
+  import_preset: symbols
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
@@ -64,7 +65,7 @@ punctuator:
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
     '?' : { commit: ？ }
-    '/' : { commit: ？ }
+    # '/' : { commit: ？ }
     ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
@@ -97,7 +98,7 @@ punctuator:
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
     '?' : { commit: ？ }
-    '/' : { commit: ？ }
+    # '/' : { commit: ？ }
     ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
@@ -248,7 +249,7 @@ key_binder:
 recognizer:
   patterns:
     # __include: "layout/patterns"
-    # punct: "^/([0-9]0?|[a-z]+)$"
+    punct: "^/([0-9]0?|[a-z]+)$"
     danzi_lookup: "[a-z`]*`+[a-z`]*"
     email: "^[a-z][-_.0-9a-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
