@@ -256,7 +256,7 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
-    jsq: "^=[0-9]+$"
+    jsq: "^=[^;']+$"
 
 
 topup:
