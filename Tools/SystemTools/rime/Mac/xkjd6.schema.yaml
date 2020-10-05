@@ -4,7 +4,7 @@
 schema:
   schema_id: xkjd6
   name: 键道6
-  version: "2.1"
+  version: "2.2"
 
 
 # Layout config
@@ -57,7 +57,7 @@ switches:
 
 
 punctuator:
-  import_preset: symbols
+  import_preset: symbols_ysl
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
@@ -133,6 +133,7 @@ engine:
     - recognizer
     - key_binder
     - lua_processor@topup_processor
+    - lua_processor@smart_2
     - speller
     - punctuator
     - selector
@@ -241,7 +242,7 @@ key_binder:
     - {accept: equal, send: Page_Down, when: has_menu}
     - { when: always, accept: F6, select: .next }
     - { when: always, accept: F7, toggle: jffh }
-    - { when: has_menu, accept: "'", send: 2 }
+    # - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
     - { when: has_menu, accept: "^", toggle: bmms}
 
@@ -255,7 +256,7 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
-    jsq: "^=[^;]+$"
+    jsq: "^=[0-9]+$"
 
 
 topup:
