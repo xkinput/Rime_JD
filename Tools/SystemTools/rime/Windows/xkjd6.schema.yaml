@@ -10,6 +10,34 @@ schema:
   dependencies:
     - xkjd6cx
 
+
+# Layout config
+layout:
+  topup:
+    topup_this: "bcdefghjklmnpqrstwxyz"
+    topup_with: "avuio;"
+
+  algebra:
+    - derive/^[bcdefghjklmnpqrstwxyz;]([bcdefghjklmnpqrstwxyz;][avuio].*)$/`$1/
+    - derive/^([bcdefghjklmnpqrstwxyz;])[bcdefghjklmnpqrstwxyz;]([avuio].*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2})[avuio](.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{2}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{3}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{4}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{5}).$/$1`/
+    - derive/^[bcdefghjklmnpqrstwxyz;]{2}([avuio`]*)$/``$1/
+
+  # input_code:
+  #   date: orq
+  #   time: ouj
+  #   week: oxq
+
+  patterns:
+    special: "^(?:;?[avuio])[a-z]{0,}"
+    # input_code: "^(?:orq?|ouj?|oxq?)"
+
+
 switches:
   - name: ascii_mode
     reset: 0
@@ -25,7 +53,9 @@ switches:
   - name: EN2en
     reset: 1
 
+
 punctuator:
+  import_preset: symbols
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
@@ -37,7 +67,7 @@ punctuator:
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
     '"' : { pair: [ '“', '”' ] }
-    '/' : { commit: / }
+    # '/' : { commit: / }
     '\' : [ 、, ＼ ]
     '|' : [ ·, ｜, '§', '¦' ]
     '`' : ｀
@@ -55,7 +85,7 @@ punctuator:
     '-' : －
     '_' : ——
     '+' : ＋
-    '=' : ＝
+    '=' : [ '=' ]
     '[' : [ 「, 【, 〔, ［ ]
     ']' : [ 」, 】, 〕, ］ ]
     '{' : [ 『, 〖, ｛ ]
@@ -94,11 +124,14 @@ punctuator:
     '{' : [ 『, 〖, ｛ ]
     '}' : [ 』, 〗, ｝ ]
 
+
 engine:
   processors:
     - ascii_composer
     - recognizer
     - key_binder
+    - lua_processor@topup_processor
+    - lua_processor@smart_2
     - speller
     - punctuator
     - selector
@@ -112,26 +145,31 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - history_translator@repeat_history
     - table_translator@custom_phrase
-    - reverse_lookup_translator
-    - table_translator
+    - table_translator@danzi_lookup
     - lua_translator@date_translator
     - lua_translator@time_translator
+    - lua_translator@number_translator
   filters:
-    - simplifier
     - uniquifier
+    - simplifier@emoji_cn
     - simplifier@jffh
     - simplifier@bmms
     - simplifier@EN2en
-    - reverse_lookup_translator
+    # - lua_filter@hint_filter
     - lua_filter@xkjd6_filter
-    # - lua_filter@single_char_filter
+    - reverse_lookup_filter@danzi_lookup
+
 
 speller:
+  algebra:
+    __include: "layout/algebra"
   auto_select: true
   auto_select_unique_candidate: true #空码自动顶
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
-  initials: "abcdefghijklmnopqrstuvwxyz;"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;/=`"
+  initials: "abcdefghijklmnopqrstuvwxyz;/=`"
+
 
 translator:
   dictionary: xkjd6.extended
@@ -143,23 +181,28 @@ translator:
   encode_commit_history: true
   max_phrase_length: 6
 
+
 repeat_history:
   input: ;h #重复上次上屏内容
   size: 1
   initial_quality: 10000
+
 
 emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
   tips: all
 
+
 jffh:
   opencc_config: s2tw.json
   option_name: jffh
 
+
 EN2en:
   opencc_config: EN2en.json
   option_name: EN2en
+
 
 bmms:
   opencc_config: pinyin.json
@@ -168,6 +211,23 @@ bmms:
   comment_format:
     - xform/'/ /
 
+
+danzi_lookup:
+  dictionary: xkjd6.extended
+  tags: [ danzi_lookup ]
+  overwrite_comment: true
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: false
+  comment_format:
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/ /, /
+
+
 custom_phrase:
   dictionary: ""
   user_dict: user_dict
@@ -175,32 +235,41 @@ custom_phrase:
   enable_sentence: false
   initial_quality: "0"
 
+
 reverse_lookup:
   dictionary: xkjd6cx
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
 
-punctuator:
-  import_preset: symbols
 
 key_binder:
   bindings:
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
     - { when: always, accept: F7, toggle: jffh }
-    - { when: has_menu, accept: "'", send: 2 }
+    # - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
     - { when: has_menu, accept: "^", toggle: bmms}
 
+
 recognizer:
-  import_preset: default
   patterns:
-    reverse_lookup: "[a-z`]*`+[a-z`]*"
-    english: "^'[A-Z|a-z]*'?$"
-    danzi_lookup: "[a-z`]*`+[a-z`]*"
     punct: "^/([0-9]0?|[a-z]+)$"
+    danzi_lookup: "[a-z`]*`+[a-z`]*"
     email: "^[a-z][-_.0-9a-z]*@.*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    english: "^'[A-Z|a-z]*'?$"
+    jsq: "^=[^;']+$"
+
+
+topup:
+  __include: "layout/topup"
+  min_length: 4
+  max_length: 6
+  auto_clear: true
+  min_length_danzi: 2
+  topup_command: true
+
