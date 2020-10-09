@@ -168,8 +168,8 @@ speller:
   algebra:
     __include: "layout/algebra"
   auto_select: true
-  alphabet: "abcdefghijklmnopqrstuvwxyz;`"
-  initials: "abcdefghijklmnopqrstuvwxyz;`"
+  alphabet: "abcdefghijklmnopqrstuvwxyz;/`"
+  initials: "abcdefghijklmnopqrstuvwxyz;/`"
 
 
 translator:
