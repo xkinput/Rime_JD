@@ -48,7 +48,7 @@ switches:
     states: [ "词组", "单字" ]
   - name: wxw_hint
     reset: 1
-    states: [ "关₆₆₀", "开₆₆₀" ]
+    states: [ "关₆₃₀", "开₆₃₀" ]
   - name: completion
     reset: 1
   #   states: [ "匹配", "补全" ]
@@ -98,7 +98,7 @@ punctuator:
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
     '?' : { commit: ？ }
-    # '/' : { commit: ？ }
+    '/' : ['/']
     ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
@@ -270,4 +270,3 @@ topup:
 
 # input_code:
 #   __include: "layout/input_code"
-
