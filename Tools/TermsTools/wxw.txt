@@ -185,7 +185,7 @@
 还好	hau
 喝酒	hav
 好像	hi
-怀里	hia
+后果	hia
 好人	hii
 黄金	hio
 好看	hiu
@@ -258,7 +258,7 @@
 渴望	kov
 可爱	ku
 快乐	kua
-卡片	kui
+空白	kui
 开支	kuo
 靠近	kuu
 空气	kuv
@@ -267,7 +267,7 @@
 快速	kvi
 看来	kvo
 客厅	kvu
-魁梧	kvv
+苦于	kvv
 例如	la
 立马	laa
 露出	lai
@@ -323,7 +323,7 @@
 矛盾	muu
 陌生	muv
 没有	mv
-马车	mva
+密切	mva
 没事	mvi
 模样	mvo
 忙碌	mvu
