@@ -52,7 +52,7 @@ hint_filter = require("for_hint")
 
 -- number_translator: 将 `=` + 阿拉伯数字 翻译为大小写汉字
 -- 详见 `lua/number.lua`
-number_translator = require("number")
+number_translator = require("xnumber")
 
 -- 用 ' 作为次选键
 smart_2 = require("smart_2")
