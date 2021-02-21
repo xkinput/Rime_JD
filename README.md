@@ -27,12 +27,7 @@
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
     
   * Linux 首选安装方式： 
-    终端执行：
-    ``` bash
-    wget -O installJDL.sh https://gitee.com/xkinput/xkinput/raw/master/public/installJDL.sh && sudo chmod +x installJDL.sh && ./installJDL.sh
-    ```
-
-    > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
+    详见wiki页教程：[Linux安装rime键道教程][linux安装键道6]
 
   * Mac 首选安装方式：
     
@@ -186,6 +181,7 @@ git pull
 
 [998]: https://gitee.com/thxnder/xxjd/tree/master/release "新版本小小键道"
 [999]: https://gitee.com/xkinput/Rime_JD "新版本RIME键道"
+[linux安装键道6]: https://gitee.com/xkinput/Rime_JD/wikis/Linux%E5%AE%89%E8%A3%85rime%E9%94%AE%E9%81%936%E6%95%99%E7%A8%8B?sort_id=3608006 "Linux安装键道6"
 
 [101]: https://github.com/rime/weasel "小狼毫－Rime 輸入法 for Windows"
 [102]: https://github.com/rime/squirrel "鼠鬚管－Rime 輸入法 for Mac OS X"
