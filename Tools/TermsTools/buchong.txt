@@ -83,6 +83,7 @@
 都	d
 识	e
 实	e
+之	f
 支	f
 好	h
 打	i
@@ -91,13 +92,14 @@
 嘛	m
 能	n
 着	o
-期	q
+其	q
 嗯	x
 意	y
 玩	w
 咋	z
 # 一简三重
 疫	y
+期	q
 # 二简二重
 叭	bs
 氏	ek
@@ -123,6 +125,7 @@
 噫	yk
 哟	yl
 愈	yl
+玄	xt
 啧	ze
 # syxb 单字
 实	ekbo
