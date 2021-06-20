@@ -237,4 +237,4 @@ git pull
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
 [925]: https://github.com/neolee/SCU  "SCU MacOS"
 [926]: https://f-droid.org/zh_Hans/packages/com.manichord.mgit "MGit For Android"
-[927]: https://wwa.lanzous.com/b0dhdlkj "RimeJD蓝凑云共享地址"
+[927]: https://wwa.lanzoux.com/b0dhdlkj "RimeJD蓝凑云共享地址"
