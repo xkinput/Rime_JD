@@ -226,7 +226,7 @@ git pull
 [913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
 [914]: https://pan.baidu.com/s/1uvTbIKwxzJU-Udk4WeDAwQ "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
-[916]: https://739497722.docs.qq.com/ipGva4mn5bo "键道6词库议表"
+[916]: https://docs.qq.com/sheet/BFdiXU0nyc1W1kwuZl3Gx31r2KLm2k3F8YzI4 "键道6词库议表"
 [917]: http://xkinput.gitee.io/tools/search "键道6查码工具"
 [918]: https://gitee.com/all-about-git "各系统git罗列"
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
