@@ -1,6 +1,6 @@
 <h1 align="center">星空键道6</h1>
 
->作者：**吅吅大山** [**键道官网**][904]  [**键道6词库议表**][916]  [**键道6查码工具**][917]  [加入官方群:320053116][903]
+>作者：**吅吅大山** [**键道官网**][904]  [**键道6词库议表**][916]  [**键道6查码工具**][917]  [加入官方大群:320053116][903] [加入键道6交流群:865189947][928]
 
 >文档： 键道6方案文档[ wiki文档][921] [下载][922]
 
@@ -21,7 +21,7 @@
 ---
 
 #### 首次安装：
-  * Windows 首选安装方式： [Windows键道6安装程序下载][927]
+  * Windows 首选安装方式： Windows键道6安装程序下载[永硕盘][923]|蓝奏盘[927]
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
@@ -213,7 +213,7 @@ git pull
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
-[903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "吅吅大山的QQ群"
+[903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "星空一笔输入法QQ群"
 [904]: https://xkinput.gitee.io "键道官网"
 [905]: https://git-scm.com/ "Git"
 [906]: http://www.ruanyifeng.com/blog/2017/07/pull_request.html "阮一峰PR教程"
@@ -237,4 +237,5 @@ git pull
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
 [925]: https://github.com/neolee/SCU  "SCU MacOS"
 [926]: https://f-droid.org/zh_Hans/packages/com.manichord.mgit "MGit For Android"
-[927]: https://wwa.lanzoux.com/b0dhdlkj "RimeJD蓝奏云共享地址"
+[927]: https://wwa.lanzoux.com/b0dhdlkj "RimeJD蓝奏云盘"
+[928]: https://jq.qq.com/?_wv=1027&k=c1T3vOwc "星空键道输入法QQ群"
