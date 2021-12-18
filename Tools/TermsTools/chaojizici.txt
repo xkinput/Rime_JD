@@ -33,8 +33,6 @@
 𫟼	dsiov
 𫟼	dsiovu
 呾	dsooiv
-弌	dsvuv
-弌	dsvuvu
 墫	dwvoo
 墫	dwvoou
 𬟽	dyiava
@@ -68,7 +66,6 @@
 𮝷	fnva
 𮝷	fnvauo
 甴	fsia
-橒	fwaaiv
 𬬿	fzioa
 𬬿	fzioau
 𬶐	fzua
@@ -83,8 +80,6 @@
 𬇹	glaiav
 菓	glii
 菓	gliiia
-埝	gpvou
-埝	gpvoua
 㹴	grua
 㹴	gruavi
 𬒔	grvu
@@ -297,8 +292,6 @@
 𬶍	tluao
 𬶍	tluaoo
 祂	tsoaai
-弌	tsvu
-弌	tsvuvu
 𫍣	tyoai
 𫍣	tyoaia
 𫘦	tzaaua
@@ -407,10 +400,12 @@
 𬬩	ykiova
 𬺈	ykivv
 𬺈	ykivvu
+弌	ykvvao
 犽	ysuava
 𫘪	ytaav
 𫘪	ytaavu
 円	ytiaiv
+橒	ywvvoa
 垚	yzvvvv
 囃	zsovii
 墫	zwvo
