@@ -4,7 +4,7 @@
 
 > 交流群: [加入官方QQ大群][903] [加入键道6群][928] [加入TG群][929]
 
->文档： 键道6方案文档[ wiki文档][921] [下载][922]
+> 文档： 键道6方案文档[ wiki文档][921] [下载][922]
 
 ---
 
@@ -27,12 +27,12 @@
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
-    
+
   * Linux 首选安装方式： 
     详见wiki页教程：[Linux安装rime键道教程][linux安装键道6]
 
   * Mac 首选安装方式：
-    
+
     1. 安装鼠须管
 
        > 有两种方式安装鼠须管，请选其1操作即可
@@ -40,22 +40,22 @@
        1. 下载 [鼠须管文件安装][924]
 
        2. brew方式(需要提前安装brew)
-    
+
           ``` bash
           brew cask install squirrel
           ```
-    
+
     2. 克隆rime键道仓库(选一个仓库的使用)
-    
+
        ``` bash
        # 码云仓库(国内建议使用，速度更快)
        git clone https://gitee.com/xkinput/Rime_JD/
        # github仓库(国际通用国内速度较慢)
        git clone https://github.com/xkinput/Rime_JD/
        ```
-    
+
     3. 执行Mac专有脚本以完成键道码表部署
-    
+
        ``` bash
        # 跳转到Rime_JD目录中Mac脚本目录
        cd Rime_JD/Tools/SystemTools/MacTools/
@@ -63,11 +63,11 @@
        ./2update.sh
        # 待完成后尝试输入即可
        ```
-    
+
     Mac可使用 [SCU][925] 做日常配置操作
-    
+
     > 注意：请确保设备含有网络、可使用项目内配备的升级工具做升级码表到最新。
-    
+
   * Android 首选安装方式：[Android键道6安装包][927]
     > 首先：安装安装包，打包内包含码表与皮肤，以及词库（内置词库比较旧，建议安装后继续下一步，来更新词库）
 
@@ -77,9 +77,9 @@
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53238185
     <a name="ios-install"></a>
-    
+
   * iOS 首选安装方式：
-    - iRime：至 app store 搜寻 iRime 下载 app，并参考[iRime指导教程][913]
+    - iRime：至 app store 搜寻 iRime 下载 app，内有教程；或可参考[iOS平台安装部署教程][913]
     - 落格（付费软件）：至 app store 搜寻落格下载 app，至「对数云-主码表」下载「星空键道6.2 -- 官方版本]
 
 #### 并击功能：
@@ -225,7 +225,7 @@ git pull
 [910]: http://sj.qq.com/myapp/detail.htm?apkName=com.aor.pocketgit "Pocket Git（口袋Git）"
 [911]: https://www.jianguoyun.com/p/DV2MIxsQ67buBhjNl1w "Git坚果云地址"
 [912]: https://npm.taobao.org/mirrors/git-for-windows "Git淘宝镜像地址"
-[913]: http://wiki.5koon.com/doku.php?id=simplified "iRime说明地址"
+[913]: https://hanhngiox.net/install/ios.html "iOS平台安装部署教程（以iOS 12为例）"
 [914]: https://pan.baidu.com/s/1uvTbIKwxzJU-Udk4WeDAwQ "键道6RimeWindows小狼毫引导安装包"
 [915]: https://pan.baidu.com/s/1BiXlCS4JualOtXvbbTeAQQ "键道6RimeAndroid同文安装包"
 [916]: https://docs.qq.com/sheet/BFdiXU0nyc1W1kwuZl3Gx31r2KLm2k3F8YzI4 "键道6词库议表"
