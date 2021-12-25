@@ -84,7 +84,7 @@
     <a name="ios-install"></a>
 
   * iOS 首选安装方式：
-    - iRime：至 app store 搜寻 iRime 下载 app，内有教程；或可参考[iOS平台安装部署教程][913]
+    - iRime：至 app store 搜寻 iRime 下载 app，内有教程；或可参考 [iRime 部署「键道」图文教程][219] [iOS平台安装部署教程][913]
     - 落格（付费软件）：至 app store 搜寻落格下载 app，至「对数云-主码表」下载「星空键道6.2 -- 官方版本]
 
 #### 并击功能：
@@ -218,6 +218,7 @@ git pull
 [216]: https://gitee.com/dzyht "歌颂"
 [217]: https://gitee.com/dzyht/rime_xkybd "一笔一道地址"
 [218]: https://getquicker.net/Sharedaction?code=05ec6884-ae9f-44ed-5f89-08d9b92d74db
+[219]: https://telegra.ph/iRime-%E5%A6%82%E4%BD%95%E5%AF%BC%E5%85%A5%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88---%E4%BB%A5%E9%94%AE%E9%81%93%E4%B8%BA%E4%BE%8B-12-25
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
