@@ -6,6 +6,8 @@
 
 > 文档： 键道6方案文档[ wiki文档][921] [下载][922]
 
+> 选中查字 & 屏幕悬浮键位表辅助工具：[键道 for Quicker][218]
+
 ---
 
 #### 目录结构说明：
@@ -75,7 +77,10 @@
 
     > 更新方式：安装上面所讲的MGit，进入Rime_JD，点击侧栏里的`拉取`等待完成后，再次将最新码表复制到用户目录，重新部署同文输入法即可。
 
-    > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53238185
+    > 若有疑问，请查看安装教程。
+    > 图文教程：https://telegra.ph/Android-%E5%AE%89%E8%A3%85%E9%94%AE%E9%81%93%E5%90%8C%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-12-25
+    
+    > 视频教程：https://www.bilibili.com/video/av53238185
     <a name="ios-install"></a>
 
   * iOS 首选安装方式：
@@ -212,6 +217,7 @@ git pull
 [215]: https://github.com/dzyht/rime_xkyb "一笔地址"
 [216]: https://gitee.com/dzyht "歌颂"
 [217]: https://gitee.com/dzyht/rime_xkybd "一笔一道地址"
+[218]: https://getquicker.net/Sharedaction?code=05ec6884-ae9f-44ed-5f89-08d9b92d74db
 
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
