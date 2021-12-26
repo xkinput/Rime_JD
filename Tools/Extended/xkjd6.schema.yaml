@@ -29,6 +29,9 @@ switches:
     states: [ 630关, 630开 ]
   - name: EN2en
     reset: 1
+  - name: topup_hint
+    reset: 1
+    states: [ "关顶功提示", "开顶功提示" ]
     
 punctuator:
   full_shape:
