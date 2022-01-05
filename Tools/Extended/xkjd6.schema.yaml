@@ -123,6 +123,7 @@ engine:
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - table_translator
+    - lua_translator@date_time_translator
   filters:
     - simplifier
     - uniquifier
