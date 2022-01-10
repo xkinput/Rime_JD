@@ -26,8 +26,10 @@ local function getUpDate()
         date = "十"
     elseif d % 10 == 0 then
         date = date:gsub("〇", "十")
-    elseif d > 10 then
-        -- librime uses UTF-8
+    elseif d > 10 and d < 20 then
+        -- common hanzi's lenth is 3 in UTF-8
+        date = "十" .. date:sub(4)
+    elseif d > 20 then
         date = date:sub(1, 3) .. "十" .. date:sub(4)
     end
     return year .. "年" .. month .. "月" .. date .. "日"
