@@ -54,6 +54,9 @@ switches:
   #   states: [ "匹配", "补全" ]
   - name: EN2en
     reset: 1
+  - name: topup_hint
+    reset: 1
+    states: [ "关顶功提示", "开顶功提示" ]
 
 
 punctuator:
@@ -151,8 +154,7 @@ engine:
     - history_translator@repeat_history
     - table_translator@danzi_lookup
     - table_translator@custom_phrase
-    - lua_translator@date_translator
-    - lua_translator@time_translator
+    - lua_translator@date_time_translator
     - lua_translator@number_translator
   filters:
     - lua_filter@hint_filter

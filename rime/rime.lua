@@ -24,13 +24,7 @@ librime-lua 样例
 配方文件中的引用方法为：`...@foo`。
 --]]
 
--- date_translator: 将 `date` 翻译为当前日期
--- 详见 `lua/date.lua`:
-date_translator = require("date")
-
--- time_translator: 将 `time` 翻译为当前时间
--- 详见 `lua/time.lua`
-time_translator = require("time")
+date_time_translator = require("date_time")
 
 
 -- single_char_filter: 候选项重排序，使单字优先
