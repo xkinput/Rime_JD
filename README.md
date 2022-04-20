@@ -1,10 +1,10 @@
 <h1 align="center">星空键道6</h1>
 
-> 作者：**吅吅大山** [**键道官网**][904]  [**键道6词库议表**][916]  [**键道6查码工具**][917]
+> 作者：**吅吅大山** | [**键道官网**][904] | [**键道6词库议表**][916] | [**键道6查码工具**][917]
 
-> 交流群: [加入官方QQ大群][903] [加入键道6群][928] [加入TG群][929]
+> 交流群：[加入官方QQ大群][903] | [加入键道6群][928] | [加入TG群][929]
 
-> 文档： 键道6方案文档[ wiki文档][921] [下载][922]
+> 方案文档：[**键道详尽操作指南**][900] | [简易Wiki文档][921] | [资源下载][922]
 
 > 选中查字 & 屏幕悬浮键位表辅助工具：[键道 for Quicker][218]
 
@@ -25,7 +25,7 @@
 ---
 
 #### 首次安装：
-  * Windows 首选安装方式： Windows键道6安装程序下载[永硕盘][923]|[蓝奏盘][927]
+  * Windows 首选安装方式： Windows键道6安装程序下载 [永硕盘][923] | [蓝奏盘][927]
     > 说明：打包内包含完整本项目，克隆完成后，请按照下面 Git 安装后同步最新码表 `git pull` 后，升级到最新码表。
 
     > 若有疑问，请查看安装教程：https://www.bilibili.com/video/av53185153
@@ -98,8 +98,7 @@
  **[Git下载地址罗列][918]**
 
  * ##### Windows 系统 Git：
-
-    [官网][905]|[国内镜像源][912]
+    [官网][905] | [国内镜像源][912]
  * Linux 系统 Git：[自行安装]
  * Mac 系统 Git：内建 git 程序，无需另外安装
  * ##### Android 系统 Git：
@@ -221,6 +220,7 @@ git pull
 [219]: https://telegra.ph/iRime-%E5%A6%82%E4%BD%95%E5%AF%BC%E5%85%A5%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88---%E4%BB%A5%E9%94%AE%E9%81%93%E4%B8%BA%E4%BE%8B-12-25
 [220]: https://telegra.ph/Android-%E5%AE%89%E8%A3%85%E9%94%AE%E9%81%93%E5%90%8C%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-12-25
 
+[900]: https://pingshunhuangalex.gitbook.io/rime-xkjd/ "键道详尽操作指南"
 [901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
 [903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "星空一笔输入法QQ群"
@@ -241,7 +241,7 @@ git pull
 [918]: https://gitee.com/all-about-git "各系统git罗列"
 [919]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000 "git入门"
 [920]: https://pan.baidu.com/s/1S9ktUAFcqJjjnqovEBSLig "键道6文档"
-[921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6wiki文档"
+[921]: https://gitee.com/xkinput/Rime_JD/wikis/pages "键道6Wiki文档"
 [922]: https://gitee.com/xkinput/Rime_JD/attach_files "附件地址"
 [923]: http://rimejd.ys168.com "rime键道永硕网盘地址"
 [924]: https://rime.im/download/#macOS	"rime.im MacOS"
