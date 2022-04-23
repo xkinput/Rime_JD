@@ -4,7 +4,7 @@
 
 > 交流群：[加入官方QQ大群][903] | [加入键道6群][928] | [加入TG群][929]
 
-> 方案文档：[**键道详尽操作指南**][900] | [简易Wiki文档][921] | [资源下载][922]
+> 方案文档：[**键道详尽操作指南**][900] | [简易Wiki文档][921] | [键道6白话文教程][901] | [资源下载][922]
 
 > 选中查字 & 屏幕悬浮键位表辅助工具：[键道 for Quicker][218]
 
@@ -185,7 +185,6 @@ git pull
 
 > 键道的跨平台使用离不开以上优秀的输入平台
 
-[998]: https://gitee.com/thxnder/xxjd/tree/master/release "新版本小小键道"
 [999]: https://gitee.com/xkinput/Rime_JD "新版本RIME键道"
 [linux安装键道6]: https://gitee.com/xkinput/Rime_JD/wikis/Linux%E5%AE%89%E8%A3%85rime%E9%94%AE%E9%81%936%E6%95%99%E7%A8%8B?sort_id=3608006 "Linux安装键道6"
 
@@ -203,8 +202,8 @@ git pull
 [202]: https://github.com/osfans "TRIME作者页面"
 [203]: https://github.com/dgod/yong "小小主页"
 [204]: https://gitee.com/xkinput/Rime_JD "Rime键道主页"
-[205]: http://thxnder.gitee.io/xxjd "小小键道主页"
-[206]: https://gitee.com/thxnder "「小小键道」 维护者"
+[205]: https://xkinput.github.io/xxxk-help "小小星空主页"
+[206]: https://github.com/tswwe "「小小星空」 维护者"
 [207]: https://gitee.com/lyserenity/xkjd6 "正体字码表"
 [208]: https://gitee.com/xkinput/Rime_JD/releases "发行页"
 [209]: https://gitee.com/xkinput/Rime_JD/repository/archive/master.zip "Download"
@@ -221,7 +220,7 @@ git pull
 [220]: https://telegra.ph/Android-%E5%AE%89%E8%A3%85%E9%94%AE%E9%81%93%E5%90%8C%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-12-25
 
 [900]: https://pingshunhuangalex.gitbook.io/rime-xkjd/ "键道详尽操作指南"
-[901]: https://gitee.com/thxnder/xxjd/blob/master/doc/xkjd3.md "星空键道 简明教程"
+[901]: https://xkinput.github.io/xxxk-help/#/schema-xkjd6 "星空键道白话文教程"
 [902]: http://daniushuangpin.ys168.com "吅吅大山的的网盘"
 [903]: https://jq.qq.com/?_wv=1027&k=5sTEYIQ "星空一笔输入法QQ群"
 [904]: https://xkinput.gitee.io "键道官网"
