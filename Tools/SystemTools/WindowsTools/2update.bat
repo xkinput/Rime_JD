@@ -62,30 +62,39 @@ echo.
 echo 3秒后开始更新，Ctrl + C停止……
 ping -n 3 127.1 >nul
 
+Setlocal enabledelayedexpansion
+set rimeUserDir=%APPDATA%\Rime
+for /f "skip=2 delims=: tokens=1,*" %%i in ('reg query "HKEY_CURRENT_USER\SOFTWARE\Rime\Weasel" /v "RimeUserDir"') do (
+   set str=%%i
+   set var=%%j
+   set "var=!var:"=!"
+   if not "!var:~-1!"=="=" set rimeUserDir=!str:~-1!:!var!
+)
+
 if exist "%CD%\备份\" (
   del "%CD%\备份\" /S /Q
 ) else (
   mkdir "%CD%\备份\"
 )
-xcopy "%APPDATA%\Rime" "%CD%\备份\" /Y /E
+xcopy "%rimeUserDir%" "%CD%\备份\" /Y /E
 cls
 echo 备份原有词库		完成
 
 taskkill /f /im WeaselServer.exe
-del "%APPDATA%\Rime\" /S /Q
-xcopy "..\..\..\rime" "%APPDATA%\Rime\" /Y /E
+del "%rimeUserDir%\" /S /Q
+xcopy "..\..\..\rime" "%rimeUserDir%\" /Y /E
 echo 复制码表文件		完成
 
-rmdir "%APPDATA%\Rime\Windows" /S /Q
+rmdir "%rimeUserDir%\Windows" /S /Q
 echo 删除冗余文件		完成
 
-xcopy "..\rime\Windows\*" "%APPDATA%\Rime\" /Y /E
+xcopy "..\rime\Windows\*" "%rimeUserDir%\" /Y /E
 echo 复制独有配置		完成
 
 cls
 
 if exist "%CD%\用户数据\" (
-  xcopy ".\用户数据\*" "%APPDATA%\Rime\" /Y /E
+  xcopy ".\用户数据\*" "%rimeUserDir%\" /Y /E
   xcopy ".\用户数据\preview\*" %weaselInstallPath%\data\preview\ /Y /E
   echo 还原用户数据		完成
 ) else (
