@@ -6,6 +6,7 @@
 
 > 方案文档：[**键道详尽操作指南**][900] | [简易Wiki文档][921] | [键道6白话文教程][901] | [资源下载][922]
 
+> [键魂](221) - 键道初学者用的「键道」虚拟键位软件。学完规则不用记忆键位就能立即上手体验「键道」打字的乐趣！
 > 选中查字 & 屏幕悬浮键位表辅助工具：[键道 for Quicker][218]
 
 ---
@@ -218,6 +219,7 @@ git pull
 [218]: https://getquicker.net/Sharedaction?code=05ec6884-ae9f-44ed-5f89-08d9b92d74db
 [219]: https://telegra.ph/iRime-%E5%A6%82%E4%BD%95%E5%AF%BC%E5%85%A5%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88---%E4%BB%A5%E9%94%AE%E9%81%93%E4%B8%BA%E4%BE%8B-12-25
 [220]: https://telegra.ph/Android-%E5%AE%89%E8%A3%85%E9%94%AE%E9%81%93%E5%90%8C%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-12-25
+[221]: https://ispoto.github.io/KeySoul/
 
 [900]: https://pingshunhuangalex.gitbook.io/rime-xkjd/ "键道详尽操作指南"
 [901]: https://xkinput.github.io/xxxk-help/#/schema-xkjd6 "星空键道白话文教程"
