@@ -3526,6 +3526,8 @@
 锋	frio
 锋	frioua
 俸	friv
+酆	friva
+酆	frivai
 俸	frivvv
 疯	fro
 讽	froa
@@ -3552,8 +3554,6 @@
 砜	frvuu
 砜	frvuua
 奉	frvv
-酆	frvva
-酆	frvvai
 丰	frvvvi
 奉	frvvvv
 发	fs
