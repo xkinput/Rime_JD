@@ -5819,7 +5819,9 @@
 戒	jdvvui
 车	je
 澈	jea
+尺	jeav
 澈	jeaova
+尺	jeavuo
 撤	jei
 扯	jeiu
 扯	jeiuiv
@@ -13266,7 +13268,9 @@
 椆	wdvuav
 车	we
 澈	wea
+尺	weav
 澈	weaova
+尺	weavuo
 撤	wei
 扯	weiu
 扯	weiuiv
