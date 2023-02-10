@@ -1171,6 +1171,8 @@
 对	dbaovi
 镦	dbi
 镦	dbioov
+㨃	dbiu
+㨃	dbiuov
 兑	dbo
 祋	dboa
 祋	dboaua
@@ -1877,8 +1879,6 @@
 镦	dwio
 镦	dwioov
 钝	dwiova
-㨃	dwiu
-㨃	dwiuov
 吨	dwo
 蹲	dwoi
 蹾	dwoio
