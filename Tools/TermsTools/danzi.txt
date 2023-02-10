@@ -3526,6 +3526,8 @@
 锋	frio
 锋	frioua
 俸	friv
+酆	friva
+酆	frivai
 俸	frivvv
 疯	fro
 讽	froa
@@ -3552,8 +3554,6 @@
 砜	frvuu
 砜	frvuua
 奉	frvv
-酆	frvva
-酆	frvvai
 丰	frvvvi
 奉	frvvvv
 发	fs
@@ -5819,7 +5819,9 @@
 戒	jdvvui
 车	je
 澈	jea
+尺	jeav
 澈	jeaova
+尺	jeavuo
 撤	jei
 扯	jeiu
 扯	jeiuiv
@@ -13266,7 +13268,9 @@
 椆	wdvuav
 车	we
 澈	wea
+尺	weav
 澈	weaova
+尺	weavuo
 撤	wei
 扯	weiu
 扯	weiuiv
