@@ -15,5 +15,6 @@ jobs:
           src: github/xkinput
           dst: gitee/xkinput
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
           static_list: "Rime_JD"
           account_type: org
