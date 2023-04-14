@@ -1,0 +1,19 @@
+name: Mirror Github to Gitee
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hub Mirror Action.
+        uses: Yikun/hub-mirror-action@v1.2
+        with:
+          src: github/xkinput
+          dst: gitee/xkinput
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          static_list: "Rime_JD"
+          account_type: org
