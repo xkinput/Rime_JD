@@ -49,6 +49,9 @@ switches:
   - name: wxw_hint
     reset: 1
     states: [ "关₆₃₀", "开₆₃₀" ]
+  - name: sbb_disable_full
+    reset: 0 # 改成1默认关闭全码
+    states: [ "开₆₃₀全码", "关₆₃₀全码" ]
   - name: completion
     reset: 1
   #   states: [ "匹配", "补全" ]
