@@ -41,8 +41,9 @@ jobs:
       - name: Commit and push
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
+            TIMESTAMP=$(date +%Y%m%d_%H%M%S)
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
-            git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+            git commit -a -m "update on $TIMESTAMP"
             git push
           fi
