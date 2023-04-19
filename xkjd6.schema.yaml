@@ -7,8 +7,19 @@ schema:
   version: "1"
   author:
     - 发明人 大牛
-  dependencies:
-    - xkjd6cx
+
+# Layout config
+layout:
+  algebra:
+    - derive/^[bcdefghjklmnpqrstwxyz;]([bcdefghjklmnpqrstwxyz;][avuio].*)$/`$1/
+    - derive/^([bcdefghjklmnpqrstwxyz;])[bcdefghjklmnpqrstwxyz;]([avuio].*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2})[avuio](.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{2}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{3}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{4}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{5}).$/$1`/
+    - derive/^[bcdefghjklmnpqrstwxyz;]{2}([avuio`]*)$/``$1/
 
 switches:
   - name: ascii_mode
@@ -27,7 +38,7 @@ switches:
   - name: topup_hint
     reset: 1
     states: [ "关顶功提示", "开顶功提示" ]
-    
+
 punctuator:
   full_shape:
     ' ' : { commit: '　' }
@@ -116,10 +127,8 @@ engine:
   translators:
     - punct_translator
     - table_translator@custom_phrase
-    - reverse_lookup_translator
     - table_translator
     - history_translator@repeat_history
-    - lua_translator@Lunar_calendar_translator
     - lua_translator@date_time_translator
   filters:
     - simplifier
@@ -128,13 +137,15 @@ engine:
     - simplifier@jffh
     - simplifier@bmms
     - simplifier@EN2en
-    - reverse_lookup_translator
+    - reverse_lookup_filter@danzi_lookup
     - lua_filter@xkjd6_filter
 
 speller:
+  algebra:
+    __include: "layout/algebra"
   auto_select: true
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
-  initials: "abcdefghijklmnopqrstuvwxyz;"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;`"
+  initials: "abcdefghijklmnopqrstuvwxyz;`"
 
 translator:
   dictionary: xkjd6.extended
@@ -171,18 +182,26 @@ bmms:
   comment_format:
     - xform/'/ /
 
+danzi_lookup:
+  dictionary: xkjd6.extended
+  tags: [ danzi_lookup ]
+  overwrite_comment: true
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: false
+  comment_format:
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/ /, /
+
 custom_phrase:
   dictionary: ""
   user_dict: custom_phrase
   db_class: stabledb
   enable_sentence: false
-
-reverse_lookup:
-  dictionary: xkjd6cx
-  comment_format:
-    - xform/^/〔/
-    - xform/$/〕/
-    - xform/ /, /
 
 punctuator:
   import_preset: symbols
@@ -200,7 +219,6 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "[a-z`]*`+[a-z`]*"
     english: "^'[A-Z|a-z]*'?$"
     danzi_lookup: "[a-z`]*`+[a-z`]*"
     punct: "^/([0-9]0?|[a-z]+)$"
