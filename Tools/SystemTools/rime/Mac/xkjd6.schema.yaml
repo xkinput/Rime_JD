@@ -46,8 +46,8 @@ switches:
   - name: danzi_mode
     reset: 0
     states: [ "词组", "单字" ]
-  - name: wxw_hint
-    reset: 1
+  - name: sbb_hint
+    reset: 1 # 改成0默认关闭
     states: [ "关₆₃₀", "开₆₃₀" ]
   - name: sbb_disable_full
     reset: 0 # 改成1默认关闭全码
