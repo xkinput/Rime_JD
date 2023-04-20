@@ -27,6 +27,9 @@ switches:
   - name: wxw_prompt
     reset: 1
     states: [ 630关, 630开 ]
+  - name: sbb_disable_full
+    reset: 0 # 改成1默认关闭全码
+    states: [ "开₆₃₀全码", "关₆₃₀全码" ]
   - name: EN2en
     reset: 1
   - name: topup_hint
