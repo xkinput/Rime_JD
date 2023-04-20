@@ -33,6 +33,7 @@ end
 local function filter(input, env)
     local is_danzi = env.engine.context:get_option('danzi_mode')
     local is_on = env.engine.context:get_option('sbb_hint')
+    local disable_full = env.engine.context:get_option('sbb_disable_full')
     local topup_hint_on = env.engine.context:get_option('topup_hint')
     local first = true
     local input_text = env.engine.context.input
@@ -43,10 +44,13 @@ local function filter(input, env)
         end
         first = false
         if not is_danzi or danzi(cand) then
+            local has_630 = false
             if is_on then
-            hint(cand, env.engine.context, env.reverse)
+                has_630 = hint(cand, env.engine.context, env.reverse)
             end
-            yield(cand)
+            if not has_630 or not disable_full then
+                yield(cand)
+            end
         end
     end
 end
