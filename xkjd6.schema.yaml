@@ -10,6 +10,10 @@ schema:
 
 # Layout config
 layout:
+  topup:
+    topup_this: "bcdefghjklmnpqrstwxyz"
+    topup_with: "avuio;"
+
   algebra:
     - derive/^[bcdefghjklmnpqrstwxyz;]([bcdefghjklmnpqrstwxyz;][avuio].*)$/`$1/
     - derive/^([bcdefghjklmnpqrstwxyz;])[bcdefghjklmnpqrstwxyz;]([avuio].*)$/$1`$2/
@@ -116,6 +120,7 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder
+    - lua_processor@topup_processor
     - speller
     - punctuator
     - selector
@@ -202,7 +207,7 @@ danzi_lookup:
 
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase
+  user_dict: user_dict
   db_class: stabledb
   enable_sentence: false
 
@@ -229,3 +234,11 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
+
+topup:
+  __include: "layout/topup"
+  min_length: 4
+  max_length: 6
+  auto_clear: true
+  min_length_danzi: 2
+  topup_command: true
