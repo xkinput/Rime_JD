@@ -235,7 +235,7 @@ danzi_lookup:
 
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase
+  user_dict: user_dict
   db_class: stabledb
   enable_sentence: false
 
