@@ -9,3 +9,4 @@ install_files: >-
   xkjd6.*.yaml
   lua/*.lua
   opencc/*
+  rime.lua
