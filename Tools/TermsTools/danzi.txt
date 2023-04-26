@@ -2677,6 +2677,7 @@
 双	exaoao
 孀	exauvo
 泷	exav
+灀	exavo
 漺	exavu
 泷	exavua
 漺	exavuo
@@ -2991,10 +2992,9 @@
 蝮	fjiau
 蜉	fjiauo
 蝮	fjiauv
-佛	fjiav
+蝠	fjiav
 佛	fjiava
 幅	fjiavo
-蝠	fjiavo
 罘	fjiavu
 蚨	fjiavv
 芙	fjii
@@ -3107,6 +3107,7 @@
 辐	fjvavo
 覆	fjvi
 甫	fjvia
+巿	fjviai
 甫	fjviav
 敷	fjviu
 覆	fjviuu
@@ -5821,8 +5822,8 @@
 戒	jdvvui
 车	je
 澈	jea
-尺	jeav
 澈	jeaova
+尺	jeav
 尺	jeavuo
 撤	jei
 扯	jeiu
@@ -7004,14 +7005,14 @@
 锩	jtioou
 倦	jtiouv
 捐	jtiuou
-眷	jtou
+眷	jto
+鹃	jtou
 卷	jtouaa
 蠲	jtoui
 眷	jtouia
 蠲	jtouia
 焆	jtouo
 焆	jtouou
-鹃	jtouu
 鹃	jtouua
 桊	jtouv
 桊	jtouvv
@@ -8604,7 +8605,6 @@
 琉	lqvv
 琉	lqvvov
 珋	lqvvu
-珋	lqvvua
 冷	lr
 愣	lro
 愣	lrooia
@@ -9895,6 +9895,8 @@
 馁	nwu
 馁	nwuauo
 娘	nx
+嬢	nxa
+嬢	nxau
 娘	nxauoa
 酿	nxv
 酿	nxvioa
@@ -13270,8 +13272,8 @@
 椆	wdvuav
 车	we
 澈	wea
-尺	weav
 澈	weaova
+尺	weav
 尺	weavuo
 撤	wei
 扯	weiu
@@ -13308,6 +13310,7 @@
 畹	wfiao
 畹	wfiaoo
 蜿	wfiaoo
+蚖	wfiavv
 芄	wfii
 菀	wfiio
 蔓	wfiioi
@@ -15438,9 +15441,8 @@
 鳌	xzvv
 骜	xzvva
 骜	xzvvaa
-鏊	xzvvi
+螯	xzvvi
 嶅	xzvvia
-螯	xzvvia
 鏊	xzvvio
 遨	xzvvo
 遨	xzvvoa
@@ -16566,6 +16568,7 @@
 螈	ytiav
 螈	ytiavu
 园	ytiavv
+蚖	ytiavv
 苑	ytii
 苑	ytiiua
 芫	ytiiv
@@ -16639,6 +16642,7 @@
 妘	ywauv
 妘	ywauvv
 熨	ywav
+㞌	ywavai
 熨	ywavou
 沄	ywavv
 沄	ywavva
