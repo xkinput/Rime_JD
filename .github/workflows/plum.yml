@@ -33,8 +33,7 @@ jobs:
           cp master/rime/opencc/TWVariants.txt ./opencc/
           cp master/rime/opencc/s2tw.json ./opencc/
           cp master/Tools/SystemTools/rime/xkjd6.schema.yaml ./
-          touch rime.lua
-          echo 'date_time_translator = require("date_time")' >> rime.lua
+          echo 'date_time_translator = require("date_time")' > rime.lua
           echo 'xkjd6_filter = require("xkjd6_filter")' >> rime.lua
           echo 'topup_processor = require("for_topup")' >> rime.lua
 
