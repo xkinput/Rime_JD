@@ -1846,7 +1846,6 @@ sort: original
 百草	bhcz
 不会的	bhd
 白对	bhdb
-白都	bhdd
 变化多端	bhddo
 白的	bhde
 败得	bhdea
@@ -1857,6 +1856,7 @@ sort: original
 百度	bhdj
 拜读	bhdji
 摆渡	bhdjia
+白都	bhdju
 百毒	bhdjv
 白底	bhdk
 百多	bhdl
@@ -10462,7 +10462,6 @@ sort: original
 都老	ddlz
 大动脉	ddm
 豆苗	ddmc
-都某	ddmd
 兜鍪	ddmdu
 达到目的	ddmdv
 都目	ddmj
@@ -12398,6 +12397,7 @@ sort: original
 赌民	djmb
 独苗	djmc
 杜某	djmd
+都某	djmdu
 赌命	djmg
 读卖	djmh
 独木	djmj
@@ -12615,7 +12615,6 @@ sort: original
 地槽	dkcz
 敌对	dkdb
 低调	dkdc
-帝都	dkdd
 地的	dkde
 底单	dkdf
 抵顶	dkdg
@@ -12623,6 +12622,7 @@ sort: original
 地带	dkdh
 大开大合	dkdhv
 低度	dkdj
+帝都	dkdjo
 弟弟	dkdk
 滴滴	dkdka
 低低	dkdki
@@ -24712,7 +24712,6 @@ sort: original
 这节	fejdo
 这车	feje
 俯拾皆是	fejei
-着车	fejeo
 转瞬即逝	fejev
 知识结构	fejg
 中世纪	feji
@@ -24791,7 +24790,6 @@ sort: original
 这面	femm
 这门	femn
 这说明	femo
-着忙	femp
 遮蒙	femr
 朝生暮死	fems
 知识面	femu
@@ -24884,7 +24882,6 @@ sort: original
 遮丑	fewd
 这是我的	fewdo
 这车	fewe
-着车	feweo
 折弯	fewf
 这碗	fewfo
 这山望着那山高	fewg
@@ -30171,7 +30168,6 @@ sort: original
 转鼓	ftgj
 转股	ftgjv
 转过	ftgl
-传过	ftgli
 只提供	ftgo
 转岗	ftgp
 债台高筑	ftgq
@@ -32051,6 +32047,7 @@ sort: original
 照进	fzjbo
 赵姐	fzjd
 照彻	fzje
+着车	fzjeo
 找经	fzjg
 奉子成婚	fzjh
 找出	fzjj
@@ -32129,6 +32126,7 @@ sort: original
 照面	fzmm
 找门	fzmn
 罩门	fzmni
+着忙	fzmp
 找嘛	fzms
 找没	fzmw
 找虐	fznh
@@ -32200,6 +32198,7 @@ sort: original
 指责为	fzw
 找抽	fzwd
 照彻	fzwe
+着车	fzweo
 找踹	fzwg
 昭武	fzwj
 照吃	fzwk
@@ -53392,13 +53391,13 @@ sort: original
 春草	jwcz
 经纬度	jwd
 军队	jwdb
-春都	jwdd
 坚持到底	jwddi
 春的	jwde
 君德	jwdea
 蠢蛋	jwdf
 纯顶	jwdg
 纯度	jwdj
+春都	jwdjv
 军地	jwdk
 久闻大名	jwdm
 交叉点	jwdo
@@ -60691,7 +60690,6 @@ sort: original
 里看到	lkd
 离队	lkdb
 丽调	lkdc
-丽都	lkdd
 离跌	lkddo
 里的	lkde
 离得	lkdeo
@@ -60701,6 +60699,7 @@ sort: original
 历代	lkdh
 力度	lkdj
 粒度	lkdjo
+丽都	lkdjv
 离地	lkdk
 里地	lkdki
 立地	lkdko
@@ -76374,7 +76373,6 @@ sort: original
 全世界的	qejdi
 这节	qejdo
 这车	qeje
-着车	qejeo
 前世今生	qejeov
 其实就是	qejev
 这出	qejj
@@ -76441,7 +76439,6 @@ sort: original
 这面	qemm
 这门	qemn
 这上面	qemo
-着忙	qemp
 掌上明珠	qemq
 遮蒙	qemr
 朝生暮死	qems
@@ -76536,7 +76533,6 @@ sort: original
 这是我的	qewdo
 求师问道	qewdv
 这车	qewe
-着车	qeweo
 千山万水	qeweu
 折弯	qewf
 这碗	qewfo
@@ -83018,6 +83014,7 @@ sort: original
 照进	qzjbo
 赵姐	qzjd
 照彻	qzje
+着车	qzjeo
 找经	qzjg
 找出	qzjj
 照出	qzjjo
@@ -83086,6 +83083,7 @@ sort: original
 照面	qzmm
 找门	qzmn
 罩门	qzmni
+着忙	qzmp
 找嘛	qzms
 找没	qzmw
 欠阻尼	qzn
@@ -83149,6 +83147,7 @@ sort: original
 千字文	qzw
 找抽	qzwd
 照彻	qzwe
+着车	qzweo
 找踹	qzwg
 昭武	qzwj
 照吃	qzwk
@@ -98472,6 +98471,7 @@ sort: original
 传感	wtgf
 串改	wtgh
 穿过	wtgl
+传过	wtgli
 传统观念	wtgn
 传观	wtgt
 传给	wtgw
@@ -98709,7 +98709,6 @@ sort: original
 无谓的	wwd
 卫队	wwdb
 微雕	wwdc
-为都	wwdd
 微跌	wwddu
 彻彻底底	wwdduu
 为的	wwde
@@ -98727,6 +98726,7 @@ sort: original
 纬度	wwdjao
 围堵	wwdji
 惟独	wwdjo
+为都	wwdjou
 未读	wwdjv
 为敌	wwdk
 为多	wwdl
