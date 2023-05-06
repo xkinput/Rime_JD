@@ -1,5 +1,4 @@
 BIANGBIANG	biangbiang
-WIFI	wifi
 EMMMMMMM	emmmmmmm
 ENNNN	ennnn
 EXCEL	excel
