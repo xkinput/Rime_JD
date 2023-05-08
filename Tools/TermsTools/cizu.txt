@@ -53387,6 +53387,7 @@
 经纬度	jwd
 军队	jwdb
 坚持到底	jwdd
+彻彻底底	jwddu
 春的	jwde
 君德	jwdea
 蠢蛋	jwdf
@@ -95539,6 +95540,7 @@
 无调	wjdc
 无精打采	wjdcv
 武斗	wjdd
+彻彻底底	wjddu
 武德	wjde
 误担	wjdf
 屋顶	wjdg
