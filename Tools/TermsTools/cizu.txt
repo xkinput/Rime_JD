@@ -40270,7 +40270,7 @@
 回归祖国	hgzg
 坏字	hgzk
 悔过自新	hgzx
-汉化版	hhba
+汉化版	hhb
 海滨	hhbb
 后悔不迭	hhbd
 好坏不分	hhbf
