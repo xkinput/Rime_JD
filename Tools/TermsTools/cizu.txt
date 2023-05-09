@@ -39208,7 +39208,7 @@
 厚望	hdwp
 猴王	hdwpu
 后查	hdws
-回答问题	hdwti
+回答问题	hdwt
 很多问题	hdwtu
 后卫	hdww
 后窗	hdwx
@@ -113318,7 +113318,7 @@
 一死	ykskvv
 一所	yksl
 一蓑	ykslv
-乙酸	yksta
+乙酸	ykst
 一酸	ykstv
 移送	yksy
 一扫	yksz
@@ -113558,7 +113558,7 @@
 异样	ykypa
 抑扬	ykypi
 益阳	ykypo
-弋阳	ykypva
+弋阳	ykypv
 医养	ykypvo
 咿呀	ykys
 医院	ykyt
