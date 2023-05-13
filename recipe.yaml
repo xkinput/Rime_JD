@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: xkjd6
+  description: >-
+    星空键道6是星空系列输入法中的一款音形码中文输入法方案，「Rime键道」是该方案借助RIME开源输入平台的实现。
+
+install_files: >-
+  xkjd6.*.yaml
+  lua/*.lua
+  opencc/*
+  rime.lua
