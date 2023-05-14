@@ -30,7 +30,7 @@ jobs:
           done
           rm xkjd6.extended.dict.yaml xkjd6.wxwdanzi.dict.yaml
 
-      - name: Copy files
+      - name: Copy files and remove
         run: |
           cp master/rime/xkjd6.*.yaml ./
           cp master/rime/lua/date_time.lua ./lua/
@@ -46,6 +46,7 @@ jobs:
           echo 'date_time_translator = require("date_time")' > rime.lua
           echo 'xkjd6_filter = require("xkjd6_filter")' >> rime.lua
           echo 'topup_processor = require("for_topup")' >> rime.lua
+          rm -rf master
 
       - name: Commit and push
         run: |
