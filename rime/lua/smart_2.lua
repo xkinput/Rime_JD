@@ -1,4 +1,7 @@
 local KEY = "apostrophe"
+local kRejected = 0 -- do the OS default processing
+local kAccepted = 1 -- consume it
+local kNoop     = 2 -- leave it to other processors
 
 local function processor(key_event, env)
     local engine = env.engine
@@ -6,12 +9,12 @@ local function processor(key_event, env)
     local context = engine.context
 
     if key_event:release() or key_event:repr() ~= KEY then
-        return 2
+        return kNoop
     end
 
     if context:select(1) then
         context:commit()
-        return 1
+        return kAccepted
     end
 
     if not env.engine.context:get_selected_candidate() then
@@ -19,7 +22,7 @@ local function processor(key_event, env)
     else
         context:commit()
     end
-    return 2
+    return kAccepted
 end
 
 return { func = processor }
