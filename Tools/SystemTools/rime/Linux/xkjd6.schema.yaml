@@ -139,6 +139,7 @@ engine:
     - table_translator
     - history_translator@repeat_history
     - lua_translator@date_time_translator
+    - lua_translator@number_translator
   filters:
     - simplifier
     - uniquifier

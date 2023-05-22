@@ -27,6 +27,7 @@ jobs:
           cp master/rime/lua/xkjd6_filter.lua ./lua/
           cp master/rime/lua/for_topup.lua ./lua/
           cp master/rime/lua/smart_2.lua ./lua/
+          cp master/rime/lua/xnumber.lua ./lua/
           cp master/rime/opencc/EN* ./opencc/
           cp master/rime/opencc/emoji*.json ./opencc/
           cp master/rime/opencc/emoji*.ocd ./opencc/
@@ -38,6 +39,7 @@ jobs:
           echo 'xkjd6_filter = require("xkjd6_filter")' >> rime.lua
           echo 'topup_processor = require("for_topup")' >> rime.lua
           echo 'smart_2 = require("smart_2")' >> rime.lua
+          echo 'number_translator = require("xnumber")' >> rime.lua
 
       - name: Remove redundancy files
         run: |
