@@ -3060,7 +3060,6 @@
 府	fjoviv
 呋	fjovv
 呋	fjovvu
-呒	fjovvu
 复	fju
 负	fjua
 负	fjuaao
@@ -5128,6 +5127,8 @@
 慌	hmooii
 恍	hmooio
 惶	hmooui
+噷	hmoov
+噷	hmoovo
 煌	hmou
 喤	hmoui
 喤	hmouia
@@ -9109,8 +9110,6 @@
 拇	mjiuaa
 仫	mjiuao
 亩	mjo
-呣	mjoa
-呣	mjoaao
 𧿹	mjoi
 𧿹	mjoiaa
 亩	mjovia
@@ -13448,7 +13447,6 @@
 庑	wjovv
 痦	wjovvi
 吴	wjovvu
-呒	wjovvu
 庑	wjovvv
 物	wju
 务	wjua
@@ -14977,6 +14975,7 @@
 诜	xmoa
 禒	xmoaa
 禒	xmoaaa
+呣	xmoaao
 诜	xmoauv
 祆	xmoav
 祆	xmoavv
@@ -15005,6 +15004,8 @@
 痫	xmovoi
 冼	xmovu
 冼	xmovuv
+呒	xmovv
+呒	xmovvu
 鲜	xmu
 馅	xmua
 猃	xmuai
