@@ -121,6 +121,7 @@ engine:
     - recognizer
     - key_binder
     - lua_processor@topup_processor
+    - lua_processor@smart_2
     - speller
     - punctuator
     - selector
