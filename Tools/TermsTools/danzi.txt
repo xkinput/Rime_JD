@@ -6190,8 +6190,8 @@
 际	jkai
 瀱	jkaia
 瀱	jkaiai
-亟	jkaii
-亟	jkaiia
+亟	jkaio
+亟	jkaioa
 际	jkaivv
 济	jkao
 鸡	jkaou
@@ -11028,7 +11028,7 @@
 绮	qkaavu
 骑	qkaavu
 亟	qkai
-亟	qkaiia
+亟	qkaioa
 泣	qkao
 泣	qkaovo
 汔	qkau
