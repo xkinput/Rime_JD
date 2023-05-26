@@ -121,6 +121,7 @@ engine:
     - recognizer
     - key_binder
     - lua_processor@topup_processor
+    - lua_processor@smart_2
     - speller
     - punctuator
     - selector
@@ -138,6 +139,7 @@ engine:
     - table_translator
     - history_translator@repeat_history
     - lua_translator@date_time_translator
+    - lua_translator@number_translator
   filters:
     - simplifier
     - uniquifier
