@@ -21,19 +21,16 @@ testHasSchema(){
   case $check_dir in
     "Rime_JD")
       xk_ID="xkjd6"
-      xk_dzID="xkjd6dz"
       xk_name="键道6"
       xk_path=$xkjd
       ;;
     "rime_xklb")
       xk_ID="xklb"
-      xk_dzID="xklbdz"
       xk_name="两笔"
       xk_path=$xklb
       ;;
     "rime_xkyb")
       xk_ID="xkyb"
-      xk_dzID="xkybdz"
       xk_name="一笔"
       xk_path=$xkyb
       ;;
@@ -43,17 +40,9 @@ testHasSchema(){
     echo "检测是否配置「 $xk_name 」方案: "
     if [ -f "$rime/$my_default" ]; then
         xk_is_ID=$(grep "^[^#]*schema: $xk_ID$" $rime/$my_default)
-        xk_is_dzID=$(grep "^[^#]*schema: $xk_dzID" $rime/$my_default)
-	if [[ -z $xk_is_ID ]] && [[ -z $xk_is_dzID ]]; then
+	if [[ -z $xk_is_ID ]]; then
             sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
-            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
             echo -e "添加$xk_name方案到 $my_default ..................完成"
-	elif [[ -z $xk_is_ID ]] && [[ -n $xk_is_dzID ]]; then
-            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_ID"'/g' $rime/$my_default
-            echo -e "添加$xk_name主方案到 $my_default ................完成"
-	elif [[ -n $xk_is_ID ]] && [[ -z $xk_is_dzID ]]; then
-            sed -i '' -E $'/schema_list:/s/$/\\\n    - schema: '"$xk_dzID"'/g' $rime/$my_default
-            echo -e "添加$xk_name单字方案到 $my_default ..............完成"
 	else
             echo -e "已设置$xk_name"
 	fi
