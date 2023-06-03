@@ -1,4 +1,4 @@
-﻿# Rime schema settings
+# Rime schema settings
 # encoding: utf-8
 
 schema:
@@ -160,7 +160,6 @@ engine:
     - uniquifier
     - simplifier@emoji_cn
     - simplifier@jffh
-    - simplifier@bmms
     - simplifier@EN2en
     # - lua_filter@hint_filter
     - lua_filter@xkjd6_filter
@@ -208,15 +207,6 @@ EN2en:
   opencc_config: EN2en.json
   option_name: EN2en
 
-
-bmms:
-  opencc_config: pinyin.json
-  option_name: bmms
-  show_in_comment: true
-  comment_format:
-    - xform/'/ /
-
-
 danzi_lookup:
   dictionary: xkjd6.extended
   tags: [ danzi_lookup ]
@@ -255,7 +245,6 @@ key_binder:
     - { when: always, accept: F7, toggle: jffh }
     # - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
-    - { when: has_menu, accept: "^", toggle: bmms}
 
 
 recognizer:

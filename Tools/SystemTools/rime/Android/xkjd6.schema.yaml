@@ -166,7 +166,6 @@ engine:
     - uniquifier
     - simplifier@emoji_cn
     - simplifier@simplification
-    - simplifier@bmms
     - simplifier@EN2en
     - lua_filter@xkjd6_filter
     - reverse_lookup_filter@danzi_lookup
@@ -212,15 +211,6 @@ simplification:
   opencc_config: s2tw.json
   option_name: simplification
 
-
-bmms:
-  opencc_config: pinyin.json
-  option_name: bmms
-  show_in_comment: true
-  comment_format:
-    - xform/'/ /
-
-
 custom_phrase:
   dictionary: ""
   user_dict: user_dict
@@ -251,7 +241,6 @@ key_binder:
     - {accept: equal, send: Page_Down, when: has_menu}
     # - { when: has_menu, accept: "'", send: 2 }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
-    - { when: has_menu, accept: "^", toggle: bmms}
 
 
 recognizer:
