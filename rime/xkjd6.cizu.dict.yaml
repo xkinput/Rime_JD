@@ -3811,7 +3811,7 @@ sort: original
 拨火	blhl
 波痕	blhn
 擘画	blhq
-擘划	blhqv
+擘划	blhqa
 白莲花	blhu
 百老汇	blhv
 波黑	blhw
@@ -7837,7 +7837,7 @@ sort: original
 才按	chxf
 才行	chxg
 才学	chxh
-采血	chxhv
+采血	chxhu
 采耳	chxj
 猜贰	chxju
 菜系	chxk
@@ -9629,7 +9629,7 @@ sort: original
 对答	dbds
 对打	dbdsa
 得不到	dbdu
-都不对	dbduo
+都不对	dbduv
 大部队	dbdv
 大笨蛋	dbdvu
 动不动	dbdvv
@@ -10095,7 +10095,7 @@ sort: original
 调入	dcrj
 掉入	dcrji
 调任	dcrn
-鸟人	dcrna
+鸟人	dcrnu
 掉色	dcse
 雕塑	dcsj
 屌丝	dcsk
@@ -10436,6 +10436,7 @@ sort: original
 都将	ddjxu
 得道成仙	ddjxuo
 都超	ddjz
+打底裤	ddk
 豆蔻	ddkd
 斗口	ddkdo
 都扣	ddkdu
@@ -10447,7 +10448,6 @@ sort: original
 大刀阔斧	ddkfv
 都快	ddkg
 都开	ddkh
-打底裤	ddki
 都哭	ddkj
 都扩	ddkl
 斗筐	ddkm
@@ -10462,7 +10462,7 @@ sort: original
 党的领导	ddldi
 跌了	ddle
 逗乐	ddlev
-叠岭	ddlga
+叠岭	ddlg
 都来	ddlh
 兜里	ddlk
 斗笠	ddlko
@@ -10637,6 +10637,7 @@ sort: original
 当代文学	ddwx
 都冲	ddwy
 都超	ddwz
+多段线	ddx
 逗笑	ddxc
 东躲西藏	ddxcv
 斗殴	ddxd
@@ -10654,7 +10655,6 @@ sort: original
 都吓	ddxs
 跌下	ddxso
 都选	ddxt
-多段线	ddxu
 谍讯	ddxw
 代代相传	ddxwi
 断点续传	ddxwo
@@ -10694,7 +10694,7 @@ sort: original
 豆秧	ddyp
 倒打一耙	ddypi
 豆芽	ddys
-叠压	ddysv
+叠压	ddysa
 都愿	ddyt
 叠韵	ddyw
 淡淡一笑	ddyx
@@ -14203,11 +14203,11 @@ sort: original
 丢路	dqlj
 丢脸	dqlm
 大招流	dqlv
+地球梦	dqm
 丢命	dqmg
 丢面	dqmm
 打情骂俏	dqmq
 丢码	dqms
-地球梦	dqmv
 短期内	dqn
 当权派	dqp
 大气磅礴	dqpb
@@ -16697,6 +16697,7 @@ sort: original
 悼痛	dzty
 道统	dztyo
 导套	dztz
+大哉问	dzw
 倒垂	dzwb
 倒抽	dzwd
 倒车	dzwe
@@ -16713,7 +16714,6 @@ sort: original
 倒茶	dzwsi
 倒插	dzwsii
 倒查	dzwsiv
-大哉问	dzwv
 到位	dzww
 道床	dzwx
 电子学	dzx
@@ -20596,7 +20596,7 @@ sort: original
 试压	ekysov
 石崖	ekysv
 十元	ekyt
-师院	ekytu
+师院	ekyti
 诗云	ekyw
 时运	ekywo
 深刻印象	ekyx
@@ -22809,6 +22809,7 @@ sort: original
 沙坑	eskr
 砂矿	eskx
 杀空	esky
+神速力	esl
 沙林	eslb
 沙漏	esld
 傻了	esle
@@ -22821,7 +22822,6 @@ sort: original
 莎莉	eslki
 砂粒	eslkv
 砂砾	eslkvv
-神速力	eslo
 沙琅	eslp
 沙柳	eslq
 沙拉	esls
@@ -29729,12 +29729,12 @@ sort: original
 眨动	fsdyi
 发到	fsdz
 铡刀	fsdzi
+付丧神	fse
 发水	fseb
 发售	fsed
 扎手	fsedi
 发射	fsee
 伐善	fsef
-付丧神	fsei
 法术	fsej
 发书	fseja
 发梳	fsejav
@@ -35389,9 +35389,9 @@ sort: original
 过早	glzz
 锅灶	glzzi
 聒噪	glzzv
+搞明白	gmb
 光标	gmbc
 光斑	gmbf
-搞明白	gmbi
 广捕	gmbj
 光笔	gmbk
 广播	gmbl
@@ -35940,6 +35940,7 @@ sort: original
 刚夸	gpkq
 刚卡	gpks
 刚考	gpkz
+钢普拉	gpl
 刚烈	gpld
 刚露	gpldi
 肛裂	gpldu
@@ -35947,7 +35948,6 @@ sort: original
 纲领	gplg
 杠铃	gplgv
 刚来	gplh
-钢普拉	gpli
 缸里	gplk
 刚落	gpll
 刚绿	gplli
@@ -37023,7 +37023,7 @@ sort: original
 更为重要的	gwfdv
 滚着	gwfe
 滚翻	gwff
-衮服	gwfjo
+衮服	gwfj
 给分	gwfn
 滚轧	gwfs
 棍法	gwfsv
@@ -42881,7 +42881,7 @@ sort: original
 桁架	hrjsv
 恒春	hrjw
 横江	hrjx
-好人卡	hrka
+好人卡	hrk
 恒口	hrkd
 亨克	hrke
 横看	hrkf
@@ -47018,12 +47018,12 @@ sort: original
 撤军	jejw
 车匠	jejx
 积水成渊	jejy
+紧身裤	jek
 车口	jekd
 触手可得	jekdu
 车壳	jeke
 技术开发	jekf
 扯开	jekh
-紧身裤	jeki
 车库	jekj
 触手可及	jekju
 车况	jekm
@@ -57750,11 +57750,11 @@ sort: original
 开拓进取	ktjq
 宽城	ktjr
 宽假	ktjs
+阔腿裤	ktk
 宽口	ktkd
 款坎	ktkf
 宽阔	ktkl
 宽旷	ktkm
-阔腿裤	ktko
 款款	ktkt
 宽旷	ktkx
 开通了	ktl
@@ -63428,7 +63428,7 @@ sort: original
 累坏	lwhg
 雷害	lwhh
 了无痕迹	lwhj
-类乎	lwhja
+类乎	lwhjo
 列文虎克	lwhk
 累活	lwhl
 泪痕	lwhn
@@ -64318,6 +64318,7 @@ sort: original
 龙娃	lyws
 陇川	lywt
 龙床	lywx
+另一些	lyx
 龙芯	lyxb
 冷眼相待	lyxd
 流于形式	lyxe
@@ -64332,8 +64333,7 @@ sort: original
 龙须	lyxl
 旅游线路	lyxlo
 隆恩	lyxn
-另一些	lyxo
-旅游鞋	lyxoa
+旅游鞋	lyxo
 刘禹锡	lyxou
 另一些人	lyxr
 龙虾	lyxs
@@ -64835,7 +64835,7 @@ sort: original
 买不了	mbla
 民不聊生	mble
 穆巴拉克	mblk
-明白了	mblou
+明白了	mblo
 毛玻璃	mblu
 木菠萝	mblv
 忙不忙	mbm
@@ -67079,8 +67079,8 @@ sort: original
 末尾	mlww
 末位	mlwwv
 磨床	mlwx
-没良心	mlxa
-马力欧	mlxaa
+没良心	mlx
+马力欧	mlxa
 马里奥	mlxai
 没联系	mlxav
 莫信	mlxb
@@ -67888,6 +67888,7 @@ sort: original
 猛攻	mrgy
 美如冠玉	mrgyo
 面如冠玉	mrgyv
+美如画	mrh
 梦回	mrhb
 猛吼	mrhd
 猛喝	mrhe
@@ -67896,7 +67897,6 @@ sort: original
 明日黄花	mrhh
 猛虎	mrhj
 猛火	mrhl
-美如画	mrho
 梦话	mrhq
 萌化	mrhqi
 梦幻	mrht
@@ -71977,7 +71977,7 @@ sort: original
 内双	nwem
 内审	nwen
 内伤	nwep
-内生	nweri
+内生	nwer
 鸟为食亡	nwew
 内双	nwex
 内犯	nwff
@@ -72999,11 +72999,11 @@ sort: original
 彭德怀	pdh
 平等互利	pdhl
 撇号	pdhz
+盆底肌	pdj
 剖解	pdjd
 裒辑	pdjk
 瞥见	pdjm
 庖丁解牛	pdjn
-盆底肌	pdju
 跑得快	pdk
 剖开	pdkh
 撇开	pdkhi
@@ -76304,10 +76304,10 @@ sort: original
 怯懦	qdnl
 齐达内	qdno
 且能	qdnr
+启动盘	qdp
 切盼	qdpf
 切迫	qdpl
 切片	qdpm
-启动盘	qdpo
 瞧得起	qdq
 驱动器	qdqa
 张大千	qdqav
@@ -77955,7 +77955,7 @@ sort: original
 摘至	qhfki
 却只	qhfkv
 缺乏	qhfs
-甄嬛传	qhfva
+甄嬛传	qhfv
 却非	qhfw
 宅中	qhfy
 诸侯国	qhg
@@ -80583,6 +80583,7 @@ sort: original
 真人	qnrn
 真让	qnrp
 阵容	qnry
+乔纳森	qns
 震碎	qnsb
 真髓	qnsbu
 震散	qnsf
@@ -80591,7 +80592,6 @@ sort: original
 真丝	qnsk
 诊所	qnsl
 真嗓	qnsp
-乔纳森	qnsu
 真损	qnsw
 真松	qnsy
 真怂	qnsyu
@@ -80891,13 +80891,13 @@ sort: original
 张三	qpsf
 长孙	qpsw
 章颂	qpsy
+全平台	qpt
 张贴	qptd
 账头	qptda
 涨滩	qptf
 涨停	qptg
 掌厅	qptgi
 章台	qpth
-全平台	qpti
 全盘托出	qptj
 掌天	qptm
 胀痛	qpty
@@ -83113,7 +83113,7 @@ sort: original
 照搬	qzbfo
 招兵	qzbg
 诸子百家	qzbj
-找补	qzbjv
+找补	qzbji
 照壁	qzbk
 兆波	qzbl
 找遍	qzbm
@@ -85429,7 +85429,7 @@ sort: original
 润色	rwse
 人文素质	rwsf
 润丝	rwsk
-绕弯弯	rwwa
+绕弯弯	rww
 人无完人	rwwr
 闰位	rwww
 人亡物在	rwwz
@@ -86513,8 +86513,7 @@ sort: original
 三涂	sftj
 散图	sftjv
 三体	sftk
-三提	sftki
-三体	sftkv
+三提	sftkv
 三脱	sftl
 三天	sftm
 送分题	sfto
@@ -87888,8 +87887,8 @@ sort: original
 桑植	spfk
 丧钟	spfy
 桑果	spgl
+碎片化	sph
 桑海	sphh
-碎片化	sphv
 丧尽	spjb
 桑基	spjk
 桑间	spjm
@@ -88147,11 +88146,11 @@ sort: original
 算过	stgl
 酸根	stgn
 算卦	stgq
+三途河	sth
 算活	sthl
 蒜黄	sthm
 算话	sthq
 酸化	sthqv
-三途河	sthv
 蒜黄	sthx
 算好	sthz
 四头肌	stj
@@ -93288,11 +93287,11 @@ sort: original
 托儿所	txs
 托尔斯泰	txst
 忒修斯之船	txsw
+条形图	txt
 同心同德	txtd
 掏心掏肺	txtf
 塔西佗陷阱	txtj
 天下太平	txtp
-条形图	txtu
 他希望	txw
 通信网	txwa
 通讯网	txwao
@@ -93845,7 +93844,7 @@ sort: original
 天字第一号	tzdh
 陶都	tzdj
 陶笛	tzdk
-掏底	tzdka
+掏底	tzdki
 讨打	tzds
 套打	tzdsv
 逃遁	tzdw
@@ -101475,7 +101474,7 @@ sort: original
 小矿	xckm
 小康	xckp
 校卡	xcks
-小卡	xcksv
+小卡	xcksi
 小款	xckt
 小捆	xckw
 小矿	xckx
@@ -106315,7 +106314,7 @@ sort: original
 嬉皮笑脸	xpxl
 阿普西龙	xpxla
 嘻皮笑脸	xpxlo
-厄普西隆	xpxlvo
+厄普西隆	xpxlv
 昂昂	xpxp
 小朋友	xpy
 小便宜	xpyi
@@ -115604,6 +115603,7 @@ sort: original
 睚眦	yszki
 雅座	yszl
 有所作为	yszw
+腰臀比	ytb
 原表	ytbc
 远别	ytbd
 原版	ytbf
@@ -115616,7 +115616,6 @@ sort: original
 原本	ytbn
 圆棒	ytbp
 一天比一天	ytbt
-腰臀比	ytbu
 云同步	ytbv
 原被	ytbw
 有条不紊	ytbwv
