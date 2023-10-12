@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hub Mirror Action.
-        uses: Yikun/hub-mirror-action@v1.2
+        uses: Yikun/hub-mirror-action@master
         with:
           src: github/xkinput
           dst: gitee/xkinput
