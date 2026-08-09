@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: keytao.phrase
-version: "2026.08.02"
+version: "2026.08.09"
 sort: by_weight
 columns:
   - text
@@ -1921,6 +1921,7 @@ columns:
 白薯	bheju	100
 白鼠	bhejuu	100
 拜师	bhek	100
+白事	bheku	100
 百十	bhekv	100
 百试	bhekvo	100
 百事	bhekvv	100
@@ -5990,6 +5991,7 @@ columns:
 北湾	bwwf	100
 北外	bwwh	100
 北屋	bwwj	100
+霸王茶姬	bwwjv	100
 被吃	bwwk	100
 被我	bwwl	100
 被窝	bwwlo	100
@@ -6321,6 +6323,7 @@ columns:
 不用急	byjvu	100
 不要接	byjvv	100
 不遗巨细	byjx	100
+伯牙绝弦	byjxi	100
 不愉快	byk	100
 不用客气	bykq	100
 不要脸	byl	100
@@ -18075,6 +18078,7 @@ columns:
 舍此	eeck	100
 摄氏度	eed	100
 深深地	eeda	100
+双声道	eedav	100
 社队	eedb	100
 束手待毙	eedbv	100
 射雕	eedc	100
@@ -18134,6 +18138,7 @@ columns:
 杀身之祸	eefh	100
 慑服	eefj	100
 傻傻分不清楚	eefji	100
+射覆	eefju	100
 设置	eefk	100
 摄制	eefki	100
 闪闪发亮	eefl	100
@@ -26796,6 +26801,7 @@ columns:
 副局长	fjqv	100
 副处长	fjqvu	100
 副厂长	fjqvv	100
+覆准	fjqw	100
 富强	fjqx	100
 腹腔	fjqxu	100
 封建主义	fjqy	100
@@ -26886,6 +26892,7 @@ columns:
 复查	fjws	100
 茯茶	fjwsi	100
 福娃	fjwso	100
+覆查	fjwsv	100
 浮船	fjwt	100
 复位	fjww	100
 抚慰	fjwwi	100
@@ -40434,6 +40441,7 @@ columns:
 汗珠	hfqj	100
 寒气	hfqk	100
 火中取栗	hfql	100
+喊去	hfqlo	100
 涵箴	hfqn	100
 寒秋	hfqq	100
 花枝招展	hfqqi	100
@@ -63498,6 +63506,7 @@ columns:
 拉抬	lsth	100
 莱索托	lsti	100
 拉图	lstj	100
+磷酸铁锂	lstl	100
 邋遢	lsts	100
 罗森塔尔	lstx	100
 拉套	lstz	100
@@ -66691,6 +66700,7 @@ columns:
 幕宾	mjbb	100
 目标	mjbc	100
 木板	mjbf	100
+母版	mjbfa	100
 模板	mjbfv	100
 募兵	mjbg	100
 幕布	mjbj	100
@@ -69922,6 +69932,7 @@ columns:
 猫熊	mzxy	100
 满足于	mzy	100
 毛蚴	mzyd	100
+猫又	mzydu	100
 名噪一时	mzye	100
 冒烟	mzyf	100
 帽沿	mzyfi	100
@@ -73689,6 +73700,7 @@ columns:
 牌照费	pff	100
 品种繁多	pffd	100
 盼着	pffe	100
+攀着	pffev	100
 颇费周折	pfff	100
 攀摘	pffh	100
 攀附	pffj	100
@@ -87949,6 +87961,7 @@ columns:
 四郎	sklp	100
 四六	sklq	100
 死啦	skls	100
+撕拉	sklsi	100
 四轮	sklw	100
 四类	sklwi	100
 思量	sklx	100
@@ -89214,6 +89227,7 @@ columns:
 松一口气	sykqv	100
 三阳开泰	sykt	100
 送空	syky	100
+三元锂	syl	100
 松林	sylb	100
 送了	syle	100
 怂了	sylei	100
@@ -90400,6 +90414,7 @@ columns:
 铁叉	tdws	100
 投传	tdwt	100
 铁船	tdwti	100
+透传	tdwtu	100
 头尾	tdww	100
 投喂	tdwwi	100
 天地万物	tdwwv	100
@@ -93253,6 +93268,7 @@ columns:
 太平洋	tpy	100
 唐寅	tpyb	100
 倘有	tpyd	100
+糖油	tpydo	100
 糖业	tpye	100
 天蓬元帅	tpyev	100
 太平要术	tpyevv	100
@@ -97534,7 +97550,8 @@ columns:
 痴爱	wkxho	100
 齿儿	wkxj	100
 冲口而出	wkxjo	100
-赤溪	wkxk	100
+吃席	wkxk	100
+赤溪	wkxkv	100
 持续	wkxl	100
 无可限量	wkxlv	100
 赤县	wkxm	100
@@ -102630,6 +102647,7 @@ columns:
 写本	xdbn	100
 兄弟般	xdbo	100
 鞋帮	xdbp	100
+蟹棒	xdbpu	100
 谢巴	xdbs	100
 欧巴	xdbsv	100
 爱丁堡	xdbu	100
@@ -108494,6 +108512,7 @@ columns:
 学无止境	xwfjo	100
 殉职	xwfk	100
 寻址	xwfka	100
+窨制	xwfko	100
 宣传周	xwfo	100
 辛烷值	xwfoo	100
 寻访	xwfp	100
@@ -108664,6 +108683,7 @@ columns:
 寻网	xwwp	100
 巡查	xwws	100
 巡察	xwwsa	100
+窨茶	xwwso	100
 下午茶	xwwv	100
 二重性	xwx	100
 寻衅	xwxb	100
@@ -114821,6 +114841,7 @@ columns:
 鱼标	ylbc	100
 鱼鳖	ylbd	100
 玉版	ylbf	100
+预拌	ylbfa	100
 语病	ylbg	100
 余利宝	ylbi	100
 预补	ylbj	100
@@ -115041,6 +115062,7 @@ columns:
 羽化	ylhq	100
 玉环	ylht	100
 郁黑	ylhw	100
+预混	ylhwa	100
 玉皇	ylhx	100
 雨洪	ylhy	100
 鱼龙混杂	ylhz	100
@@ -120132,6 +120154,7 @@ columns:
 足月	zjyho	100
 早就已经	zjyj	100
 足以	zjyk	100
+阻抑	zjyka	100
 足矣	zjyko	100
 族裔	zjykoo	100
 足浴	zjyl	100
