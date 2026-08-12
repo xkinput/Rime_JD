@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: keytao.phrase
-version: "2026.08.09"
+version: "2026.08.12"
 sort: by_weight
 columns:
   - text
@@ -95,6 +95,7 @@ columns:
 比比皆是	bbjev	100
 本报记者	bbjf	100
 标本兼治	bbjfv	100
+钵钵鸡	bbji	100
 摈除	bbjj	100
 并不仅仅	bbjjo	100
 变本加厉	bbjl	100
@@ -1488,6 +1489,7 @@ columns:
 病上	bgepo	100
 不甘示弱	bger	100
 兵贵神速	bges	100
+冰沙	bgeso	100
 不过是	bgev	100
 不光是	bgevi	100
 不管是	bgevu	100
@@ -1601,6 +1603,7 @@ columns:
 病菌	bgjw	100
 丙醇	bgjwv	100
 并将	bgjx	100
+冰浆	bgjxo	100
 宝贵经验	bgjy	100
 冰超	bgjz	100
 不挂科	bgk	100
@@ -4987,6 +4990,7 @@ columns:
 标准间	bqjvoo	100
 不正常	bqjvv	100
 补助款	bqk	100
+标准库	bqkv	100
 冰淇淋	bql	100
 鼻青脸肿	bqlf	100
 比起来	bqlv	100
@@ -13493,6 +13497,7 @@ columns:
 多人	dlrn	100
 躲让	dlrp	100
 大陆人	dlrv	100
+大六壬	dlrvo	100
 杜蕾斯	dls	100
 多岁	dlsb	100
 多色	dlse	100
@@ -16156,6 +16161,7 @@ columns:
 董事	dyeki	100
 东市	dyekv	100
 东施	dyekvo	100
+动视	dyekvo	101
 第一生产力	dyel	100
 动身	dyen	100
 冻伤	dyep	100
@@ -20584,6 +20590,7 @@ columns:
 誓死	ekski	100
 失算	ekst	100
 试算	eksto	100
+石蒜	ekstv	100
 石笋	eksw	100
 试送	eksy	100
 收款台	ekt	100
@@ -20681,6 +20688,7 @@ columns:
 是些	ekxdo	100
 使俄	ekxe	100
 是按	ekxf	100
+尸胺	ekxfa	100
 适可而止	ekxfu	100
 实行	ekxg	100
 试行	ekxgo	100
@@ -25409,6 +25417,7 @@ columns:
 反腐	fffju	100
 繁复	fffjuu	100
 凡夫	fffjuv	100
+翻覆	fffjuv	101
 反之	fffk	100
 泛指	fffka	100
 繁殖	fffku	100
@@ -26915,6 +26924,7 @@ columns:
 扶额	fjxeio	100
 伏案	fjxf	100
 福安	fjxfo	100
+腐胺	fjxfou	100
 专家学者	fjxfv	100
 复兴	fjxg	100
 福星	fjxgo	100
@@ -50658,6 +50668,7 @@ columns:
 剧照	jlfz	100
 脊梁骨	jlg	100
 经历过	jlga	100
+巨构	jlgd	100
 举个	jlge	100
 橘柑	jlgf	100
 巨贾	jlgj	100
@@ -51960,6 +51971,7 @@ columns:
 偿债	jpfh	100
 偿付	jpfj	100
 常服	jpfji	100
+极品飞车	jpfjv	100
 厂址	jpfk	100
 长治	jpfku	100
 长桌	jpfl	100
@@ -51974,6 +51986,7 @@ columns:
 唱法	jpfso	100
 常转	jpft	100
 长篇幅	jpfu	100
+极品飞车	jpfw	100
 长庄	jpfx	100
 场中	jpfy	100
 常找	jpfz	100
@@ -68179,6 +68192,7 @@ columns:
 闷在	mnzh	100
 门卒	mnzj	100
 门子	mnzk	100
+美乃滋	mnzo	100
 忙不	mpbj	100
 忙吧	mpbs	100
 盲猜	mpch	100
@@ -70011,6 +70025,7 @@ columns:
 女扮男装	nbnf	100
 男扮女装	nbnfi	100
 闹别扭	nbno	100
+您能	nbnr	100
 弄不弄	nbnv	100
 拿不准	nbq	100
 您瞧	nbqc	100
@@ -88835,6 +88850,7 @@ columns:
 斯坦福	stf	100
 酸腐	stfj	100
 酸值	stfk	100
+酸粉	stfn	100
 算法	stfs	100
 斯坦福大学	stfx	100
 所提供	stg	100
@@ -93278,6 +93294,7 @@ columns:
 躺椅	tpyk	100
 糖衣	tpyko	100
 唐裕	tpyl	100
+唐扬	tpyp	100
 汤圆	tpyt	100
 糖原	tpyto	100
 特派员	tpyu	100
@@ -95975,6 +95992,7 @@ columns:
 丸吞	wftw	100
 顽童	wfty	100
 万套	wftz	100
+王中王	wfw	100
 稳扎稳打	wfwd	100
 晚车	wfwe	100
 玩玩	wfwf	100
@@ -95996,6 +96014,7 @@ columns:
 晚茶	wfws	100
 玩穿	wfwt	100
 无法无天	wfwtv	100
+微服务	wfwu	100
 玩味	wfww	100
 万重	wfwy	100
 万中无一	wfwyv	100
@@ -99660,6 +99679,7 @@ columns:
 穿插	wtws	100
 串串	wtwt	100
 船尾	wtww	100
+串位	wtwwi	100
 彻头彻尾	wtwwu	100
 传抄	wtwz	100
 文天祥	wtx	100
@@ -100332,6 +100352,7 @@ columns:
 胃癌	wwxh	100
 为学	wwxho	100
 为爱	wwxhou	100
+串串香	wwxi	100
 味儿	wwxj	100
 威尔	wwxjv	100
 维系	wwxk	100
@@ -102307,6 +102328,7 @@ columns:
 肖琳	xclbiv	100
 笑林	xclbu	100
 笑料	xclc	100
+小料	xclci	100
 小楼	xcld	100
 小了	xcle	100
 消了	xclea	100
@@ -106394,6 +106416,7 @@ columns:
 虚损	xlsw	100
 许嵩	xlsy	100
 线粒体	xlt	100
+阿勒泰	xlta	100
 叙谈	xltf	100
 序厅	xltg	100
 小灵通	xlti	100
@@ -107918,6 +107941,7 @@ columns:
 虾米	xsmk	100
 阿迷	xsmka	100
 瞎摸	xsml	100
+阿嬷	xsmla	100
 下面	xsmm	100
 厦门	xsmn	100
 阿门	xsmna	100
@@ -111583,6 +111607,7 @@ columns:
 与世隔绝	yegj	100
 掖咕	yegji	100
 野果	yegl	100
+椰果	yeglv	100
 夜光	yegm	100
 业根	yegn	100
 也更	yegr	100
@@ -115157,6 +115182,7 @@ columns:
 育龄	yllg	100
 愈来	yllh	100
 语录	yllj	100
+鱼露	yllju	100
 雨露	ylljv	100
 余力	yllk	100
 雨里	yllkv	100
@@ -115204,6 +115230,7 @@ columns:
 愚氓	ylmr	100
 愚昧	ylmw	100
 羽毛	ylmz	100
+浴帽	ylmza	100
 阴历年	yln	100
 鱼鸟	ylnc	100
 余孽	ylnd	100
