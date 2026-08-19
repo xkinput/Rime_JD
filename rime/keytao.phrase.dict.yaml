@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: keytao.phrase
-version: "2026.08.12"
+version: "2026.08.19"
 sort: by_weight
 columns:
   - text
@@ -4156,6 +4156,7 @@ columns:
 便说	bmeli	100
 变身	bmen	100
 闭幕式	bmeo	100
+冰美式	bmeoo	100
 边上	bmep	100
 变声	bmer	100
 变傻	bmes	100
@@ -6066,6 +6067,7 @@ columns:
 北洋	bwyp	100
 不齿于人	bwyr	100
 北亚	bwys	100
+背压	bwysi	100
 北苑	bwyt	100
 背运	bwyw	100
 备孕	bwywu	100
@@ -6307,6 +6309,7 @@ columns:
 不应该	byg	100
 不应该是	byge	100
 搬运工	bygi	100
+白月光	bygu	100
 殡仪馆	bygv	100
 不用管	bygvu	100
 边缘化	byh	100
@@ -14819,6 +14822,7 @@ columns:
 大斧	dsfjvu	100
 大夫	dsfjvv	100
 大致	dsfk	100
+达致	dsfkv	100
 大佛	dsfl	100
 搭桌	dsfli	100
 打桩	dsfm	100
@@ -17481,6 +17485,7 @@ columns:
 首词	edcko	100
 受此	edcku	100
 受挫	edcl	100
+手搓	edcli	100
 收藏	edcp	100
 收存	edcw	100
 收操	edcz	100
@@ -26690,6 +26695,7 @@ columns:
 复利	fjlku	100
 风尘碌碌	fjll	100
 中坚力量	fjlli	100
+复律	fjllu	100
 妇联	fjlm	100
 复联	fjlmu	100
 敷脸	fjlmv	100
@@ -43553,6 +43559,7 @@ columns:
 换届	htjdi	100
 花天酒地	htjdiv	100
 换车	htje	100
+还车	htjev	100
 环境	htjg	100
 幻境	htjga	100
 幻觉	htjh	100
@@ -43685,6 +43692,7 @@ columns:
 环通	htty	100
 糊涂虫	htw	100
 换车	htwe	100
+还车	htwev	100
 换完	htwf	100
 欢舞	htwj	100
 还我	htwl	100
@@ -43883,6 +43891,7 @@ columns:
 黑海	hwhh	100
 混吃混喝	hwhha	100
 胡吃海喝	hwhhu	100
+黑吃黑	hwhi	100
 黑户	hwhj	100
 黑乎	hwhji	100
 黑货	hwhl	100
@@ -47791,6 +47800,7 @@ columns:
 铲除	jfjji	100
 蟾蜍	jfjjii	100
 禅机	jfjk	100
+产季	jfjko	100
 集中精力	jfjl	100
 产检	jfjm	100
 警钟长鸣	jfjmi	100
@@ -48489,6 +48499,7 @@ columns:
 惊心	jgxbo	100
 静心	jgxbv	100
 经销	jgxc	100
+警校	jgxci	100
 敬谢	jgxd	100
 惊愕	jgxe	100
 净额	jgxeo	100
@@ -50194,6 +50205,7 @@ columns:
 进口品	jkp	100
 极品	jkpb	100
 祭品	jkpbu	100
+基频	jkpbv	100
 机票	jkpc	100
 季票	jkpcu	100
 几盘	jkpf	100
@@ -54052,6 +54064,7 @@ columns:
 春上	jwepvi	100
 借物抒情	jweq	100
 纯生	jwer	100
+车船税	jwev	100
 纯双	jwex	100
 俊爽	jwexi	100
 成文法	jwf	100
@@ -55529,6 +55542,7 @@ columns:
 溃堤	kbdk	100
 揆度	kbdl	100
 馈电	kbdm	100
+亏电	kbdmv	100
 空白点	kbdo	100
 亏大	kbds	100
 亏短	kbdt	100
@@ -58146,6 +58160,7 @@ columns:
 卡其	ksqk	100
 哭丧着脸	ksql	100
 卡钳	ksqm	100
+卡券	ksqt	100
 卡死	kssk	100
 卡锁	kssl	100
 卡森	kssn	100
@@ -59009,6 +59024,7 @@ columns:
 烤焦	kzjc	100
 考出	kzjj	100
 烤鸡	kzjk	100
+烤机	kzjko	100
 考级	kzjku	100
 考据	kzjl	100
 考场	kzjp	100
@@ -59956,6 +59972,7 @@ columns:
 了之	lefka	100
 历史发展	lefq	100
 乱收费	lefu	100
+律师费	lefui	100
 临时工	leg	100
 了个	lege	100
 领事馆	legi	100
@@ -64331,6 +64348,7 @@ columns:
 两淮	lxhg	100
 两海	lxhh	100
 两户	lxhj	100
+靓货	lxhl	100
 柳暗花明	lxhm	100
 亮黄	lxhmo	100
 冷笑话	lxho	100
@@ -77955,6 +77973,7 @@ columns:
 清瘦	qgeda	100
 请设	qgee	100
 这个世界上	qgeeo	100
+轻奢	qgeev	100
 青山	qgef	100
 青衫	qgefv	100
 轻率	qgeg	100
@@ -78385,6 +78404,7 @@ columns:
 青蛙	qgws	100
 清查	qgwsa	100
 清茶	qgwsai	100
+青茶	qgwsv	100
 青川	qgwt	100
 这个问题	qgwto	100
 轻微	qgww	100
@@ -79486,6 +79506,7 @@ columns:
 起到	qkdzv	100
 主控室	qke	100
 汽水	qkeb	100
+契税	qkebv	100
 棋手	qked	100
 骑手	qkeda	100
 起手	qkedv	100
@@ -84367,6 +84388,7 @@ columns:
 热板	rebf	100
 人事不知	rebfi	100
 热病	rebg	100
+热射病	rebi	100
 热补	rebj	100
 热播	rebl	100
 热榜	rebp	100
@@ -88750,6 +88772,7 @@ columns:
 四四方方	ssff	100
 萨芬	ssfn	100
 诉讼法	ssfo	100
+诉讼费	ssfoo	100
 萨方	ssfp	100
 萨发	ssfs	100
 撒肥	ssfw	100
@@ -91060,6 +91083,7 @@ columns:
 停泊	tgbl	100
 停播	tgbli	100
 听便	tgbm	100
+天公不作美	tgbmv	100
 挺棒	tgbp	100
 挺拔	tgbs	100
 听罢	tgbso	100
@@ -98654,6 +98678,7 @@ columns:
 忘归	wpgb	100
 网购	wpgd	100
 网格	wpge	100
+网感	wpgf	100
 枉顾	wpgj	100
 罔顾	wpgji	100
 亡故	wpgjo	100
