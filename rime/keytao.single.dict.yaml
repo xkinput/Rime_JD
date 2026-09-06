@@ -2,7 +2,7 @@
 # encoding: utf-8
 ---
 name: keytao.single
-version: "2026.06.16"
+version: "2026.09.06"
 sort: by_weight
 columns:
   - text
@@ -12111,6 +12111,7 @@ columns:
 人	r	10
 瑞	rb	10
 汭	rba	10
+緌	rbaauv	10
 汭	rbaiau	10
 锐	rbi	10
 蚋	rbia	10
